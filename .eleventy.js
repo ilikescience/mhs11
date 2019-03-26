@@ -16,12 +16,13 @@ module.exports = function(eleventyConfig) {
     }
 
     // markdown config
-    let markdownIt = require('markdown-it')
-    let markdownItFootnote = require('markdown-it-footnote')
-    let markdownItImplicitFigures = require('markdown-it-implicit-figures')
-    let markdownItLinkAttributes = require('markdown-it-link-attributes')
-    let markdownItAnchor = require('markdown-it-anchor');
-    let markdownItToc = require('markdown-it-toc-done-right');
+    const markdownIt = require('markdown-it')
+    const markdownItFootnote = require('markdown-it-footnote')
+    const markdownItImplicitFigures = require('markdown-it-implicit-figures')
+    const markdownItLinkAttributes = require('markdown-it-link-attributes')
+    const markdownItAnchor = require('markdown-it-anchor')
+    const markdownItToc = require('markdown-it-toc-done-right')
+    const pluginRss = require('@11ty/eleventy-plugin-rss')
 
     let mdOptions = {
         html: true,
@@ -40,7 +41,7 @@ module.exports = function(eleventyConfig) {
             },
         })
         .use(markdownItAnchor)
-        .use(markdownItToc);
+        .use(markdownItToc)
 
     // set footnote renderer content
     mdLib.renderer.rules.footnote_caption = (tokens, idx) => {
@@ -67,6 +68,9 @@ module.exports = function(eleventyConfig) {
 
     // deep merge data
     eleventyConfig.setDataDeepMerge(true)
+
+    // add rss plugins
+    eleventyConfig.addPlugin(pluginRss)
 
     return {
         dir: dirs,

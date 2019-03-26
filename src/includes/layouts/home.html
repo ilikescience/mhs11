@@ -5,12 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matthew Ström: designer &amp; developer</title>
-    <!-- feed stuff goes here -->
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-    <main class="l--container-wide">
+    <nav>
+        <div class="l--container">
+            <div class="l--row">
+                <div class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                </div>
+                <div class="nav--menu">
+                    <a href="#">About</a>
+                    <a href="#">Writing</a>
+                    <a href="#">Speaking</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="l--container">
             {{ content }}
     </main>
 </body>

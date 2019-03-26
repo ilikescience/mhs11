@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }} || Matthew Ström: designer &amp; developer</title>
-    <!-- feed stuff goes here -->
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
     <link rel="stylesheet" href="/css/main.css">
     {% if og %}
         <meta property="og:title" content="{{ og.title }}" />
@@ -24,16 +24,25 @@
 </head>
 
 <body>
-    <main class="l--container">
-        <header>
+    <nav class="l--space-flush">
+        <div class="l--container">
             <div class="l--row">
-                <div class="l--col l--col-auto">
-                    <a class="t--decoration-none" href="/">Matthew Ström</a>
-                </div>
-                <div class="l--col l--col-auto c--gray">
-                    <a href="/feed">RSS Feed</a>
+                <a href="/" class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                    <div>Matthew Ström</div>
+                </a>
+                <div class="nav--menu">
+                    <a href="#">About</a>
+                    <a href="#">Writing</a>
+                    <a href="#">Speaking</a>
                 </div>
             </div>
+        </div>
+    </nav>
+    <main class="l--container">
+        <header>
             <div class="row l--mar-top-m l--space-compact">
                 <div class="l--col l--col-auto">
                 <h1 class="t--size-xl c--gray-darker t--family-serif t--leading-small t--tracking-tight t--weight-bold">

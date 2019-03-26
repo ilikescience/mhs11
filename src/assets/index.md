@@ -2,38 +2,33 @@
 layout: layouts/home.html
 ---
 
-<div class="l--row">
-    <div class="l--col-half">
-        <header class="h-card">
-            <div class="l--space-flush">
-                <h1 class="t--size-l t--family-serif t--leading-small t--tracking-tight t--weight-bold">
-                    Hi, my name is <a href="https://matthewstrom.com" class="u-url" rel="me">Matthew Ström</a>.
-                </h1>
-                <h2 class="t--size-m t--family-sans t--weight-normal">
-                    I'm a design lead at <a href="https://bit.ly" target="_blank">Bitly</a>.
-                </h2>
-            </div>
-            <div>
-                <a href="https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
-                <span>&nbsp;·&nbsp;</span>
-                <a href="https://github.com/ilikescience" rel="me" target="_blank">Github</a>
-                <span>&nbsp;·&nbsp;</span>
-                <a href="https://instagram.com/ilikescience" rel="me" target="_blank">Instagram</a>
-                <span>&nbsp;·&nbsp;</span>
-                <a href="https://medium.com/@ilikescience" rel="me" target="_blank">Medium</a>
-            </div>
-        </header>
+<header class="h-card l--mar-top-l">
+    <div class="l--space-compact">
+        <h1 class="t--size-xl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
+            I'm <a href="https://matthewstrom.com" class="u-url" rel="me">Matthew Ström</a>.
+        </h1>
+        <p>
+            I'm a design lead at <a href="https://bit.ly" target="_blank">Bitly</a>. Previously, I led design teams at The Wall Street Journal, SoundCloud, Planetary, <a href="/projects/cty">CTY</a>, and <a href="/projects/eleven">Eleven Magazine</a>. I live in Brooklyn.
+        </p>
+    </div>
+    <div>
+        <a href="https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a> · <a href="/feed.xml" rel="me">RSS Feed</a>
+    </div>
+</header>
 
-Previously, I worked at:  
-[The Wall Street Journal](https://wsj.com), [SoundCloud](https://soundcloud.com/go), [Planetary](https://planetary.io), [CTY](/projects/cty), and [Eleven](/projects/eleven).
-
-</div>
-<div class="l--col-half">
-
-**Things I've written:**
-
-<div class="posts l--space-flush">
+<div class="posts l--space-flush l--mar-top-m">
+<strong>Latest writing:</strong>
 {%- for post in collections.writing reversed -%}
+    {%- if forloop.index0 == 0 -%}
+    <div class="post l--mar-top-s l--mar-btm-s">
+        <div class="c--gray t--numbers-tabular">{{ post.date | date: "%m/%d/%y" }}</div>
+        <h2>
+            <a href="{{ post.url }}"> 
+                {{ post.data.title }} 
+            </a>
+        </h2>
+    </div>
+    {%- elsif forloop.index0 < 4 -%}
     <div class="post">
         <span class="c--gray l--mar-right-s t--numbers-tabular">{{ post.date | date: "%m/%d/%y" }}</span>
         <span>
@@ -42,18 +37,18 @@ Previously, I worked at:
             </a>
         </span>
     </div>
+    {%- else -%}
+    {% continue %}
+    {%- endif -%}
 {%- endfor -%}
 </div>
 
-**Talks I've given:**
-<div class="post l--space-flush">
-    <div class="post">
-        <span class="c--gray l--mar-right-s t--numbers-tabular">10/15/18</span>  
-        <span>Tech Inclusion SF</span>
-    </div>
-    <div class="post">
-        <span class="c--gray l--mar-right-s t--numbers-tabular">09/18/18</span>  
-        <span>Design Driven NYC <a rel="noopener" target="_blank" href="https://www.youtube.com/watch?v=Av8GXFcqOqc">(video)</a> </span>
+
+<div class="post l--space-flush l--mar-top-m">
+    <strong>Past Speaking:</strong>
+    <div class="post l--mar-top-s l--mar-btm-s">
+        <div class="c--gray l--mar-right-s t--numbers-tabular">09/18/18</div>  
+        <h2><a rel="noopener" target="_blank" href="https://www.youtube.com/watch?v=Av8GXFcqOqc">Design Driven NYC</a> </h2>
     </div>
     <div class="post">
         <span class="c--gray l--mar-right-s t--numbers-tabular">05/27/18</span>
@@ -85,5 +80,4 @@ Previously, I worked at:
         <span class="c--gray l--mar-right-s t--numbers-tabular">04/18/13</span>
         <span>Pecha Kucha: The Creatives Must Be Crazy <a href="https://www.youtube.com/watch?v=xpb_0Tadu6g" rel="noopener" target="_blank">(video)</a></span>
     </div>
-</div>
 </div>

@@ -1,0 +1,47 @@
+nav {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: var(--l--space-s) 0;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.nav--logo,
+.nav--menu {
+    display: block;
+    flex: 0 1 auto;
+}
+
+.nav--logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav--logo svg,
+.nav--logo span {
+    flex: 0 1 auto;
+}
+
+.nav--logo svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: transparent;
+    stroke-width: 4px;
+    stroke: currentColor;
+}
+
+.nav--menu {
+    margin: 0;
+}
+
+.nav--logo div {
+    margin-left: 0.75em;
+}
+
+.nav--menu a {
+    margin-right: var(--l--space-s);
+}
+
+nav a {
+    text-decoration: none;
+}

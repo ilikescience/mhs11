@@ -22,6 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.7.1",
+    "@11ty/eleventy-plugin-rss": "^1.0.6",
     "fast-glob": "^2.2.6",
     "global": "^4.3.2",
     "markdown-it-anchor": "^5.0.2",
