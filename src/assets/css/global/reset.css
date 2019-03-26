@@ -1,0 +1,87 @@
+html {
+    font-size-adjust: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+hr {
+    height: 0;
+    margin: 2em 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a,
+button {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    overflow: visible;
+    border: 0;
+    background: none;
+    letter-spacing: inherit;
+    font: inherit;
+    cursor: pointer;
+    -webkit-font-smoothing: inherit;
+}
+
+[type='radio'],
+[type='checkbox'] {
+    margin: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}

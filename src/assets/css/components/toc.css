@@ -1,0 +1,33 @@
+.table-of-contents {
+    position: relative;
+    padding: var(--l--space-m) var(--l--space-s) var(--l--space-s);
+    background: var(--c--gray-lightest);
+
+    &::before {
+        content: 'Contents';
+        position: absolute;
+        top: var(--l--space-s);
+        left: var(--l--space-s);
+        font-family: var(--t--family-serif);
+        font-size: 1.25em;
+        color: var(--c--gray-dark);
+    }
+
+    & ol {
+        margin: 0;
+        padding-left: var(--l--space-s);
+
+        & ol {
+            list-style-type: lower-alpha;
+
+            & ol {
+                list-style-type: lower-roman;
+            }
+        }
+    }
+
+    & a {
+        text-decoration: none;
+        border-bottom: 1px solid var(--c--gray-light);
+    }
+}

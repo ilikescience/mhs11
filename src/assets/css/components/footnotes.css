@@ -1,0 +1,29 @@
+.footnote-ref a,
+.footnote-backref {
+    color: var(--c--blue);
+    font-family: var(--t--family-sans);
+    font-size: 0.75em;
+    text-decoration: none;
+}
+.footnotes {
+    color: var(--c--gray);
+
+    & a {
+        word-break: break-all;
+        hyphens: auto;
+    }
+
+    & ol {
+        padding: 0;
+
+        @media (max-width: 1024px) {
+            padding-left: 0.5em;
+        }
+    }
+
+    & li {
+        &:target {
+            background-color: var(--c--blue-lightest);
+        }
+    }
+}

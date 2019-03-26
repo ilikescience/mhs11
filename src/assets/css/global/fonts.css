@@ -1,0 +1,29 @@
+/* stylelint-disable */
+@font-face {
+    font-family: 'source serif';
+    src: url('/fonts/SourceSerifVariable-Roman.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'source serif';
+    src: url('/fonts/SourceSerifVariable-Italic.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-style: italic;
+  }
+
+@font-face {
+    font-family: 'inter';
+    font-weight: 100 900;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url('/fonts/Inter-upright.woff2?v=3.3') format('woff2');
+  }
+@font-face {
+    font-family: 'inter';
+    font-weight: 100 900;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url('/fonts/Inter-italic.woff2?v=3.3') format('woff2');
+  }

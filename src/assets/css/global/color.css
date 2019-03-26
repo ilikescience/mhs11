@@ -1,0 +1,72 @@
+:root {
+    /* black and white */
+    --c--black: hsl(0, 0%, 10%);
+    --c--white: hsl(0, 0%, 100%);
+
+    /* gray */
+    --c--gray: hsl(210, 7%, 45%);
+
+    /* colors */
+    --c--blue: hsl(240, 100%, 50%);
+    --c--green: hsl(131, 50%, 50%);
+    --c--yellow: hsl(52, 30%, 48%);
+    --c--orange: hsl(28, 100%, 50%);
+    --c--red: hsl(0, 100%, 50%);
+    --c--purple: hsl(276, 75%, 50%);
+
+    /* variants: yellow */
+    --c--yellow-lightest: hsl(52, 100%, 95%);
+
+    /* variants: blue */
+    --c--blue-lightest: hsl(240, 100%, 98%);
+
+    /* variants: gray */
+    --c--gray-lightest: hsl(210, 7%, 97%);
+    --c--gray-lighter: hsl(210, 7%, 80%);
+    --c--gray-light: hsl(210, 7%, 75%);
+    --c--gray-dark: hsl(210, 7%, 35%);
+    --c--gray-darker: hsl(210, 7%, 25%);
+}
+
+/* color utilities */
+.c--black {
+    color: var(--c--black);
+}
+.c--white {
+    color: var(--c--white);
+}
+.c--gray {
+    color: var(--c--gray);
+}
+.c--blue {
+    color: var(--c--blue);
+}
+.c--green {
+    color: var(--c--green);
+}
+.c--yellow {
+    color: var(--c--yellow);
+}
+.c--orange {
+    color: var(--c--orange);
+}
+.c--red {
+    color: var(--c--red);
+}
+.c--purple {
+    color: var(--c--purple);
+}
+
+/* color variant utilities: gray */
+.c--gray-lighter {
+    color: var(--c--gray-lighter);
+}
+.c--gray-light {
+    color: var(--c--gray-light);
+}
+.c--gray-dark {
+    color: var(--c--gray-dark);
+}
+.c--gray-darker {
+    color: var(--c--gray-darker);
+}

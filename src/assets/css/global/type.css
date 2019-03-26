@@ -1,0 +1,166 @@
+:root {
+    /* base values */
+    --t--base-size: 18px;
+    --t--base-leading: 1.45;
+    --t--leading-small: 1;
+
+    /* families */
+    --t--family-sans: 'inter', -apple-system, 'BlinkMacSystemFont', 'Segoe UI',
+        'Roboto', 'Helvetica', 'Arial', sans-serif;
+    --t--family-serif: 'source serif', 'Palatino Linotype', 'Palatino',
+        'Book Antiqua', 'Baskerville', 'Bookman Old Style', 'Garamond',
+        'Apple Garamond', 'Century Schoolbook', 'Georgia', serif;
+    --t--family-mono: menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
+        monospace;
+
+    /* weights */
+    --t--weight-black: 900;
+    --t--weight-bold: 700;
+    --t--weight-normal: 400;
+    --t--weight-light: 300;
+
+    /* sizes */
+    --t--size-xxl: 3rem;
+    --t--size-xl: 2.5rem;
+    --t--size-l: 1.6rem;
+    --t--size-m: 1rem;
+    --t--size-s: 0.75rem;
+}
+
+.t--family-sans {
+    font-family: var(--t--family-sans);
+}
+.t--family-serif {
+    font-family: var(--t--family-serif);
+}
+.t--family-mono {
+    font-family: var(--t--family-mono);
+}
+
+.t--size-xxl {
+    font-size: var(--t--size-xxl);
+}
+.t--size-xl {
+    font-size: var(--t--size-xl);
+}
+.t--size-l {
+    font-size: var(--t--size-l);
+}
+.t--size-m {
+    font-size: var(--t--size-m);
+}
+.t--size-s {
+    font-size: var(--t--size-s);
+}
+
+.t--weight-black {
+    font-weight: var(--t--weight-black);
+}
+.t--weight-bold {
+    font-weight: var(--t--weight-bold);
+}
+.t--weight-normal {
+    font-weight: var(--t--weight-normal);
+}
+.t--weight-light {
+    font-weight: var(--t--weight-light);
+}
+
+.t--leading-normal {
+    line-height: var(--t--base-leading);
+}
+.t--leading-small {
+    line-height: var(--t--leading-small);
+}
+
+.t--tracking-tight {
+    letter-spacing: -0.5px;
+}
+
+.t--align-left {
+    text-align: left;
+}
+.t--align-center {
+    text-align: center;
+}
+.t--align-right {
+    text-align: right;
+}
+
+.t--decoration-none {
+    text-decoration: none;
+}
+
+.t--numbers-tabular {
+    font-feature-settings: 'tnum';
+}
+
+body,
+html {
+    color: var(--c--black);
+    font-size: var(--t--base-size);
+    font-family: var(--t--family-sans);
+    line-height: var(--t--base-leading);
+    font-feature-settings: 'kern';
+    font-kerning: normal;
+}
+
+a {
+    text-decoration: underline;
+    &:hover {
+        color: var(--c--blue);
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--t--family-serif);
+    margin-top: var(--l--space-m);
+
+    & + h1,
+    & + h2,
+    & + h3 {
+        margin-top: 0;
+    }
+}
+
+h1 {
+    font-size: var(--t--size-xl);
+    font-weight: var(--t--weight-black);
+}
+
+h2 {
+    font-size: var(--t--size-l);
+    font-weight: var(--t--weight-bold);
+}
+
+h3 {
+    font-size: var(--t--size-l);
+    color: var(--c--gray-dark);
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: var(--c--gray);
+}
+
+.post p,
+.post ol,
+.post ul {
+    font-family: var(--t--family-serif);
+    font-size: 1.2rem;
+}
+
+blockquote {
+    font-size: 1.2em;
+    padding-left: 1em;
+    color: var(--c--gray-dark);
+    border-left: 2px solid var(--c--gray-light);
+}
+
+.footnotes p,
+.footnotes ol {
+    font-family: var(--t--family-sans);
+    font-size: 1rem;
+}
