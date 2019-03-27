@@ -183,7 +183,11 @@ br + *,
     margin-left: var(--l--space-s);
 }
 
+hr {
+    border-color: var(--c--theme-gray-2);
+}
+
 figure figcaption {
     margin-top: 0.5em;
-    color: var(--c--gray-dark);
+    color: var(--c--theme-gray-4);
 }

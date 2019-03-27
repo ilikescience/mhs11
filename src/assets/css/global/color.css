@@ -28,45 +28,44 @@
     --c--gray-darker: hsl(210, 7%, 25%);
 }
 
-/* color utilities */
-.c--black {
-    color: var(--c--black);
-}
-.c--white {
-    color: var(--c--white);
-}
-.c--gray {
-    color: var(--c--gray);
-}
-.c--blue {
-    color: var(--c--blue);
-}
-.c--green {
-    color: var(--c--green);
-}
-.c--yellow {
-    color: var(--c--yellow);
-}
-.c--orange {
-    color: var(--c--orange);
-}
-.c--red {
-    color: var(--c--red);
-}
-.c--purple {
-    color: var(--c--purple);
+.c--theme-dark {
+    --c--theme-bg: hsl(240, 14%, 10%);
+    --c--theme-bg-transparent: hsl(240, 14%, 10%);
+    --c--theme-fg: hsl(240, 1%, 88%);
+    --c--theme-primary: hsl(187, 79%, 72%);
+
+    /* primary */
+    --c--theme-primary-1: hsl(170, 10%, 18%);
+    --c--theme-primary-2: hsl(13, 42%, 25%);
+    --c--theme-primary-3: hsl(18, 79%, 72%);
+    --c--theme-primary-4: hsl(240, 75%, 70%);
+    --c--theme-primary-5: hsl(240, 75%, 95%);
+
+    /* grays */
+    --c--theme-gray-1: hsl(210, 7%, 20%);
+    --c--theme-gray-2: hsl(210, 7%, 35%);
+    --c--theme-gray-3: hsl(210, 7%, 50%);
+    --c--theme-gray-4: hsl(210, 7%, 80%);
+    --c--theme-gray-5: hsl(210, 7%, 95%);
 }
 
-/* color variant utilities: gray */
-.c--gray-lighter {
-    color: var(--c--gray-lighter);
-}
-.c--gray-light {
-    color: var(--c--gray-light);
-}
-.c--gray-dark {
-    color: var(--c--gray-dark);
-}
-.c--gray-darker {
-    color: var(--c--gray-darker);
+.c--theme-light {
+    --c--theme-bg: hsl(255, 100%, 100%);
+    --c--theme-bg-transparent: hsla(255, 100%, 100%, 0.9);
+    --c--theme-fg: hsl(240, 14%, 15%);
+    --c--theme-primary: hsl(240, 100%, 50%);
+
+    /* primary */
+    --c--theme-primary-1: hsl(240, 100%, 98%);
+    --c--theme-primary-2: hsl(240, 100%, 70%);
+    --c--theme-primary-3: hsl(240, 100%, 50%);
+    --c--theme-primary-4: hsl(240, 100%, 30%);
+    --c--theme-primary-5: hsl(240, 100%, 10%);
+
+    /* grays */
+    --c--theme-gray-1: hsl(210, 7%, 98%);
+    --c--theme-gray-2: hsl(210, 7%, 80%);
+    --c--theme-gray-3: hsl(210, 7%, 50%);
+    --c--theme-gray-4: hsl(210, 7%, 35%);
+    --c--theme-gray-5: hsl(210, 7%, 20%);
 }

@@ -1,19 +1,16 @@
-nav {
+.header-nav {
     position: sticky;
     top: 0;
     margin: 0;
     padding: var(--l--space-s) 0;
-    background: rgba(255, 255, 255, 0.9);
+    z-index: 100;
+    background: var(--c--theme-bg-transparent);
 }
 
 .nav--logo,
 .nav--menu {
-    display: block;
-    flex: 0 1 auto;
-}
-
-.nav--logo {
     display: flex;
+    flex: 0 1 auto;
     align-items: center;
 }
 
@@ -22,12 +19,24 @@ nav {
     flex: 0 1 auto;
 }
 
-.nav--logo svg {
+.nav--logo svg,
+.nav--theme-switcher svg {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.nav--logo svg {
     fill: transparent;
     stroke-width: 4px;
     stroke: currentColor;
+}
+
+.nav--theme-switcher svg {
+    fill: var(--c--theme-gray-2);
+
+    &:hover {
+        fill: var(--c--theme-primary);
+    }
 }
 
 .nav--menu {
@@ -38,10 +47,23 @@ nav {
     margin-left: 0.75em;
 }
 
-.nav--menu a {
+.nav--menu a:not(:last-child) {
     margin-right: var(--l--space-s);
 }
 
 nav a {
+    color: var(--c--theme-fg);
     text-decoration: none;
+}
+
+.c--theme-light {
+    & .switcher--icon-dark {
+        visibility: hidden;
+    }
+}
+
+.c--theme-dark {
+    & .switcher--icon-light {
+        visibility: hidden;
+    }
 }

@@ -7,6 +7,7 @@
     <title>{{ title }} || Matthew Ström: designer &amp; developer</title>
     <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
     <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/themeSwitcher.js"></script>
     {% if og %}
         <meta property="og:title" content="{{ og.title }}" />
         <meta property="og:type" content="article" />
@@ -23,29 +24,37 @@
     {% endif %}
 </head>
 
-<body>
-    <nav class="l--space-flush">
+<body class="c--theme-light">
+    <nav class="header-nav l--space-flush">
         <div class="l--container">
             <div class="l--row">
                 <a href="/" class="nav--logo">
                     <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="25" cy="25" r="20"/>
                     </svg>
-                    <div>Matthew Ström</div>
                 </a>
                 <div class="nav--menu">
                     <a href="#">About</a>
                     <a href="#">Writing</a>
                     <a href="#">Speaking</a>
+                    <a href="#" class="nav--theme-switcher">
+                            <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                <g class="switcher--icon-light">
+                                    <path d="M18.866 3.866A22.01 22.01 0 0 0 18 10c0 12.15 9.85 22 22 22a22.01 22.01 0 0 0 6.134-.866C43.478 40.299 35.022 47 25 47 12.85 47 3 37.15 3 25 3 14.978 9.7 6.522 18.866 3.866z"/>
+                                </g>
+                                <g class="switcher--icon-dark">
+                                        <circle cx="25" cy="25" r="14"/><path d="M.605 19.177l1.236-3.804L8.5 17.536 7.263 21.34zM41.501 32.464l1.236-3.804 6.658 2.163-1.236 3.804zM11.923 46.4l-3.236-2.35 4.115-5.664 3.236 2.352zM37.198 11.614l-3.236-2.352L38.077 3.6l3.236 2.351zM41.313 44.05l-3.236 2.35-4.115-5.662 3.236-2.352zM16.038 9.262l-3.236 2.352L8.687 5.95l3.236-2.35zM48.159 15.373l1.236 3.804-6.658 2.163-1.236-3.804zM7.263 28.66l1.236 3.804-6.658 2.163-1.236-3.804zM23 0h4v7h-4zM23 43h4v7h-4z"/>
+                                </g>
+                            </svg>
+                    </a>
                 </div>
             </div>
         </div>
     </nav>
     <main class="l--container">
         <header>
-            <div class="row l--mar-top-m l--space-compact">
-                <div class="l--col l--col-auto">
-                <h1 class="t--size-xl c--gray-darker t--family-serif t--leading-small t--tracking-tight t--weight-bold">
+            <div class="l--mar-top-m l--space-compact">
+                <h1>
                     {{ title }}
                 </h1>
                 <p class="c--gray">Originally published {{ page.date | date: '%B %d, %Y'}}</p>
@@ -59,7 +68,7 @@
             {{ content }}
         </article>
         {%- if tags.size > 1 -%}
-            <aside class="l--space-compact l--mar-top-l l--mar-btm-m">
+            <aside class="l--space-compact l--mar-top-m l--mar-btm-l">
                 {%- assign related = '' -%}
                 {%- assign relatedPost = '' -%}
                 {%- for tag in tags -%}
@@ -83,21 +92,6 @@
             </aside>
         {%- endif -%}
     </main>
-    <footer class="l--container">
-        <div class="l--mar-btm-s">
-            <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
-        </div>
-        <a class="t--decoration-none" href="/">Matthew Ström</a>
-        <div>
-            <a href="https://twitter.com/ilikescience" rel="me" target="_blank">Twitter</a>
-            <span>&nbsp;·&nbsp;</span>
-            <a href="https://github.com/ilikescience" rel="me" target="_blank">Github</a>
-            <span>&nbsp;·&nbsp;</span>
-            <a href="https://instagram.com/ilikescience" rel="me" target="_blank">Instagram</a>
-            <span>&nbsp;·&nbsp;</span>
-            <a href="https://medium.com/@ilikescience" rel="me" target="_blank">Medium</a>
-        </div>
-    </footer>
 </body>
 
 </html>

@@ -39,7 +39,7 @@ hr {
     height: 0;
     margin: 2em 0;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid;
 }
 
 strong {

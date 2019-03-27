@@ -65,6 +65,8 @@ module.exports = function(eleventyConfig) {
     // pass through images
     eleventyConfig.addPassthroughCopy('src/assets/images')
     eleventyConfig.addPassthroughCopy('src/assets/fonts')
+    eleventyConfig.addPassthroughCopy('src/assets/js')
+
 
     // deep merge data
     eleventyConfig.setDataDeepMerge(true)

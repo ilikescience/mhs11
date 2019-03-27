@@ -97,7 +97,8 @@
 
 body,
 html {
-    color: var(--c--black);
+    background: var(--c--theme-bg);
+    color: var(--c--theme-fg);
     font-size: var(--t--base-size);
     font-family: var(--t--family-sans);
     line-height: var(--t--base-leading);
@@ -108,7 +109,7 @@ html {
 a {
     text-decoration: underline;
     &:hover {
-        color: var(--c--blue);
+        color: var(--c--theme-primary);
     }
 }
 
@@ -138,12 +139,12 @@ h2 {
 
 h3 {
     font-size: var(--t--size-l);
-    color: var(--c--gray-dark);
+    color: var(--c--theme-gray-4);
 }
 
 h4 {
     font-size: 1.2rem;
-    color: var(--c--gray);
+    color: var(--c--theme-gray-3);
 }
 
 .post p,
@@ -156,8 +157,8 @@ h4 {
 blockquote {
     font-size: 1.2em;
     padding-left: 1em;
-    color: var(--c--gray-dark);
-    border-left: 2px solid var(--c--gray-light);
+    color: var(--c--theme-gray-4);
+    border-left: 2px solid var(--c--theme-gray-2);
 }
 
 .footnotes p,

@@ -1,12 +1,12 @@
 .footnote-ref a,
 .footnote-backref {
-    color: var(--c--blue);
+    color: var(--c--theme-primary);
     font-family: var(--t--family-sans);
     font-size: 0.75em;
     text-decoration: none;
 }
 .footnotes {
-    color: var(--c--gray);
+    color: var(--c--theme-gray-3);
 
     & a {
         word-break: break-all;
@@ -23,7 +23,7 @@
 
     & li {
         &:target {
-            background-color: var(--c--blue-lightest);
+            background-color: var(--c--theme-primary-1);
         }
     }
 }
