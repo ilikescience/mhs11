@@ -15,7 +15,7 @@
     "11ty:build": "eleventy --quiet --output dist",
     "11ty:watch": "eleventy --quiet --serve --output dist",
     "css:watch": "postcss src/**/*.css --base src/assets/css --dir dist/css --watch --verbose",
-    "css:build": "postcss --replace ",
+    "css:build": "postcss src/**/*.css --base src/assets/css --dir dist/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

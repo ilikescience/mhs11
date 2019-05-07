@@ -40,29 +40,9 @@ eleventyExcludeFromCollections: true
         </div>
     {%- endif -%}
 {%- endfor -%}
-{#
-{%- for post in collections.writing reversed -%}
-    {%- if forloop.index0 == 0 -%}
-    <div class="post l--mar-top-s l--mar-btm-s">
-        <div class="c--gray t--numbers-tabular">{{ post.date | date: "%m/%d/%y" }}</div>
-        <h2>
-                {{ post.data.title }} 
-        </h2>
-    </div>
-    {%- elsif forloop.index0 < 4 -%}
-    <div class="post">
-        <span class="c--gray l--mar-right-s t--numbers-tabular">{{ post.date | date: "%m/%d/%y" }}</span>
-        <span>
-            <a href="{{ post.url }}"> 
-                {{ post.data.title }} 
-            </a>
-        </span>
-    </div>
-    {%- else -%}
-    {% continue %}
-    {%- endif -%}
-{%- endfor -%}
-#}
+</div>
+<div>
+    <a href="/writing">All writing &rarr;</a>
 </div>
 
 
@@ -80,4 +60,8 @@ eleventyExcludeFromCollections: true
         <span class="c--gray l--mar-right-s t--numbers-tabular">08/15/17</span>
         <span>Data Storytelling NY</span>
     </div>
+</div>
+
+<div>
+    <a href="/speaking">All speaking &rarr;</a>
 </div>
