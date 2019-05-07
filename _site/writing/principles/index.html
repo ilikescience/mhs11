@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Ström: designer &amp; developer</title>
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
+    <link rel="stylesheet" href="/css/main.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
+        });
+    </script>
+    <script defer src="/js/main.js"></script>
+    
+</head>
+
+<body>
+    <nav class="header-nav l--space-flush">
+        <div class="l--container">
+            <div class="l--row">
+                <a href="/" class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                    <div>Matthew Ström</div>
+                </a>
+
+                
+                <div class="nav--menu">
+                    <a href="/writing" class="active">Writing</a>
+                    <a href="/feed.xml">RSS Feed</a>
+                    <a href="/speaking" class="active">Speaking</a>
+                    <a href="#" class="nav--theme-switcher">
+                        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <g class="switcher--icon-light">
+                                <path d="M18.866 3.866A22.01 22.01 0 0 0 18 10c0 12.15 9.85 22 22 22a22.01 22.01 0 0 0 6.134-.866C43.478 40.299 35.022 47 25 47 12.85 47 3 37.15 3 25 3 14.978 9.7 6.522 18.866 3.866z"/>
+                            </g>
+                            <g class="switcher--icon-dark">
+                                <circle cx="25" cy="25" r="14"/><path d="M.605 19.177l1.236-3.804L8.5 17.536 7.263 21.34zM41.501 32.464l1.236-3.804 6.658 2.163-1.236 3.804zM11.923 46.4l-3.236-2.35 4.115-5.664 3.236 2.352zM37.198 11.614l-3.236-2.352L38.077 3.6l3.236 2.351zM41.313 44.05l-3.236 2.35-4.115-5.662 3.236-2.352zM16.038 9.262l-3.236 2.352L8.687 5.95l3.236-2.35zM48.159 15.373l1.236 3.804-6.658 2.163-1.236-3.804zM7.263 28.66l1.236 3.804-6.658 2.163-1.236-3.804zM23 0h4v7h-4zM23 43h4v7h-4z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="l--container">
+        <div class="row">
+            
+<header>
+    <div class="l--mar-top-m l--space-compact">
+        <h1>
+            What makes a good design principle?
+        </h1>
+        <p class="c--gray">Originally published November 13, 2017</p>
+        </div>
+    </div>
+</header>
+<div>
+    <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
+</div>
+<article class="post">
+    <p>Like many design teams, the Wall Street Journal team has been thinking through our design principles. Writing design principles comes pretty naturally (especially if you read this <a href="https://principles.adactio.com/" target="_blank" rel="noopener">excellent list by Jeremy Keith</a>). As we collaborate, we end up with a lot of candidates. However, it’s unclear what exactly a <em>good</em> design principle is.</p>
+<p>To that end, here’s a set of criteria I’ve been working with:</p>
+<h3 id="good-design-principles-are-memorable.">Good design principles are memorable.</h3>
+<p>What good is a design principle if it’s hard to internalize?</p>
+<p>✓ <strong>“Good design is as little design as possible”</strong> - <a href="https://www.vitsoe.com/us/about/good-design" target="_blank" rel="noopener">Dieter Rams</a><br>
+✕ <strong>“Design with an intention to conserve effort and produce as little material output as is necessary to accomplish your goals”</strong> - Go home, drunk Dieter Rams</p>
+<h3 id="good-design-principles-help-you-say-no.">Good design principles help you say no.</h3>
+<p>You should be able to use your design principles to prioritize and focus.</p>
+<p>✓ <strong>“One primary action per screen”</strong> - <a href="http://bokardo.com/principles-of-user-interface-design/" target="_blank" rel="noopener">Joshua Porter</a><br>
+✕ <strong>“Keep the number of actions per screen to a minimum”</strong> - It’s hard to say ‘no’ to a vague measure like ‘a minimum.’</p>
+<h3 id="good-design-principles-aren%E2%80%99t-truisms.">Good design principles aren’t truisms.</h3>
+<p>A good test of truism is the <strong>reversibility test.</strong><sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup> A principle passes the test if the opposite of that principle is something a reasonable person might believe.</p>
+<p>✓ <strong>“Don’t solve every edge case”</strong> - Look at the opposite: “Solve every edge case.” It’s reasonable for a design organization to take this opposite approach.<br>
+✕ <strong>“Make users happy”</strong> - The opposite is: “Make users unhappy.” Nobody in their right mind would think that was a good design principle; thus, “Make users happy” is a truism.</p>
+<h3 id="good-design-principles-are-applicable.">Good design principles are applicable.</h3>
+<p>They should give everyone on the team ideas of how to best practice them, and they shouldn’t be specific to one particular platform or discipline.</p>
+<p>✓ <strong>“Solicit and respect user feedback”</strong> - For any given product (native, web, off-platform) or discipline (ui, ux), it’s possible to get user feedback.<br>
+✕ <strong>“Use an 8 pixel grid”</strong> - this is only applicable to screens, and only applicable to ui, and it’s not immediately obvious what exactly an 8-pixel grid is.</p>
+<h2 id="a-shortcut-to-good-principles%3A-even-over-statements">A shortcut to good principles: Even Over statements</h2>
+<p>Some years ago, I was introduced to the <a href="http://futureofwork.nobl.io/future-of-work/how-to-distill-a-strategy-into-simple-rules-of-thumb-for-busy-teams" target="_blank" rel="noopener">Even Over</a> statement by some close friends and collaborators<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup>. Even Over statements are constructed as follows:</p>
+<p><strong>(Choice A) even over (Choice B)</strong></p>
+<p>“Tastiness even over healthiness” is an example of an Even Over statement that might help you choose what to eat.</p>
+<p>“Durability even over style” is an Even Over statement that might help you shop at Ikea.</p>
+<p>Both of these Even Over statements pass the <strong>truism test</strong>. Lots of folks choose their furniture based on style, not durability (and pay more for it!); even more folks choose healthiness over tastiness.</p>
+<p>Some general design principles that are formatted as Even Over statements:</p>
+<ul>
+<li>Accessibility even over aesthetics</li>
+<li>Platform conventions even over cross-platform consistency</li>
+<li>User preference even over business preference</li>
+</ul>
+<p>As we continue to refine our principles at WSJ, I hope to use Even Over statements, along with the criteria above, as tools to quickly get to a working foundation.</p>
+<hr/>
+<section class="footnotes l--space-compact">
+<div>Footnotes:</div>
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>The reversibility test has been shared and adapted by many folks, so credit goes to <a href="https://twitter.com/Cennydd/status/809553086322737152" target="_blank" rel="noopener">Jared Spool, Cennydd Bowles, and Jeremy Keith</a>. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Jordan Husney recently wrote <a href="https://focus.parabol.co/strategic-prioritization-using-even-over-statements-fb63e78e7b4d" target="_blank" rel="noopener">an excellent blog post</a> about using Even Over statements to prioritize product work. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+</article><aside class="l--space-compact l--mar-top-m l--mar-btm-l"><h2>
+            <a href=""></a>
+        </h2>
+        <div class="c--gray">Published </div>
+    </aside>
+        </div>
+    </main>
+</body>
+</html>

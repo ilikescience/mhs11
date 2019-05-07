@@ -106,6 +106,13 @@ html {
     font-kerning: normal;
 }
 
+@media only screen and (max-width: 600px) {
+    body,
+    html {
+        font-size: 16px;
+    }
+}
+
 a {
     text-decoration: underline;
     &:hover {

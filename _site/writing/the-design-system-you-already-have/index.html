@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Ström: designer &amp; developer</title>
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
+    <link rel="stylesheet" href="/css/main.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
+        });
+    </script>
+    <script defer src="/js/main.js"></script>
+    
+        <meta property="og:title" content="The Design System You Already Have" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="/images/ds-0.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="800" />
+        <meta property="og:description" content="How to avoid starting from scratch" />
+        <meta property="og:article:published_time" content="Tue Nov 20 2018 19:00:00 GMT-0500 (EST)" />
+        <meta property="og:article:author" content="Matthew Ström" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator"content="@ilikescience" />
+    
+</head>
+
+<body>
+    <nav class="header-nav l--space-flush">
+        <div class="l--container">
+            <div class="l--row">
+                <a href="/" class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                    <div>Matthew Ström</div>
+                </a>
+
+                
+                <div class="nav--menu">
+                    <a href="/writing" class="active">Writing</a>
+                    <a href="/feed.xml">RSS Feed</a>
+                    <a href="/speaking" class="active">Speaking</a>
+                    <a href="#" class="nav--theme-switcher">
+                        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <g class="switcher--icon-light">
+                                <path d="M18.866 3.866A22.01 22.01 0 0 0 18 10c0 12.15 9.85 22 22 22a22.01 22.01 0 0 0 6.134-.866C43.478 40.299 35.022 47 25 47 12.85 47 3 37.15 3 25 3 14.978 9.7 6.522 18.866 3.866z"/>
+                            </g>
+                            <g class="switcher--icon-dark">
+                                <circle cx="25" cy="25" r="14"/><path d="M.605 19.177l1.236-3.804L8.5 17.536 7.263 21.34zM41.501 32.464l1.236-3.804 6.658 2.163-1.236 3.804zM11.923 46.4l-3.236-2.35 4.115-5.664 3.236 2.352zM37.198 11.614l-3.236-2.352L38.077 3.6l3.236 2.351zM41.313 44.05l-3.236 2.35-4.115-5.662 3.236-2.352zM16.038 9.262l-3.236 2.352L8.687 5.95l3.236-2.35zM48.159 15.373l1.236 3.804-6.658 2.163-1.236-3.804zM7.263 28.66l1.236 3.804-6.658 2.163-1.236-3.804zM23 0h4v7h-4zM23 43h4v7h-4z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="l--container">
+        <div class="row">
+            
+<header>
+    <div class="l--mar-top-m l--space-compact">
+        <h1>
+            The Design System You Already Have
+        </h1>
+        <p class="c--gray">Originally published November 20, 2018</p>
+        </div>
+    </div>
+</header>
+<div>
+    <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
+</div>
+<article class="post">
+    <figure data-type="image"><img src="/images/ds-0.jpg" alt="I’m so sorry"><figcaption>I’m so sorry</figcaption></figure>
+<p>With beautiful design systems like <a href="https://polaris.shopify.com/" target="_blank" rel="noopener">Polaris</a>, <a href="https://www.lightningdesignsystem.com/" target="_blank" rel="noopener">Lightning</a>, and <a href="https://www.carbondesignsystem.com/" target="_blank" rel="noopener">Carbon</a> for inspiration, it’s tempting to open up a Sketch file and start your own. A fresh start: all the freedom in the world. Finally, a great-looking date picker.</p>
+<p>But wait! <strong>You already have a design system.</strong></p>
+<p>If you look close enough at your production code, you’ll see the tell-tale signs. Your engineering friends can point out the components (what you might call molecules or atoms) and variables (design tokens). Ask the engineers how and why they wrote the code: you’ll hear many of the same concepts that designers use when creating a design system.</p>
+<p>This underwhelming realization is what I like to call a Black Triangle moment, after <a href="http://rampantgames.com/blog/?p=7745" target="_blank" rel="noopener">Jay Barnson’s story of building games</a>:</p>
+<div style="background: rgba(0, 0, 0, 0.075); padding: 1.25em; margin: 3em 0" markdown="1">
+<p><span style="color: #333; float: left; font-size: 2.5em; line-height: 1; margin-right: 10px;">▲</span> In October of 1994, I’d just started as an honest-to-goodness videogame programmer at a small startup called SingleTrac which later went on to fame and glory (but unfortunately not much in the way of fortune) with such titles as <strong>Warhawk</strong>, the <strong>Twisted Metal</strong> series, and the <strong>Jet Moto</strong> series. But at the time, the company was less than 20 employees in size and had only been officially in business for about a month. It was sometime in my first week possibly my first or second day. In the main engineering room, there was a whoop and cry of success.</p>
+<p>Our company financial controller and acting HR lady, Jen, came in to see what incredible things the engineers and artists had come up with. Everyone was staring at a television set hooked up to a development box for the Sony Playstation. There, on the screen, against a single-color background, was a black triangle.</p>
+<p>“It’s a black triangle,” she said in an amused but sarcastic voice. One of the engine programmers tried to explain, but she shook her head and went back to her office. I could almost hear her thoughts… “We’ve got ten months to deliver two games to Sony, and they are cheering over a black triangle? <em>THAT</em> took them nearly a month to develop?”</p>
+<p>What she later came to realize (and explain to others) was that the black triangle was a pioneer. It wasn’t just that we’d managed to get a triangle onto the screen. That could be done in about a day. It was the journey the triangle had taken to get up on the screen. It had passed through our new modeling tools, through two different intermediate converter programs, had been loaded up as a complete database, and been rendered through a fairly complex scene hierarchy, fully textured and lit (though there were no lights, so the triangle came out looking black). The black triangle demonstrated that the foundation was finally complete the core of a fairly complex system was completed, and we were now ready to put it to work doing cool stuff. By the end of the day, we had complete models on the screen, manipulating them with the controllers. Within a week, we had an environment to move the model through.</p>
+<p>- <a href="http://rampantgames.com/blog/?p=7745" target="_blank" rel="noopener">Jay Barnson</a></p>
+</div>
+<p>Your design system probably doesn’t look as clean and user-friendly as <a href="https://atlassian.design/" target="_blank" rel="noopener">Atlassian’s Design System</a>, or as thoughtful and extensible as <a href="https://material.io/" target="_blank" rel="noopener">Material</a>. But if you’ve used Gmail lately, you know the truth: not even Google’s design system looks as good as Material.</p>
+<p>Instead of drawing a whole new set of components, start with the components you already have in production. Document them meticulously. Create a single source of truth for design, warts and all. Work with engineering to automate the process of deploying components — even if you don’t change the design at all.</p>
+<p>Build your own Black Triangle, then move on to the cool stuff.</p>
+
+</article><aside class="l--space-compact l--mar-top-m l--mar-btm-l"><div>More writing about <strong>design systems:</strong></div><h2>
+            <a href="/writing/who-are-design-systems-for/">Who Are Design Systems For?</a>
+        </h2>
+        <div class="c--gray">Published 12/13/18</div>
+    </aside>
+        </div>
+    </main>
+</body>
+</html>

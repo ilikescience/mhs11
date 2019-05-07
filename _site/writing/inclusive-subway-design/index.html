@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Ström: designer &amp; developer</title>
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
+    <link rel="stylesheet" href="/css/main.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
+        });
+    </script>
+    <script defer src="/js/main.js"></script>
+    
+        <meta property="og:title" content="Inclusive design on the Tokyo subway" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="/images/subway-1-crop.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="800" />
+        <meta property="og:description" content="The design details of a uniquely usable system" />
+        <meta property="og:article:published_time" content="Sat Jan 12 2019 19:00:00 GMT-0500 (EST)" />
+        <meta property="og:article:author" content="Matthew Ström" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator"content="@ilikescience" />
+    
+</head>
+
+<body>
+    <nav class="header-nav l--space-flush">
+        <div class="l--container">
+            <div class="l--row">
+                <a href="/" class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                    <div>Matthew Ström</div>
+                </a>
+
+                
+                <div class="nav--menu">
+                    <a href="/writing" class="active">Writing</a>
+                    <a href="/feed.xml">RSS Feed</a>
+                    <a href="/speaking" class="active">Speaking</a>
+                    <a href="#" class="nav--theme-switcher">
+                        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <g class="switcher--icon-light">
+                                <path d="M18.866 3.866A22.01 22.01 0 0 0 18 10c0 12.15 9.85 22 22 22a22.01 22.01 0 0 0 6.134-.866C43.478 40.299 35.022 47 25 47 12.85 47 3 37.15 3 25 3 14.978 9.7 6.522 18.866 3.866z"/>
+                            </g>
+                            <g class="switcher--icon-dark">
+                                <circle cx="25" cy="25" r="14"/><path d="M.605 19.177l1.236-3.804L8.5 17.536 7.263 21.34zM41.501 32.464l1.236-3.804 6.658 2.163-1.236 3.804zM11.923 46.4l-3.236-2.35 4.115-5.664 3.236 2.352zM37.198 11.614l-3.236-2.352L38.077 3.6l3.236 2.351zM41.313 44.05l-3.236 2.35-4.115-5.662 3.236-2.352zM16.038 9.262l-3.236 2.352L8.687 5.95l3.236-2.35zM48.159 15.373l1.236 3.804-6.658 2.163-1.236-3.804zM7.263 28.66l1.236 3.804-6.658 2.163-1.236-3.804zM23 0h4v7h-4zM23 43h4v7h-4z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="l--container">
+        <div class="row">
+            
+<header>
+    <div class="l--mar-top-m l--space-compact">
+        <h1>
+            Inclusive design on the Tokyo subway
+        </h1>
+        <p class="c--gray">Originally published January 12, 2019</p>
+        </div>
+    </div>
+</header>
+<div>
+    <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
+</div>
+<article class="post">
+    <p>For the past two weeks, I’ve been exploring Tokyo. Until the last few days of 2018, I had never been to Tokyo — or, for that matter, any city as large as Tokyo. And while I have many many great memories of the city, I’m particularly eager to share my impressions of the Tokyo subway<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup>.</p>
+<figure data-type="image"><img src="/images/subway-1.jpg" alt="Subway map by Jug Cerovic"><figcaption>Subway map by Jug Cerovic</figcaption></figure>
+<p>Tokyo’s subway system is incredibly extensive: multiple private and public companies operate hundreds of stops between more than 15 separate lines. The largest of these stops, Shinjuku Station, ties multiple subway lines to commuter rail and bus, all underneath a massive shopping district. Despite having fewer lines and less track than the NYC Subway, the Tokyo system serves 1 billion more passengers per year — a total of 2.7 billion passengers annually<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup>.</p>
+<p>I’m no public transit pro. Despite riding the New York City subway daily for half a decade, I still get lost from time to time. But despite the stunning complexity of the Tokyo subway, I felt comfortable and confident riding throughout the city. With the exception of one service outage, I didn’t get lost. I spent hours on trains during my stay, plenty of time to consider and document the system. My takeaway: inclusive design underlies every aspect of the Tokyo subway system.</p>
+<h2 id="but-first%2C-a-note-on-inclusive-design">But first, a note on inclusive design</h2>
+<p><em>Inclusivity</em> is often used interchangeably with <em>accessibility</em> in discussions of design. There are many ways to split those hairs, but for this post I’ll define inclusive design as follows:</p>
+<blockquote>
+<p>Inclusive design is the practice of creating systems to be as fair as possible by removing any barrier that might prevent a person from getting the most benefit possible.</p>
+</blockquote>
+<p>The differences between <em>accessible</em> and <em>inclusive</em> design is in equity: accessible design gives all people <em>some</em> value, inclusive design gives all people <em>all</em> value.</p>
+<p>Now, back to the subway,</p>
+<h2 id="language">Language</h2>
+<p>In the Tokyo subway, everything  is in both Japanese and English, from signs to ticket machines to announcements. This is great for English- or Japanese-speakers, but the system is navigable even without an understanding of either language.</p>
+<figure data-type="image"><img src="/images/subway-2.jpg" alt="The display inside the train when arriving at Shibuya station"><figcaption>The display inside the train when arriving at Shibuya station</figcaption></figure>
+<p>This is because:</p>
+<ul>
+<li>Each line has a distinct color. The Ginza line, for instance, is orange. Even trains that share tracks don’t share colors like in New York (looking at you NQRW).</li>
+<li>Each station has a unique letter and number combination. The Shibuya stop on the Ginza line is G01. Next is G02 (Omote-sando), G03 (Gaiemmae), and so on. Without knowing the station name or its location, any rider can find their stop and know how far it will be.</li>
+</ul>
+<figure data-type="image"><img src="/images/subway-3.jpg" alt="The sign inside the Shimbashi station"><figcaption>The sign inside the Shimbashi station</figcaption></figure>
+<ul>
+<li>Before the train departs, a jingle plays. Each station has its own unique song; for a sampling of these jingles, watch <a href="https://www.youtube.com/watch?v=-GF_dku3Mgo" target="_blank" rel="noopener">this video</a>. Riders with visual impairments can find the right train or station, <em>even without speaking the language.</em></li>
+<li>Platforms and trains carry the color of the line they are on. For instance, the JR platforms in Shinjuku station serve the Yamanote line (green), Chuo line (red), and Sobu line (yellow). This means riders of the Yamonote line can follow green signs to the green platform and take the green train.</li>
+</ul>
+<figure data-type="image"><img src="/images/subway-4.jpg" alt="The JR Yamanote train by Abezori2525 - Own work, CC BY-SA 4.0"><figcaption>The JR Yamanote train by Abezori2525 - Own work, CC BY-SA 4.0</figcaption></figure>
+<p>Letters, numbers, colors, and sounds all add up to a clear system of navigation for all riders, regardless of the language they speak.</p>
+<h2 id="navigation">Navigation</h2>
+<figure data-type="image"><img src="/images/subway-5.jpg" alt="Shinjuku station"><figcaption>Shinjuku station</figcaption></figure>
+<p>This is Shinjuku station, the world’s busiest transport hub. In 2007, 3.64 million people used the trains here every single day. I spent a few days coming and going from this station; believe it or not, it’s even more complicated in person.</p>
+<p>Once again, Tokyo has made a chaotic hive of activity easy to navigate. There are signs <em>everywhere</em>. Signs tell you which platforms are where, signs point out exits and nearby landmarks, signs indicate bathrooms and ATMs. Many signs tell you exactly how far (in meters) a platform or exit is. There are signs on poles, signs on the ceiling, and signs on the floor. You are never out of view of a sign.</p>
+<figure data-type="image"><img src="/images/subway-6.jpg" alt="Signs inside of Shibuya station"><figcaption>Signs inside of Shibuya station</figcaption></figure>
+<p>This may not contribute to the aesthetic value of the environment, but holy smokes does it make navigation easier. Using Google maps, I could enter via the New South Exit, go to Platform 3, and catch my train without much mental overhead.</p>
+<figure data-type="image"><img src="/images/subway-7.jpg" alt="Signs on the JR platform at Shibuya"><figcaption>Signs on the JR platform at Shibuya</figcaption></figure>
+<p>Besides the abundant signage, each car on each train is numbered. Riders can use the car numbers to navigate complex stations, aided by illustrations onboard the train. On each platform are signs indicating where each car will stop. Lines form at these markers, making for an extremely orderly boarding process.</p>
+<figure data-type="image"><img src="/images/subway-8.jpg" alt="A diagram displayed inside the subway car on arrival"><figcaption>A diagram displayed inside the subway car on arrival</figcaption></figure>
+<h2 id="conclusion">Conclusion</h2>
+<p>Given its scale and complexity, along with my own general anxiety, I worried about taking the subway.  As a tourist, the language barrier alone could have made it impossible. But the unsung, unseen designers of the system have made it possible for anyone to travel through Tokyo with ease, regardless of mental, physical, or cultural differences. As I come back to work in 2019, I am inspired to make my own design more inclusive.</p>
+<hr>
+<h2 id="postscript%3A-more-inclusive-cities">Postscript: more inclusive cities</h2>
+<p>The Tokyo subway system is impressively-designed for its complexity. But why is it so complex in the first place?</p>
+<figure data-type="image"><img src="/images/subway-9.jpg" alt="A comparison of the city grids of Tokyo (left) and New York City (right)"><figcaption>A comparison of the city grids of Tokyo (left) and New York City (right)</figcaption></figure>
+<p>Take a look at the street grid of Tokyo (left). The complex shape of the Tokyo subway mirrors the irregularity of the city itself. New York City (right) is more grid-like, allowing its subways to run in neater parallel and perpendicular lines.</p>
+<p>It’s possible for tourists to navigate Tokyo’s underground, but above ground can a be different story. Addresses in Japan look like this:</p>
+<p><strong>3 Chome-7 Nishishinjuku, Shinjuku-ku, Tōkyō-to</strong></p>
+<p>This means that the building at this address (the Park Hyatt) is the 3rd building, in the 7th neighborhood, in the district of Nishishinjuku, in the ward of Shinjuku, in Tokyo. Without knowing the detailed geography of each ward, it’s impossible to navigate using addresses alone.</p>
+<p>Compare to the address of the Park Hyatt in New York:</p>
+<p><strong>153 W 57th St, New York</strong></p>
+<p>This means that the building is one block west of 6th Avenue on 57th Street.</p>
+<p>Streets in New York work much like the Tokyo subway stops: 58th Street is north of 57th, 7th Avenue is west of 6th Avenue, and if you know this you can navigate by coordinates without needing to know much else.</p>
+<p>This is to say: inclusive design matters at every layer of a system. Whether it’s the literal layers of a city’s streets and subways, or the figurative layers of software’s code and design, inclusion isn’t a given. Creators have to make inclusion a deliberate priority in order for users to benefit.</p>
+<hr/>
+<section class="footnotes l--space-compact">
+<div>Footnotes:</div>
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>There are a few different ways to define the Tokyo subway system. For this post I’m including the Tokyo Metro, Toei Line, and the JR-operated Yamanote, Saikyō, and Shōnan-Shinjuku lines. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://en.wikipedia.org/wiki/List_of_metro_systems" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/List_of_metro_systems</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+</article><aside class="l--space-compact l--mar-top-m l--mar-btm-l"><div>More writing about <strong>design:</strong></div><h2>
+            <a href="/writing/wayfinding/">The Slippery Slope of In-Product Messaging</a>
+        </h2>
+        <div class="c--gray">Published 03/09/19</div>
+    </aside>
+        </div>
+    </main>
+</body>
+</html>

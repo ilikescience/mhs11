@@ -1,36 +1,6 @@
-:root {
-    /* black and white */
-    --c--black: hsl(0, 0%, 15%);
-    --c--white: hsl(0, 0%, 100%);
-
-    /* gray */
-    --c--gray: hsl(210, 7%, 45%);
-
-    /* colors */
-    --c--blue: hsl(240, 100%, 50%);
-    --c--green: hsl(131, 50%, 50%);
-    --c--yellow: hsl(52, 30%, 48%);
-    --c--orange: hsl(28, 100%, 50%);
-    --c--red: hsl(0, 100%, 50%);
-    --c--purple: hsl(276, 75%, 50%);
-
-    /* variants: yellow */
-    --c--yellow-lightest: hsl(52, 100%, 95%);
-
-    /* variants: blue */
-    --c--blue-lightest: hsl(240, 100%, 98%);
-
-    /* variants: gray */
-    --c--gray-lightest: hsl(210, 7%, 97%);
-    --c--gray-lighter: hsl(210, 7%, 80%);
-    --c--gray-light: hsl(210, 7%, 75%);
-    --c--gray-dark: hsl(210, 7%, 35%);
-    --c--gray-darker: hsl(210, 7%, 25%);
-}
-
 .c--theme-dark {
     --c--theme-bg: hsl(240, 14%, 10%);
-    --c--theme-bg-transparent: hsl(240, 14%, 10%);
+    --c--theme-bg-transparent: hsla(240, 14%, 10%, 0.9);
     --c--theme-fg: hsl(240, 1%, 88%);
     --c--theme-primary: hsl(187, 79%, 72%);
 
@@ -68,4 +38,8 @@
     --c--theme-gray-3: hsl(210, 7%, 50%);
     --c--theme-gray-4: hsl(210, 7%, 35%);
     --c--theme-gray-5: hsl(210, 7%, 20%);
+}
+
+.c--gray {
+    color: var(--c--theme-gray-3);
 }

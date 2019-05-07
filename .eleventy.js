@@ -23,6 +23,7 @@ module.exports = function(eleventyConfig) {
     const markdownItAnchor = require('markdown-it-anchor')
     const markdownItToc = require('markdown-it-toc-done-right')
     const pluginRss = require('@11ty/eleventy-plugin-rss')
+    const dateFilter = require('nunjucks-date-filter')
 
     let mdOptions = {
         html: true,
@@ -67,6 +68,13 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/assets/fonts')
     eleventyConfig.addPassthroughCopy('src/assets/js')
 
+    // year filter for posts
+    eleventyConfig.addFilter('year', function(date) {
+        const dateObj = new Date(date)
+        return dateObj.getFullYear()
+    })
+
+    eleventyConfig.addNunjucksFilter("date", dateFilter)
 
     // deep merge data
     eleventyConfig.setDataDeepMerge(true)

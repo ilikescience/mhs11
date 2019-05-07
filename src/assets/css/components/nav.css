@@ -1,6 +1,4 @@
 .header-nav {
-    position: sticky;
-    top: 0;
     margin: 0;
     padding: var(--l--space-s) 0;
     z-index: 100;
@@ -15,7 +13,7 @@
 }
 
 .nav--logo svg,
-.nav--logo span {
+.nav--logo div {
     flex: 0 1 auto;
 }
 
@@ -44,7 +42,7 @@
 }
 
 .nav--logo div {
-    margin-left: 0.75em;
+    margin-left: calc(var(--l--space-s) / 2);
 }
 
 .nav--menu a:not(:last-child) {
@@ -54,6 +52,11 @@
 nav a {
     color: var(--c--theme-fg);
     text-decoration: none;
+
+    &.active {
+        color: var(--c--theme-primary);
+        border-bottom: 1px solid currentColor;
+    }
 }
 
 .c--theme-light {
@@ -65,5 +68,25 @@ nav a {
 .c--theme-dark {
     & .switcher--icon-light {
         visibility: hidden;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav .l--row {
+        flex-flow: column;
+    }
+
+    .nav--menu {
+        align-self: flex-end;
+    }
+
+    .nav--logo div {
+        margin-right: calc(1.5rem + var(--l--space-s));
+        border-bottom: 1px solid var(--c--theme-gray-2);
+        flex: 1 0 auto;
+    }
+
+    .header-nav {
+        padding: var(--l--space-s) 0 calc(var(--l--space-s) / 2);
     }
 }

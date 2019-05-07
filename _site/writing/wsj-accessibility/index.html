@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Ström: designer &amp; developer</title>
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
+    <link rel="stylesheet" href="/css/main.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
+        });
+    </script>
+    <script defer src="/js/main.js"></script>
+    
+        <meta property="og:title" content="Making WSJ.com more accessible" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="/images/accessibility-2.jpg" />
+        <meta property="og:image:width" content="1400" />
+        <meta property="og:image:height" content="933" />
+        <meta property="og:description" content="How we're building and advocating for more accessible products" />
+        <meta property="og:article:published_time" content="Tue Aug 02 2016 20:00:00 GMT-0400 (EDT)" />
+        <meta property="og:article:author" content="Matthew Ström" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator"content="@ilikescience" />
+    
+</head>
+
+<body>
+    <nav class="header-nav l--space-flush">
+        <div class="l--container">
+            <div class="l--row">
+                <a href="/" class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                    <div>Matthew Ström</div>
+                </a>
+
+                
+                <div class="nav--menu">
+                    <a href="/writing" class="active">Writing</a>
+                    <a href="/feed.xml">RSS Feed</a>
+                    <a href="/speaking" class="active">Speaking</a>
+                    <a href="#" class="nav--theme-switcher">
+                        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <g class="switcher--icon-light">
+                                <path d="M18.866 3.866A22.01 22.01 0 0 0 18 10c0 12.15 9.85 22 22 22a22.01 22.01 0 0 0 6.134-.866C43.478 40.299 35.022 47 25 47 12.85 47 3 37.15 3 25 3 14.978 9.7 6.522 18.866 3.866z"/>
+                            </g>
+                            <g class="switcher--icon-dark">
+                                <circle cx="25" cy="25" r="14"/><path d="M.605 19.177l1.236-3.804L8.5 17.536 7.263 21.34zM41.501 32.464l1.236-3.804 6.658 2.163-1.236 3.804zM11.923 46.4l-3.236-2.35 4.115-5.664 3.236 2.352zM37.198 11.614l-3.236-2.352L38.077 3.6l3.236 2.351zM41.313 44.05l-3.236 2.35-4.115-5.662 3.236-2.352zM16.038 9.262l-3.236 2.352L8.687 5.95l3.236-2.35zM48.159 15.373l1.236 3.804-6.658 2.163-1.236-3.804zM7.263 28.66l1.236 3.804-6.658 2.163-1.236-3.804zM23 0h4v7h-4zM23 43h4v7h-4z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="l--container">
+        <div class="row">
+            
+<header>
+    <div class="l--mar-top-m l--space-compact">
+        <h1>
+            Making WSJ.com more accessible
+        </h1>
+        <p class="c--gray">Originally published August 02, 2016</p>
+        </div>
+    </div>
+</header>
+<div>
+    <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
+</div>
+<article class="post">
+    <p>As I write this, the WSJ.com team is launching a brand new homepage experience for small screens.<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup> It’s one of our biggest subscription-drivers, a page that hundreds of thousands of people see every day. The new experience builds on the award-winning design of the WSJ iOS and Android apps. It’s curated specifically for mobile reading by an amazing editorial team.</p>
+<p>It’s also our first step towards making WSJ.com more accessible to all of our users.</p>
+<figure data-type="image"><img src="/images/accessibility-2.jpg" alt="The WSJ.com mobile homepage before and after the re-design"><figcaption>The WSJ.com mobile homepage before and after the re-design</figcaption></figure>
+<p>For many products — especially media platforms — accessibility is a bullet point on a QA checklist. I want to set a much higher bar for our products. Over the past 6 months, I’ve collaborated closely with designers, product managers, engineers, and journalists to focus on <strong>leading the media industry in accessibility standards.</strong> The new mobile homepage is proof of our team’s dedication to that mission.</p>
+<p>As we continue our pursuit of accessibility across all of WSJ.com, I’d like to share the work we’ve done to get here.</p>
+<h2 id="defining-accessibility">Defining accessibility</h2>
+<p>Last November, I set out to write accessibility guidelines for the WSJ.com team. I wanted to tackle the hardest question first: what does accessibility mean? After lots of writing and editing, I had the following:</p>
+<div style="background: rgba(255, 255, 0, 0.1); padding: 0.5em 1em; margin-bottom: 1em" markdown="1">
+<h3 id="what-is-accessibility%3F">What is accessibility?</h3>
+<p><strong>Accessibility</strong> is the word we use when describing a broad set of guidelines and principles that make our products <em>easy to use.</em></p>
+<h3 id="why-is-accessibility-important%3F">Why is accessibility important?</h3>
+<p>Many of our members have visual, hearing, motor, or cognitive disabilities. It is our goal to provide the same value to them as any other member.</p>
+<p>However, <strong>accessibility is for everybody.</strong> Here are some examples of <em>situational</em> disabilities:</p>
+<ul>
+<li>Visual: Reading a story outside in bright sunlight that makes it difficult to read small text</li>
+<li>Hearing: Watching a video in a loud place that makes it difficult to hear audio</li>
+<li>Motor: Wearing winter gloves that make it difficult to use a touchscreen accurately</li>
+<li>Cognitive: Listening to a podcast while cooking, making it difficult to pay attention</li>
+</ul>
+<p>By adhering to and maintaining these principles and guidelines, we can make our products better for all our users.</p>
+</div>
+<p>Defining accessibility this way helps us understand just how vital it is to our products. You can read a public version of our guidelines <a href="/pages/wsj-accessibility-guidelines" target="_blank" rel="noopener">here</a>.</p>
+<h2 id="partnering-with-engineering">Partnering with engineering</h2>
+<p>Designing for accessibility is only one part of the process.  <em>Building accessible products</em> requires a close collaboration between engineers and designers.</p>
+<p>For example, many of our users navigate the site without a mouse. Instead, they use a keyboard, joystick, or sip and puff technology. To these users, <strong>focus states</strong> are vital — imagine using a mouse without an onscreen pointer! Our designers specified meaningful focus states for all elements (not just buttons), and engineering ensured focus states are always present<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup>. During the build and QA phases, automated tests make sure we didn’t miss anything. Close collaboration allows us to build things the right way.</p>
+<h2 id="advocating-for-accessibility">Advocating for accessibility</h2>
+<p>In addition to pursuing collaboration with engineering, it’s important to communicate the importance of accessibility to your stakeholders. These stakeholders can be leaders inside your company, groups of users, or valuable contributors outside the organization.</p>
+<p>On the WSJ design team, we use <a href="https://matthewstrom.com/writing/principles.html" target="_blank" rel="noopener">design principles</a> to communicate our values. At the time I’m writing this, two of our six principles address accessibility:</p>
+<blockquote>
+<p><strong>Enable Users</strong><br>
+Everything that we design should enable users to access, connect with, and contribute to the content produced by The Wall Street Journal.</p>
+</blockquote>
+<blockquote>
+<p><strong>Design for Everybody</strong><br>
+Apply accessibility and inclusivity principles at every step of the process. Design not only for the users we have today, but for the users we want to have in the future.</p>
+</blockquote>
+<p>By publishing and sharing these principles, we help others see the value of accessibility in the same way we do.</p>
+<h2 id="the-result">The result</h2>
+<p>Our work has paid off. The previous mobile homepage scored an embarrassing 39 points on Google’s Lighthouse accessibility audit.</p>
+<figure data-type="image"><img src="/images/accessibility-3.png" alt="Google Lighthouse accessibility audit on May 20th, 2018"><figcaption>Google Lighthouse accessibility audit on May 20th, 2018</figcaption></figure>
+<p>At this moment, our new mobile homepage is at an <strong>82</strong> 🎉 <sup class="footnote-ref"><a href="#fn3" id="fnref3">3</a></sup></p>
+<figure data-type="image"><img src="/images/accessibility-4.png" alt="Google Lighthouse accessibility audit on June 3rd, 2018"><figcaption>Google Lighthouse accessibility audit on June 3rd, 2018</figcaption></figure>
+<p>We still have some work to do on this page to push the score even higher. Getting a score of 100 isn’t our goal, however, and we’ll never be able to ace every metric of accessibility. Instead, as we continue on to other parts of WSJ.com, I’m keeping a simpler mission in mind: make our products easy to use for everybody.</p>
+<h4 id="acknowledgements">Acknowledgements</h4>
+<p>Everything we do at The Wall Street Journal is a collaboration. I want to give a special thanks to Ryan Yun, who really made accessibility a priority in building this page. Many more people contributed, and continue to contribute, to this project and many others:</p>
+<ul>
+<li>Delia, product manager for WSJ.com’s core curation products</li>
+<li>Our WSJ.com frontend team - Vishaal, Morgan, Vasudha, Adam, Christian, Surya, Doug, and Tania</li>
+<li>The mobile team, including Jason, Mike, Janit, Amit, and Jordan.</li>
+<li>Our editorial partners - Jenn, Lydia, and Meg</li>
+<li>My design leadership peers, Bonnie, Thomas, and Fernando</li>
+<li>The SEO and Revenue team - Rich, Chris, Gio, Johnny, Lee, Bhupendra, Marcin, Dominique, Anna, and Marish</li>
+<li>Our product leadership, Katharine, Rajiv, and Che</li>
+</ul>
+<hr/>
+<section class="footnotes l--space-compact">
+<div>Footnotes:</div>
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Update: we’re live! Visit <a href="https://wsj.com" target="_blank" rel="noopener">https://wsj.com</a> on your phone to see the result of our hard work. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>My advice is to simply leave default focus states intact as much as possible. <a href="https://a11yproject.com/posts/never-remove-css-outlines/" target="_blank" rel="noopener">Here’s some more advice</a> from the a11y project. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>With a product as dynamic as WSJ.com, our accessibility scores fluctuate constantly. One of the biggest challenges we face is maintaining a high standard, regardless of our ever-evolving editorial and advertising strategies. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+</article><aside class="l--space-compact l--mar-top-m l--mar-btm-l"><h2>
+            <a href=""></a>
+        </h2>
+        <div class="c--gray">Published </div>
+    </aside>
+        </div>
+    </main>
+</body>
+</html>

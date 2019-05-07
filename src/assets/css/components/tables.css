@@ -103,13 +103,13 @@ th {
 }
 
 @media (max-width: 1024px) {
-    & .posts-table {
+    .posts-table {
         white-space: normal;
         text-overflow: initial;
     }
 
-    & .table--responsive {
-        thead {
+    .table--responsive {
+        & thead {
             display: none;
         }
 

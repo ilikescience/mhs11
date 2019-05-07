@@ -37,7 +37,8 @@
 li + li,
 br + *,
 * + br,
-.l--col + .l--col {
+.l--col + .l--col,
+table * + * {
     margin-top: 0;
 }
 

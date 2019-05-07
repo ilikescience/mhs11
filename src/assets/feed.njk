@@ -1,5 +1,5 @@
 ---
-permalink: feed
+permalink: feed.xml
 metadata:
   title: The personal website of Matthew Ström
   url: https://matthewstrom.com
@@ -9,7 +9,7 @@ metadata:
   feed:
     subtitle: Writing about design, code, work, and culture
     filename: feed.xml
-    path: feed/feed.xml
+    path: /feed/feed.xml
     url: https://matthewstrom.com/feed.xml
     id: https://matthewstrom.com
 ---
@@ -25,7 +25,7 @@ metadata:
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.writing %}
+  {%- for post in collections.writing | reverse %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matthew Ström: designer &amp; developer</title>
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
+    <link rel="stylesheet" href="/css/main.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
+        });
+    </script>
+    <script defer src="/js/main.js"></script>
+    
+</head>
+
+<body>
+    <nav class="header-nav l--space-flush">
+        <div class="l--container">
+            <div class="l--row">
+                <a href="/" class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                    <div>Matthew Ström</div>
+                </a>
+
+                
+                <div class="nav--menu">
+                    <a href="/writing" class="active">Writing</a>
+                    <a href="/feed.xml">RSS Feed</a>
+                    <a href="/speaking" class="active">Speaking</a>
+                    <a href="#" class="nav--theme-switcher">
+                        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <g class="switcher--icon-light">
+                                <path d="M18.866 3.866A22.01 22.01 0 0 0 18 10c0 12.15 9.85 22 22 22a22.01 22.01 0 0 0 6.134-.866C43.478 40.299 35.022 47 25 47 12.85 47 3 37.15 3 25 3 14.978 9.7 6.522 18.866 3.866z"/>
+                            </g>
+                            <g class="switcher--icon-dark">
+                                <circle cx="25" cy="25" r="14"/><path d="M.605 19.177l1.236-3.804L8.5 17.536 7.263 21.34zM41.501 32.464l1.236-3.804 6.658 2.163-1.236 3.804zM11.923 46.4l-3.236-2.35 4.115-5.664 3.236 2.352zM37.198 11.614l-3.236-2.352L38.077 3.6l3.236 2.351zM41.313 44.05l-3.236 2.35-4.115-5.662 3.236-2.352zM16.038 9.262l-3.236 2.352L8.687 5.95l3.236-2.35zM48.159 15.373l1.236 3.804-6.658 2.163-1.236-3.804zM7.263 28.66l1.236 3.804-6.658 2.163-1.236-3.804zM23 0h4v7h-4zM23 43h4v7h-4z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="l--container">
+        <div class="row">
+            
+<header>
+    <div class="l--mar-top-m l--space-compact">
+        <h1>
+            Datum Ipsum
+        </h1>
+        <p class="c--gray">Originally published July 26, 2016</p>
+        </div>
+    </div>
+</header>
+<div>
+    <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
+</div>
+<article class="post">
+    <p><em>tl;dr — I’ve created a tool called <a href="http://datumipsum.com/" target="_blank" rel="noopener">Datum Ipsum</a> to enable designers to use realistic data when mocking up data visualizations. Also, this is a written version of a talk I gave at Data Viz Camp 2016 in NYC. The slides for that talk are <a href="https://slides.com/matthewstrom/datumipsum" target="_blank" rel="noopener">here</a>.</em></p>
+<p><strong>In my career as a designer</strong>, both at <a href="http://planetary.io/" target="_blank" rel="noopener">Planetary</a> and in my freelance work, I’ve constantly struggled with designing real-time data visualizations. You know the kind: dashboards, analytics, reporting tools — anything that displays data on an ongoing basis. Designers at publications like the <a href="http://www.nytimes.com/section/upshot" target="_blank" rel="noopener">New York Times</a>, <a href="http://www.theguardian.com/society/ng-interactive/2016/may/25/opioid-epidemic-overdose-deaths-map" target="_blank" rel="noopener">Guardian</a>, <a href="http://graphics.wsj.com/3d-nasdaq/" target="_blank" rel="noopener">Wall Street Journal</a>, and <a href="http://blogs.ft.com/ftdata/2016/07/24/tour-de-france-2016-froome-sky-dominate-mountains-cavendish-sprinting-supremacy/" target="_blank" rel="noopener">Financial Times</a><em>(paywall)</em> have been pushing the envelope of design in data-first journalism and reporting, but applying the same principals to dynamic data sets is challenging. Though these visualizations are incredibly valuable to the people who rely on them every day, they’re some of the trickiest to get right.</p>
+<p>My hunch is that no amount of aesthetic theory or design experience matters if a designer doesn’t understand the data. The real problem, then, is that …</p>
+<h3 id="real-data-is-hard-to-understand.">Real data is hard to understand.</h3>
+<p>This fact has a lot to do with the lack of overlap between design and statistics — designers are often the ones who avoided taking statistics class and opted instead to spend their time in studios and darkrooms. But even a background in statistics can’t change the reality that humans simply struggle with data. A few reasons for this:</p>
+<h4 id="real-data-isn%E2%80%99t-intuitive">Real data isn’t intuitive</h4>
+<p>Our brains are really good at finding patterns. It’s one of the things that makes design so rewarding — looking at orderly shapes and patterns feels good. So when we look at data, we look for and often find patterns, even if those patterns are misleading or downright wrong.</p>
+<figure data-type="image"><img src="/images/datum-1.png" alt="Sprurious correlations are all too easy to find."><figcaption>Sprurious correlations are all too easy to find.</figcaption></figure>
+<p>In addition to finding meaning where there is none, the patterns that <em>are</em> meaningful are often incomprehensible. Take the <a href="https://en.wikipedia.org/wiki/Birthday_problem" target="_blank" rel="noopener">Birthday Problem</a>, for example: in a group of people, what are the odds that two have the same birthday? For a group of 367 people, we can assume that there’s a 100% chance that two have the same birthday. What are the odds with a group of 70 people?</p>
+<p>The surprising answer is <strong>99.9%</strong>. Beyond that, for 23 people, there’s a 50/50 chance that two share a birthday. There’s certainly a pattern here, but it’s impossible to discern without analysis.</p>
+<h4 id="real-data-is-hard-to-fake">Real data is hard to fake</h4>
+<p>Try as we might, trying to fake data is a lost cause. One illustration of this is called the <a href="https://en.wikipedia.org/wiki/Gambler's_fallacy" target="_blank" rel="noopener">Gambler’s Fallacy</a>, and it’s easiest to illustrate with a <a href="http://codepen.io/ilikescience/full/xOAQBo/" target="_blank" rel="noopener">demo</a>. We’re going to flip 20 coins (virtually); but before we do, enter in what you think the outcome will be — select either “Heads” or “Tails” in each row on the left, then click “flip!” to see how you fare.</p>
+<p>What you’ll (probably) see is that your guess on the left alternates from heads to tails often, with few streaks, but the result on the right has streaks. Your guess likely has close to 10 heads and 10 tails, but rarely does the actual result come up an even 10 and 10. These differences are attributable to our assumptions about probability (that a coin flip has a 50/50 outcome) being applied to a larger problem (20 actual coin flips).</p>
+<p>There’s even a simple statistical property (called <a href="https://en.wikipedia.org/wiki/Benford's_law" target="_blank" rel="noopener">Benford’s Law</a>) that can be used to identify faked data sets. In short, in any large enough data set, patterns emerge in the first digits of each data point: more numbers will start with the digit “1” than any other number. This pattern is so pervasive and counterintuitive that it is often used to prove — in court — that data has been falsified.</p>
+<h4 id="real-data-is-unpredictable">Real data is unpredictable</h4>
+<p>Part of what makes data so tricky to work with is that our assumptions about the shape, domain, resolution, and volatility of a set of data are only just that: assumptions.</p>
+<figure data-type="image"><img src="/images/datum-2.png" alt="This type of result would have never shown up in a mockup."><figcaption>This type of result would have never shown up in a mockup.</figcaption></figure>
+<p>Even with the most reliable sets of data — say, an atomic clock — there’s always the possibility of error states or the occasional act of god. These one-in-a-million events are when great data visualization really shines: instead of breaking down in the face of anomaly, they highlight the rarity of the situation and respond appropriately.</p>
+<p>But when we’re designing visualizations, how can we predict the unpredictable? It’s almost like something out of a <a href="https://en.wikipedia.org/wiki/The_Library_of_Babel" target="_blank" rel="noopener">Borges story</a>; outliers aren’t really outliers if we’re expecting them.</p>
+<h3 id="why-not-design-with-real-data%3F">Why not design with real data?</h3>
+<p>Real data sets of all shapes and sizes are easy to come by if you know where to look. There’s a slew of <a href="http://github.com/datasets" target="_blank" rel="noopener">large, well-formatted data sets on GitHub</a>, collected and maintained by the (excellently-named) <a href="https://okfn.org/" target="_blank" rel="noopener">Open Knowledge</a> group. From financial data to global temperature indexes, these data sets can easily provide a reality check for your designs.</p>
+<p>Unfortunately, my experience working with historical data sets fails to overcome some of the fundamental challenges of designing robust visualizations. Here’s why:</p>
+<ol>
+<li><strong>It’s too hard to fine-tune.</strong> The time series of S&amp;P 500 financials over the past 100 years probably isn’t going to fit your visualization domain and fidelity right out of the box. The benefit of having lots of data to work with becomes a curse when you’re trying to normalize lots of values.</li>
+<li><strong>It’s too easy to pick and choose.</strong> I find myself discarding data when it doesn’t come out quite like I expect it to. Instead of taking the harder route of improving the visualization to handle the data at hand, I’ll just select “better” data.</li>
+</ol>
+<h3 id="let%E2%80%99s-use-placeholder-data-instead.">Let’s use placeholder data instead.</h3>
+<p>Placeholder data is a lot like placeholder text. It’s a design tool meant to ensure the final product — in our case, a real-time data visualization — matches our mockups. It’s useful in all the same ways placeholder text is useful:</p>
+<ol>
+<li>Placeholder data allows a designer to test her assumptions about the product.</li>
+<li>Placeholder data makes decision-making much easier by providing realistic constraints.</li>
+<li>Placeholder data sets realistic expectations for clients and stakeholders.</li>
+</ol>
+<h4 id="what-does-placeholder-data-look-like%3F">What does placeholder data look like?</h4>
+<p>Just as with placeholder text, we can achieve varying degrees of placeholder data realism by choosing our parameters very carefully. When mocking up a page layout, I can choose the classic placeholder text “lorem ipsum dolor sit amet …” to help pick the right typeface, leading, measure, etc. A placeholder data version of “lorem ipsum” might look just like random numbers, a sort of meaningless pattern that looks like real data if you aren’t looking too hard.</p>
+<figure data-type="image"><img src="/images/datum-3.png" alt="A graph of javascript’s Math.random() function"><figcaption>A graph of javascript’s Math.random() function</figcaption></figure>
+<p>I’ve often run into trouble using “lorem ipsum,” though, and you probably have, too: it is too obviously fake. Clients have questioned my sanity, when all their mockups look like they’ve been done in latin. And in making decisions with nonsense text, I sometimes run into problems down the line when the real text goes in.</p>
+<p>Instead of using “lorem ipsum,” I’ve started to use real text from various sources. If the final text will be highly technical in nature, I can pull from scientific papers in the public domain. If it’s meant to be exciting, Jules Verne serves as a good placeholder. Choosing the qualities of my placeholder text helps me make better decisions, and sets better expectations with my clients.</p>
+<p>How do we apply this concept to data? Can we create “flavored” placeholder data, without losing the benefit of randomness and unpredictability?</p>
+<figure data-type="image"><img src="/images/datum-4.png" alt="A 2-dimensional graph of the Perlin Noise function"><figcaption>A 2-dimensional graph of the Perlin Noise function</figcaption></figure>
+<h3 id="perlin-noise-(or%2C-a-better-kind-of-random)">Perlin Noise (or, a better kind of random)</h3>
+<p>In 1983, a computer scientist named <a href="https://en.wikipedia.org/wiki/Ken_Perlin" target="_blank" rel="noopener">Ken Perlin</a> was working on a very similar problem: how can a computer generate random images that don’t look like they were generated by a computer? While working on a movie titled <em><a href="https://en.wikipedia.org/wiki/Tron" target="_blank" rel="noopener">Tron</a></em> (the one without Daft Punk), Perlin developed an algorithm to draw textures that he could apply to the computer-generated images in the film to make them appear more realistic. And while the CGI in <em>Tron</em> looks laughably primitive compared to what we see in theaters today, at the time Perlin’s work was revolutionary. In 1997, he won an Academy Award for the algorithm, which by then was referred to as “Perlin Noise.” The award read:</p>
+<blockquote>
+<p>“The development of Perlin Noise has allowed computer graphics artists to better represent the complexity of natural phenomena in visual effects for the motion picture industry.”</p>
+</blockquote>
+<figure data-type="image"><img src="/images/datum-5.jpeg" alt="Perlin Noise"><figcaption>Perlin Noise</figcaption></figure>
+<p>This is an image of Perlin Noise. The technical description of the algorithm isn’t important for this post, so let’s just leave it at “random vector fields.”<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup></p>
+<p>If we draw a line across this image, and track the color values as we go — “high” for white, “low” for black — we get a nice-looking smooth graph of the Perlin Noise field; its peaks and valleys are flattened out to a simple two-dimensional line.</p>
+<figure data-type="image"><img src="/images/datum-6.png" alt="A line-graph of perlin noise"><figcaption>A line-graph of perlin noise</figcaption></figure>
+<p>Drawing lines across the noise field is akin to taking a walk with a FitBit and watching the elevation change as you go; a short walk might only have a few elevation changes, while longer walks have many more ups and downs.</p>
+<h3 id="putting-perlin-noise-into-practice">Putting Perlin Noise Into Practice</h3>
+<p>One nice thing about this sort of data is that it can be added together to make more varied graphs. For instance, if we add up a few different walks across the noise field, we get a line that has short rises and falls, a plateau here and there, and the occasional rapid change.</p>
+<figure data-type="image"><img src="/images/datum-7.png" alt="Summing different walks across the perlin noise function"><figcaption>Summing different walks across the perlin noise function</figcaption></figure>
+<figure data-type="image"><img src="/images/datum-8.png" alt="The result of many walks looks much more interesting than a single walk"><figcaption>The result of many walks looks much more interesting than a single walk</figcaption></figure>
+<p>Additionally, adding these graphs of Perlin Noise together with very basic functions like sine waves can generate data that resembles real-world patterns. For instance, a graph of the daily active users of a website follows a cycle; during the daytime, there are lots of users on the site, and in the late evening and early morning there are typically not as many. Combing a cyclical wave (in this case, a sine wave) with one of our noise graphs gives us a very realistic simulation of a website’s traffic!</p>
+<figure data-type="image"><img src="/images/datum-9.png" alt="Combining simple functions with perlin noise"><figcaption>Combining simple functions with perlin noise</figcaption></figure>
+<p>Combining graphs of simple functions with Perlin Noise has a nearly infinite number of possible permutations, making it an incredibly effective tool for mocking up real-time data visualizations. In practice, Planetary uses this method to test our software platforms, like this one, which visualizes the performance of a publication’s stories in near-real time:</p>
+<figure data-type="image"><img src="/images/datum-10.png" alt="Note: for the sake of example, I’ve pulled headlines from The Daily Beast. All of the data is 100% fake."><figcaption>Note: for the sake of example, I’ve pulled headlines from The Daily Beast. All of the data is 100% fake.</figcaption></figure>
+<p>To make these noise functions accessible and easy to generate, I’ve created a tool called <a href="http://datumipsum.com/" target="_blank" rel="noopener">Datum Ipsum</a>. Just like you might use placeholder text to mock up websites and apps, my hope is that you’ll use realistic placeholder data when creating data visualizations.</p>
+<p>By using realistic placeholder data, you can make your designs more robust and free from bias. In putting constraints on the source material you work from, you’ll be challenged to solve problems that typically arise only after real data is available. With tools like Datum Ipsum, you can create tools that handle the unpredictable, difficult-to-understand nature of data in real time.</p>
+<hr/>
+<section class="footnotes l--space-compact">
+<div>Footnotes:</div>
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>If you’d like to learn more about Perlin Noise and its uses, I’d highly recommend <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD" target="_blank" rel="noopener">Daniel Schiffman’s Youtube series on the subject</a>. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+</article><aside class="l--space-compact l--mar-top-m l--mar-btm-l"><div>More writing about <strong>code:</strong></div><h2>
+            <a href="/writing/variable-fonts/">Switching to variable fonts</a>
+        </h2>
+        <div class="c--gray">Published 03/02/19</div>
+    </aside>
+        </div>
+    </main>
+</body>
+</html>
