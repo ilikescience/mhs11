@@ -63,10 +63,11 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.setLibrary('md', mdLib)
 
-    // pass through images
+    // pass through static assets
     eleventyConfig.addPassthroughCopy('src/assets/images')
     eleventyConfig.addPassthroughCopy('src/assets/fonts')
     eleventyConfig.addPassthroughCopy('src/assets/js')
+    eleventyConfig.addPassthroughCopy('src/assets/favicon.ico')
 
     // year filter for posts
     eleventyConfig.addFilter('year', function(date) {

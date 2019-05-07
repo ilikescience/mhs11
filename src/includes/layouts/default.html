@@ -4,6 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if og.description %}
+        <meta description="{{ og.description }}">
+    {% else %}
+        <meta description="Matthew Ström is a designer &amp; developer">
+    {% endif %}
     <title>Matthew Ström: designer &amp; developer</title>
     <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
     <link rel="stylesheet" href="/css/main.css">
