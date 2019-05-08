@@ -95,6 +95,10 @@
     font-feature-settings: 'tnum';
 }
 
+sup {
+    line-height: 1;
+}
+
 body,
 html {
     background: var(--c--theme-bg);
