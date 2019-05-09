@@ -148,7 +148,7 @@ Different levels of your responsive roadmap are useful for coordinating at the v
 
 ### What about deadlines?
 
-Due to its complexity, software development is [notoriously difficult to estimate](https://www.google.com/url?q=https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html&sa=D&ust=1557002658158000&usg=AFQjCNG92lNI_Gno9X6zdVti_pd4eTcj0g). But businesses need deadlines to plan many vital functions — it’s a good thing that I get my paycheck reliably on the first and fifteenth of the month. This is one of the most challenging parts of planning software development. We know our estimates are bad, but we have to make them anyway.
+Due to its complexity, software development is [notoriously difficult to estimate](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html). But businesses need deadlines to plan many vital functions — it’s a good thing that I get my paycheck reliably on the first and fifteenth of the month. This is one of the most challenging parts of planning software development. We know our estimates are bad, but we have to make them anyway.
 
 Avoid putting deadlines on Objectives and Key Results. Most teams just can’t know if they’ll strike gold and surpass their goal quickly or get stuck in a quagmire of technical debt and shifting requirements. Constant learning and re-evaluating is part of great teamwork, and deadlines tend to put a damper on experimentation and innovation.
 
