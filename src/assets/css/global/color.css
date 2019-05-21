@@ -1,43 +1,43 @@
 .c--theme-dark {
-    --c--theme-bg: hsl(240, 14%, 10%);
-    --c--theme-bg-transparent: hsla(240, 14%, 10%, 0.9);
-    --c--theme-fg: hsl(240, 1%, 88%);
-    --c--theme-primary: hsl(187, 79%, 72%);
+    --c--theme-bg: #16161d;
+    --c--theme-bg-transparent: rgba(21, 21, 29, 0.9);
+    --c--theme-fg: #f2f2f2;
+    --c--theme-primary: #75dbef;
 
     /* primary */
-    --c--theme-primary-1: hsl(170, 10%, 18%);
-    --c--theme-primary-2: hsl(13, 42%, 25%);
-    --c--theme-primary-3: hsl(18, 79%, 72%);
-    --c--theme-primary-4: hsl(240, 75%, 70%);
-    --c--theme-primary-5: hsl(240, 75%, 95%);
+    --c--theme-primary-1: #141c1e;
+    --c--theme-primary-2: #328899;
+    --c--theme-primary-3: #75dbef;
+    --c--theme-primary-4: #b6effb;
+    --c--theme-primary-5: #e5faff;
 
     /* grays */
-    --c--theme-gray-1: hsl(210, 7%, 20%);
-    --c--theme-gray-2: hsl(210, 7%, 35%);
-    --c--theme-gray-3: hsl(210, 7%, 50%);
-    --c--theme-gray-4: hsl(210, 7%, 80%);
-    --c--theme-gray-5: hsl(210, 7%, 95%);
+    --c--theme-gray-1: #2f3336;
+    --c--theme-gray-2: #53595f;
+    --c--theme-gray-3: #767f88;
+    --c--theme-gray-4: #c8cccf;
+    --c--theme-gray-5: #f1f2f3;
 }
 
 .c--theme-light {
-    --c--theme-bg: hsl(255, 100%, 100%);
-    --c--theme-bg-transparent: hsla(255, 100%, 100%, 0.9);
-    --c--theme-fg: hsl(240, 14%, 15%);
-    --c--theme-primary: hsl(240, 100%, 50%);
+    --c--theme-bg: #fff;
+    --c--theme-bg-transparent: rgba(255, 255, 255, 0.9);
+    --c--theme-fg: #20202b;
+    --c--theme-primary: #00f;
 
     /* primary */
-    --c--theme-primary-1: hsl(240, 100%, 98%);
-    --c--theme-primary-2: hsl(240, 100%, 70%);
-    --c--theme-primary-3: hsl(240, 100%, 50%);
-    --c--theme-primary-4: hsl(240, 100%, 30%);
-    --c--theme-primary-5: hsl(240, 100%, 10%);
+    --c--theme-primary-1: #f4f4ff;
+    --c--theme-primary-2: #6565ff;
+    --c--theme-primary-3: #00f;
+    --c--theme-primary-4: #009;
+    --c--theme-primary-5: #003;
 
     /* grays */
-    --c--theme-gray-1: hsl(210, 7%, 98%);
-    --c--theme-gray-2: hsl(210, 7%, 80%);
-    --c--theme-gray-3: hsl(210, 7%, 50%);
-    --c--theme-gray-4: hsl(210, 7%, 35%);
-    --c--theme-gray-5: hsl(210, 7%, 20%);
+    --c--theme-gray-1: #f9f9fa;
+    --c--theme-gray-2: #c8cccf;
+    --c--theme-gray-3: #767f88;
+    --c--theme-gray-4: #53595f;
+    --c--theme-gray-5: #2f3336;
 }
 
 .c--gray {
