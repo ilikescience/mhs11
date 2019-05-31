@@ -1,7 +1,8 @@
 ---
 title:  "Why the Web Will Win"
 date:   2018-01-06
-tags: writing
+tags:
+  - the internet
 ---
 
 197 billion apps were downloaded in 2017[^1]: that's almost 26 per human being on the planet Earth. 6 apps per second. In the 10 years since Apple opened the App Store, app downloads have doubled, on average, every two years.[^2]
