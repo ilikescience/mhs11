@@ -76,7 +76,7 @@ If Hotelling is right, even if they try to differentiate themselves, all website
 
 ---
 
-_Special thanks to [Josh Petersel](http://joshpetersel.com/) and [James Ayres](http://jfrancisayres.com/) for contributing to an early drafts of this essay._
+_Special thanks to [Josh Petersel](http://joshpetersel.com/) and [James Ayres](http://jfrancisayres.com/) for contributing to early drafts of this essay._
 
 [^1]: Oddly, this mindset is seen as a [positive one for developers to have](https://dev.to/drm317/the-lazy-developer-5goe).
 
