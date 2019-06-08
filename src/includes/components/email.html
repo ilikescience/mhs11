@@ -1,0 +1,19 @@
+<div class="c--bg-gray-1 l--pad-s">
+
+  <h3 class="l--mar-none">Join the mailing list</h3>
+  <p>
+    You'll get new posts in your inbox, along with research notes, links to related content, and a song recommendation.
+  </p>
+
+  <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <div hidden aria-hidden="true">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </div>
+      <label for="email">Your email address</label>
+      <div class="l--row">
+        <input class="l--col-twothirds" type="email" name="email" placeholder="Email"  id="email" required />
+        <button class="button button--primary l--col-third l--mar-left-s" type="submit">Subscribe</button>
+      </div>
+  </form>
+
+</div>

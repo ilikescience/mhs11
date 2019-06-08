@@ -72,6 +72,10 @@ table * + * {
     flex: 0 1 33.33%;
 }
 
+.l--col-twothirds {
+    flex: 0 1 66.66%;
+}
+
 .l--col-quarter {
     flex: 0 1 24.25%;
 }

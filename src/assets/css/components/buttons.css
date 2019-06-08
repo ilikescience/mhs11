@@ -1,0 +1,8 @@
+.button {
+    display: inline-block;
+}
+
+.button--primary {
+    background: var(--c--theme-primary);
+    color: var(--c--theme-bg);
+}

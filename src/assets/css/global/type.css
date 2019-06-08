@@ -171,9 +171,3 @@ blockquote {
     color: var(--c--theme-gray-4);
     border-left: 2px solid var(--c--theme-gray-2);
 }
-
-.footnotes p,
-.footnotes ol {
-    font-family: var(--t--family-sans);
-    font-size: 1rem;
-}
