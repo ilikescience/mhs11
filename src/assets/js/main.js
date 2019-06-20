@@ -9,7 +9,23 @@ const switchThemes = () => {
         themes[(currentThemeIndex + 1) % themes.length]
     }`
     body.classList = newTheme
-    localStorage.setItem('theme', newTheme);
+    localStorage.setItem('theme', newTheme)
+}
+
+const processForm = form => {
+    const data = new FormData(form)
+    data.append('form-name', 'newsletter');
+    fetch('/', {
+        method: 'POST',
+        body: data,
+    })
+        .then(() => {
+            form.innerHTML = `<div class="form--success">Thank you! Check your inbox for a confirmation e-mail.</div>`;
+            
+        })
+        .catch(error => {
+            
+        })
 }
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -18,4 +34,13 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault()
         switchThemes()
     })
+
+    const emailForm = document.querySelector('.email-form')
+
+    if (emailForm) {
+        emailForm.addEventListener('submit', e => {
+            e.preventDefault();
+            processForm(emailForm);
+        })
+    }
 })

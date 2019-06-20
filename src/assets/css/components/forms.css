@@ -10,5 +10,6 @@ input {
 
 label {
     display: block;
-    margin-bottom: calc(var(--l--space-s)/2);
+    margin-bottom: calc(var(--l--space-s) / 2);
+    color: var(--c--theme-gray-4);
 }
