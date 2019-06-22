@@ -3,7 +3,7 @@ const { EMAIL_TOKEN } = process.env
 const API_ENDPOINT = 'https://api.buttondown.email/v1/subscribers'
 
 exports.handler = async (event, context, callback) => {
-    const email = JSON.parse(event.body)
+    const email = JSON.parse(event.body).payload
     console.log(email);
     return fetch(API_ENDPOINT, {
         method: 'POST',
