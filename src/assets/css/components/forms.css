@@ -1,0 +1,20 @@
+form * + * {
+    margin-top: 0;
+}
+
+input {
+    padding: 0.25em 0.5em;
+    font-size: var(--t--base-size);
+    line-height: var(--t--base-leading);
+}
+
+label {
+    display: block;
+    margin-bottom: calc(var(--l--space-s) / 2);
+    color: var(--c--theme-gray-4);
+}
+
+.form--success {
+    padding: var(--l--space-s);
+    background: var(--c--theme-positive-1);
+}

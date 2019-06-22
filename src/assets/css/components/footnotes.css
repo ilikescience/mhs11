@@ -5,6 +5,14 @@
     font-size: 0.75em;
     text-decoration: none;
 }
+
+.footnotes p,
+.footnotes ol {
+    font-family: var(--t--family-sans);
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
 .footnotes {
     color: var(--c--theme-gray-3);
 

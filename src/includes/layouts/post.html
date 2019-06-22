@@ -18,7 +18,7 @@ layout: layouts/default.html
     {{ content }}
 </article>
 {%- if tags.size > 1 -%}
-    <aside class="l--space-compact l--mar-top-m l--mar-btm-l">
+    <aside class="l--space-compact l--mar-top-m l--mar-btm-m">
         {%- assign related = '' -%}
         {%- assign relatedPost = '' -%}
         {%- for tag in tags -%}
@@ -41,3 +41,6 @@ layout: layouts/default.html
         <div class="c--gray">Published {{ relatedPost.date | date: "%m/%d/%y" }}</div>
     </aside>
 {%- endif -%}
+<aside>
+    {%- include components/email.html -%}
+</aside>

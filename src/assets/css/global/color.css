@@ -2,21 +2,30 @@
     --c--theme-bg: #16161d;
     --c--theme-bg-transparent: rgba(21, 21, 29, 0.9);
     --c--theme-fg: #f2f2f2;
-    --c--theme-primary: #75dbef;
+    --c--theme-primary: hsl(200, 79%, 70%);
 
     /* primary */
-    --c--theme-primary-1: #141c1e;
-    --c--theme-primary-2: #328899;
-    --c--theme-primary-3: #75dbef;
-    --c--theme-primary-4: #b6effb;
-    --c--theme-primary-5: #e5faff;
+    --c--theme-primary-1: hsl(200, 20%, 10%);
+    --c--theme-primary-2: hsl(200, 51%, 40%);
+    --c--theme-primary-3: hsl(200, 79%, 70%);
+    --c--theme-primary-4: hsl(200, 90%, 85%);
+    --c--theme-primary-5: hsl(200, 100%, 95%);
 
     /* grays */
-    --c--theme-gray-1: #2f3336;
-    --c--theme-gray-2: #53595f;
-    --c--theme-gray-3: #767f88;
-    --c--theme-gray-4: #c8cccf;
-    --c--theme-gray-5: #f1f2f3;
+    --c--theme-gray-1: hsl(240, 7%, 15%);
+    --c--theme-gray-2: hsl(240, 7%, 35%);
+    --c--theme-gray-3: hsl(240, 7%, 50%);
+    --c--theme-gray-4: hsl(240, 7%, 80%);
+    --c--theme-gray-5: hsl(240, 8%, 95%);
+
+    /* semantic */
+    --c--theme-positive-1: #133C27;
+    --c--theme-positive-2: #1C4F33;
+    --c--theme-positive-3: #266647;
+    --c--theme-positive-4: #3B8566;
+    --c--theme-positive-5: #59A083 ;
+
+    --c--theme-negative: #c0392b;
 }
 
 .c--theme-light {
@@ -33,13 +42,26 @@
     --c--theme-primary-5: #003;
 
     /* grays */
-    --c--theme-gray-1: #f9f9fa;
-    --c--theme-gray-2: #c8cccf;
-    --c--theme-gray-3: #767f88;
-    --c--theme-gray-4: #53595f;
-    --c--theme-gray-5: #2f3336;
+    --c--theme-gray-1: hsl(240, 9%, 98%);
+    --c--theme-gray-2: hsl(206, 7%, 80%);
+    --c--theme-gray-3: hsl(210, 7%, 50%);
+    --c--theme-gray-4: hsl(210, 7%, 35%);
+    --c--theme-gray-5: hsl(206, 7%, 20%);
+
+    /* semantic */
+    --c--theme-positive-1: #B6FFDB;
+    --c--theme-positive-2: #91E4B8;
+    --c--theme-positive-3: #5CB883;
+    --c--theme-positive-4: #318350;
+    --c--theme-positive-5: #104B24;
+
+    --c--theme-negative: #e74c3c;
 }
 
 .c--gray {
     color: var(--c--theme-gray-4);
+}
+
+.c--bg-gray-1 {
+    background-color: var(--c--theme-gray-1);
 }
