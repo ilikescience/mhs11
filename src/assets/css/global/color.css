@@ -17,6 +17,15 @@
     --c--theme-gray-3: hsl(240, 7%, 50%);
     --c--theme-gray-4: hsl(240, 7%, 80%);
     --c--theme-gray-5: hsl(240, 8%, 95%);
+
+    /* semantic */
+    --c--theme-positive-1: #133C27;
+    --c--theme-positive-2: #1C4F33;
+    --c--theme-positive-3: #266647;
+    --c--theme-positive-4: #3B8566;
+    --c--theme-positive-5: #59A083 ;
+
+    --c--theme-negative: #c0392b;
 }
 
 .c--theme-light {
@@ -38,6 +47,15 @@
     --c--theme-gray-3: hsl(210, 7%, 50%);
     --c--theme-gray-4: hsl(210, 7%, 35%);
     --c--theme-gray-5: hsl(206, 7%, 20%);
+
+    /* semantic */
+    --c--theme-positive-1: #B6FFDB;
+    --c--theme-positive-2: #91E4B8;
+    --c--theme-positive-3: #5CB883;
+    --c--theme-positive-4: #318350;
+    --c--theme-positive-5: #104B24;
+
+    --c--theme-negative: #e74c3c;
 }
 
 .c--gray {

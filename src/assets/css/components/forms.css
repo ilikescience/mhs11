@@ -13,3 +13,8 @@ label {
     margin-bottom: calc(var(--l--space-s) / 2);
     color: var(--c--theme-gray-4);
 }
+
+.form--success {
+    padding: var(--l--space-s);
+    background: var(--c--theme-positive-1);
+}
