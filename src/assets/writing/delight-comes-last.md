@@ -3,7 +3,7 @@ title: Delight Comes Last
 og:
   title: Delight Comes Last
   description: Solve the harder problems of product design first
-  image: /images/delight-0.jpg
+  image: /images/delight-0.jpg?1
   image_width: 1940 
   image_height: 1600
 date: 2019-06-23
