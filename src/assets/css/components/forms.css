@@ -18,3 +18,14 @@ label {
     padding: var(--l--space-s);
     background: var(--c--theme-positive-1);
 }
+
+.form--submit-inline {
+    margin-left: var(--l--space-s);
+
+    @media only screen and (max-width: 600px) {
+        padding: calc(var(--l--space-s) / 2) 0;
+        margin-top: calc(var(--l--space-s) / 2);
+        margin-left: 0;
+    }
+}
+

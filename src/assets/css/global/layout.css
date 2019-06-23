@@ -80,6 +80,18 @@ table * + * {
     flex: 0 1 24.25%;
 }
 
+@media only screen and (max-width: 600px) {
+    .l--row {
+        flex-flow: column;
+    }
+    .l--col-half,
+    .l--col-third,
+    .l--col-twothirds,
+    .l--col-quarter {
+        flex: 0 1 100%;
+    }
+}
+
 /* Spacing utility */
 
 .l--pad-l {
