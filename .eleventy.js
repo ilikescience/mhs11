@@ -24,7 +24,6 @@ module.exports = function(eleventyConfig) {
     const markdownItToc = require('markdown-it-toc-done-right')
     const pluginRss = require('@11ty/eleventy-plugin-rss')
     const dateFilter = require('nunjucks-date-filter')
-    const readingTime = require('eleventy-plugin-reading-time')
 
     let mdOptions = {
         html: true,
