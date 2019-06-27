@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
     const markdownItToc = require('markdown-it-toc-done-right')
     const pluginRss = require('@11ty/eleventy-plugin-rss')
     const dateFilter = require('nunjucks-date-filter')
+    const readingTime = require('eleventy-plugin-reading-time')
 
     let mdOptions = {
         html: true,
@@ -69,13 +70,36 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/assets/js')
     eleventyConfig.addPassthroughCopy('src/assets/favicon.ico')
 
+    eleventyConfig.addFilter('readingTime', function(text) {
+        const wordBound = c => {
+            return ' ' === c || '\n' === c || '\r' === c || '\t' === c
+        }
+
+        let start = 0,
+            end = text.length - 1,
+            words = 0
+
+        while (wordBound(text[start])) start++
+        while (wordBound(text[start])) end--
+
+        for (let i = start; i <= end; ) {
+            for (; i <= end && !wordBound(text[i]); i++);
+            words++
+            for (; i <= end && wordBound(text[i]); i++);
+        }
+
+        const minutes = words / 200
+
+        return Math.ceil(minutes.toFixed(2))
+    })
+
     // year filter for posts
     eleventyConfig.addFilter('year', function(date) {
         const dateObj = new Date(date)
         return dateObj.getFullYear()
     })
 
-    eleventyConfig.addNunjucksFilter("date", dateFilter)
+    eleventyConfig.addNunjucksFilter('date', dateFilter)
 
     // deep merge data
     eleventyConfig.setDataDeepMerge(true)
