@@ -2,4 +2,4 @@
     base = "."
     publish = "./dist"
     command = "npm run build"
-    functions = "./functions/"
+    functions = "./functions"
