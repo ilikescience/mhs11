@@ -1,11 +1,9 @@
 const fetch = require('node-fetch')
 const { EMAIL_TOKEN } = process.env
-const API_ENDPOINT = 'https://api.buttondown.email/v1/subscribers'
-
-exports.handler = async (event, context, callback) => {
+exports.handler = async event => {
     const email = JSON.parse(event.body).payload.email
-    console.log(email)
-    return fetch(API_ENDPOINT, {
+    console.log(`Recieved a submission: ${email}`)
+    return fetch('https://api.buttondown.email/v1/subscribers', {
         method: 'POST',
         headers: {
             Authorization: `Token ${EMAIL_TOKEN}`,
@@ -15,7 +13,7 @@ exports.handler = async (event, context, callback) => {
     })
         .then(response => response.json())
         .then(data => {
-            console.log(data)
+            console.log(`Submitted to Buttondown:\n ${data}`)
         })
         .catch(error => ({ statusCode: 422, body: String(error) }))
 }
