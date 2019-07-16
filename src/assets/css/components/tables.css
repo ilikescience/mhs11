@@ -97,6 +97,11 @@ th {
     text-align: left;
 }
 
+td {
+    padding: 0.25em 0;
+    vertical-align: top;
+}
+
 .posts-table {
     white-space: nowrap;
     text-overflow: ellipsis;
