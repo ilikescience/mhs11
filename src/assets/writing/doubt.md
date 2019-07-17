@@ -93,3 +93,7 @@ It's easy to question others' ideas and plans, and I often express doubt at the 
 Doubting is good! At its best, doubt doesn’t increase uncertainty, or cast an idea in a negative light. It's a way to express curiosity. Curiosity leads to understanding. That's the key. The more we can contribute to the collective curiosity of our peers, the more we can be seen as the "good" designers.
 
 [^1]: Disclaimer: Richard Feynman was a colossal misogynist. I have a hard time separating this fact from his contributions to science.
+
+---
+
+_As usual, a very heartfelt thanks to [Josh Petersel](http://joshpetersel.com/) for reviewing a draft of this essay_
