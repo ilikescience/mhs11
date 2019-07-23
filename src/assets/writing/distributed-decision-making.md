@@ -44,10 +44,12 @@ So as Eagle plummeted towards the moon, the 1202 error was relayed through missi
 "It's an executive overflow, if it doesn't happen again, we're fine."
 
 Back up the chain, "go" was echoed by Bales, Krantz, and finally Duke, telling the astronauts that they could safely continue their landing.
-From the ground up
+
+## From the ground up
+
 Five men could have made a decision faster than the time it took to reach Garman. Each of them, without thinking, passed their responsibility down the chain.
 
-![From left to right: Charles W. Mathews, Deputy Associate Administrator for Manned Space Flight; Dr. Wernher von Braun, Director of the Marshall Space Flight Center; George Mueller, Associate Administrator for the Office of Manned Space Flight; Lt. Gen. Samuel C. Phillips, Director of the Apollo Program](/images/distributed-3.jpg)
+![From left to right: Chris Kraft, **Gene Kranz**, Glynn Lunney, Gerry Griffin, John Aaron, Ed Fendell, Jerry Bostick, Jim Lovell, Gene Cernan, **Charlie Duke**, **Steve Bales**.](/images/distributed-3.jpg)
 
 These decisions made the first moon landing possible. But to the people that made them, it was second nature. Guidance officer Steve Bales explained it this way:
 
