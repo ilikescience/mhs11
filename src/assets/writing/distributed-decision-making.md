@@ -1,5 +1,5 @@
 ---
-title: "The management strategy that saved Apollo 11"
+title: "The Management Strategy That Saved Apollo 11"
 og:
   title: Distributed Decision-making
   description: The management strategy that saved Apollo 11
@@ -35,7 +35,7 @@ Duke's call of "we're go" was a blessing to continue with the mission. But Duke 
 
 Garman was the right person to make the call. During a simulation two weeks before the mission, Garman's supervisor Steve Bales had run into a similar scenario: an unknown computer error during descent. But in this simulation, he called for the mission to be aborted. Bales describes the result:
 
-> At the debriefing, we got into a big argument. The simulation supervisor said 'I don't think you should have called that abort.' ... [Flight director Gene Krantz] came to me and said 'Steve, I want you to have a new mission ruleset that covers unexpected alarms.
+> At the debriefing, we got into a big argument. The simulation supervisor said 'I don't think you should have called that abort.' ... [Flight director Gene Krantz] came to me and said 'Steve, I want you to have a new mission ruleset that covers unexpected alarms.[^2]
 
 With so little time remaining until launch, Bales entrusted the task to Jack Garman. Garman studied every possible computer error and wrote a plan for handling each.
 
@@ -67,3 +67,5 @@ Next time you're faced with a decision, ask yourself: how can this decision be m
 
 
 [^1]: Read the time stamps: this whole exchange happens in 43 seconds. This is even more impressive when you take into account the physical signal delay: messages take a little more than a second to go from the earth to the moon.
+
+[^2]: From episode 2 of BBC's 13 Minutes to the Moon, _[Kids in Control](https://www.bbc.co.uk/programmes/w3csz4dk)_
