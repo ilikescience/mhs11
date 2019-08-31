@@ -1,0 +1,43 @@
+.intuition--container {
+    padding: calc(var(--l--space-s) + 1rem) var(--l--space-m) var(--l--space-m) var(--l--space-m);
+    background: var(--c--theme-gray-1);
+}
+
+.intuition--slider {
+    width: 100%;
+    padding: 0;
+}
+
+.intuition--value {
+    text-align: center;
+}
+
+.intuition--label,
+.intuition--header {
+    text-align: center;
+    color: var(--c--theme-gray-3);
+}
+
+.intuition--labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intuition--rotated {
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-bottom: 2rem;
+    margin-top: -0.5rem;
+}
+
+.intuition--rotated .intuition--label {
+    width: 0;
+    transform: rotate(90deg);
+}
+
+.intuition--equation {
+    display: block;
+    width: 100%;
+    margin: 2rem auto;
+    max-width: 20rem;
+}
