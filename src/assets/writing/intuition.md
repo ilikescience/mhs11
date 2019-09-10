@@ -6,7 +6,11 @@ og:
   image: /images/intuition-1.jpg
   image_width: 1200
   image_height: 600
+<<<<<<< HEAD
 date: 2019-09-10
+=======
+date: 2019-09-010
+>>>>>>> 20283679ddc84b6a9c435c7cba8f4e01131e0f6e
 tags: [design]
 ---
 
