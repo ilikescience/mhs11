@@ -3,10 +3,10 @@ title: Intuition vs. Data
 og:
   title: The Role of Doubt in Design
   description: When to ask questions, and when to have answers
-  image: /images/doubt.png
-  image_width: 1000 
-  image_height: 563
-date: 2019-09-04
+  image: /images/intuition-1.jpg
+  image_width: 1200
+  image_height: 600
+date: 2019-09-010
 tags: [design]
 ---
 
