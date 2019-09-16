@@ -14,7 +14,7 @@ tags: [design]
 
 At a time when data is king, product designers should place more trust in their intuition.
 
-Recently I attended Front, a product management conference in Salt Lake City. There, Maggie Crowley, product manager for a company called [Drift](https://www.drift.com/), presented a case study in redesigning a complex feature: the chatbot builder. It helped users build their own interactive chatbots without coding or design. The team had been iterating on the design of the chatbot builder for a while, but Maggie thought it could be greatly improved by a substantial overhaul. Here's how she recounts the process of getting buy-in from her stakeholders:
+Recently I attended Front, a product management conference in Salt Lake City. There, Maggie Crowley, product manager for a company called [Drift](https://www.drift.com/), presented a case study in redesigning a complex feature: the chatbot builder. It helped users build their own interactive chatbots without coding or design. The team had been iterating on the design of the chatbot builder for a while, but thought it could be greatly improved by a substantial overhaul. Here's how she recounts the process of getting buy-in from her stakeholders:
 
 >  We had a feeling we could make our builder better. And you can't really say "I have a feeling." **No one's gonna listen to you.** So like every good product manager, I tried to find some data ... But unfortunately, I didn't see anything. Our metrics looked perfectly fine.
 
