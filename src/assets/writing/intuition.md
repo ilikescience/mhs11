@@ -1,9 +1,9 @@
 ---
 title: Intuition vs. Data
 og:
-  title: The Role of Doubt in Design
-  description: When to ask questions, and when to have answers
-  image: /images/intuition-1.jpg
+  title: Intuition vs. Data
+  description: In a data-driven world, learn when to trust your intuition
+  image: /images/intuition-1.jpg?v=1
   image_width: 1200
   image_height: 600
 date: 2019-09-16
