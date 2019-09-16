@@ -43,7 +43,7 @@ In 2014, Walter Frick summed it up in the [Harvard Business Review](https://hbr.
 
 Data brings a feeling of objectivity to decisions. It settles disputes. Data can demystify the past and predict the future. As Wall Street's quantitative analysts know, the right data in the right hands can make fortunes. But the wrong data, even in the right hands, can be disastrous. And with data it's hard to tell right from wrong.
 
-For example: We're in the middle of what scientists call the reproducibility crisis. Psychologists, clinical researchers, economists, and other data-centric academics have discovered that historic standards for proof aren't rigorous enough. Findings that were once seen as conclusive are now regarded with doubt1. While it's unlikely that we'll have to rewrite everything we know about the world, the replicability crisis tells us that even data can lead us to the wrong conclusions.
+For example: We're in the middle of what scientists call the reproducibility crisis. Psychologists, clinical researchers, economists, and other data-centric academics have discovered that historic standards for proof aren't rigorous enough. Findings that were once seen as conclusive are now regarded with doubt[^1]. While it's unlikely that we'll have to rewrite everything we know about the world, the replicability crisis tells us that even data can lead us to the wrong conclusions.
 
 ## The case for intuition
 
