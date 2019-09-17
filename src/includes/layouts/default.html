@@ -31,6 +31,9 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator"content="@ilikescience" />
     {% endif %}
+    {% if external and external_url %}
+        <link rel="canonical" href="{{external_url}}"/>
+    {% endif %}
 </head>
 
 <body>

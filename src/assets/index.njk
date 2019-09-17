@@ -33,9 +33,16 @@ eleventyExcludeFromCollections: true
         <div class="post">
             <span class="c--gray l--mar-right-s t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</span>
             <span>
-                <a href="{{ post.url }}"> 
-                    {{ post.data.title }} 
-                </a>
+                {%- if post.data.external_url -%}
+                    <a href="{{ post.data.external_url }}" target="_blank" rel="noopener"> 
+                        {{ post.data.title }} 
+                    </a>
+                    &nearr;
+                {%- else -%}
+                    <a href="{{ post.url }}"> 
+                        {{ post.data.title }} 
+                    </a>
+                {%- endif -%}
             </span>
         </div>
     {%- endif -%}
@@ -54,7 +61,7 @@ eleventyExcludeFromCollections: true
     </div>
     <div class="post">
         <span class="c--gray l--mar-right-s t--numbers-tabular">09/18/18</span>
-        <a href="https://www.youtube.com/watch?v=Av8GXFcqOqc" rel="noopener" target="_blank">Design Driven NYC</span>
+        <a href="https://www.youtube.com/watch?v=Av8GXFcqOqc" rel="noopener" target="_blank">Design Driven NYC</a>
     </div>
     <div class="post">
         <span class="c--gray l--mar-right-s t--numbers-tabular">05/27/18</span>

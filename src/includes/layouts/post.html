@@ -35,7 +35,11 @@ layout: layouts/default.html
             {%- endfor -%}
         {%- endif -%}
         <h2>
-            <a href="{{ relatedPost.url }}">{{ relatedPost.data.title }}</a>
+            {%- if relatedPost.data.external -%}
+                <a href="{{ relatedPost.data.external_url }}" target="blank" rel="noopener">{{ relatedPost.data.title }}</a> &nearr;
+            {%- else -%}
+                <a href="{{ relatedPost.url }}">{{ relatedPost.data.title }}</a>
+            {%- endif -%}
         </h2>
         <div class="c--gray">Published {{ relatedPost.date | date: "%m/%d/%y" }}</div>
     </aside>
