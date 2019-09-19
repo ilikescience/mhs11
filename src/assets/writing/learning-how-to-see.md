@@ -30,7 +30,7 @@ Is there a spiral in this image?
 
 Are there gray dots at the intersections of this grid?
 
-While these images are fun to look at, after seeing the first few, you probably aren’t fooled. You’ve learned how to see optical illusions: Even though you see moving shapes, different-sized lines, spirals, and gray dots, you know that none of those things are really there.
+While these pictures are fun to look at, after seeing the first few, you probably aren’t fooled. You’ve learned how to see optical illusions: Even though you see moving shapes, different-sized lines, spirals, and gray dots, you know that none of those things are really there.
 
 ## The moon illusion
 The previous examples are all pretty contrived. They were designed to take advantage of how your brain perceives light and shadow. But there are other, more subtle examples that you experience every day.
@@ -51,7 +51,7 @@ However, the moon’s apparent size doesn’t change. This means that the moon i
 
 ![](/images/learning-to-see-orbit-2.jpg)
 
-Knowing that the moon’s orbit was circular (and not elliptical, as it first appears)  was the key to discovering how gravity works. After learning how to see the moon’s orbit, scientists could make accurate forecasts of high and low tide (useful for shipping goods) and create accurate calendars (useful for planning military maneuvers).
+Knowing that the lunar orbit was circular (and not elliptical, as it first appears) was the key to understanding how the moon interacted with the Earth's oceans to create the tides. After learning how to see the moon’s orbit, scientists could make accurate forecasts of high and low tide (useful for shipping goods) and create accurate calendars (useful for planning military maneuvers).
 
 ## How designers see
 These phenomena show the difference between merely seeing things and knowing how to see things. There are lots of things that you see every day that you merely see; there are some things you’ve learned how to see.
