@@ -2,10 +2,10 @@
 title: Learning How to See
 og:
   title: Learning How to See
-  description: In a data-driven world, learn when to trust your intuition
-  image: /images/intuition-1.jpg?v=1
-  image_width: 1200
-  image_height: 600
+  description: Seeing is to designing as listening is to speaking.
+  image: /images/seeing-0.jpg
+  image_width: 1000
+  image_height: 667
 date: 2019-09-24
 tags: [design]
 ---
@@ -87,6 +87,8 @@ Originally, links were blue simply because the early developers of browsers thou
 > “Red and green are the colors most affected by color-vision deficiency.  Almost no one has a blue deficiency. Accordingly, nearly everyone can  see blue, or, more accurately, almost everyone can distinguish blue as a color different from others.”
 
 Links on the internet have remained blue by default, but most designers and developers aren’t just following tradition. They understand the important accessibility concerns of technology, and constantly revisit defaults to create the best experience for the most users.
+
+![Hilma Af Klint - Albin Dahlström / the Moderna Museet / Stockholm](/images/seeing-0.jpg)
 
 ## Conclusion
 We spend most of our day perceiving taking in far more information than we can reasonably process without some shortcuts. For the majority of what we see, it’s ok to just see, to take things at their face value. But take time to learn how to see some of what you experience. You’ll be able to make better decisions, share deeper insights, and overall, enrich your understanding of the world around you.
