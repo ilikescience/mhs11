@@ -2,7 +2,7 @@
 title: Learning How to See
 og:
   title: Learning How to See
-  description: Seeing is to designing as listening is to speaking.
+  description: Seeing is to designing as listening is to writing.
   image: /images/seeing-0.jpg
   image_width: 1000
   image_height: 667
