@@ -9,4 +9,7 @@
 @import 'components/nav.css';
 @import 'components/forms.css';
 @import 'components/buttons.css';
+@import 'components/cover.css';
+@import 'components/figure.css';
 @import 'pages/intuition.css';
+@import 'pages/project.css';

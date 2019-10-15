@@ -1,0 +1,4 @@
+.figure--wide {
+    margin-left: calc(-30vw + 30%);
+    margin-right: calc(-30vw + 30%);
+}

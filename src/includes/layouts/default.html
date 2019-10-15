@@ -37,8 +37,8 @@
 </head>
 
 <body>
-    <nav class="header-nav l--space-flush">
-        <div class="l--container">
+    <nav class="header-nav l--space-flush {% if cover %}has-cover c--theme-{{cover.theme}}{% endif %}">
+        <div class="l--pad-s">
             <div class="l--row">
                 <a href="/" class="nav--logo">
                     <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
@@ -47,9 +47,6 @@
                     <div>Matthew Ström</div>
                 </a>
 
-                {% if "writing" == "speaking" %}
-                    {{"true"}}
-                {% endif %}
                 <div class="nav--menu">
                     <a href="/writing" class="{% if activePage == "writing" %}active{% endif %}">Writing</a>
                     <a href="/feed.xml">RSS Feed</a>
@@ -68,11 +65,17 @@
             </div>
         </div>
     </nav>
+    {% if layout != 'layouts/project.html' %}
     <main class="l--container">
         <div class="row">
             {{ content }}
         </div>
     </main>
+    {% else %}
+    <main>
+        {{ content }}
+    </main>
+    {% endif %}
     <footer class="l--container l--mar-top-l l--mar-btm-l">
         <hr class="l--mar-btm-s" />
         <div class="footer-menu">

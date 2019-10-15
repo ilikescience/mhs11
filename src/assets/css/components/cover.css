@@ -1,0 +1,9 @@
+.cover {
+    display: flex;
+    height: 100vh;
+    padding: var(--l--space-s);
+    background: var(--c--theme-bg);
+    color: var(--c--theme-fg);
+    justify-content: center;
+    align-items: center;
+}

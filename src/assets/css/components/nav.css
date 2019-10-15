@@ -1,8 +1,7 @@
 .header-nav {
     margin: 0;
-    padding: var(--l--space-s) 0;
+    padding: 0 0 var(--l--space-s) 0;
     z-index: 100;
-    background: var(--c--theme-bg-transparent);
 }
 
 .nav--logo,
@@ -89,4 +88,15 @@ nav a {
     .header-nav {
         padding: var(--l--space-s) 0 calc(var(--l--space-s) / 2);
     }
+}
+
+nav.has-cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav.has-cover + main {
+    margin-top: 0;
 }
