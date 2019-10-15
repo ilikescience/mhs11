@@ -10,7 +10,7 @@
     --t--family-serif: 'source serif', 'Palatino Linotype', 'Palatino',
         'Book Antiqua', 'Baskerville', 'Bookman Old Style', 'Garamond',
         'Apple Garamond', 'Century Schoolbook', 'Georgia', serif;
-    --t--family-mono: menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
+    --t--family-mono: 'source code', menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
         monospace;
 
     /* weights */
@@ -156,6 +156,12 @@ h3 {
 h4 {
     font-size: 1.2rem;
     color: var(--c--theme-gray-3);
+}
+
+pre,
+code {
+    font-family: var(--t--family-mono);
+    font-size: calc(var(--t--size-m) * 0.9);
 }
 
 .post p,

@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
     const markdownItToc = require('markdown-it-toc-done-right')
     const pluginRss = require('@11ty/eleventy-plugin-rss')
     const dateFilter = require('nunjucks-date-filter')
+    const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 
     let mdOptions = {
         html: true,
@@ -105,6 +106,8 @@ module.exports = function(eleventyConfig) {
 
     // add rss plugins
     eleventyConfig.addPlugin(pluginRss)
+
+    eleventyConfig.addPlugin(syntaxHighlight)
 
     return {
         dir: dirs,

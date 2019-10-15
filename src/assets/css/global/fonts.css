@@ -31,3 +31,11 @@
     font-named-instance: 'Italic';
     src: url('/fonts/Inter-italic.woff2?v=3.3') format('woff2');
   }
+
+  @font-face {
+    font-family: 'source code';
+    font-display: 'fallback';
+    font-weight: 100 900;
+    font-style: normal;
+    src: url('/fonts/SourceCodeVariable.woff2') format('woff2');
+  }
