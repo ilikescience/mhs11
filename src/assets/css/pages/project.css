@@ -10,3 +10,13 @@
         color: var(--c--theme-fg);
     }
 }
+
+.c--theme-dark .project--section {
+    background: var(--c--theme-gray-1);
+}
+
+.project figcaption {
+    border-top: 1px solid var(--c--theme-gray-2);
+    padding-top: calc(var(--l--space-s) / 2);
+    font-size: var(--t--size-s);
+}

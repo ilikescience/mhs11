@@ -58,15 +58,22 @@ nav a {
     }
 }
 
-.c--theme-light {
+body.c--theme-light {
+    & .switcher--icon-light {
+        visibility: visible;
+    }
     & .switcher--icon-dark {
         visibility: hidden;
     }
 }
 
-.c--theme-dark {
+body.c--theme-dark {
     & .switcher--icon-light {
         visibility: hidden;
+    }
+
+    & .switcher--icon-dark {
+        visibility: visible;
     }
 }
 

@@ -2,3 +2,15 @@
     margin-left: calc(-30vw + 30%);
     margin-right: calc(-30vw + 30%);
 }
+
+.figure--combo {
+    display: flex;
+}
+
+.figure--combo-item {
+    flex: 0 1 auto;
+}
+
+.figure--combo-item:not(:first-child) {
+    margin-left: 0.5rem;
+}
