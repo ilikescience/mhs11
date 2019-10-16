@@ -20,3 +20,8 @@
     padding-top: calc(var(--l--space-s) / 2);
     font-size: var(--t--size-s);
 }
+
+.project--related-post {
+    padding: var(--l--space-s);
+    background: var(--c--theme-gray-1);
+}
