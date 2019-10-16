@@ -61,9 +61,6 @@ cover:
             of the “meat” of the story has resulted in a “hamburger” effect.
         </p>
         <figure>
-            Open SVG Paste markup Demo Contribute About Updated! Updating SVGO
-            Improving quality at 0 precision Powered by the incredible SVGO
-            13.08k → 4.29k 32.82%
             <svg
                 viewBox="0 0 731 521"
                 xmlns="http://www.w3.org/2000/svg"
@@ -152,16 +149,17 @@ cover:
         is made to prevent unexpected changes to what the user has composed in
         the editor.
     </p>
-    <pre>
-        <code>
     {% highlight json %}
 { 
     "id":"SB11503272875369313808404584415401863740902",
     "headline":{ 
-        "text":"U.S., China Draw Up Plan to Settle Trade Dispute by November",
+        "text":"U.S., China Draw Up Plan to Settle Trade Dispute 
+            by November",
         "style":"News"
     },
-    "summary":"Chinese and U.S. negotiators are drawing up a road map for talks to end their trade impasse ahead of meetings between President Trump and Xi Jinping in November.",
+    "summary":"Chinese and U.S. negotiators are drawing up a road 
+        map for talks to end their trade impasse ahead of meetings 
+        between President Trump and Xi Jinping in November.",
     "media":{ 
         "url":"https://images.wsj.net/im-22615"
     },
@@ -174,6 +172,30 @@ cover:
     "commentCount":169
 }
     {% endhighlight %}
-        </code>
-    </pre>
+
+    <h3>Compose with code</h3>
+        <p>
+            Medium’s editor keeps the area where the user writes sacred—every effort
+            is made to prevent unexpected changes to what the user has composed in
+            the editor.
+        </p>
+    {% highlight pug %}
++card(data, {
+    orientation: 'horizontal',
+    headline: {
+        size: 'l',
+    },
+    borders: false
+})
+    {% endhighlight %}
+
+    <h3>The result</h3>
+    <p>
+        Medium’s editor keeps the area where the user writes sacred—every effort
+        is made to prevent unexpected changes to what the user has composed in
+        the editor.
+    </p>
+    <figure>
+        <img src="/images/wsj-4.png"
+    </figure>
 </div>

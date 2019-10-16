@@ -3,6 +3,7 @@
 @import 'global/fonts.css';
 @import 'global/layout.css';
 @import 'global/type.css';
+@import 'global/code.css';
 @import 'components/toc.css';
 @import 'components/footnotes.css';
 @import 'components/tables.css';
