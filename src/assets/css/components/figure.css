@@ -3,14 +3,6 @@
     margin-right: calc(-30vw + 30%);
 }
 
-.figure--combo {
-    display: flex;
-}
-
-.figure--combo-item {
-    flex: 0 1 auto;
-}
-
-.figure--combo-item:not(:first-child) {
+figure [class^=l--col]:not(:first-child) {
     margin-left: 0.5rem;
 }

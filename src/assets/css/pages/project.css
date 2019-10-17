@@ -25,3 +25,7 @@
     padding: var(--l--space-s);
     background: var(--c--theme-gray-1);
 }
+
+.project--section *:first-child {
+    margin-top: var(--l--space-m);
+}
