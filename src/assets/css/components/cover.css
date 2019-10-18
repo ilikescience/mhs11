@@ -1,6 +1,6 @@
 .cover {
     display: flex;
-    height: 90vh;
+    min-height: 90vh;
     padding: var(--l--space-s);
     background: var(--c--theme-bg);
     color: var(--c--theme-fg);
