@@ -37,9 +37,9 @@
 </head>
 
 <body>
-    <nav class="header-nav l--space-flush {% if cover %}has-cover c--theme-{{cover.theme}}{% endif %}">
+    <nav class="header-nav l--container l--space-flush {% if cover %}has-cover{% endif %}">
         <div class="l--pad-s">
-            <div class="l--row">
+            <div class="l--row l--row-wide">
                 <a href="/" class="nav--logo">
                     <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="25" cy="25" r="20"/>
@@ -76,13 +76,17 @@
         {{ content }}
     </main>
     {% endif %}
-    <footer class="l--mar-top-l l--mar-btm-s l--pad-s">
-        <hr class="l--mar-btm-s" />
-        <div class="footer-menu">
-            <span>© 2019</span> ·
-            <a href="https://twitter.com/ilikescience" rel="me noopener" target="_blank">Twitter</a> · 
-            <a href="/feed.xml">RSS</a> ·
-            <a href="mailto:matthew.h.strom@gmail.com">Email</a>
+    <footer class="l--mar-top-l l--mar-btm-s l--pad-s l--container">
+        <div class="l--row-wide">
+            <hr class="l--col l--mar-btm-s" />
+        </div>
+        <div class="l--row l--row-wide">
+            <div class="footer-menu">
+                <span>© 2020</span> ·
+                <a href="https://twitter.com/ilikescience" rel="me noopener" target="_blank">Twitter</a> · 
+                <a href="/feed.xml">RSS</a> ·
+                <a href="mailto:matthew.h.strom@gmail.com">Email</a>
+            </div>
         </div>
     </footer>   
 

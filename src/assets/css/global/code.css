@@ -56,7 +56,7 @@ pre[class*='language-'] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-    color: var(--c--theme-positive-5);
+    color: var(--c--theme-positive-4);
 }
 
 .token.atrule,
@@ -65,7 +65,7 @@ pre[class*='language-'] {
 }
 
 .token.function {
-    color: var(--c--theme-gray-3_);
+    color: var(--c--theme-gray-3);
 }
 
 .token.regex,

@@ -1,9 +1,3 @@
-.header-nav {
-    margin: 0;
-    padding: 0 0 var(--l--space-s) 0;
-    z-index: 100;
-}
-
 .nav--logo,
 .nav--menu {
     display: flex;

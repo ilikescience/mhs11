@@ -51,15 +51,16 @@ table * + * {
     max-width: var(--l--grid-width);
 }
 
-.l--container-wide {
-    max-width: var(--l--grid-width-wide);
-}
-
 .l--row {
     display: flex;
     flex-flow: row;
     align-items: stretch;
     justify-content: space-between;
+}
+
+.l--row-wide {
+    margin-left: calc(-30vw + 30%);
+    margin-right: calc(-30vw + 30%);
 }
 
 /* Columns */
