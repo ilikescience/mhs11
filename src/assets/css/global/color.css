@@ -62,7 +62,7 @@
 
     /* grays */
     --c--theme-gray-1: var(--c--gray-80);
-    --c--theme-gray-2: var(--c--gray-60);
+    --c--theme-gray-2: var(--c--gray-70);
     --c--theme-gray-3: var(--c--gray-50);
     --c--theme-gray-4: var(--c--gray-30);
     --c--theme-gray-5: var(--c--gray-20);
@@ -112,10 +112,27 @@
     --c--theme-negative-5: var(--c--red-70);
 
 }
+
 .c--gray {
     color: var(--c--theme-gray-4);
 }
 
 .c--bg-gray-1 {
     background-color: var(--c--theme-gray-1);
+}
+
+.c--bg-gray-2 {
+    background-color: var(--c--theme-gray-2);
+}
+
+.c--bg-gray-3 {
+    background-color: var(--c--theme-gray-3);
+}
+
+.c--bg-gray-4 {
+    background-color: var(--c--theme-gray-4);
+}
+
+.c--bg-gray-5 {
+    background-color: var(--c--theme-gray-5);
 }

@@ -1,24 +1,13 @@
 .project--section {
     margin: var(--l--space-m) 0;
     padding: var(--l--space-s) 0;
-    background: var(--c--theme-bg);
-
-    & p,
-    & h1,
-    & h2,
-    & h3 {
-        color: var(--c--theme-fg);
-    }
-}
-
-.c--theme-dark .project--section {
-    background: var(--c--theme-gray-1);
 }
 
 .project figcaption {
     border-top: 1px solid var(--c--theme-gray-2);
     padding-top: calc(var(--l--space-s) / 2);
     font-size: var(--t--size-s);
+    color: var(--c--theme-gray-3);
 }
 
 .project--related-post {
@@ -26,6 +15,10 @@
     background: var(--c--theme-gray-1);
 }
 
-.project--section *:first-child {
-    margin-top: var(--l--space-m);
+.project figure * + * {
+    margin-top: 0;
+}
+
+.project figure {
+    margin: calc(var(--l--space-m) * 1.5) 0;
 }
