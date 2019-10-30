@@ -68,25 +68,59 @@ cover:
             <img loading="lazy" src="/images/wsjfonts-0.png" alt="">
             <figcaption>The paper in 1889 and 2017</figcaption>
         </figure>
+        <p>
+            Each typeface currently used in print was designed specifically for the needs of the Journal’s format and printing process. Those typefaces are:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <strong>Escrow,</strong> designed for the Journal by Cyrus Highsmith in 2002,
+                </li>
+                <li>
+                    <strong>Exchange,</strong> designed for the Journal by Tobias Frere-Jones in 2002, and
+                </li>
+                <li>
+                    <strong>Retian,</strong> designed for the Journal by Tobias Frere-Jones in 2000.
+                </li>
+            </ul>
+        </p>
+        <figure>
+            <div class="l--row l--row-wide l--space-flush">
+                <div class="l--col-third">
+                    <img loading="lazy" src="/images/wsjfonts-1.png" />
+                </div>
+                <div class="l--col-third">
+                    <img loading="lazy" src="/images/wsjfonts-2.png" />
+                </div>
+                <div class="l--col-third">
+                    <img loading="lazy" src="/images/wsjfonts-3.png" />
+                </div>
+            </div>
+            <figcaption>The three typefaces we brought to the web in 2017</figcaption>
+        </figure>
+        <p>
+            While these typefaces are central to the brand of the Journal, digital channels are a significantly more complicated environment. After many legal and technical hurdles, and with the hard work and cooperation of many peopl, we finally brought these typefaces to wsj.com on December 11, 2017.
+        </p>
     </div>
 </section>
-<section class="l--container">
-    <h2>A programming language for design</h2>
-    <p>
-        Tools can make or break a project. Working with the journalists at the Journal, I discovered that traditional design tools wouldn't do; the news changes too fast and is too unpredictable to be constrained by static elements in a Sketch file.
-    </p>
-    <p>
-        Instead, I created a software tool — called the homepage sandbox — to enable designers, developers, and journalists to collaborate on the design of the homepage. This effort paid off, and the partnership between stakeholders allowed designers to iterate quickly and explore more broadly.
-    </p>
-    <div class="project--related-post">
-        <span class="project--related-post-header">Related Essay:</span>
-        <strong><a href="/writing/designing-with-code/" target="_blank">Designining with code</a></strong>
-    </div>
-    <p>
-        The homepage sandbox pulled data in real time from the Journal's content APIs. It formatted story data into a simple structue that editors, designers, and engineers could read and edit.
-    </p>
-    <figure>
-    {% highlight json %} 
+<section class="project--section">
+    <div class="l--container">
+        <h2>A programming language for design</h2>
+        <p>
+            Tools can make or break a project. Working with the journalists at the Journal, I discovered that traditional design tools wouldn't do; the news changes too fast and is too unpredictable to be constrained by static elements in a Sketch file.
+        </p>
+        <p>
+            Instead, I created a software tool — called the homepage sandbox — to enable designers, developers, and journalists to collaborate on the design of the homepage. This effort paid off, and the partnership between stakeholders allowed designers to iterate quickly and explore more broadly.
+        </p>
+        <div class="project--related-post">
+            <span class="project--related-post-header">Related Essay:</span>
+            <strong><a href="/writing/designing-with-code/" target="_blank">Designining with code</a></strong>
+        </div>
+        <p>
+            The homepage sandbox pulled data in real time from the Journal's content APIs. It formatted story data into a simple structue that editors, designers, and engineers could read and edit.
+        </p>
+        <figure>
+            {% highlight json %} 
 { 
     "id":"SB11503272875369313808404584415401863740902",
 
@@ -109,14 +143,14 @@ cover:
     "bullets":[], 
     "commentCount":169
 } 
-    {% endhighlight %}
-    <figcaption>An example API response</figcaption>
-    </figure>
-    <p>
-        The sandbox allowed users to define layouts using plain text, making it easy to quickly try new variations and combinations.
-    </p>
-    <figure>
-    {% highlight pug %} 
+            {% endhighlight %}
+            <figcaption>An example API response</figcaption>
+        </figure>
+        <p>
+            The sandbox allowed users to define layouts using plain text, making it easy to quickly try new variations and combinations.
+        </p>
+        <figure>
+            {% highlight pug %} 
 +card(data, { 
     orientation: 'horizontal', 
     headline: {
@@ -124,27 +158,57 @@ cover:
     }, 
     borders: false 
 }) 
-    {% endhighlight %}
-    <figcaption>A card component configured with the data from the API and some additional options</figcaption>
-    </figure>
-    <p>
-        The software outputs static html which could be easily shared or hosted online, giving the team a way of sharing ideas without relying on proprietary file formats or specialized software.
-    </p>
-    <figure>
-        <img loading="lazy" src="/images/wsj-4.png">
-        <figcaption>The result of the code example above — a simple story card.</figcaption>
-    </figure>
-</section>
-<section class="project--section c--theme-alt l--mar-top-m">
-    <div class="l--container">
-        <h2>Dark mode</h2>
+            {% endhighlight %}
+            <figcaption>A card component configured with the data from the API and some additional options</figcaption>
+        </figure>
         <p>
-            To differentiate video content from article content, the team introduced a dark theme for cards. By carefully defining the basic building blocks of the page, we opened the door to these expressive theme options. 
+            The software outputs static html which could be easily shared or hosted online, giving the team a way of sharing ideas without relying on proprietary file formats or specialized software.
+        </p>
+        <figure>
+            <img loading="lazy" src="/images/wsj-4.png">
+            <figcaption>The result of the code example above — a simple story card.</figcaption>
+        </figure>
+    </div>
+</section>
+<section class="project--section c--bg-gray-1">
+    <div class="l--container">
+        <h2>Accessibility</h2>
+        <p>
+            Part of the work I led on the homepage was to refine the mobile experience. In addition to matching the look of wsj.com to the look and feel of the native iOS and Android apps, we took the opportunity to drastically increase the accessibility of the page as a whole.
         </p>
         <figure class="l--row-wide">
-            <img loading="lazy" src="/images/wsj-6.jpg">
-            <figcaption>An example of a video layout made possible with themeable cards</figcaption>
+            <img loading="lazy" src="/images/accessibility-2.jpg">
+            <figcaption>The mobile homepage before and after our updates</figcaption>
         </figure>
+        <p>
+            The first step in this project was to define guidelines and educate our organizational stakeholders on the benefit of designing with accessibility in mind. 
+        </p>
+        <figure>
+            <div style="background:var(--c--yellow-10);" class="l--pad-m t--family-serif">
+                <strong>What is accessibility?</strong><br/>
+                Accessibility is the word we use when describing a broad set of guidelines and principles that make our products easy to use.<br/><br/>
+                
+                <strong>Why is accessibility important?</strong><br/>
+                Many of our members have visual, hearing, motor, or cognitive disabilities. It is our goal to provide the same value to them as any other member.<br/><br/>
+                
+                However, accessibility is for everybody. Here are some examples of situational disabilities:<br/><br/>
+                <ul>
+                <li>Visual: Reading a story outside in bright sunlight that makes it difficult to read small text</li>
+                <li>Hearing: Watching a video in a loud place that makes it difficult to hear audio</li>
+                <li>Motor: Wearing winter gloves that make it difficult to use a touchscreen accurately</li>
+                <li>Cognitive: Listening to a podcast while cooking, making it difficult to pay attention</li>
+                </ul>
+                By adhering to and maintaining these principles and guidelines, we can make our products better for all our users.
+            </div>
+            <figcaption>An excerpt from the 2016 Wall Street Journal accessibility guidelines</figcaption>
+        </figure>
+        <p>
+            The previous mobile homepage scored an embarrassing 39 points on Google’s Lighthouse accessibility audit. But after our work, the mobile homepage is at an 82.
+        </p>
+        <figure>
+            <img loading="lazy" src="/images/accessibility-4.png" alt="An image showing that the Google Lightouse score of the new mobile homepage is 82">
+        </figure>
+        <p>These accessibility improvements, along with performance and usability enhancements, resulted in an increase of unique visitors, visits, and page views by upwards of 40%.</p>
     </div>
 </section>
 <section class="l--container">
@@ -161,32 +225,3 @@ cover:
     <p>As of 2019, the wsj.com was rolling out the result of this work in an iterative, continuous fashion.
     </p>
 </section>
-<div class="l--container l--mar-top-m">
-    <div class="l--row">
-        <span class="t--weight-bold">Further reading:</span>
-    </div>
-    <div class="l--row l--space-flush">
-        <div class="l--col-half project--related-post">
-            <a href="/writing/wsjfonts/">
-                <img src="/images/wsjfonts-3.png">
-            </a>
-            <div class="l--mar-top-s l--mar-btm-s t--family-serif t--weight-bold t--size-l t--leading-small">
-            <a href="/writing/wsjfonts">
-                Changing all the fonts on WSJ.com
-            </a>
-            </div>
-            <p>To lay the groundwork for these homepage iterations, my team updated the typography across the entire web experience.</p>
-        </div>
-        <div class="l--col-half project--related-post">
-            <a href="/writing/wsj-accessibility/">
-                    <img src="/images/accessibility-2.jpg">
-            </a>
-            <div class="l--mar-top-s l--mar-btm-s t--family-serif t--weight-bold t--size-l t--leading-small">
-                <a href="/writing/wsj-accessibility/" class="l--mar-top-s t--family-serif t--weight-bold">
-                    Making WSJ.com more accessible
-                </a>
-                </div>
-            <p>My team led efforts to substantially improve the accessibility of the homepage. Along the way, we created guidelines for accessibility across all of the Journal's applications.</p>
-        </div>
-    </div>
-</div>

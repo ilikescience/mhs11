@@ -1,6 +1,5 @@
 .project--section {
-    margin: var(--l--space-m) 0;
-    padding: var(--l--space-s) 0;
+    padding: var(--l--space-m) 0 calc(var(--l--space-m) * 1.5);
 }
 
 .project figcaption {

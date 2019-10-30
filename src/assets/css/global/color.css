@@ -4,7 +4,7 @@
     --c--pure-black: #000;
 
     /* grays */
-    --c--gray-10: hsl(20, 20%, 98%);
+    --c--gray-10: #faf9f8;
     --c--gray-20: #e3e0e0;
     --c--gray-30: #c9c6c6;
     --c--gray-40: #a4a0a2;
@@ -46,6 +46,17 @@
     --c--red-70: #521515;
     --c--red-80: #3b0f10;
     --c--red-90: #2b0c0c;
+
+    /* yellows */
+    --c--yellow-10: hsl(47, 100%, 95%);
+    --c--yellow-20: #fbe7a7;
+    --c--yellow-30: #f5dc8e;
+    --c--yellow-40: #f0d174;
+    --c--yellow-50: #d4ac4f;
+    --c--yellow-60: #9e7728;
+    --c--yellow-70: #725217;
+    --c--yellow-80: #432f0f;
+    --c--yellow-90: #2a1e12;
 }
 
 .c--theme-dark {
