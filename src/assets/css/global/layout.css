@@ -53,7 +53,8 @@ table * + * {
 
 @media (max-width: 800px) {
     .l--grid {
-        margin: 0 1rem;
+        margin: 0;
+        padding: 0 1rem;
         grid-template-columns:
             [full-start wide-start narrow-start]
             minmax(1rem, 1fr) [narrow-end wide-end full-end];

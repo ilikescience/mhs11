@@ -1,7 +1,20 @@
 .cover {
     display: flex;
-    padding: var(--l--space-s);
+    position: relative;
     min-height: 90vh;
     justify-content: center;
     align-items: center;
+    z-index: -1;
+}
+
+.cover--bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 0;
+    opacity: 0.1;
+    background-size: cover;
 }

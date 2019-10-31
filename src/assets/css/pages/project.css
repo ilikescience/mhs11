@@ -1,5 +1,6 @@
 .project--section {
-    padding: var(--l--space-m) 0 calc(var(--l--space-m) * 1.5);
+    padding-top: var(--l--space-s);
+    padding-bottom: var(--l--space-m);
 }
 
 .project--section > * {

@@ -28,7 +28,7 @@
 }
 
 .nav--theme-switcher svg {
-    fill: var(--c--theme-gray-2);
+    fill: var(--c--theme-gray-3);
 
     &:hover {
         fill: var(--c--theme-primary);
