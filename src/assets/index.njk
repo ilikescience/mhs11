@@ -3,72 +3,46 @@ layout: layouts/home.html
 eleventyExcludeFromCollections: true
 ---
 
-<header class="h-card l--mar-top-m">
+<header class="h-card l--mar-top-m l--grid-wide">
     <div class="l--space-compact">
         <h1 class="t--size-xl t--family-serif t--leading-small t--tracking-tight t--weight-bold">
             I'm <a href="https://matthewstrom.com" class="u-url" rel="me noopener">Matthew Ström</a>.
         </h1>
         <p>
-            I'm a design lead at <a href="https://bit.ly" target="_blank" rel="noopener">Bitly</a>. Previously, I led design teams at The Wall Street Journal, SoundCloud, Planetary, <a href="/projects/cty">CTY</a>, and <a href="/projects/eleven">Eleven Magazine</a>. I live in Brooklyn.
+            I'm a design lead at <a href="https://bit.ly" target="_blank" rel="noopener">Bitly</a>. Previously, I led design teams at The Wall Street Journal and SoundCloud.
         </p>
-    </div>
-    <div>
-        <a href="https://twitter.com/ilikescience" rel="me noopener" target="_blank">Twitter</a> · <a href="/feed.xml" rel="me">RSS Feed</a>
     </div>
 </header>
 
-<div class="posts l--space-flush l--mar-top-m">
-<strong>Latest writing:</strong>
-{%- for post in collections.writing | reverse %}
-    {%- if loop.index0 == 0 -%}
-        <div class="post l--mar-top-s l--mar-btm-s">
-            <div class="c--gray t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</div>
-            <h2>
-                 <a href="{{ post.url }}"> 
-                    {{ post.data.title }} 
-                </a>
-            </h2>
-        </div>
-    {%- elif loop.index0 < 4 -%}
-        <div class="post">
-            <span class="c--gray l--mar-right-s t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</span>
-            <span>
-                {%- if post.data.external_url -%}
-                    <a href="{{ post.data.external_url }}" target="_blank" rel="noopener"> 
-                        {{ post.data.title }} 
-                    </a>
-                    &nearr;
-                {%- else -%}
+<div class="l--mar-top-m l--grid-wide l--flex">
+<div class="l--space-flush l--flex-auto">
+    <strong>Latest case study</strong>
+</div>
+<div class="l--space-flush l--flex-auto">
+    <strong>Latest essay</strong>
+    {%- for post in collections.writing | reverse %}
+        {%- if loop.index0 == 0 -%}
+            <div class="post l--mar-top-s l--mar-btm-s">
+                <div class="c--gray t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</div>
+                <h2>
                     <a href="{{ post.url }}"> 
                         {{ post.data.title }} 
                     </a>
-                {%- endif -%}
-            </span>
-        </div>
-    {%- endif -%}
-{%- endfor -%}
+                </h2>
+            </div>
+        {%- elif loop.index0 < 4 -%}
+        {%- endif -%}
+    {%- endfor -%}
+    <div>
+        <a href="/writing">All writing &rarr;</a>
+    </div>
 </div>
-<div>
-    <a href="/writing">All writing &rarr;</a>
-</div>
-
-
-<div class="post l--space-flush l--mar-top-m">
-    <strong>Recent Speaking:</strong>
-    <div class="post l--mar-top-s l--mar-btm-s">
+<div class="l--space-flush l--flex-auto">
+    <strong>Latest talk</strong>
+    <div class="l--mar-top-s l--mar-btm-s">
         <div class="c--gray l--mar-right-s t--numbers-tabular">06/06/19</div>  
         <h2><a rel="noopener" target="_blank" href="https://noti.st/mattstrom/BESHjt/designing-change">Front Utah: Designing Change</a> </h2>
     </div>
-    <div class="post">
-        <span class="c--gray l--mar-right-s t--numbers-tabular">09/18/18</span>
-        <a href="https://www.youtube.com/watch?v=Av8GXFcqOqc" rel="noopener" target="_blank">Design Driven NYC</a>
+        <a href="/speaking">All speaking &rarr;</a>
     </div>
-    <div class="post">
-        <span class="c--gray l--mar-right-s t--numbers-tabular">05/27/18</span>
-        <span>Tech Inclusion NYC</span>
-    </div>
-</div>
-
-<div>
-    <a href="/speaking">All speaking &rarr;</a>
 </div>

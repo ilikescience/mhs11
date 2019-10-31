@@ -2,16 +2,19 @@
     padding: var(--l--space-m) 0 calc(var(--l--space-m) * 1.5);
 }
 
+.project--section > * {
+    grid-column: narrow;
+}
+
+.project--section .l--grid-wide {
+    grid-column: wide;
+}
+
 .project figcaption {
     border-top: 1px solid var(--c--theme-gray-2);
     padding-top: calc(var(--l--space-s) / 2);
     font-size: var(--t--size-s);
     color: var(--c--theme-gray-3);
-}
-
-.project--related-post {
-    padding: var(--l--space-s);
-    background: var(--c--theme-gray-1);
 }
 
 .project figure * + * {

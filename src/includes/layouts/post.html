@@ -2,7 +2,7 @@
 layout: layouts/default.html
 ---
 
-<header>
+<header class="l--grid-narrow">
     <div class="l--mar-top-m l--mar-btm-m l--space-compact t--align-center">
         <h1>
             {{ title }}
@@ -10,14 +10,14 @@ layout: layouts/default.html
         <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
-<div>
+<div class="l--grid-narrow">
     <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
 </div>
-<article class="post">
+<article class="post l--grid-narrow">
     {{ content }}
 </article>
 {%- if tags.size > 1 -%}
-    <aside class="l--space-compact l--mar-top-m l--mar-btm-m">
+    <aside class="l--space-compact l--mar-top-m l--mar-btm-m l--grid-narrow">
         {%- assign related = '' -%}
         {%- assign relatedPost = '' -%}
         {%- for tag in tags -%}
@@ -44,6 +44,6 @@ layout: layouts/default.html
         <div class="c--gray">Published {{ relatedPost.date | date: "%m/%d/%y" }}</div>
     </aside>
 {%- endif -%}
-<aside>
+<aside class="l--grid-narrow">
     {%- include components/email.html -%}
 </aside>
