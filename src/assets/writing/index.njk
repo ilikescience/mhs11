@@ -2,31 +2,32 @@
 layout: layouts/home.html
 eleventyExcludeFromCollections: true
 ---
-
-{% for post in collections.writing | reverse %}
-    {% if post.date | year != lastDate | default('0', true) %}
-        {% if loop.index > 1 %}
+<div class="l--grid-narrow">
+    {% for post in collections.writing | reverse %}
+        {% if post.date | year != lastDate | default('0', true) %}
+            {% if loop.index > 1 %}
+            </div>
         </div>
-    </div>
-{% endif %}
-<div class="year l--space-compact">
-    <h2>{{post.date|year}}</h2>
-    <div class="posts l--space-flush">
-        {% set lastDate = post.date | year %}
     {% endif %}
-    <div class="post">
-        <span class="c--gray l--mar-right-s t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</span>
-        <span>
-            {%- if post.data.external_url -%}
-                <a href="{{ post.data.external_url }}" target="_blank" rel="noopener">
-                    {{ post.data.title }}
-                </a>
-                    &nearr;
-                {%- else -%}
-                <a href="{{ post.url }}">
-                    {{ post.data.title }}
-                </a>
-            {%- endif -%}
-        </span>
-    </div>
-{% endfor %}
+    <div class="year l--space-compact">
+        <h2>{{post.date|year}}</h2>
+        <div class="posts l--space-flush">
+            {% set lastDate = post.date | year %}
+        {% endif %}
+        <div class="post">
+            <span class="c--gray l--mar-right-s t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</span>
+            <span>
+                {%- if post.data.external_url -%}
+                    <a href="{{ post.data.external_url }}" target="_blank" rel="noopener">
+                        {{ post.data.title }}
+                    </a>
+                        &nearr;
+                    {%- else -%}
+                    <a href="{{ post.url }}">
+                        {{ post.data.title }}
+                    </a>
+                {%- endif -%}
+            </span>
+        </div>
+    {% endfor %}
+</div>

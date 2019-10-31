@@ -1,36 +1,20 @@
 .cover {
     display: flex;
+    position: relative;
     min-height: 90vh;
-    padding: var(--l--space-s);
-    background: var(--c--theme-bg);
-    color: var(--c--theme-fg);
     justify-content: center;
     align-items: center;
+    z-index: -1;
 }
 
-.c--theme-dark .cover {
-    background: var(--c--theme-gray-1);
-}
-
-.cover--sidebar {
-    color: var(--c--theme-gray-3);
-    padding-top: var(--l--space-s);
-}
-
-@media (min-width: 600px) {
-    .cover [class^=l--col]:not(:first-child) {
-        margin-left: var(--l--space-s);
-    }
-
-    .cover--sidebar {
-        padding-left: var(--l--space-s);
-        border-left: 1px solid var(--c--theme-gray-3);
-        align-self: flex-end;
-    }
-}
-
-@media (max-width: 600px) {
-    .cover {
-        padding-top: var(--l--space-m);
-    }
+.cover--bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 0;
+    opacity: 0.1;
+    background-size: cover;
 }
