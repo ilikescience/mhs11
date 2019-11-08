@@ -4,8 +4,8 @@
     --c--pure-black: #000;
 
     /* grays */
-    --c--gray-10: #faf9f8;
-    --c--gray-20: #e3e0e0;
+    --c--gray-10: hsl(30, 17%, 97%);
+    --c--gray-20: #e1dede;
     --c--gray-30: #c9c6c6;
     --c--gray-40: #a5a1a3;
     --c--gray-50: #777277;
@@ -15,8 +15,8 @@
     --c--gray-90: #18181c;
 
     /* blues */
-    --c--blue-10: #b4c6ff;
-    --c--blue-20: #92acff;
+    --c--blue-10: #e5ebff;
+    --c--blue-20: #a8bcff;
     --c--blue-30: #6d8eff;
     --c--blue-40: #4770fd;
     --c--blue-50: #274dd8;
@@ -65,7 +65,7 @@
     --c--theme-primary: var(--c--blue-40);
 
     /* primary */
-    --c--theme-primary-1: var(--c--blue-80);
+    --c--theme-primary-1: var(--c--blue-70);
     --c--theme-primary-2: var(--c--blue-60);
     --c--theme-primary-3: var(--c--blue-40);
     --c--theme-primary-4: var(--c--blue-30);
@@ -98,7 +98,7 @@
 
     /* primary */
     --c--theme-primary-1: var(--c--blue-10);
-    --c--theme-primary-2: var(--c--blue-30);
+    --c--theme-primary-2: var(--c--blue-20);
     --c--theme-primary-3: var(--c--blue-50);
     --c--theme-primary-4: var(--c--blue-70);
     --c--theme-primary-5: var(--c--blue-90);

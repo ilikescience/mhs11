@@ -1,9 +1,25 @@
-.footnote-ref a,
-.footnote-backref {
-    color: var(--c--theme-primary);
+.footnote-ref a {
+    display: inline-block;
+    width: 2em;
+    height: 1.5em;
+    margin: 0 0.25em;
+    background: var(--c--theme-gray-1);
+    color: var(--c--theme-gray-4);
     font-family: var(--t--family-sans);
     font-size: 0.75em;
+    line-height: 1.5em;
+    text-align: center;
+    border-radius: 1.5em;
     text-decoration: none;
+}
+
+.footnote-backref {
+    text-decoration: none;
+    color: var(--c--theme-gray);
+}
+
+.footnote-ref a:hover {
+    background: var(--c--theme-gray-2);
 }
 
 .footnotes p,
