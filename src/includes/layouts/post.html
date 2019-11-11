@@ -3,15 +3,15 @@ layout: layouts/default.html
 ---
 
 <header class="l--grid-narrow">
-    <div class="l--mar-top-m l--mar-btm-m l--space-compact t--align-center">
-        <h1>
+    <div class="l--mar-top-l l--mar-btm-m l--space-compact">
+        <h1 class="t--weight-normal">
             {{ title }}
         </h1>
         <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
 <div class="l--grid-narrow">
-    <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="#999" stroke="#999" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
+    <svg width="100%" height="1em"><defs><pattern id="vwxix" patternUnits="userSpaceOnUse" width="6" height="6"><circle cx="3" cy="3" r="1" fill="var(--c--theme-gray-2)" stroke="var(--c--theme-gray-2)" stroke-width="0"></circle></pattern></defs> <rect width="100%" height="100%" style="fill: url(&quot;#vwxix&quot;);" /></svg>
 </div>
 <article class="post l--grid-narrow">
     {{ content }}
