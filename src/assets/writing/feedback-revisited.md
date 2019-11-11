@@ -91,7 +91,7 @@ It’s tempting to try and sneak feedback into a question. For example, “Why d
 
 Next, it’s time to gather feedback. This is where things get complicated, where empathy and transparency can make or break the process.
 
-If you’re giving feedback, think about your feedback as a **reaction***.* In short, a reaction is a personal response. It usually contains the words “I,” “me,” or “my.” It’s usually based on an impression or subjective interpretation. A reaction is easiest to define by way of example:
+If you’re giving feedback, think about your feedback as a **reaction**. In short, a reaction is a personal response. It usually contains the words “I,” “me,” or “my.” It’s usually based on an impression or subjective interpretation. A reaction is easiest to define by way of example:
 
 **A reaction**: This layout feels really cramped to me.  
  **Not a reaction**: Add more whitespace.

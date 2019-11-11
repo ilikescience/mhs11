@@ -20,7 +20,7 @@ If you look close enough at your production code, you'll see the tell-tale signs
 
 This underwhelming realization is what I like to call a Black Triangle moment, after [Jay Barnson's story of building games](http://rampantgames.com/blog/?p=7745):
 
-<div style="background: rgba(0, 0, 0, 0.075); padding: 1.25em; margin: 3em 0" markdown="1">
+<div style="background: rgba(0, 0, 0, 0.075); padding: 1.25em; margin: 3em 0">
 
 <span style="color: #333; float: left; font-size: 2.5em; line-height: 1; margin-right: 10px;">▲</span> In October of 1994, I’d just started as an honest-to-goodness videogame programmer at a small startup called SingleTrac which later went on to fame and glory (but unfortunately not much in the way of fortune) with such titles as **Warhawk**, the **Twisted Metal** series, and the **Jet Moto** series. But at the time, the company was less than 20 employees in size and had only been officially in business for about a month. It was sometime in my first week possibly my first or second day. In the main engineering room, there was a whoop and cry of success.
 

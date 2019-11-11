@@ -24,7 +24,7 @@ As we continue our pursuit of accessibility across all of WSJ.com, I’d like to
 
 Last November, I set out to write accessibility guidelines for the WSJ.com team. I wanted to tackle the hardest question first: what does accessibility mean? After lots of writing and editing, I had the following:
 
-<div style="background: rgba(255, 255, 0, 0.1); padding: 0.5em 1em; margin-bottom: 1em" markdown="1">
+<div style="background: rgba(255, 255, 0, 0.1); padding: 0.5em 1em; margin-bottom: 1em">
 
 ### What is accessibility?
 
@@ -42,6 +42,7 @@ However, **accessibility is for everybody.** Here are some examples of _situatio
 - Cognitive: Listening to a podcast while cooking, making it difficult to pay attention
 
 By adhering to and maintaining these principles and guidelines, we can make our products better for all our users.
+
 </div>
 
 Defining accessibility this way helps us understand just how vital it is to our products. You can read a public version of our guidelines [here](/pages/wsj-accessibility-guidelines).

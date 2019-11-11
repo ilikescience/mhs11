@@ -44,7 +44,7 @@ Pick one to three statements that address your team's needs. Are you working on 
 
 In Bitly's most recent pulse check, we responded to the following statements:
 
-<ol style="list-style-type: lower-alpha" markdown="1">
+<ol style="list-style-type: lower-alpha">
   <li>I like this image.</li>
   <li>This image reflects Bitly's current brand.</li>
   <li>This image is what Bitly should look like in the future.</li>
@@ -234,7 +234,7 @@ You should analyze each statement's ratings for each of the images individually.
 
 Here's a few results from Bitly's most recent pulse check. The statements we rated were:
 
-<ol style="list-style-type: lower-alpha" markdown="1">
+<ol style="list-style-type: lower-alpha">
   <li>I like this image.</li>
   <li>This image reflects Bitly's current brand.</li>
   <li>This image is what Bitly should look like in the future.</li>
@@ -412,18 +412,22 @@ Image three (I3) had low variance, too, but bounced from high ratings to low rat
 
 The facilitator should send out an email after the exercise with a summary of the data, as well as a brief analysis. Here's an example of the data summary from Bitly's most recent pulse check:
 
-<div style="background: rgba(0, 0, 0, 0.025); padding: 0.5em 1em; margin: 2em 0" markdown="1">
+<div style="background: rgba(0, 0, 0, 0.025); padding: 0.5em 1em; margin: 2em 0">
+
 **a. "I like this"**
 1. On average, images 16 and 19 scored highest at an even 4.
 2. On average, image 13 scored the lowest. Tied for second are images 12 and 23.
 3. We largely agreed on images 1, 11, and 15 — all of them ranked either 4 or 3.
 4. We disagreed on images 7, 9, 14, 21, 23, and 24 — all of them ranged from 1 to 5.
+
 </div>
 
 And here's part of the analysis I wrote to accompany the data:
 
-<div style="background: rgba(0, 0, 0, 0.025); padding: 0.5em 1em; margin: 2em 0" markdown="1">
+<div style="background: rgba(0, 0, 0, 0.025); padding: 0.5em 1em; margin: 2em 0">
+
 **We can agree on important things.** We ranked four images very similarly for "this aligns with bitly's brand" and three for "this is what Bitly should be in the future." This means that while we might have different personal tastes, we can align around the Bitly brand.
+
 </div>
 
 If you're the facilitator, be mindful of bias: try to be as informative as possible without judging the team. Teams that aren't very aligned need as much information as possible to guide them. Teams that are highly aligned need to pay more attention to the details to avoid complacency.
