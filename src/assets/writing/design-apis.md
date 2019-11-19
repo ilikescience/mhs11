@@ -12,7 +12,7 @@ tags: [design]
 
 ![](/images/design-apis-02.jpg)
 
-Design systems enable designers and developers to quickly create quality software on a massive scale. As the needs of software-driven business grow even larger, design systems are evolving. They are beginning to look and work like APIs.
+Design systems enable designers and developers to quickly create quality software on a massive scale. As the needs of software-driven businesses grow even larger, design systems are evolving — they are beginning to look and work like APIs.
 
 In software development, “API” stands for “Application Programming Interface.” An API is a reliable way for two or more programs to cooperate. It allows programs to work together despite differences in hardware, language, architecture, or other operating constraints.
 
