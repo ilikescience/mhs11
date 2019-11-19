@@ -1,8 +1,8 @@
 ---
-title: 'Design APIs: The Next Evolution of Design Systems'
+title: 'Design APIs: The Evolution of Design Systems'
 og:
-  title: 'Design APIs: The Next Evolution of Design Systems'
-  description: What can design do for machine learning? What can machine learning do for design?
+  title: 'Design APIs: The Evolution of Design Systems'
+  description: An exporation of how an API for design decisions works
   image: /images/design-apis-02.jpg
   image_width: 1600
   image_height: 988
