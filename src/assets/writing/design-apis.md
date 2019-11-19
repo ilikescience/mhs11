@@ -3,12 +3,14 @@ title: 'Design APIs: The Next Evolution of Design Systems'
 og:
   title: 'Design APIs: The Next Evolution of Design Systems'
   description: What can design do for machine learning? What can machine learning do for design?
-  image: /images/design-ml-1.jpg
-  image_width: 1200
-  image_height: 675
+  image: /images/design-apis-02.jpg
+  image_width: 1600
+  image_height: 988
 date: 2019-10-30
 tags: [design]
 ---
+
+![](/images/design-apis-02.jpg)
 
 Design systems enable designers and developers to quickly create quality software on a massive scale. As the needs of software-driven business grow even larger, design systems are evolving. They are beginning to look and work like APIs.
 
