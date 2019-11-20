@@ -17,6 +17,11 @@ pre[class*='language-'] {
     overflow: auto;
 }
 
+p code {
+    padding: 0.2em;
+    background: var(--c--theme-gray-1);
+}
+
 .token.comment,
 .token.prolog,
 .token.doctype,

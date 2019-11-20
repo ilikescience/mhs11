@@ -1,27 +1,27 @@
 .table-of-contents {
     position: relative;
-    padding: var(--l--space-m) var(--l--space-s) var(--l--space-s);
+    padding: calc(var(--l--space-m) + 1em) var(--l--space-m) var(--l--space-s);
     background: var(--c--theme-gray-1);
+    font-family: var(--t--family-sans);
 
     &::before {
-        content: 'Contents';
+        content: 'Table of contents';
         position: absolute;
-        top: var(--l--space-s);
-        left: var(--l--space-s);
-        font-family: var(--t--family-serif);
-        font-size: 1.25em;
+        top: calc(var(--l--space-s) + 0.5em);
+        left: var(--l--space-m);
+        text-transform: uppercase;
+        font-weight: var(--t--weight-bold);
     }
 
     & ol {
         margin: 0;
-        padding-left: var(--l--space-s);
+        padding-left: 0;
+        font-family: var(--t--family-sans);
+        list-style: none;
 
         & ol {
-            list-style-type: lower-alpha;
-
-            & ol {
-                list-style-type: lower-roman;
-            }
+            list-style-type: none;
+            padding-left: var(--l--space-s);
         }
     }
 
