@@ -6,7 +6,7 @@ og:
   image: /images/design-apis-02.jpg
   image_width: 1600
   image_height: 988
-date: 2019-10-30
+date: 2019-11-20
 tags: [design]
 ---
 
