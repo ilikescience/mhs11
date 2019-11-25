@@ -30,7 +30,7 @@ If you’re a designer or developer, there’s already an API layer between you 
 
 For instance, at Bitly (where I work), designers provide information about design decisions in the form of Sketch files in a tool called Abstract. We’re working with engineers to make sure the format works for everyone as an efficient and accurate way to share specifications.
 
-These standards and informal working agreements look a lot like the beginnings of an API. But  our documentation doesn’t look much like a typical API’s documentation (for an example of a well-documented API, see [Stripe’s API reference](https://stripe.com/docs/api)). The design team hasn’t listed any endpoints. There are no sample requests to learn from, or expected return values to test against. Our pseudo-API doesn’t have an uptime guarantee, a service-level agreement, or rate limits. It also don’t fail very gracefully. When something goes wrong, no errors are thrown, and nobody’s pager goes off.
+These standards and informal working agreements look a lot like the beginnings of an API. But our documentation  isn't like a typical API’s documentation (for an example of a well-documented API, see [Stripe’s API reference](https://stripe.com/docs/api)). The design team hasn’t listed any endpoints. There are no sample requests to learn from, or expected return values to test against. Our pseudo-API doesn’t have an uptime guarantee, a service-level agreement, or rate limits. It also doesn't fail very gracefully. When something goes wrong, no errors are thrown, and nobody’s pager goes off.
 
 A small team can work through this uncertainty without losing much productivity. But as a team grows, it needs a clearer contract between designers and developers.
 
