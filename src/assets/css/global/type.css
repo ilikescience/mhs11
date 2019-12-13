@@ -129,7 +129,7 @@ h2,
 h3 {
     font-family: var(--t--family-serif);
     margin-top: var(--l--space-m);
-    line-height: 1em;
+    line-height: 1.1em;
 
     & + h1,
     & + h2,
