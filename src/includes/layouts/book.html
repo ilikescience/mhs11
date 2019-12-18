@@ -1,0 +1,30 @@
+---
+layout: layouts/default.html
+---
+
+<div class="l--grid-wide l--flex l--mar-top-l l--mar-btm-s ">
+    <div class="l--flex-onethird">
+        <img src="{{cover}}" alt="The cover of {{title}}" class="l--pad-right-s">
+    </div>
+    <div class="l--flex-twothirds">
+        <header class="l--space-flush">
+            <h1 class="t--weight-normal book--title">
+                {{ title }}
+            </h1>
+            <h2 class="t--weight-normal t--family-sans c--gray">
+                {{ subtitle }}
+            </h2>
+            <p class="c--gray l--mar-top-s">
+                by {{ author }}  
+                {% if favorite %}
+                    <span class="book--favorite">&starf;</span>
+                {% endif %}
+            </p>
+        </header>
+        <article>
+            <div class="post l--mar-top-s">
+                {{ content }}
+            </div>
+        </article>
+    </div>
+</div>
