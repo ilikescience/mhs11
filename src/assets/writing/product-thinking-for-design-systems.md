@@ -60,7 +60,7 @@ A market analysis using these four questions serves as a foundation for the othe
 
 ## Idea 2: Jobs to be Done
 
-“Jobs to be Done” is a framework developed by leaders like Tony Ulwick and Clayton Christiansen to address a fundamental question in product development: how do you build something that customers want? The Jobs to be Done approach starts with a straightforward mission: build something that helps users achieve a meaningful outcome. The simplest illustration of this approach is a quote popularized by Theodore Levitt: “People don't want to buy a quarter-inch drill. They want a quarter-inch hole!” Jobs to be Done says that people only buy a drill because it helps them make a hole. “Make a hole” is the job that a customer asks — “hires,” in Jobs-to-be-Done parlance — the drill to do.
+“Jobs to be Done” is a framework developed by leaders like Tony Ulwick and Clayton Christensen to address a fundamental question in product development: how do you build something that customers want? The Jobs to be Done approach starts with a straightforward mission: build something that helps users achieve a meaningful outcome. The simplest illustration of this approach is a quote popularized by Theodore Levitt: “People don't want to buy a quarter-inch drill. They want a quarter-inch hole!” Jobs to be Done says that people only buy a drill because it helps them make a hole. “Make a hole” is the job that a customer asks — “hires,” in Jobs-to-be-Done parlance — the drill to do.
 
 What jobs could your design system do for the people who use it (the people you identified in your market analysis)? What do they currently use to do those jobs instead? When working on your design system, write down some of these jobs and consider if your product is going to be hired or not. Here are some examples of jobs your design system might do:
 
@@ -77,7 +77,7 @@ For your design system to succeed, it has to be better at users’ jobs than not
 
 ## Idea 3: Data-driven product development
 
-Data is the defining tool of modern management. The more data a manager can utilize, the better their decisions are — at least, that’s the theory. In [“Big Data: The Management Revolution](https://hbr.org/2012/10/big-data-the-management-revolution),” Andrew McAfee and Erik Brynjolfsson write that “data … allows more-accurate predictions, better decisions, and precise interventions, and can enable these things at seemingly limitless scale.” The authors provide examples of what they consider a “fundamental transformation of the economy,” predicting that “almost no sphere of business activity will remain untouched by this movement.”
+Data is the defining tool of modern management. The more data a manager can utilize, the better their decisions are — at least, that’s the theory. In "[Big Data: The Management Revolution](https://hbr.org/2012/10/big-data-the-management-revolution),” Andrew McAfee and Erik Brynjolfsson write that “data … allows more-accurate predictions, better decisions, and precise interventions, and can enable these things at seemingly limitless scale.” The authors provide examples of what they consider a “fundamental transformation of the economy,” predicting that “almost no sphere of business activity will remain untouched by this movement.”
 
 If this prognosis is correct, we should expect data to drive better outcomes for design systems as well.
 
