@@ -2,7 +2,7 @@
 title: Thinking in Bets
 subtitle: Making Smarter Decisions When You Don’t Have All the Facts
 author: Annie Duke
-year: 2018
+date: 2018-10-18
 cover: /images/book-13.jpg
 ---
 

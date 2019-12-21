@@ -1,7 +1,7 @@
 ---
 title: 'Dreaming the Beatles'
 subtitle: The Love Story of One Band and the Whole World
-year: 2018
+date: 2018-01-04
 author: Rob Sheffield
 cover: /images/book-0.jpg
 ---

@@ -2,7 +2,7 @@
 title: The Wizard and the Prophet
 subtitle: Two Remarkable Scientists and Their Dueling Visions to Shape Tomorrow’s World
 author: Charles C. Mann
-year: 2018
+date: 2018-09-30
 cover: /images/book-12.jpg
 ---
 

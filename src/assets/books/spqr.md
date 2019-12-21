@@ -1,7 +1,7 @@
 ---
 title: SPQR
 subtitle: A History of Ancient Rome
-year: 2018
+date: 2018-08-01
 author: Mary Beard
 cover: /images/book-9.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 title: The 2020 Commission Report on the North Korean Nuclear Attacks Against the United States
 subtitle: A Speculative Novel
-year: 2018
+date: 2018-08-30
 author: Jeffrey Lewis
 cover: /images/book-11.jpg
 ---

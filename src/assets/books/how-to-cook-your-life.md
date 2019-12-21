@@ -2,7 +2,7 @@
 title: How To Cook Your Life
 subtitle: From the Zen Kitchen to Enlightenment
 author: Dōgen Zenji and Kōshō Uchiyama
-year: 2018
+date: 2018-10-25
 cover: /images/book-14.jpg
 favorite: true
 ---

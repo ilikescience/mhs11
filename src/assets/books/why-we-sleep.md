@@ -1,7 +1,7 @@
 ---
 title: Why We Sleep
 subtitle: Unlocking the Power of Sleep and Dreams
-year: 2018
+date: 2018-08-12
 author: Matthew Walker
 cover: /images/book-10.jpg
 ---

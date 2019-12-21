@@ -1,6 +1,6 @@
 ---
 title: On Grand Strategy
-year: 2018
+date: 2018-06-15
 author: John Lewis Gaddis
 cover: /images/book-8.jpg
 ---

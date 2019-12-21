@@ -1,7 +1,7 @@
 ---
 title: Predictably Irrational
 subtitle: The Hidden Forces That Shape Our Decisions
-year: 2018
+date: 2018-12-29
 author: Dan Ariely
 cover: /images/book-17.jpg
 ---

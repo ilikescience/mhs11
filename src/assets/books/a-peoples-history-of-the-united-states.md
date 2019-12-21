@@ -1,6 +1,6 @@
 ---
 title: A People's History of the United States
-year: 2018
+date: 2018-11-07
 author: Howard Zinn
 cover: /images/book-16.jpg
 favorite: true

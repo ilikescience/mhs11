@@ -1,6 +1,6 @@
 ---
 title: 'The Foundation Trilogy'
-year: 2018
+date: 2018-03-25
 author: Isaac Asimov
 cover: /images/book-3.jpg
 ---

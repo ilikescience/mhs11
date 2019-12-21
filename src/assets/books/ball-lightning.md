@@ -1,6 +1,6 @@
 ---
 title: Ball Lightning
-year: 2018
+date: 2018-12-10
 author: Cixin Liu
 cover: /images/book-15.jpg
 ---

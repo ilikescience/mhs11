@@ -1,6 +1,6 @@
 ---
 title: Why Buddhism is True
-year: 2018
+date: 2018-03-08
 author: Robert Wright
 cover: /images/book-2.jpg
 favorite: true

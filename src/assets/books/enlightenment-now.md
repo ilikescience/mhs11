@@ -1,7 +1,7 @@
 ---
 title: Enlightenment Now
 subtitle: The Case for Reason, Science, Humanism, and Progress
-year: 2018
+date: 2018-04-03
 author: Steven Pinker
 cover: /images/book-4.jpg
 ---

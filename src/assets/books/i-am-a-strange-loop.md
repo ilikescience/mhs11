@@ -1,6 +1,6 @@
 ---
 title: 'I Am A Strange Loop'
-year: 2018
+date: 2018-02-14
 author: Douglas R. Hofstadter
 cover: /images/book-1.jpg
 ---

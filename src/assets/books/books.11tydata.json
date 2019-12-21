@@ -1,3 +1,4 @@
 {
-    "layout": "layouts/book.html"
+    "layout": "layouts/book.html",
+    "tags": ["books"]
 }

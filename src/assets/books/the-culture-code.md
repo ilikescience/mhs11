@@ -1,6 +1,6 @@
 ---
 title: The Culture Code
-year: 2018
+date: 2018-06-18
 author: Daniel Coyle
 cover: /images/book-6.jpg
 ---
