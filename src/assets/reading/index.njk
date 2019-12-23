@@ -3,7 +3,7 @@ layout: layouts/home.html
 eleventyExcludeFromCollections: true
 ---
 
-{% for book in collections.books | reverse %}
+{% for book in collections.reading | reverse %}
     {% if book.date | year != lastDate | default('0', true) %}
         <div class="year l--grid-pull-left l--mar-top-s">
         <h2 class="l--mar-top-none">{{book.date|year}}</h2>
