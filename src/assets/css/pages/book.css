@@ -6,3 +6,11 @@
     display: inline-block;
     color: var(--c--theme-gray-2);
 }
+
+.book a {
+    font-size: 1.2em;
+}
+
+.year + .book {
+    margin-top: var(--l--space-s);
+}

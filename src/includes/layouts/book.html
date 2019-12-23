@@ -4,11 +4,14 @@ layout: layouts/default.html
 
 <div class="l--grid-wide l--flex l--mar-top-l l--mar-btm-s ">
     <div class="l--flex-onethird">
-        <img src="{{cover}}" alt="The cover of {{title}}" class="l--pad-right-s">
+        <img src="{{cover}}" alt="The cover of {{title}}" class="l--pad-right-s" loading="lazy">
     </div>
     <div class="l--flex-twothirds">
-        <header class="l--space-flush">
-            <h1 class="t--weight-normal book--title">
+        <header class="l--space-flush l--mar-top-m l--mar-btm-m">
+            <div class="book--backlink">
+                <a href="/reading" class="c--gray t--decoration-none">← All books</a>
+            </div>
+            <h1 class="t--weight-normal book--title l--mar-top-none">
                 {{ title }}
             </h1>
             <h2 class="t--weight-normal t--family-sans c--gray">
