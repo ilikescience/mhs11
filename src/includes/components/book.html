@@ -1,0 +1,10 @@
+<div class="book">
+    <div class="l--space-flush">
+        <h2>{{ book.data.title }}</h2>
+        <span class="c--gray">
+        by {{ book.data.author }} {% if book.data.favorite %}<span class="book--favorite">&starf;</span>{% endif %}
+        </span>
+    </div>
+{{ book.templateContent }}
+</div>
+</div>

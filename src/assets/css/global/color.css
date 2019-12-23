@@ -110,7 +110,7 @@
 
     /* grays */
     --c--theme-gray-1: var(--c--gray-10);
-    --c--theme-gray-2: var(--c--gray-30);
+    --c--theme-gray-2: var(--c--gray-20);
     --c--theme-gray-3: var(--c--gray-50);
     --c--theme-gray-4: var(--c--gray-70);
     --c--theme-gray-5: var(--c--gray-90);

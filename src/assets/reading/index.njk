@@ -1,0 +1,22 @@
+---
+layout: layouts/home.html
+eleventyExcludeFromCollections: true
+---
+
+{% for book in collections.reading | reverse %}
+    {% if book.date | year != lastDate | default('0', true) %}
+        <div class="year l--grid-pull-left l--mar-top-s">
+        <h2 class="l--mar-top-none">{{book.date|year}}</h2>
+        {% set lastDate = book.date | year %}
+        </div>
+    {% endif %}
+    <div class="book l--grid-narrow l--mar-top-none">
+        <a class="t--family-serif" href="{{ book.url }}">{{ book.data.title }}</a>
+        <span class="c--gray">
+            by {{ book.data.author }}  
+            {% if book.data.favorite %}
+                <span class="book--favorite">&starf;</span>
+            {% endif %}
+        </span>
+    </div>
+{% endfor %}
