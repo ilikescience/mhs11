@@ -21,10 +21,12 @@ eleventyExcludeFromCollections: true
             {%- if loop.index0 == 0 -%}
                 <div class="post">
                     {%- if post.data.og.image -%}
-                        <img src="{{post.data.og.image}}">
+                        <a href="{{ post.url }}">
+                            <img src="{{post.data.og.image}}">
+                        </a>
                     {%- endif -%}
                     <h2>
-                        <a class="t--decoration-none" href="{{ post.url }}">
+                        <a class="t--decoration-none t--weight-normal" href="{{ post.url }}">
                             {{ post.data.title }}
                         </a>
                     </h2>
@@ -44,7 +46,7 @@ eleventyExcludeFromCollections: true
             </a>
         </div>
         <h2>
-            <a class="t--decoration-none" rel="noopener" target="_blank" href="https://noti.st/mattstrom/BESHjt/designing-change">Designing Change</a>
+            <a class="t--decoration-none t--weight-normal" rel="noopener" target="_blank" href="https://noti.st/mattstrom/BESHjt/designing-change">Designing Change</a>
         </h2>
         <div>
             <a href="/speaking">All speaking &rarr;</a>

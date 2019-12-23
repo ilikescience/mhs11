@@ -7,6 +7,7 @@ og:
   image_width: 1024 
   image_height: 768
 date: 2019-01-20
+tags: books
 ---
 
 I read 20-ish books in 2018. I think this is a personal record, and I owe it largely to a group of friends called the "Asynchronous Book Club," or ABC for short. To wrap up the year, and to help my poor swiss-cheese memory, I'd like to share a quick comment on each in case you're interested in picking up a new book.
