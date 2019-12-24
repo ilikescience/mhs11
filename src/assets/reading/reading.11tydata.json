@@ -1,4 +1,5 @@
 {
     "layout": "layouts/book.html",
-    "tags": ["reading"]
+    "tags": ["reading"],
+    "activePage": "reading"
 }
