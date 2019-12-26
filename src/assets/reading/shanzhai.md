@@ -1,7 +1,7 @@
 ---
 title: Shanzhai
 subtitle: Deconstruction in Chinese
-date: 2019-12-21
+date: 2019-12-11
 author: Byung-Chul Han and Philippa Hurd
 cover: /images/book-shanzhai.jpg
 ---
