@@ -27,13 +27,7 @@ A/B tests are easy to understand, which explains their popularity in modern soft
 
 In _The Society Of Mind_, Marvin Minsky explored a phenomenon that I experience every day as a designer: people often prefer one thing over another, even when they can’t explain their preference.
 
-
-> We often speak of this with mixtures of defensiveness and pride.<br/>
-> “Art for Art’s sake."<br/>
-> “l find it aesthetically pleasing."<br/>
-> "l just like it."<br/>
-> “There's no accounting for it."<br/>
->  Why do we take refuge in such vague, defiant declarations? ”There's no accounting for it" sounds like a guilty child who's been told to keep accounts. And “I just like it" sounds like a person who is hiding reasons too unworthy to admit.
+> We often speak of this with mixtures of defensiveness and pride.<br/>“Art for Art’s sake."<br/>“l find it aesthetically pleasing."<br/>"l just like it."<br/>“There's no accounting for it."<br/>Why do we take refuge in such vague, defiant declarations? ”There's no accounting for it" sounds like a guilty child who's been told to keep accounts. And “I just like it" sounds like a person who is hiding reasons too unworthy to admit.
 
 Minsky recognized that our capriciousness serves a few purposes: We tend to prefer familiar things over unfamiliar. We prefer consistency to avoid distraction. We prefer the convenience of order to the vulnerability of individualism. All of these explanations boil down to one observation, which Minsky attributes to Edward Fredkin:
 
