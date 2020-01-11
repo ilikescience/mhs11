@@ -3,11 +3,11 @@ title: People alignment vs. purpose alignment
 tags: [process]
 og:
   title: People alignment vs. purpose alignment
-  description: When too much alignment can go wrong, and how to avoid it
+  description: When too much alignment goes wrong, and how to seek the right kind of alignment
   image: /images/alignment.jpg
   image_width: 1400
   image_height: 774
-date: 2020-01-10
+date: 2020-02-03
 ---
 
 ![](/images/alignment.jpg)
