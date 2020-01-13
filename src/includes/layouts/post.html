@@ -17,32 +17,34 @@ layout: layouts/default.html
     {{ content }}
 </article>
 {%- if tags.size > 1 -%}
-    <aside class="l--space-compact l--mar-top-m l--mar-btm-m l--grid-narrow">
-        {%- assign related = '' -%}
-        {%- assign relatedPost = '' -%}
-        {%- for tag in tags -%}
-            {%- if tag == 'writing' -%}
-            {%- else -%}
-                {%- assign related = tag -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {%- if collections[related].size > 0 -%}
-            <div>More writing about <strong>{{related}}:</strong></div>
-            {%-  for post in collections[related] -%}
-                {%- unless post.url == page.url -%}
-                    {%- assign relatedPost = post -%}
-                {%- endunless -%}
-            {%- endfor -%}
+    {%- assign related = '' -%}
+    {%- assign relatedPost = '' -%}
+    {%- for tag in tags -%}
+        {%- if tag == 'writing' -%}
+        {%- else -%}
+            {%- assign related = tag -%}
         {%- endif -%}
-        <h2>
-            {%- if relatedPost.data.external -%}
-                <a href="{{ relatedPost.data.external_url }}" target="blank" rel="noopener">{{ relatedPost.data.title }}</a> &nearr;
-            {%- else -%}
-                <a href="{{ relatedPost.url }}">{{ relatedPost.data.title }}</a>
-            {%- endif -%}
-        </h2>
-        <div class="c--gray">Published {{ relatedPost.date | date: "%m/%d/%y" }}</div>
-    </aside>
+    {%- endfor -%}
+    {%- if collections[related].size > 1 -%}
+        <aside class="l--space-compact l--mar-top-m l--mar-btm-m l--grid-narrow">
+                <div>More writing about <strong>{{related}}:</strong></div>
+                {%-  for post in collections[related] -%}
+                    {%- unless post.url == page.url -%}
+                        {%- assign relatedPost = post -%}
+                    {%- endunless -%}
+                {%- endfor -%}
+            <h2>
+                {%- if relatedPost.data.external -%}
+                    <a href="{{ relatedPost.data.external_url }}" target="blank" rel="noopener">{{ relatedPost.data.title }}</a> &nearr;
+                {%- else -%}
+                    <a href="{{ relatedPost.url }}">{{ relatedPost.data.title }}</a>
+                {%- endif -%}
+            </h2>
+            <div class="c--gray">Published {{ relatedPost.date | date: "%m/%d/%y" }}</div>
+        </aside>
+    {%- else -%}
+        <div class="l--grid-narrow spacer l--mar-top-m"></div>
+    {%- endif -%}
 {%- endif -%}
 <aside class="l--grid-narrow">
     {%- include components/email.html -%}
