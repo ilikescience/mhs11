@@ -1,8 +1,8 @@
 ---
-title: Who Are Design Systems For?
+title: Who are design systems for?
 tags: [design systems, design]
 og:
-  title: Who Are Design Systems For?
+  title: Who are design systems for?
   description: Design Systems aren't just for designers anymore.
   image: /images/default.png
   image_width: 750 

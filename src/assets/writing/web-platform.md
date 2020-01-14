@@ -1,5 +1,5 @@
 ---
-title:  "Why the Web Will Win"
+title:  "Why the web will win"
 date:   2018-01-06
 tags:
   - the internet

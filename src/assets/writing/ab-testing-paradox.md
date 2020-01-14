@@ -1,8 +1,8 @@
 ---
-title: The Paradox at the Heart of A/B Testing
+title: The paradox at the heart of A/B testing
 tags: [marketing, growth]
 og:
-  title: The Paradox at the Heart of A/B Testing
+  title: The paradox at the heart of A/B testing
   description: The fundamental ideas of A/B tests contain a contradiction that calls their value into question.
   image: /images/paradox-ab-testing.jpg
   image_width: 1200

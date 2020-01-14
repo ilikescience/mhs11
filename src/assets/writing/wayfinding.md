@@ -1,8 +1,8 @@
 ---
-title: The Slippery Slope of In-Product Messaging
+title: The slippery slope of in product messaging
 tags: design
 og:
-  title: The Slippery Slope of In-Product Messaging
+  title: The slippery slope of in product messaging
   description: Instead of adding a sign, solve the problem
   image: /images/wayfinding-2.jpg
   image_width: 800

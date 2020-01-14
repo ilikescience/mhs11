@@ -1,10 +1,10 @@
 ---
-title: The Inevitable Same-ification of the Internet
+title: The inevitable same-ification of the internet
 tags:
   - design
   - the internet
 og:
-  title: The Inevitable Same-ification of the Internet
+  title: The inevitable same-ification of the internet
   description: Why all websites are destined to look the same
   image: /images/same-0.jpg
   image_width: 1200

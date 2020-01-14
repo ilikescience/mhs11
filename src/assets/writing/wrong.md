@@ -1,5 +1,5 @@
 ---
-title:  "What Happens When Things Go Wrong"
+title:  "What happens when things go wrong"
 date:   2014-05-06
 tags: [writing, work]
 ---

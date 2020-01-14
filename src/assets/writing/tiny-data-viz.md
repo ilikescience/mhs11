@@ -1,5 +1,5 @@
 ---
-title:  "Tiny Data Visualizations"
+title:  "Tiny data visualizations"
 date:   2016-02-08
 tags: [writing, design]
 ---

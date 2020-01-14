@@ -1,7 +1,7 @@
 ---
-title: Intuition vs. Data
+title: Intuition vs. data
 og:
-  title: Intuition vs. Data
+  title: Intuition vs. data
   description: In a data-driven world, learn when to trust your intuition
   image: /images/intuition-1.jpg?v=1
   image_width: 1200

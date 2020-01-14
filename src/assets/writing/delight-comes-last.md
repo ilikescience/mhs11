@@ -1,7 +1,7 @@
 ---
-title: Delight Comes Last
+title: Delight comes last
 og:
-  title: Delight Comes Last
+  title: Delight comes last
   description: Solve the harder problems of product design first
   image: /images/delight-0.jpg?1
   image_width: 1940 

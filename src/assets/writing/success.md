@@ -1,5 +1,5 @@
 ---
-title:  "Taking Credit for Success"
+title:  "Taking credit for success"
 date:   2014-05-08
 tags: [writing, work]
 ---

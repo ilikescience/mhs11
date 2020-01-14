@@ -1,7 +1,7 @@
 ---
-title: Product Thinking is a Lifeline for Struggling Design Systems
+title: Product thinking is a lifeline for struggling design systems
 og:
-  title: Product Thinking is a Lifeline for Struggling Design Systems
+  title: Product thinking is a lifeline for struggling design systems
   description: Treat your design system like a standalone product and watch it grow
   image: /images/product-thinking-1.jpg
   image_width: 1600

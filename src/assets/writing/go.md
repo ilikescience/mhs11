@@ -1,5 +1,5 @@
 ---
-title:  "Asymmetrical Symmetry"
+title:  "Asymmetrical symmetry"
 date:   2014-05-16
 tags: [writing, design]
 ---

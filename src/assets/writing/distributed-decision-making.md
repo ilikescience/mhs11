@@ -1,7 +1,7 @@
 ---
-title: "The Management Strategy That Saved Apollo 11"
+title: "The management strategy that saved Apollo 11"
 og:
-  title: Distributed Decision-making
+  title: Distributed decision-making
   description: The management strategy that saved Apollo 11
   image: /images/distributed-0.jpg
   image_width: 2000 

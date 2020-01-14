@@ -1,8 +1,8 @@
 ---
-title: Research, Empathy, Simplicity, Speed
+title: Research, empathy, simplicity, speed
 tags: design
 og:
-  title: Research, Empathy, Simplicity, Speed
+  title: Research, empathy, simplicity, speed
   description: Four ingredients for great digital products
   image: /images/recipe-0.jpg
   image_width: 1400 

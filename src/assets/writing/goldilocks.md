@@ -1,5 +1,5 @@
 ---
-title:  "Goldilocks Your Graphs"
+title:  "Goldilocks your graphs"
 date: 2015-11-11
 tags: [writing, design]
 ---

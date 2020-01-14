@@ -1,5 +1,5 @@
 ---
-title:  "Practice Makes perfect"
+title:  "Practice makes perfect"
 date:   2014-04-09
 tags: writing
 ---

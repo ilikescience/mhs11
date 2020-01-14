@@ -1,7 +1,7 @@
 ---
-title: Making an Audio Waveform Visualizer with Vanilla JavaScript
+title: Making an audio waveform visualizer with vanilla java script
 og:
-  title: Making an Audio Waveform Visualizer with Vanilla JavaScript
+  title: Making an audio waveform visualizer with vanilla java script
   description: An article on CSS Tricks
 date: 2019-11-12
 tags: [code, javascript]

@@ -1,8 +1,8 @@
 ---
-title: How To Have More Inclusive Meetings
+title: How to have more inclusive meetings
 tags: [work, culture]
 og:
-  title: How To Have More Inclusive Meetings
+  title: How to have more inclusive meetings
   description: Practical advice for facilitators and participants
   image: /images/meetings-0.png
   image_width: 1621 

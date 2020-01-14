@@ -1,5 +1,5 @@
 ---
-title: Just-in-time Design
+title: Just-in-time design
 tags: [design, process]
 og:
   title: Just-in-time Design

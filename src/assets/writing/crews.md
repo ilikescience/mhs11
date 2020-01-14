@@ -1,5 +1,5 @@
 ---
-title:  "Flight Crews Don't Decide Where To Fly"
+title:  "Flight crews don't decide where to fly"
 tags: [work]
 date: 2018-02-11
 ---

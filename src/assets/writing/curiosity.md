@@ -1,5 +1,5 @@
 ---
-title:  "Be Curious"
+title:  "Be curious"
 date:   2014-01-28
 ---
 

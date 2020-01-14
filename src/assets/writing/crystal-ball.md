@@ -1,9 +1,9 @@
 ---
-title:  Crystal Ball 1-on-1s
+title:  Crystal ball 1-on-1s
 tags: [work, management]
 date: 2018-03-25
 og:
-  title: Crystal Ball 1-on-1s
+  title: Crystal ball 1-on-1s
   description: One question to make your 1-on-1s better
   image: /images/crystal-1.jpg
   image_width: 1400

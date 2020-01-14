@@ -1,5 +1,5 @@
 ---
-title:  "Datum Ipsum"
+title:  "Datum ipsum"
 date:   2016-07-27
 tags: [writing, design, code]
 ---

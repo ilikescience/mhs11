@@ -1,10 +1,10 @@
 ---
-title: Responsive Roadmaps
+title: Responsive roadmaps
 tags:
   - product
   - process
 og:
-  title: Responsive Roadmaps
+  title: Responsive roadmaps
   description: How to chart a course through uncertainty
   image: /images/maps-5.jpg
   image_width: 1200
@@ -104,7 +104,7 @@ Creating a responsive roadmap doesn’t require fancy software. All you need is:
 
 1. **We know what our objective is.**  \
 If false, spend the meeting defining objectives. If true, continue →
-2. **We have a measurable key results that will tell us if we’re on the right track.** \
+2. **We have a measurable key result that will tell us if we’re on the right track.** \
 If false, spend the meeting defining key results. If true, continue →
 3. **We have a concrete target that will move the needle of our key result.** \
 If false, spend the meeting defining targets. If true, continue →

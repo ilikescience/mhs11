@@ -1,5 +1,5 @@
 ---
-title: Using Netlify to Build an Email Sign-Up Widget
+title: Using Netlify to build an email sign-up widget
 og:
   title: Using Netlify Forms and Netlify Functions to Build an Email Sign-Up Widget
   description: An article on CSS Tricks
