@@ -1,5 +1,5 @@
 ---
-title:  "Well-Designed Interfaces Look Boring"
+title:  "Well-designed interfaces look boring"
 date:   2015-07-15
 tags: [design]
 ---

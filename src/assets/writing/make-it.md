@@ -1,5 +1,5 @@
 ---
-title:  "Make It 'til You Make It"
+title:  "Make it 'til you make it"
 date:   2014-05-15
 tags: [writing, work]
 ---

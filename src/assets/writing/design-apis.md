@@ -1,5 +1,5 @@
 ---
-title: 'Design APIs: The Evolution of Design Systems'
+title: 'Design APIs: the evolution of design systems'
 og:
   title: 'Design APIs: The Evolution of Design Systems'
   description: An exporation of how an API for design decisions works

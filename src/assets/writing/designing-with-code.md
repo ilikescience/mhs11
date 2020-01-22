@@ -1,8 +1,8 @@
 ---
-title: Designing With Code
+title: Designing with code
 tags: [design, code]
 og:
-  title: Designing With Code
+  title: Designing with code
   description: Two cases for code as a design tool
   image: /images/code-0.jpg
   image_width: 1200 

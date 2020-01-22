@@ -1,5 +1,5 @@
 ---
-title:  "Better Problem Solving: Unask the Question"
+title:  "Better problem solving: unask the question"
 date:   2014-05-13
 categories: [writing, philosophy]
 ---

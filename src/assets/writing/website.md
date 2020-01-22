@@ -1,5 +1,5 @@
 ---
-title:  "A Website To Call My Own"
+title:  "A website to call my own"
 date:   2013-12-02
 tags: [writing, code]
 ---

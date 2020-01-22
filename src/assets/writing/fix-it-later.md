@@ -1,9 +1,9 @@
 ---
-title: We'll Fix It Later
+title: We'll fix it later
 categories: writing
 tags: culture
 og:
-  title: We'll Fix It Later
+  title: We'll fix it later
   description: How to convince your team to ship uglier software
   image: /images/fix-0.jpg
   image_width: 600 

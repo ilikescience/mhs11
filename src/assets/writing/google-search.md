@@ -1,7 +1,7 @@
 ---
-title: What Google Search Shows Us About the Future of Product Design
+title: What google search shows us about the future of product design
 og:
-  title: What Google Search Shows Us About the Future of Product Design
+  title: What google search shows us about the future of product design
   description: An article on UX Booth
 date: 2019-09-10
 tags: [design]

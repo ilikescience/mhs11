@@ -1,5 +1,5 @@
 ---
-title:  "Design Better Data Tables"
+title:  "Design better data tables"
 date:   2016-08-03
 tags: [writing, design, code]
 ---

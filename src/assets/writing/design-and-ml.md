@@ -1,7 +1,7 @@
 ---
-title: Design and Machine Learning
+title: Design and machine learning
 og:
-  title: Design and Machine Learning
+  title: Design and machine learning
   description: What can design do for machine learning? What can machine learning do for design?
   image: /images/design-ml-1.jpg
   image_width: 1200

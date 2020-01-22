@@ -1,8 +1,8 @@
 ---
-title: The Design System You Already Have
+title: The design system you already have
 tags: [design, design systems]
 og:
-  title: The Design System You Already Have
+  title: The design system you already have
   description: How to avoid starting from scratch
   image: /images/ds-0.jpg
   image_width: 1200 

@@ -1,5 +1,5 @@
 ---
-title: The 1-hour Design Principles Workshop
+title: The 1-hour design principles workshop
 og:
   title: The 1-hour Design Principles Workshop
   description: How to write design principles as a team

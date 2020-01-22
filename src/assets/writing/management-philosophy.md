@@ -1,8 +1,8 @@
 ---
-title:  My Management Philosophy
+title:  My management philosophy
 tags: [writing, management]
 og:
-  title: My Management Philosphy
+  title: My management philosphy
   description: What my reports can expect from me
   image: /images/management-1.png
   image_width: 1400 

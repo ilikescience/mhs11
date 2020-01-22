@@ -1,5 +1,5 @@
 ---
-title:  "Towards Better Creative Feedback"
+title:  "Towards better creative feedback"
 date:   2015-01-07
 tags: [writing, work]
 ---

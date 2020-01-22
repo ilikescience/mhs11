@@ -1,5 +1,5 @@
 ---
-title:  "Mind the Gap: Designing graphs with missing data"
+title:  "Mind the gap: designing graphs with missing data"
 date:   2015-12-12
 tags: [writing, design]
 ---

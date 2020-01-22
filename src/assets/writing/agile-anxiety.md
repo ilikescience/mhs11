@@ -1,8 +1,8 @@
 ---
-title:  Agile & Anxiety
+title:  Agile & anxiety
 date: 2018-05-14
 og:
-  title: Agile & Anxiety
+  title: Agile & anxiety
   description: Managing work anxiety through better collaboration
   image: /images/anxiety-1.jpg
   image_width: 1600

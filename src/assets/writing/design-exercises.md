@@ -1,9 +1,9 @@
 ---
-title:  Really Bad Design Exercises
+title:  Really bad design exercises
 tags: [writing, design, hiring]
 date: 2018-02-19
 og:
-  title: How to Run a Really Bad Design Exercise
+  title: How to run a really bad design exercise
   description: Design exercises are awful. I have some ideas about making them awful-er.
   image: /images/exercise-0.png
   image_width: 1400

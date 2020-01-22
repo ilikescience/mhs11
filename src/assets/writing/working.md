@@ -1,5 +1,5 @@
 ---
-title: "Working to Work"
+title: "Working to work"
 date: 2014-01-18
 tags: [writing, work]
 ---
