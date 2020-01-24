@@ -18,7 +18,15 @@
         });
     </script>
     <script defer src="/js/main.js"></script>
-    {% if og %}
+    {% if layout == "layouts/book.html" %}
+        <meta property="og:title" content="A review of {{ title }} by {{ author }}" />
+        <meta property="og:url" content="https://matthewstrom.com{{ page.url }}" />
+        <meta property="og:image" content="https://matthewstrom.com{{ cover }}" />
+        <meta property="og:article:published_time" content="{{ date }}" />
+        <meta property="og:article:author" content="Matthew Ström" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator"content="@ilikescience" />
+    {% else if og %}
         <meta property="og:title" content="{{ og.title }}" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://matthewstrom.com{{ page.url }}" />
