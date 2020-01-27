@@ -7,7 +7,7 @@ og:
   image: /images/alignment.jpg
   image_width: 1400
   image_height: 774
-date: 2020-02-03
+date: 2020-01-27
 ---
 
 ![](/images/alignment.jpg)
