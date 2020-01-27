@@ -22,7 +22,7 @@ Alignment is frequently listed as one of the keys to a winning business.[^1] I h
 
 > There is no universal or one-size-fits-all prescription for a winning business. But corporate leaders today seem to agree that strategic alignment is high on the list.
 
-This quote from the[ Harvard Business Review](http://hbr.org/2016/05/a-simple-way-to-test-your-companys-strategic-alignment%5D) uses the word ‘strategic,’ as in strategy, as in plans, not actions. This is an example of one kind of alignment — call it **purpose alignment**.
+This quote from the [Harvard Business Review](http://hbr.org/2016/05/a-simple-way-to-test-your-companys-strategic-alignment%5D) uses the word ‘strategic,’ as in strategy, as in plans, not actions. This is an example of one kind of alignment — call it **purpose alignment**.
 
 Your coworker asking you “Are we aligned?” is another kind of alignment: **people alignment**.
 
@@ -73,7 +73,7 @@ Being aligned with someone else — regardless of your personal beliefs — requ
 
 Getting aligned with the right person at the right time can be rewarding. Cooperating with people who don’t share your beliefs is an underrated skill, one that I am still working to develop. It’s picking your battles; often times it’s better to go along with someone for no other reason than to build or maintain your relationship.
 
-People alignment goes awry when you align with someone who doesn’t value you. Take Lehman Brothers, for example. According to Saj-nicole Joni in a[ 2009 article](https://hbr.org/2009/09/lehmans-problem-too-much-align), “Lehman Brothers had one of the strongest cultures of collaboration on Wall Street, right up until its collapse.”
+People alignment goes awry when you align with someone who doesn’t value you. Take Lehman Brothers, for example. According to Saj-nicole Joni in a [2009 article](https://hbr.org/2009/09/lehmans-problem-too-much-align), “Lehman Brothers had one of the strongest cultures of collaboration on Wall Street, right up until its collapse.”
 
 > In the end, it seems that Lehman’s management team became too agreeable — and too loyal, content to follow even when they knew better. In the months and years leading up to the most recent financial crisis, dissent wasn’t an option even for those insiders who had seen a trunk or a tusk (looming distress signals) but were afraid or insufficiently informed to identify the elephant in the room. In Fuld’s view, you were with him or against him, and nobody wanted to be against him. Of course, if you were with him, and if you made it into the top ranks, he took care of you, and you and your family became very wealthy.
 
