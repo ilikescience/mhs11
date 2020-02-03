@@ -1,7 +1,7 @@
 :root {
     /* base values */
     --t--base-size: 18px;
-    --t--base-leading: 1.45;
+    --t--base-leading: 1.4;
     --t--leading-small: 1;
 
     /* families */
@@ -119,8 +119,10 @@ html {
 
 a {
     text-decoration: underline;
+    text-decoration-color: var(--c--theme-gray-2);
     &:hover {
         color: var(--c--theme-primary);
+        text-decoration-color: var(--c--theme-primary);
     }
 }
 
@@ -169,6 +171,7 @@ code {
 .post ul {
     font-family: var(--t--family-serif);
     font-size: 1.2rem;
+    hyphens: auto;
 }
 
 blockquote {
@@ -176,4 +179,9 @@ blockquote {
     padding-left: 1em;
     color: var(--c--theme-gray-3);
     border-left: 3px solid var(--c--theme-gray-2);
+}
+
+blockquote + blockquote {
+    margin-top: 0;
+    padding-top: var(--l--space-s);
 }
