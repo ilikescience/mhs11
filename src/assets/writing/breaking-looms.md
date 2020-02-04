@@ -50,7 +50,7 @@ Back to the original Luddites. In 1812, the British military cracked down on the
 
 A show trial of more than 60 men followed. Most were acquitted, but a few of the group’s leaders were convicted, deported, and even executed .[^3] Lord Byron continued to oppose restrictions on labor protests, but the Luddites soon disappeared into history.
 
-In the 1815, Lord Byron had a daughter named Ada. As a teenager, Ada became friends with mathematician Charles Babbage. She went on to apply Babbage’s ideas in one of the most consequential discoveries of the past millennium:
+In 1815, Lord Byron had a daughter named Ada. As a teenager, Ada became friends with mathematician Charles Babbage. She went on to apply Babbage’s ideas in one of the most consequential discoveries of the past millennium:
 
 >  When she saw some mechanical looms that used punched cards to direct the weaving of beautiful patterns, it reminded her of how Babbage’s engine used punched cards to make calculations, and she developed the historic insight that a calculator could be instructed to handle not just numbers but anything that could be notated in logical symbols, such as music or words or graphics or textile patterns. In other words, she envisioned the modern computer. She also drew up a step-by-step sequence of operations for programming Babbage’s engine to generate a complex series known as Bernoulli numbers. It included subroutines, recursive loops, and a table showing how it would feed into the computer, all of which would be familiar to any C++ coder today. It became the first published software program, earning Ada the title of “the world’s first computer programmer.”[^4]
 
