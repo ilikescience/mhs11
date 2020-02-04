@@ -46,7 +46,7 @@ What do we stand to gain by participating, as Jeremy says, "in the creation of [
 
 ---- 
 
-Back to Luddites. In 1812, the British military cracked down on the vandalism and violence perpetrated by the movement. Lord Byron, romantic hero and prominent defender of the Luddites, protested the show of force:
+Back to the original Luddites. In 1812, the British military cracked down on the vandalism and violence perpetrated by the movement. Lord Byron, romantic hero and prominent defender of the Luddites, protested the show of force:
 
 > I have been in some of the most oppressed provinces of Turkey; but never, under the most despotic of infidel governments, did I behold such squalid wretchedness as I have seen since my return, in the very heart of a Christian country[^2]
 
