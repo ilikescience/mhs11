@@ -171,7 +171,6 @@ code {
 .post ul {
     font-family: var(--t--family-serif);
     font-size: 1.2rem;
-    hyphens: auto;
 }
 
 blockquote {
