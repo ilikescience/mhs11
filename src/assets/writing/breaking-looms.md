@@ -14,7 +14,7 @@ tags: [design systems, process]
 
 Let’s talk about Luddites. The actual, real, historical Luddites.
 
-“Luddite” was the label given to a group of English workers’ rights activists in the early 19th century. They owe their name to Ned Ludd — a man who might never . The Luddites were working-class people and artisans. They were reacting to the wave of industrialization that was gathering strength and threatening to overwhelm their way of life; they saw their wages decreasing and their working conditions worsen and they were compelled to pick up pistols and pickaxes and let their countrymen know what was at stake. They chose their targets carefully. Businesses that supported their workers were spared. Businesses that indiscriminately replaced skilled artisans with automated machines were burned to the ground.[^1]
+“Luddite” was the label given to a group of English workers’ rights activists in the early 19th century. They owe their name to Ned Ludd — a man who may never have existed. The Luddites were working-class people and artisans. They were reacting to the wave of industrialization that was gathering strength and threatening to overwhelm their way of life; they saw their wages decreasing and their working conditions worsen and they were compelled to pick up pistols and pickaxes and let their countrymen know what was at stake. They chose their targets carefully. Businesses that supported their workers were spared. Businesses that indiscriminately replaced skilled artisans with automated machines were burned to the ground.[^1]
 
 Somewhere between then and now “luddite” has become a catchall insult for anyone who irrationally fears new technology. But the capital-L Luddites weren’t irrational, and they didn’t fear technology. They resisted the way technology was used by the bankers and factory owners to increase profit margins to the detriment of skilled laborers.
 
@@ -40,7 +40,7 @@ And later:
 
 > In these structures, people are stripped of their humanity as they’re fed into the machine. It becomes “a developer resource is needed” rather than  “Oh, Samantha would be a great fit for this project.” And the effect of all this on individuals is depressing.
 
-Frank, Jeremy, Dave, and Brad aren't lowercase-l luddites. They are doing an important job: questioning the tradeoffs we make when we automate our work.
+Frank, Jeremy, Dave, and Brad are capital-L, not lowercase-l, Luddites. They are doing an important job: questioning the tradeoffs we make when we automate our work.
 
 What do we stand to gain by participating, as Jeremy says, "in the creation of [our] mechanical successors"?
 
