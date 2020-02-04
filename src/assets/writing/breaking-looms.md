@@ -40,9 +40,7 @@ And later:
 
 > In these structures, people are stripped of their humanity as they’re fed into the machine. It becomes “a developer resource is needed” rather than  “Oh, Samantha would be a great fit for this project.” And the effect of all this on individuals is depressing.
 
-Frank, Jeremy, Dave, and Brad are capital-L, not lowercase-l, Luddites. They are doing an important job: questioning the tradeoffs we make when we automate our work.
-
-What do we stand to gain by participating, as Jeremy says, "in the creation of [our] mechanical successors"?
+Frank, Jeremy, Dave, and Brad are doing an important job: questioning the tradeoffs we make when we automate our work. What do we stand to gain by participating, as Jeremy says, "in the creation of [our] mechanical successors"?
 
 ---- 
 
@@ -64,7 +62,7 @@ Design systems are used by greedy software companies to fatten their bottom line
 
 Agile practices pressure teams to deliver more and faster. Scrum underscores soulless feature factories that suck the joy from the craft of software development.
 
-But progress doesn’t look like breaking looms.
+But progress requires more than breaking looms.
 
 We can create ethical systems based in detailed user research. We can insist on environmental impact statements, diversity and inclusion initiatives, and human rights reports. We can write design principles, document dark patterns, and educate our colleagues about accessibility.
 
