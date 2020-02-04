@@ -245,6 +245,7 @@ table * + * {
 }
 
 hr {
+    margin: var(--l--space-m);
     border-color: var(--c--theme-gray-2);
 }
 
