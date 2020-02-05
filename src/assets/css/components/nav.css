@@ -40,11 +40,11 @@
 }
 
 .nav--logo div {
-    margin-left: calc(var(--l--space-s) / 2);
+    margin-left: 0.5rem;
 }
 
 .nav--menu a:not(:last-child) {
-    margin-right: var(--l--space-s);
+    margin-right: calc(var(--l--space-s) / 2);
 }
 
 nav a {
