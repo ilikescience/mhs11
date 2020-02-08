@@ -5,6 +5,7 @@
 
     /* Border radius */
     --l--border-radius: 2px;
+    --l--border-radius-l: 8px;
 
     /* Z indexes */
     --l--z-lowest: -9999;
@@ -252,4 +253,12 @@ hr {
 figure figcaption {
     margin-top: 0.5em;
     color: var(--c--theme-gray-4);
+}
+
+.l--rounded-corners {
+    border-radius: var(--l--border-radius);
+}
+
+.l--rounded-corners-l {
+    border-radius: var(--l--border-radius-l);
 }

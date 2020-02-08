@@ -7,10 +7,10 @@
     color: var(--c--theme-gray-2);
 }
 
-.book a {
+.index--title {
     font-size: 1.2rem;
 }
 
-.year + .book {
+.year + .index--item {
     margin-top: var(--l--space-s);
 }

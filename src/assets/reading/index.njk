@@ -10,8 +10,8 @@ eleventyExcludeFromCollections: true
         {% set lastDate = book.date | year %}
         </div>
     {% endif %}
-    <div class="book l--grid-narrow l--mar-top-none">
-        <a class="t--family-serif" href="{{ book.url }}">{{ book.data.title }}</a>
+    <div class="book index--item l--grid-narrow l--mar-top-none">
+        <a class="t--family-serif index--title" href="{{ book.url }}">{{ book.data.title }}</a>
         <span class="c--gray">
             by {{ book.data.author }}  
             {% if book.data.favorite %}
