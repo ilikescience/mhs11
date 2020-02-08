@@ -1,0 +1,9 @@
+.email--art {
+    flex: 1 0 auto;
+    background:
+        linear-gradient(var(--c--theme-primary), transparent),
+        linear-gradient(to top left, var(--c--theme-positive-2), transparent),
+        linear-gradient(to top right, var(--c--theme-negative-3), transparent);
+    background-blend-mode: screen;
+    margin-right: var(--l--space-s);
+}

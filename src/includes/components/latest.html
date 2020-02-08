@@ -1,0 +1,24 @@
+<div class="latest l--flex l--space-flush l--mar-top-m">
+    <div class="latest-header t--weight-bold l--mar-btm-s">
+        Latest essays
+    </div>
+    <div class="latest--posts l--flex">
+        {% assign postCount = 0 %}
+        {% for post in collections.writing reversed %}
+            {% if postCount < 3 and post.url != page.url %}
+                {% assign postCount = postCount | plus: 1 %}
+                <div class="latest--post l--flex-auto">
+                    <a href=""{{ post.url }}">
+                        <img src="{{post.data.og.image}}">
+                    </a>
+                    <div class="latest--date c--gray">{{ post.date | date: "%B %d, %Y" }}</div>
+                    <h2 class="l--mar-top-none">
+                        <a class="t--decoration-none t--weight-normal" href="{{ post.url }}">
+                            {{ post.data.title }}
+                        </a>
+                    </h2>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -59,7 +59,7 @@ module.exports = function(eleventyConfig) {
     mdLib.renderer.rules.footnote_block_open = (tokens, idx, options) =>
         '<hr/>\n' +
         '<section class="footnotes l--space-compact">\n' +
-        '<div>Footnotes:</div>\n' +
+        '<div class="t--weight-bold l--pad-btm-s">Footnotes & References</div>\n' +
         '<ol class="footnotes-list">\n'
 
     eleventyConfig.setLibrary('md', mdLib)

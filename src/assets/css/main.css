@@ -12,6 +12,8 @@
 @import 'components/buttons.css';
 @import 'components/cover.css';
 @import 'components/figure.css';
+@import 'components/email.css';
+@import 'components/latest.css';
 @import 'pages/intuition.css';
 @import 'pages/project.css';
-@import 'pages/book.css';
+@import 'pages/index.css';

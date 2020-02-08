@@ -1,0 +1,7 @@
+.latest {
+    flex-direction: column;
+}
+
+.latest--date {
+    margin-top: 1rem;
+}

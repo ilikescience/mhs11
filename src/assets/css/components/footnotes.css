@@ -31,7 +31,7 @@
 }
 
 .footnotes {
-    color: var(--c--theme-gray-3);
+    color: var(--c--theme-gray-4);
 
     & a {
         word-break: break-all;
@@ -39,14 +39,11 @@
     }
 
     & ol {
-        padding: 0;
-
-        @media (max-width: 1024px) {
-            padding-left: 0.5em;
-        }
+        padding-left: 1rem;
     }
 
     & li {
+        padding-left: var(--l--space-s);
         &:target {
             background-color: var(--c--theme-primary-1);
         }
