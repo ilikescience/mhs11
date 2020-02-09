@@ -8,7 +8,7 @@
             {% if postCount < 3 and post.url != page.url %}
                 {% assign postCount = postCount | plus: 1 %}
                 <div class="latest--post l--flex-auto">
-                    <a href=""{{ post.url }}">
+                    <a href="{{ post.url }}">
                         <img src="{{post.data.og.image}}">
                     </a>
                     <div class="latest--date c--gray">{{ post.date | date: "%B %d, %Y" }}</div>
