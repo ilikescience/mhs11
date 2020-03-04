@@ -32,7 +32,7 @@ Over time, since the best ceramics came from only a few of the most skilled pott
 
 So, a brand is a graphic that says “This thing is of high quality.”
 
-But that’s not quite right, either. At least, not today. Between 600 and 2020 AD, we invented advertising. This innovation has changed the definition of brand entirely.
+But that’s not quite right, either. At least, not today, between 600 and 2020 AD, we invented advertising. This innovation has changed the definition of brand entirely.
 
 Advertising came of age in the late 19th century out of necessity. As manufacturers made more and more products, and stores increased their shelf space, companies tried new ways of identifying their goods. When imbued with attractive personality traits like thriftiness, cleanliness, youthfulness, and luxury, products stood out and sold better.
 
