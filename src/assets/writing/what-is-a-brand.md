@@ -36,7 +36,7 @@ But that’s not quite right, either. At least, not today, because between 600 a
 
 Advertising came of age in the late 19th century out of necessity. As manufacturers made more and more products, and stores increased their shelf space, companies tried new ways of identifying their goods. When imbued with attractive personality traits like thriftiness, cleanliness, youthfulness, and luxury, products stood out and sold better.
 
-In the 20th century, Modern psychology and the advertising industry, blending concepts from propaganda, anthropology, and economics, have shaped the brands we are most familiar with. A brand no longer is just an identifier, a sign of ownership, or a marker of quality.
+In the 20th century, modern psychology and the advertising industry, blending concepts from propaganda, anthropology, and economics, have shaped the brands we are most familiar with. A brand no longer is just an identifier, a sign of ownership, or a marker of quality.
 
 ## A better start
 
