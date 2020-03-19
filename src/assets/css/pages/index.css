@@ -7,10 +7,10 @@
     color: var(--c--theme-gray-2);
 }
 
-.index--title {
-    font-size: 1.2rem;
-}
-
 .year + .index--item {
     margin-top: var(--l--space-s);
+}
+
+.year h2{
+    font-size: 1.25rem;
 }

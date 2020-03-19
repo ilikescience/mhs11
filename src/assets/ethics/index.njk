@@ -3,34 +3,91 @@ layout: layouts/home.html
 eleventyExcludeFromCollections: true
 ---
 <div class="l--grid-wide">
-    <div class="l--flex">
-        <div class="l--flex-auto t--align-center">
-            <img class="l--mar-btm-none" src="/images/ethics_head.jpg">
+    <div class="l--flex l--pad-top-m ethics--container">
+        <div class="l--flex-half ethics--cover">
+            <img class="ethics--art l--mar-btm-none" src="/images/ethics_head.jpg">
             <h1 class="t--weight-normal l--mar-top-none">Ethics for Designers</h1>
-            <p><em>Ethics for Designers</em> is a series of essays on the history of ethics, tailored to the practice of design in the 21st century.</p>
+            <p class="ethics--byline t--family-sans">by Matthew Ström</p>
+            <p class="t--family-serif"><em>Ethics for Designers</em> is a series of essays on the history and application of ethical thinking, tailored to the practice of digital design in the 21st century.</p>
+            <p class="t--family-serif">To get notified whe new essays are published, subscribe to the mailing list:</p>
+            <form
+            class="email-form ethics--form"
+            name="newsletter"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+        >
+            <div hidden aria-hidden="true">
+                <label
+                    >Don’t fill this out if you're human:
+                    <input name="bot-field"
+                /></label>
+            </div>
+            <label for="email" class="t--weight-bold l--mar-btm-none">Your email address</label>
+            <div class="l--flex l--mar-top-none">
+                <input
+                    class="l--flex-twothirds"
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    id="email"
+                    required
+                />
+                <button
+                    class="l--flex-onethird button button--primary form--submit-inline"
+                    type="submit"
+                >
+                    Subscribe
+                </button>
+            </div>
+        </form>
         </div>
-        <div class="l--flex-auto">
-            <nav class="table-of-contents">
-                <ol>
-                    <li>
-                        <span class="c--gray">March 30, 2020</span><br/>
-                        <a href="/ethics/know-thyself"><span class="ethics--toc-numeral">I</span>The unexamined life</a>
-                    </li>
-                    <li>
-                        <a href="/ethics/know-thyself">Virtue ethics</a>
-                    </li>
-                    <li>
-                        <a href="/ethics/know-thyself">Deontology</a>
-                    </li>
-                    <li>
-                        <a href="/ethics/know-thyself">Consequentialism</a>
-                    </li>
-                    <li>
-                        <a href="/ethics/know-thyself">Care ethics</a>
-                    </li>
-                    <li>
-                        <a href="/ethics/know-thyself">Know thyself</a>
-                    </li>
-        </div>
+        <nav class="l--flex-half ethics--toc table-of-contents">
+            <ol>
+                <li>
+                    <span class="c--gray">March 30, 2020</span><br/>
+                    <span class="ethics--link ethics--link-upcoming">
+                        <span class="ethics--toc-numeral">I</span>
+                        <span class="ethics--toc-title">The unexamined life</span>
+                    </span>
+                </li>
+                <li>
+                    <span class="c--gray">April 6, 2020</span><br/>
+                    <span class="ethics--link ethics--link-upcoming">
+                        <span class="ethics--toc-numeral">II</span>
+                        <span class="ethics--toc-title">Virtue ethics</span>
+                    </span>
+                </li>
+                <li>
+                    <span class="c--gray">April 13, 2020</span><br/>
+                    <span class="ethics--link ethics--link-upcoming">
+                        <span class="ethics--toc-numeral">III</span>
+                        <span class="ethics--toc-title">Deontology</span>
+                    </span>
+                </li>
+                
+                <li>
+                    <span class="c--gray">April 20, 2020</span><br/>
+                    <span class="ethics--link ethics--link-upcoming">
+                        <span class="ethics--toc-numeral">IV</span>
+                        <span class="ethics--toc-title">Consequentialism</span>
+                    </span>
+                </li>
+                <li>
+                    <span class="c--gray">April 27, 2020</span><br/>
+                    <span class="ethics--link ethics--link-upcoming">
+                        <span class="ethics--toc-numeral">V</span>
+                        <span class="ethics--toc-title">Care ethics</span>
+                    </span>
+                </li>
+                <li>
+                    <span class="c--gray">May 4, 2020</span><br/>
+                    <span class="ethics--link ethics--link-upcoming">
+                        <span class="ethics--toc-numeral">VI</span>
+                        <span class="ethics--toc-title">Know thyself</span>
+                    </span>
+                </li>
+            </ol>
+        </nav>
     </div>
 </div>
