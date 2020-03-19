@@ -1,13 +1,13 @@
 :root {
     /* base values */
-    --t--base-size: 18px;
-    --t--base-leading: 1.45;
+    --t--base-size: 20px;
+    --t--base-leading: 1.55;
     --t--leading-small: 1;
 
     /* families */
-    --t--family-sans: 'inter', -apple-system, 'BlinkMacSystemFont', 'Segoe UI',
+    --t--family-sans: -apple-system, 'BlinkMacSystemFont', 'Segoe UI',
         'Roboto', 'Helvetica', 'Arial', sans-serif;
-    --t--family-serif: 'source serif', 'Palatino Linotype', 'Palatino',
+    --t--family-serif: 'tiempos text', 'Palatino Linotype', 'Palatino',
         'Book Antiqua', 'Baskerville', 'Bookman Old Style', 'Garamond',
         'Apple Garamond', 'Century Schoolbook', 'Georgia', serif;
     --t--family-mono: 'source code', menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
@@ -21,8 +21,8 @@
 
     /* sizes */
     --t--size-xxl: 3rem;
-    --t--size-xl: 2.5rem;
-    --t--size-l: 1.6rem;
+    --t--size-xl: 2.2rem;
+    --t--size-l: 1.4rem;
     --t--size-m: 1rem;
     --t--size-s: 0.8rem;
 }
@@ -170,11 +170,9 @@ code {
 .post ol,
 .post ul {
     font-family: var(--t--family-serif);
-    font-size: 1.2rem;
 }
 
 blockquote {
-    font-size: 1.2em;
     padding-left: 1em;
     color: var(--c--theme-gray-3);
     border-left: 3px solid var(--c--theme-gray-2);

@@ -1,19 +1,35 @@
 /* stylelint-disable */
 @font-face {
-    font-family: 'source serif';
+    font-family: 'tiempos text';
     font-display: 'fallback';
-    src: url('/fonts/SourceSerifVariable-Roman.woff2') format('woff2-variations');
-    font-weight: 200 900;
+    src: url('/fonts/tiempos-text-web-regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
   }
 
 @font-face {
-    font-family: 'source serif';
-    font-display: 'fallback';
-    src: url('/fonts/SourceSerifVariable-Italic.woff2') format('woff2-variations');
-    font-weight: 200 900;
-    font-style: italic;
-  }
+  font-family: 'tiempos text';
+  font-display: 'fallback';
+  src: url('/fonts/tiempos-text-web-regular-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'tiempos text';
+  font-display: 'fallback';
+  src: url('/fonts/tiempos-text-web-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tiempos text';
+  font-display: 'fallback';
+  src: url('/fonts/tiempos-text-web-bold-italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
 
 @font-face {
     font-family: 'inter';

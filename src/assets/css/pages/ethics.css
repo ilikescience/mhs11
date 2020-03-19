@@ -1,0 +1,82 @@
+.ethics--cover {
+    margin-right: 2rem;
+}
+
+.ethics--toc li {
+    margin-bottom: 1rem;
+}
+
+.ethics--link {
+    display: inline-block;
+    font-family: var(--t--family-serif);
+    font-size: 1.3rem;
+    border-bottom: none;
+}
+
+.ethics--link-upcoming .ethics--toc-title {
+    border-bottom: none;
+    color: var(--c--theme-gray-3);
+}
+
+.ethics--link-upcoming .ethics--toc-numeral {
+    color: var(--c--theme-gray-2);
+}
+
+.ethics--toc-title {
+    border-bottom: 1px solid var(--c--theme-gray-2);
+}
+
+.ethics--toc-numeral {
+    display: inline-block;
+    width: 2rem;
+    text-decoration: none;
+    color: var(--c--theme-gray-3);
+}
+
+.ethics--byline {
+    margin-top: 0.5rem;
+    color: var(--c--theme-gray-3);
+}
+
+.ethics--container {
+    align-items: stretch;
+}
+
+.ethics--form {
+    padding-bottom: 2rem;
+}
+
+.ethics--art {
+    max-width: 8rem;
+}
+
+@media (max-width: 800px) {
+    .ethics--cover {
+        margin-right: 0;
+    }
+
+    .ethics--toc {
+        padding: calc(var(--l--space-s) + 2em) var(--l--space-s) var(--l--space-s);
+    }
+
+    .ethics--toc::before {
+        top: calc(var(--l--space-s));
+        left: var(--l--space-s);
+    }
+}
+
+.ethics--pill {
+    display: inline-block;
+    font-size: 0.8rem;
+    background-color: var(--c--theme-gray-1);
+    color: var(--c--theme-gray-3);
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+}
+
+.ethics--part span{
+    display: inline-block;
+    border-bottom: 1px solid var(--c--theme-gray-2);
+    text-transform: uppercase;
+    color: var(--c--theme-gray-3);
+}
