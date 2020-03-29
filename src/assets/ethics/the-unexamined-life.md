@@ -34,6 +34,7 @@ The 2010s were a remarkable decade for technology. Day after day, tech lined the
 
 
 *   In October, Facebook announced Facebook News, a feature of its flagship application that will carry content from what it calls “trusted” sources. Included in those sources is Breitbart, a far-right website that frequently espouses racist and xenophobic viewpoints.[^4]
+
 These are just samples of the many ways in which new technology leads to new ethical questions. And every time these topics are debated, the design community asks itself: how could a designer have contributed to these questionable outcomes? Just how responsible are the designers for these outcomes? What should a designer do when asked to contribute to an ethically dubious project?
 
 James Cartwright, editor at AIGA’s _Eye on Design_, summed up the conflict neatly:
