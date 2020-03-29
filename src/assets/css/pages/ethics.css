@@ -80,3 +80,7 @@
     text-transform: uppercase;
     color: var(--c--theme-gray-3);
 }
+
+.ethics--intro p{
+    font-family: var(--t--family-sans);
+}
