@@ -13,7 +13,7 @@ og:
 
 <div class="c--bg-gray-1 l--pad-s ethics--intro">
 
-Welcome to Ethics for Designers, a series of essays on… well, ethics.
+Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on… well, ethics.
 
 The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically-aware decisions. Part 1 introduces ethics generally and ethical design specifically.
 </div>
