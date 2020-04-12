@@ -84,3 +84,10 @@
 .ethics--intro p{
     font-family: var(--t--family-sans);
 }
+
+.ethics--initial-graf::first-letter {
+    font-size: 2.75rem;
+    float: left;
+    line-height: 1;
+    padding-right: 0.25rem;
+}

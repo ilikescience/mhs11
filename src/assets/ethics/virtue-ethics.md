@@ -18,7 +18,11 @@ Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on… 
 The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically aware decisions. In Part 2, we’ll look at one of the main schools of ethics: virtue ethics.
 </div>
 
+<div class="ethics--initial-graf">
+
 Virtue ethics was one of the earliest attempts at defining a language and a logic around ethics. The effort to identify and understand virtues began in Ancient Greece and continues to this day.
+
+</div>
 
 ## What is a virtue?
 
