@@ -20,7 +20,11 @@ The goal of this series is to provide designers with tools to apply in their eve
 
 ## Why ethics?
 
+<div class="ethics--initial-graf"> 
+
 The 2010s were a remarkable decade for technology. Day after day, tech lined the front pages of major newspapers, the chyrons of broadcast news, and the glossy sheets of magazines. And in 2019, the trend took a turn: the stories became about the _ethics_ of technology. Not the ethics of future technology — that’s still the realm of science fiction. Not the regular “ethics of AI” or “ethics of cloning” think pieces. Instead, 2019 saw countless discussions of the ethics of the technology we all use every day:
+
+</div>
 
 
 
