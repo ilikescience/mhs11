@@ -139,7 +139,7 @@ Apply virtue ethics to design by crafting clear design principles and sharing th
 
 
 [^1]:
-     Rosalind Hursthouse and Glen Pettigrove, “Virtue Ethics,” _The Stanford Encyclopedia of Philosophy_, edited by Edward N. Zalta, Metaphysics Research Lab, Stanford University, winter 2018,[ accessed February 3, 2020, https://plato.stanford.edu/archives/win2018/entries/ethics-virtue/](https://plato.stanford.edu/archives/win2018/entries/ethics-virtue/).
+     Rosalind Hursthouse and Glen Pettigrove, “Virtue Ethics,” _The Stanford Encyclopedia of Philosophy_, edited by Edward N. Zalta, Metaphysics Research Lab, Stanford University, winter 2018, accessed February 3, 2020, [https://plato.stanford.edu/archives/win2018/entries/ethics-virtue/](https://plato.stanford.edu/archives/win2018/entries/ethics-virtue/).
 
 [^2]:
      Plato, _Apology_, translated by Benjamin Jowett, The Internet Classics Archive, Daniel C. Stevenson, Web Atomics, last accessed March 18, 2020: [http://classics.mit.edu/Plato/apology.html](http://classics.mit.edu/Plato/apology.html).
