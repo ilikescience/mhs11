@@ -60,6 +60,8 @@ Kohlberg concluded that Jake is further along in his moral development than Amy.
 
 Gilligan concluded that a new understanding of moral development was needed.
 
+![](/images/care-2.jpg)
+
 
 ### Nel Noddings and care
 
@@ -97,6 +99,8 @@ As Erika Hall put it in _Just Enough Research_:
 Empathy is another way to think about Noddings’ concept of engrossment; empathizing with your users corresponds to having an active interest in their needs.
 
 User research studies don’t need to be lengthy, complex affairs. Jakob Nielsen and Tom Landauer showed that running a test with five users over three iterations will identify nearly 100% of usability issues.[^11] But that’s only the business case: going beyond the original research, I believe that talking to your users creates a lasting interest in their well-being.
+
+![Photo by [Mathew Schwartz](https://unsplash.com/@cadop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash](/images/care-3.jpg)
 
 
 ### Ethical community building
