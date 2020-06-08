@@ -70,6 +70,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/assets/js')
     eleventyConfig.addPassthroughCopy('src/assets/favicon.ico')
     eleventyConfig.addPassthroughCopy('src/assets/favicon.png')
+    eleventyConfig.addPassthroughCopy('src/assets/tokens')
 
 
     eleventyConfig.addFilter('readingTime', function(text) {
