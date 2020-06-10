@@ -1,7 +1,7 @@
 ---
 title: Know thyself
 part: VI
-date: 2020-06-28
+date: 2020-06-08
 image: /images/knowthyself.jpg
 og:
   title: "Ethics for designers part VI: Know thyself"
