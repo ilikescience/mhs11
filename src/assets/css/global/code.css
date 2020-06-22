@@ -17,7 +17,8 @@ pre[class*='language-'] {
     overflow: auto;
 }
 
-p code {
+p code,
+li code {
     padding: 0.2em;
     background: var(--c--theme-gray-1);
 }

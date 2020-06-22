@@ -2,7 +2,7 @@
 title: 'Design APIs: the evolution of design systems'
 og:
   title: 'Design APIs: The Evolution of Design Systems'
-  description: An exporation of how an API for design decisions works
+  description: An exploration of how an API for design decisions works
   image: /images/design-apis-02.jpg
   image_width: 1600
   image_height: 988
