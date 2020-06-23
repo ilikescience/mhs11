@@ -3,14 +3,16 @@ title: 'A design API in practice'
 og:
   title: 'A design API in practice'
   description: A proof-of-concept of an API for design decisions
-  image: /images/design-apis-02.jpg
-  image_width: 1600
-  image_height: 988
+  image: /images/design-api-5.jpg
+  image_width: 1520
+  image_height: 855
 date: 2020-06-22
 tags: [design]
 ---
 
-A few months ago I wrote an essay titled "[Design APIs: the evolution of design systems](/writing/design-apis)". The API model for design systems resonated with design systems practitioners. The response blew me away. 
+![](/images/design-api-5.jpg)
+
+A few months ago I wrote an essay titled "[Design APIs: the evolution of design systems](/writing/design-apis)". The <a href="#api" class="definition--link">API</a> model for <a href="#design-system" class="definition--link">design systems</a> resonated with design systems practitioners. The response blew me away. 
 
 Since then, I’ve had lots of conversations (and [one podcast](https://www.digitale-leute.de/interview/design-systems-into-design-api/)) about the concept of a design API. One question comes up over and over again: what does a design API actually look like? Good question.
 
@@ -19,9 +21,9 @@ So I built one. It’s up and running at [https://matthewstrom.com/api](https://
 ## How it works
 My design API consists of a few libraries and frameworks, connected by pieces of my own code:
 
-1. The foundation of the API is an **Express.js** application, running as a **serverless function** via **Netlify functions.**
-2. The API accepts and responds to **JSON** queries, using **GraphQL** to interpret requests and compose responses.
-3. The application uses **Theo** to read and compose **design tokens** on the fly.
+1. The foundation of the API is an <a href="#express-js" class="definition--link">Express.js</a> application, running as a <a href="#serverless-function" class="definition--link">serverless function</a> via <a href="#netlify-functions" class="definition--link">Netlify Functions</a> .
+2. The API accepts and responds to <a href="#json" class="definition--link">JSON</a> queries, using <a href="#graphql" class="definition--link">GraphQL</a> to interpret requests and compose responses.
+3. The application uses <a href="#theo" class="definition--link">Theo</a> to read and compose <a href="#design-token" class="definition--link">design tokens</a> on the fly.
 
 I won’t go through the technical implementation of those libraries and frameworks in this essay, and after this point they’re not that important. I wrote a companion piece for this essay, and CSS-Tricks was kind enough to publish; check out that article if you’re interested in the nuts and bolts. If you’ve never written a line of code, keep reading — let’s take a more abstract look.
 
@@ -29,25 +31,25 @@ I won’t go through the technical implementation of those libraries and framewo
 
 Like most design systems, the one that styles this website has a broad range of colors (gray, blue, green, yellow, and red). Each color has a range of lightness values running from 10 to 90 in increments of 10. So when I refer to `blue-50`, I mean the blue color in the middle of the lightness range.
 
-The design API allows me to (1) request for the **design token** for `blue-50`. The token contains some information about the color, including the exact hsl color code in a format ready to be used by CSS to style the page.
+The design API allows me to <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm-.248-21.09h2.601V22h-2.768V11.536h-.076l-2.998 1.88V10.96l3.24-2.052z" fill="currentColor"/></svg> **request the design token** for `blue-50`. The token contains some information about the color, including the exact hsl color code in a format ready to be used by CSS to style the page.
 
 ![A high-level overview of a design API](/images/design-api-1.jpg)
 
-When I (2) get the token back, I can use it however I want. If I’m working with old-school CSS, that value might go in a custom property. If I’m using new-fangled CSS-in-JS, maybe it’ll become a variable or a property passed to a component.
+When I <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm4.724-8h-9.332v-1.994l4.66-4.315c1.189-1.144 1.828-1.86 1.828-2.902 0-1.15-.857-1.866-2.007-1.866-1.195 0-1.988.767-1.982 2.02h-2.627c-.006-2.57 1.88-4.213 4.628-4.213 2.806 0 4.66 1.604 4.66 3.874 0 1.489-.722 2.716-3.413 5.17l-1.912 1.874v.09h5.497V22z" fill="currentColor"/></svg> **get the token back**, I can use it however I want. If I’m working with old-school CSS, that value might go in a custom property. If I’m using new-fangled CSS-in-JS, maybe it’ll become a variable or a property passed to a component.
 
 But what’s really going on inside the API? Let’s peek inside.
 
 ![A closer look at the internal process of the design API](/images/design-api-2.jpg)
 
-Inside the API, there are three processes happening. The first (A) **looks up** the token from a database (`blue-50`). In my rudimentary proof-of-concept, the database is a lowly text file sitting on the server. An API with more traffic will probably need a proper database.
+Inside the API, there are three processes happening. The first <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm-2.367-10.985L11.662 22H8.696l4.519-13.09h3.567L21.294 22H18.33l-.972-2.985h-4.724zm2.314-7.114l-1.61 4.953h3.323l-1.61-4.953h-.103z" fill="currentColor"/></svg> **looks up** the token from a database (`blue-50`). In my rudimentary proof-of-concept, the database is a lowly text file sitting on the server. An API with more traffic will probably need a proper database.
 
-The second process (B) **transforms** the token into whatever format I’ve requested. In my demo API, I’m using Theo to accomplish this. There are other tools like Style Dictionary which have the same features; you could even build your own transformer. The premise is: take the value stored in the database (In my example, the value of `blue-50` is `#274dd8`) and transform it into the desired format. 
+The second process <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm.78-8h-5.592V8.91h5.241c2.89 0 4.347 1.393 4.347 3.355 0 1.54-1.004 2.506-2.365 2.812v.128c1.489.07 2.876 1.24 2.876 3.177 0 2.084-1.566 3.618-4.506 3.618zm-2.825-5.74v3.477h2.257c1.547 0 2.218-.645 2.218-1.63 0-1.08-.825-1.847-2.154-1.847h-2.32zm0-5.114v3.241h2.052c1.132 0 1.975-.626 1.975-1.662 0-.946-.696-1.579-1.924-1.579h-2.103z" fill="currentColor"/></svg> **transforms** the token into whatever format I’ve requested. In my demo API, I’m using Theo to accomplish this. There are other tools like [Style Dictionary](https://amzn.github.io/style-dictionary) which have the same features; you could even build your own transformer. The premise is: take the value stored in the database (In my example, the value of `blue-50` is `#274dd8`) and transform it into the desired format. 
 
-This is the magic of design tokens: if we want the color in a web-friendly format, we transform it to rgb (`rgb(39, 77, 216) `). If we are using the color in an iOS app, we need a UIColor object (`red: 0.15, green: 0.30, blue: 0.85, alpha: 1.00`).  Android apps need an 8-digit hex value with the alpha channel first (`#ff274dd8`) and so on. The (B) transform process of the API is where this is done.
+This is the magic of design tokens: if we want the color in a web-friendly format, we transform it to rgb (`rgb(39, 77, 216) `). If we are using the color in an iOS app, we need a UIColor object (`red: 0.15, green: 0.30, blue: 0.85, alpha: 1.00`).  Android apps need an 8-digit hex value with the alpha channel first (`#ff274dd8`) and so on. The <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm.78-8h-5.592V8.91h5.241c2.89 0 4.347 1.393 4.347 3.355 0 1.54-1.004 2.506-2.365 2.812v.128c1.489.07 2.876 1.24 2.876 3.177 0 2.084-1.566 3.618-4.506 3.618zm-2.825-5.74v3.477h2.257c1.547 0 2.218-.645 2.218-1.63 0-1.08-.825-1.847-2.154-1.847h-2.32zm0-5.114v3.241h2.052c1.132 0 1.975-.626 1.975-1.662 0-.946-.696-1.579-1.924-1.579h-2.103z" fill="currentColor"/></svg> transform process of the API is where this is done.
 
-Lastly, the third process (C) **formats** the response. Here, we can choose to wrap the output token (or list of tokens)’s value in some extra code to make it easier to incorporate into our own program or use case. For instance: if I’m working on a documentation site that uses SASS, it’d be nice to have the color formatted as a SASS variable (`$blue-50: rgb(39, 77, 216)`). But if my production app uses CSS custom properties, the formatting should be in vanilla CSS ( `:root {--blue-50: rgb(39, 77, 216);`). At the moment, my own proof-of-concept can only format the response as JSON - more on that later.
+Lastly, the third process <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm.238-21.27c3.03 0 5.318 1.739 5.683 4.762h-2.8c-.211-1.438-1.304-2.314-2.819-2.314-2.026 0-3.356 1.553-3.356 4.276 0 2.8 1.349 4.277 3.337 4.277 1.476 0 2.576-.806 2.838-2.205l2.8.012c-.3 2.41-2.327 4.641-5.683 4.641-3.503 0-6.098-2.455-6.098-6.724 0-4.283 2.64-6.725 6.098-6.725z" fill="currentColor"/></svg> **formats** the response. Here, we can choose to wrap the output token (or list of tokens)’s value in some extra code to make it easier to incorporate into our own program or use case. For instance: if I’m working on a documentation site that uses SASS, it’d be nice to have the color formatted as a SASS variable (`$blue-50: rgb(39, 77, 216)`). But if my production app uses CSS custom properties, the formatting should be in vanilla CSS ( `:root {--blue-50: rgb(39, 77, 216);`). At the moment, my own proof-of-concept can only format the response as JSON - more on that later.
 
-After looking up, transforming, and formatting the token, the API (2) sends the token back to me. This all happens in milliseconds.
+After looking up, transforming, and formatting the token, the API <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm4.724-8h-9.332v-1.994l4.66-4.315c1.189-1.144 1.828-1.86 1.828-2.902 0-1.15-.857-1.866-2.007-1.866-1.195 0-1.988.767-1.982 2.02h-2.627c-.006-2.57 1.88-4.213 4.628-4.213 2.806 0 4.66 1.604 4.66 3.874 0 1.489-.722 2.716-3.413 5.17l-1.912 1.874v.09h5.497V22z" fill="currentColor"/></svg> sends the token back to me. This all happens in milliseconds.
 
 ---- 
 
@@ -179,3 +181,41 @@ As for the future of design APIs in general: it’s closely tied to the work bei
 An [interoperable](https://jxnblk.com/blog/interoperability/), [guessable](https://johno.com/guessable/) design API is the foundation of a fully networked design system — one that takes the rote and error-prone aspects out of designers and engineers collaborating and iterating on design. It’s the next step in the evolution of design systems.
 
 [^1]:	However, based on my experiments with it, the API seems to be mostly a way of communicating with an underlying CMS — for example, the design tokens query only provides a single list of values tailored for the web.
+
+---
+
+<span class="t--family-sans t--weight-bold">Definitions</span>
+<dl class="definition--list">
+	<div class="definition" id="api">
+		<dt class="definition--term" >API</dt>
+		<dd class="definition--description">Stands for “Application Programming Interface.” A reliable way for two or more programs to cooperate. It allows programs to work together despite differences in hardware, language, architecture, or other operating constraints.</dd>
+	</div>
+	<div class="definition" id="design-system">
+		<dt class="definition--term" >Design system</dt>
+		<dd class="definition--description">Collection of code and design specifications that enables faster and more consistent collaboration between designers and developers.</dd>
+	</div>
+	<div class="definition" id="design-token">
+		<dt class="definition--term" >Design token</dt>
+		<dd class="definition--description">Self-contained piece of code describing a single design decision, like a color or a typeface.</dd>
+	</div>
+	<div class="definition" id="express-js">
+		<dt class="definition--term" >Express.js</dt>
+		<dd class="definition--description">Lightweight javascript library for building web applications. <a href="https://expressjs.com/" target="_blank">Link to official Express.js website &#8599;</a></dd>
+	</div>
+	<div class="definition" id="graphql">
+		<dt class="definition--term" >GraphQL</dt>
+		<dd class="definition--description">Language for querying APIs, designed enable web applications to make fewer queries. <a href="https://graphql.org/" target="_blank">Link to official GraphQL website &#8599;</a></dd>
+	</div>
+	<div class="definition" id="json">
+		<dt class="definition--term" >JSON</dt>
+		<dd class="definition--description">Open standard file format that uses human-readable text to store and transmit data.</dd>
+	</div>
+	<div class="definition" id="serverless-function">
+		<dt class="definition--term">Serverless function</dt>
+		<dd class="definition--description">Piece of code that runs — paradoxically — on a server. In contrast to traditional functions, serverless functions are managed by large platforms like Amazon and allow developers to deliver small pieces of functionality to end users without worrying about complicated infrastructure management.</dd>
+	</div>
+	<div class="definition" id="theo">
+		<dt class="definition--term">Theo</dt>
+		<dd class="definition--description">Library that converts design tokens into a variety of formats. Theo was developed by Salesforce and was one of the first open-source examples of design tokens in use. <a href="https://github.com/salesforce-ux/theo" target="_blank">Link to Theo on GitHub &#8599;</a></dd>
+	</div>
+</dl>

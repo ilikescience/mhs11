@@ -1,0 +1,24 @@
+.definition--link {
+    text-decoration-style: dotted;
+}
+
+.definition--link:hover {
+    color: currentColor;
+    background: var(--c--theme-highlight-2);
+}
+
+.definition--list * + * {
+    margin-top: 0;
+}
+
+.definition:target {
+    padding: 0.25em 0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-color: var(--c--theme-highlight-1);
+    border-radius: 4px;
+}
+
+.definition--term {
+    font-weight: var(--t--weight-bold);
+}
