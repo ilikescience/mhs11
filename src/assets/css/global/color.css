@@ -137,6 +137,10 @@
     color: var(--c--theme-gray-3);
 }
 
+.c--bg-primary-1 {
+    background-color: var(--c--theme-primary-1);
+}
+
 .c--bg-gray-1 {
     background-color: var(--c--theme-gray-1);
 }

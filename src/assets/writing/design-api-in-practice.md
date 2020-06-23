@@ -12,24 +12,28 @@ tags: [design]
 
 ![](/images/design-api-5.jpg)
 
-A few months ago I wrote an essay titled "[Design APIs: the evolution of design systems](/writing/design-apis)". The <a href="#api" class="definition--link">API</a> model for <a href="#design-system" class="definition--link">design systems</a> resonated with design systems practitioners. The response blew me away. 
+A few months ago I wrote an essay titled "[Design APIs: the evolution of design systems](/writing/design-apis)". The API model for design systems resonated with design systems practitioners. The response blew me away. 
 
-Since then, I’ve had lots of conversations (and [one podcast](https://www.digitale-leute.de/interview/design-systems-into-design-api/)) about the concept of a design API. One question comes up over and over again: what does a design API actually look like? Good question.
+Since then, I’ve had lots of conversations (and [one podcast](https://www.digitale-leute.de/interview/design-systems-into-design-api/)) about the concept of a design API. One question comes up almost every time: what does a design API actually look like? Good question.
 
-So I built one. It’s up and running at [https://matthewstrom.com/api](https://matthewstrom.com/api). It’s very rudimentary, but makes an excellent proof of concept. In this essay I’ll describe how it works, how I built it, and what it can (and can’t yet) do.
+So I built one. It’s up and running at [https://matthewstrom.com/api](https://matthewstrom.com/api). It’s very rudimentary, but it makes an excellent proof of concept. In this essay I’ll describe how it works, how I built it, and what it can (and can’t yet) do.
+
+<div class="c--bg-gray-1 l--pad-s l--rounded-corners-l">
+<strong>Heads up:</strong> This essay is more technical than usual; some terms may be unfamiliar. The first time a technical term appears, i'll use <a class="definition--link">dotted underline</a> to link to a definition. A full glossary appears at the bottom.
+</div>
 
 ## How it works
 My design API consists of a few libraries and frameworks, connected by pieces of my own code:
 
-1. The foundation of the API is an <a href="#express-js" class="definition--link">Express.js</a> application, running as a <a href="#serverless-function" class="definition--link">serverless function</a> via <a href="#netlify-functions" class="definition--link">Netlify Functions</a> .
-2. The API accepts and responds to <a href="#json" class="definition--link">JSON</a> queries, using <a href="#graphql" class="definition--link">GraphQL</a> to interpret requests and compose responses.
-3. The application uses <a href="#theo" class="definition--link">Theo</a> to read and compose <a href="#design-token" class="definition--link">design tokens</a> on the fly.
+1. The foundation of the <a id="src-api" href="#api" class="definition--link">API</a> is an <a id="src-express-js" href="#express-js" class="definition--link">Express.js</a> application, running as a <a id="src-serverless-function" href="#serverless-function" class="definition--link">serverless function</a> via <a id="src-netlify-functions" href="#netlify-functions" class="definition--link">Netlify Functions</a> .
+2. The API accepts and responds to <a id="src-json" href="#json" class="definition--link">JSON</a> queries, using <a href="#graphql" id="src-graphql" class="definition--link">GraphQL</a> to interpret requests and compose responses.
+3. The application uses <a id="src-theo" href="#theo" class="definition--link">Theo</a> to read and compose <a id="src-design-token" href="#design-token" class="definition--link">design tokens</a> on the fly.
 
 I won’t go through the technical implementation of those libraries and frameworks in this essay, and after this point they’re not that important. I wrote a companion piece for this essay, and CSS-Tricks was kind enough to publish; check out that article if you’re interested in the nuts and bolts. If you’ve never written a line of code, keep reading — let’s take a more abstract look.
 
 ---- 
 
-Like most design systems, the one that styles this website has a broad range of colors (gray, blue, green, yellow, and red). Each color has a range of lightness values running from 10 to 90 in increments of 10. So when I refer to `blue-50`, I mean the blue color in the middle of the lightness range.
+Like most <a id="src-design-system" href="#design-system" class="definition--link">design systems</a>, the one that styles this website has a broad range of colors (gray, blue, green, yellow, and red). Each color has a range of lightness values running from 10 to 90 in increments of 10. So when I refer to `blue-50`, I mean the blue color in the middle of the lightness range.
 
 The design API allows me to <svg class="l--mar-top-none" fill="none" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 30 30"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 30c8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15zm-.248-21.09h2.601V22h-2.768V11.536h-.076l-2.998 1.88V10.96l3.24-2.052z" fill="currentColor"/></svg> **request the design token** for `blue-50`. The token contains some information about the color, including the exact hsl color code in a format ready to be used by CSS to style the page.
 
@@ -189,34 +193,34 @@ An [interoperable](https://jxnblk.com/blog/interoperability/), [guessable](https
 <dl class="definition--list">
 	<div class="definition" id="api">
 		<dt class="definition--term" >API</dt>
-		<dd class="definition--description">Stands for “Application Programming Interface.” A reliable way for two or more programs to cooperate. It allows programs to work together despite differences in hardware, language, architecture, or other operating constraints.</dd>
+		<dd class="definition--description">Stands for “Application Programming Interface.” A reliable way for two or more programs to cooperate. It allows programs to work together despite differences in hardware, language, architecture, or other operating constraints.&nbsp;<a href="#src-api" class="footnote-backref">↩︎</a> </dd>
 	</div>
 	<div class="definition" id="design-system">
 		<dt class="definition--term" >Design system</dt>
-		<dd class="definition--description">Collection of code and design specifications that enables faster and more consistent collaboration between designers and developers.</dd>
+		<dd class="definition--description">Collection of code and design specifications that enables faster and more consistent collaboration between designers and developers.&nbsp;<a href="#src-design-system" class="footnote-backref">↩︎</a></dd>
 	</div>
 	<div class="definition" id="design-token">
 		<dt class="definition--term" >Design token</dt>
-		<dd class="definition--description">Self-contained piece of code describing a single design decision, like a color or a typeface.</dd>
+		<dd class="definition--description">Self-contained piece of code describing a single design decision, like a color or a typeface.&nbsp;<a href="#src-design-token" class="footnote-backref">↩︎</a></dd>
 	</div>
 	<div class="definition" id="express-js">
 		<dt class="definition--term" >Express.js</dt>
-		<dd class="definition--description">Lightweight javascript library for building web applications. <a href="https://expressjs.com/" target="_blank">Link to official Express.js website &#8599;</a></dd>
+		<dd class="definition--description">Lightweight javascript library for building web applications. <a href="https://expressjs.com/" target="_blank">Link to official Express.js website &#8599;</a>&nbsp;<a href="#src-express-js" class="footnote-backref">↩︎</a></dd>
 	</div>
 	<div class="definition" id="graphql">
 		<dt class="definition--term" >GraphQL</dt>
-		<dd class="definition--description">Language for querying APIs, designed enable web applications to make fewer queries. <a href="https://graphql.org/" target="_blank">Link to official GraphQL website &#8599;</a></dd>
+		<dd class="definition--description">Language for querying APIs, designed enable web applications to make fewer queries. <a href="https://graphql.org/" target="_blank">Link to official GraphQL website &#8599;</a>&nbsp;<a href="#src-graphql" class="footnote-backref">↩︎</a></dd>
 	</div>
 	<div class="definition" id="json">
 		<dt class="definition--term" >JSON</dt>
-		<dd class="definition--description">Open standard file format that uses human-readable text to store and transmit data.</dd>
+		<dd class="definition--description">Open standard file format that uses human-readable text to store and transmit data.&nbsp;<a href="#src-json" class="footnote-backref">↩︎</a></dd>
 	</div>
 	<div class="definition" id="serverless-function">
 		<dt class="definition--term">Serverless function</dt>
-		<dd class="definition--description">Piece of code that runs — paradoxically — on a server. In contrast to traditional functions, serverless functions are managed by large platforms like Amazon and allow developers to deliver small pieces of functionality to end users without worrying about complicated infrastructure management.</dd>
+		<dd class="definition--description">Piece of code that runs — paradoxically — on a server. In contrast to traditional functions, serverless functions are managed by large platforms like Amazon and allow developers to deliver small pieces of functionality to end users without worrying about complicated infrastructure management.&nbsp;<a href="#src-serverless-function" class="footnote-backref">↩︎</a></dd>
 	</div>
 	<div class="definition" id="theo">
 		<dt class="definition--term">Theo</dt>
-		<dd class="definition--description">Library that converts design tokens into a variety of formats. Theo was developed by Salesforce and was one of the first open-source examples of design tokens in use. <a href="https://github.com/salesforce-ux/theo" target="_blank">Link to Theo on GitHub &#8599;</a></dd>
+		<dd class="definition--description">Library that converts design tokens into a variety of formats. Theo was developed by Salesforce and was one of the first open-source examples of design tokens in use. <a href="https://github.com/salesforce-ux/theo" target="_blank">Link to Theo on GitHub &#8599;</a>&nbsp;<a href="#src-theo" class="footnote-backref">↩︎</a></dd>
 	</div>
 </dl>
