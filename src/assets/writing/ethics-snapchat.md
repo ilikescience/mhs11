@@ -29,7 +29,9 @@ Oona King, Snap’s vice president of diversity and inclusion, sent an apology e
 A few passages are worth exploring in detail (emphasis is King’s).
 
 > Snap released a Lens to commemorate Juneteenth that many people felt was offensive because it prompted users to ‘smile’ to break the chains of slavery. Snap was also accused of failing to include Black perspectives in the creation of our Lens to mark Juneteenth — a date often celebrated by African-Americans to mark the end of slavery. After reviewing how the process unfolded, it’s very clear that Black Snap team members were fully involved in every stage of developing and approving the Lens and that, in hindsight, we should have developed a more appropriate Lens.
+
 > … We reviewed the Lens from the standpoint of Black creative content, made by and for Black people, so did not adequately consider how it would look when used by non-Black members of our community. What we also did not fully realize was a) that a ‘smile’ trigger would necessarily include the actual **word** “smile” on the content; and b) that people would perceive this as work created by **White** creatives, not Black creatives.
+
 > … The mischaracterization on social media — that White executives at a tech company failed, yet again, to include Black perspectives — is completely untrue. What is true is that regardless of our diverse backgrounds, we are all human, and humans make mistakes.
 
 King’s focus throughout the letter is on the process that Snap used to create the filter. In ethics terms, this is a **deontological** mindset. 
