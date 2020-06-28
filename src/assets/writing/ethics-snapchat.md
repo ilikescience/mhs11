@@ -104,6 +104,10 @@ Snap is just one case for ethically-aware design among many; we can learn a lot 
 
 And reading case studies like this will hopefully mean there are less of them written in the future.
 
+----
+
+_Special thanks to Josh Petersel for feedback on an earlier version of this essay._
+
 [^1]:	You can read the full email on [The Verge](https://www.theverge.com/2020/6/21/21298251/snap-juneteenth-filter-lens-oona-king-statement-snapchat).
 
 [^2]:	Kwame Opam, “Snapchat Enables Tasteless Bob Marley Selfie Lens for 4/20,” The Verge (The Verge, April 20, 2016), https://www.theverge.com/2016/4/20/11467160/snapchat-bob-marley-selfie-lens-420.
