@@ -72,7 +72,7 @@ When it comes to Snapchat's filters, consequences matter.
 
 ## Learning from Snap’s mistakes
 
-Just because Snap included Black perspectives in its creative process did not guarantee their output wouldn’t be harmful to Black users. There’s a few ways we can learn from this outcome to make our own design process more ethically-aware.
+Just because Snap included Black perspectives in its creative process did not guarantee their output wouldn’t be harmful to Black users. There are a few ways we can learn from this outcome to make our own design process more ethically-aware.
 
 ### 1. Be aware of the assumptions in your process (and correct them if they’re wrong)
 
@@ -80,7 +80,7 @@ Snap’s example isn’t a death knell for deontology.[^4] A defender of deontol
 
 So, what rules can we introduce to improve Snap — and, by extension, our own work?
 
-Here’s a start: your users will be the ultimate judge of your work. Bring them into the design process - especially users who are especially at risk of being harmed, like marginalized and under-represented groups.
+Here’s a start: your users will be the ultimate judge of your work. Bring them into the design process — especially users who are especially at risk of being harmed, like marginalized and under-represented groups.
 
 ### 2. Everyone makes mistakes (virtue alone won’t save you)
 
@@ -96,7 +96,7 @@ Many large tech companies report their own diversity data: Google, Facebook, and
 
 The influential management thinker Peter Drucker was an avid proponent of the power of measurement. But one of his most influential quotes of all time “if you can’t measure it, you can’t manage it,” is a misquote; he never actually said it. His take on measurement was much more nuanced:
 
-> Work implies not only that somebody is supposed to do the job, but also accountability, a deadline and, finally, the measurement of results —that is, feedback from results on the work and on the planning process itself.[^9]
+> Work implies not only that somebody is supposed to do the job, but also accountability, a deadline and, finally, the measurement of results — that is, feedback from results on the work and on the planning process itself.[^9]
 
 Measuring the ethical impact of your work, and being accountable to that measurement, is part of designing for equitable outcomes. Snap does measure the diversity of their workplace, and makes that data available to its own employees. [^10] But when it comes to diversity, lack of public accountability takes all the force out of measurement.
 
