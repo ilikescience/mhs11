@@ -22,7 +22,9 @@ This year I celebrated Juneteenth for the first time. A lot of white people did.
 
 The backlash was immediate. The “smile to break the chains” filter wasn’t just a minor moment of tone-deafness from Snap — it was a burning dumpster in the town square. The company apologized, and took the filter down. But the damage was done.
 
-How could this have happened? Where did Snap go wrong? By applying some of the ideas from _[Ethics for designers](/ethics),_ we can learn a lot from Snap's mistakes and make our own design process more ethically rigorous.
+How could this have happened? Where did Snap go wrong? 
+
+Ethics often seems like other kid's holidays, an abstract concept you only hear about in school. Sometimes, though, you get to see how ethics impacts peoples' lives in real time. By applying some of the ideas from _[Ethics for designers](/ethics),_ we can learn a lot from Snap's mistakes, and make our own design process more ethically rigorous.
 
 ## Snap and Deontology
 
