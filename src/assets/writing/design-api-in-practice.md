@@ -6,7 +6,7 @@ og:
   image: /images/design-api-5.jpg
   image_width: 1520
   image_height: 855
-date: 2020-06-22
+date: 2020-07-06
 tags: [design]
 ---
 
