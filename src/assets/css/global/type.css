@@ -119,7 +119,7 @@ html {
 
 a {
     text-decoration: underline;
-    text-decoration-color: var(--c--theme-gray-2);
+    text-decoration-color: var(--c--theme-gray-3);
     &:hover {
         color: var(--c--theme-primary);
         text-decoration-color: var(--c--theme-primary);
