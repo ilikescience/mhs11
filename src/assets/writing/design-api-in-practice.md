@@ -19,7 +19,7 @@ Since then, I’ve had lots of conversations (and [one podcast](https://www.digi
 So I built one. It’s up and running at [https://matthewstrom.com/api](https://matthewstrom.com/api). It’s very rudimentary, but it makes an excellent proof of concept. In this essay I’ll describe how it works, how I built it, and what it can (and can’t yet) do.
 
 <div class="c--bg-gray-1 l--pad-s l--rounded-corners-l">
-<strong>Heads up:</strong> This essay is more technical than usual; some terms may be unfamiliar. The first time a technical term appears, i'll use <a class="definition--link">dotted underline</a> to link to a definition. A full glossary appears at the bottom.
+<strong>Heads up:</strong> This essay is more technical than usual; some terms may be unfamiliar. The first time a technical term appears, I'll use <a class="definition--link">dotted underline</a> to link to a definition. A full glossary appears at the bottom.
 </div>
 
 ## How it works
@@ -214,6 +214,10 @@ An [interoperable](https://jxnblk.com/blog/interoperability/), [guessable](https
 	<div class="definition" id="json">
 		<dt class="definition--term" >JSON</dt>
 		<dd class="definition--description">Open standard file format that uses human-readable text to store and transmit data.&nbsp;<a href="#src-json" class="footnote-backref">↩︎</a></dd>
+	</div>
+	<div class="definition" id="netlify-functions">
+		<dt class="definition--term">Netlify Functions</dt>
+		<dd class="definition--description">A service that deploys, hosts, and scales serverless functions. <a href="https://www.netlify.com/products/functions/" target="_blank">Link to Netlify Functions site &#8599;</a>&nbsp;<a href="#src-netlify-functions" class="footnote-backref">↩︎</a>
 	</div>
 	<div class="definition" id="serverless-function">
 		<dt class="definition--term">Serverless function</dt>
