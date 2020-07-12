@@ -29,7 +29,7 @@ My design API consists of a few libraries and frameworks, connected by pieces of
 2. The API accepts and responds to <a id="src-json" href="#json" class="definition--link">JSON</a> queries, using <a href="#graphql" id="src-graphql" class="definition--link">GraphQL</a> to interpret requests and compose responses.
 3. The application uses <a id="src-theo" href="#theo" class="definition--link">Theo</a> to read and compose <a id="src-design-token" href="#design-token" class="definition--link">design tokens</a> on the fly.
 
-I won’t go through the technical implementation of those libraries and frameworks in this essay, and after this point they’re not that important. I wrote a companion piece for this essay, and CSS-Tricks was kind enough to publish; [check out that article](https://css-tricks.com/building-serverless-graphql-api-in-node-with-express-and-netlify/) if you’re interested in the nuts and bolts. If you’ve never written a line of code, keep reading — let’s take a more abstract look.
+I won’t go through the technical implementation of those libraries and frameworks in this essay, and after this point they’re not that important. I wrote a companion piece for this essay, and CSS-Tricks was kind enough to publish it; [check out that article](https://css-tricks.com/building-serverless-graphql-api-in-node-with-express-and-netlify/) if you’re interested in the nuts and bolts. If you’ve never written a line of code, keep reading — let’s take a more abstract look.
 
 ---- 
 
