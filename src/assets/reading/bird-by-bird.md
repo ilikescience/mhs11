@@ -9,7 +9,7 @@ favorite: true
 
 Writing is hard. This much is obvious to anyone who's ever tried to write — for school, for work, for fun, or for a living. As someone who does all of these things, I'm always looking for guidance and advice, and almost always disappointed by the pieces I do find.
 
-Lamott's _Bird by Bird_ was recommended to me at every turn, but I resisted reading it, assuming it was just another piece of rah-rah self-help life-hacking kind of book. Boy, was I wrong. Lamott is so practical, so real, so honest about the reality of writing; I felt like I was back in college in a tiny writing seminar with a teacher who did more drugs than I could ever hope to.
+_Bird by Bird_ was recommended to me at every turn, but I resisted reading it, assuming it was just another rah-rah self-help life-hacking kind of book. Boy, was I wrong. Lamott is so practical, so real, so honest about the reality of writing; I felt like I was back in college in a tiny writing seminar with a teacher who did more drugs than I could ever hope to.
 
 This book is full of great lessons and stories about what it means to write, how to make writing suck less, how to deal with the wild swings of ego involved with publishing.
 
