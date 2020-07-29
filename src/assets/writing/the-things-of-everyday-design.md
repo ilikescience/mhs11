@@ -2,8 +2,8 @@
 title: The things of everyday design
 tags: [design]
 og:
-  title: The design system you already have
-  description: How to avoid starting from scratch
+  title: The things of everyday design
+  description: Understanding affordances leads to better conversations about design
   image: /images/everyday-design.jpg
   image_width: 1400 
   image_height: 866
@@ -81,7 +81,6 @@ Understanding the correct application of affordances is one of the most fundamen
 Affordances are the hidden language of interface design. Using affordances wrong can stunt a company’s growth, as Snapchat famously discovered.[^12] Using them right has returns in [millions](https://articles.uie.com/three_hund_million_button/), [billions](https://articles.uie.com/beyond_ux_tipping_point/), and [trillions](https://www.nngroup.com/articles/intranet-usability-the-trillion-dollar-question/) of dollars.
 
 For that reason, affordances are, and will always be, the things of everyday design.
-
 
 
 [^1]: When it was first used, “affordance” had nothing to do with design. In the popular 1979 book _The Ecological Approach to Visual Perception, _James J. Gibson defined an affordance as something the environment offers an individual. Norman borrowed the word for _The Design of Everyday Things_, shifting the definition to mean the potential uses of an object as perceived by its user. Norman went on to tweak this definition further, but for where this essay is concerned we’ll keep things simple and stick to the most common interpretation.
