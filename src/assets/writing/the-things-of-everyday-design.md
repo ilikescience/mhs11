@@ -83,7 +83,7 @@ Affordances are the hidden language of interface design. Using affordances wrong
 For that reason, affordances are, and will always be, the things of everyday design.
 
 
-[^1]: When it was first used, “affordance” had nothing to do with design. In the popular 1979 book _The Ecological Approach to Visual Perception, _James J. Gibson defined an affordance as something the environment offers an individual. Norman borrowed the word for _The Design of Everyday Things_, shifting the definition to mean the potential uses of an object as perceived by its user. Norman went on to tweak this definition further, but for where this essay is concerned we’ll keep things simple and stick to the most common interpretation.
+[^1]: When it was first used, “affordance” had nothing to do with design. In the popular 1979 book _The Ecological Approach to Visual Perception,_ James J. Gibson defined an affordance as something the environment offers an individual. Norman borrowed the word for _The Design of Everyday Things_, shifting the definition to mean the potential uses of an object as perceived by its user. Norman went on to tweak this definition further, but for where this essay is concerned we’ll keep things simple and stick to the most common interpretation.
 
 [^2]: Norman, Donald A. _The Design of Everyday Things. Revised and Expanded edition_, p. 11. New York, New York: Basic Books, 2013.
 
