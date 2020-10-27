@@ -1,0 +1,45 @@
+#copying-hero {
+    width: 100%;
+    height: auto;
+}
+
+.copying-subtitle {
+    text-align: center;
+    color: var(--c--theme-fg);
+}
+
+.copying--contents {
+    font-size: var(--t--size-s);
+    color: var(--c--theme-gray-3);
+    margin-top: var(--l--space-s);
+}
+
+.copying--contents ol {
+    list-style-type: upper-roman;
+    padding-left: 1rem;
+    margin-top: 0;
+}
+
+.copying--chapter {
+    font-size: var(--t--size-xxl);
+    font-family: var(--t--family-serif);
+    color: var(--c--theme-gray-2);
+    margin-top: var(--l--space-m);
+}
+
+.copying figure {
+    margin: var(--l--space-m) 0;
+}
+
+.copying figure figcaption {
+    font-size: var(--t--size-s);
+    color: var(--c--theme-gray-3);
+}
+
+.copying--quote {
+    font-size: var(--t--size-l);
+    font-family: var(--t--family-serif);
+    font-weight: var(--t--weight-bold);
+    color: var(--c--theme-gray-3);
+    line-height: 1.2em;
+}

@@ -1,7 +1,7 @@
 :root {
     /* Grid configuration */
-    --l--grid-width-narrow: 38rem;
-    --l--grid-width-wide: 60rem;
+    --l--grid-width-narrow: 34rem;
+    --l--grid-width-wide: 56rem;
 
     /* Border radius */
     --l--border-radius: 2px;

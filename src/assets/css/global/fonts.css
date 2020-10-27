@@ -1,32 +1,32 @@
 /* stylelint-disable */
 @font-face {
-    font-family: 'tiempos text';
+    font-family: 'charter';
     font-display: 'fallback';
-    src: url('/fonts/tiempos-text-web-regular.woff2') format('woff2');
+    src: url('/fonts/charter.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
   }
 
 @font-face {
-  font-family: 'tiempos text';
+  font-family: 'charter';
   font-display: 'fallback';
-  src: url('/fonts/tiempos-text-web-regular-italic.woff2') format('woff2');
+  src: url('/fonts/charter_italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'tiempos text';
+  font-family: 'charter';
   font-display: 'fallback';
-  src: url('/fonts/tiempos-text-web-bold.woff2') format('woff2');
+  src: url('/fonts/charter_bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'tiempos text';
+  font-family: 'charter';
   font-display: 'fallback';
-  src: url('/fonts/tiempos-text-web-bold-italic.woff2') format('woff2');
+  src: url('/fonts/charter_bold_italicwoff2') format('woff2');
   font-weight: 700;
   font-style: italic;
 }
