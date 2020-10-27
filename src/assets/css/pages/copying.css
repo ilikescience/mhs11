@@ -3,10 +3,16 @@
     height: auto;
 }
 
+.copying--hero-container {
+    margin: 0;
+    padding: clamp(1em, 3vw, 3em);
+    padding-bottom: clamp(1.5em, 4vw, 3em);
+}
+
 .copying-subtitle {
     text-align: center;
     color: var(--c--theme-fg);
-    font-size: clamp(1rem, 2.5vw, 1.5rem); 
+    font-size: clamp(1rem, 2.5vw, 1.3rem); 
 }
 
 .copying--contents {
