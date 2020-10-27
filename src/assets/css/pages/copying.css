@@ -6,6 +6,7 @@
 .copying-subtitle {
     text-align: center;
     color: var(--c--theme-fg);
+    font-size: clamp(1rem, 2.5vw, 1.5rem); 
 }
 
 .copying--contents {
