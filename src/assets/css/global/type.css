@@ -1,13 +1,13 @@
 :root {
     /* base values */
-    --t--base-size: 20px;
-    --t--base-leading: 1.55;
+    --t--base-size: 22px;
+    --t--base-leading: 1.4;
     --t--leading-small: 1;
 
     /* families */
     --t--family-sans: -apple-system, 'BlinkMacSystemFont', 'Segoe UI',
         'Roboto', 'Helvetica', 'Arial', sans-serif;
-    --t--family-serif: 'tiempos text', 'Palatino Linotype', 'Palatino',
+    --t--family-serif: 'charter', 'Palatino Linotype', 'Palatino',
         'Book Antiqua', 'Baskerville', 'Bookman Old Style', 'Garamond',
         'Apple Garamond', 'Century Schoolbook', 'Georgia', serif;
     --t--family-mono: 'source code', menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
@@ -95,6 +95,10 @@
     font-feature-settings: 'tnum';
 }
 
+.t--transform-uppercase {
+    text-transform: uppercase;
+}
+
 sup {
     line-height: 1;
 }
@@ -113,7 +117,7 @@ html {
 @media only screen and (max-width: 600px) {
     body,
     html {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
