@@ -1,32 +1,33 @@
 .footnote-ref a {
     display: inline-block;
-    width: 2em;
+    top: -0.5em;
     height: 1.5em;
-    margin: 0 0.25em;
-    background: var(--c--theme-gray-1);
-    color: var(--c--theme-gray-4);
+    margin: 0 0.05rem;
     font-family: var(--t--family-sans);
     font-size: 0.75em;
     font-weight: 500;
     line-height: 1.5em;
     text-align: center;
-    border-radius: 1.5em;
     text-decoration: none;
+    border-bottom: 1px solid var(--c--theme-gray-2);
 }
 
 .footnote-backref {
+    margin: 0 0.1rem;
     text-decoration: none;
     color: var(--c--theme-gray);
+    border-bottom: 1px solid var(--c--theme-gray-2);
 }
 
 .footnote-ref a:hover {
-    background: var(--c--theme-gray-2);
+    color: var(--c--theme-gray-3);
+    border-bottom: 1px solid var(--c--theme-gray-3);
 }
 
 .footnotes p,
 .footnotes ol {
     font-family: var(--t--family-sans);
-    font-size: 1rem;
+    font-size: var(--t--size-s);
     margin-top: 0.25rem;
 }
 

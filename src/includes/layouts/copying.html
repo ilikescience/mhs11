@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    {% if og.description %}
+        <meta name="description" content="{{ og.description }}">
+    {% else %}
+        <meta name="description" content="I speak and write about product design, front-end code, leadership, and (occasionally) math.">
+    {% endif %}
+    <title>{% if title %} {{title}} || {% endif %}Matthew Ström: designer &amp; developer</title>
+    <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/pages/copying.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
+        });
+    </script>
+    <script defer src="/js/main.js"></script>
+    {% if layout == "layouts/book.html" %}
+        <meta property="og:title" content="A review of {{ title }} by {{ author }}" />
+        <meta property="og:url" content="https://matthewstrom.com{{ page.url }}" />
+        <meta property="og:image" content="https://matthewstrom.com{{ cover }}" />
+        <meta property="og:article:published_time" content="{{ date }}" />
+        <meta property="og:article:author" content="Matthew Ström" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator"content="@ilikescience" />
+    {% else if og %}
+        <meta property="og:title" content="{{ og.title }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://matthewstrom.com{{ page.url }}" />
+        <meta property="og:image" content="https://matthewstrom.com{{ og.image }}" />
+        <meta property="og:image:width" content="{{ og.image_width }}" />
+        <meta property="og:image:height" content="{{ og.image_height }}" />
+        <meta property="og:description" content="{{ og.description }}" />
+        <meta property="og:article:published_time" content="{{ date }}" />
+        <meta property="og:article:author" content="Matthew Ström" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator"content="@ilikescience" />
+    {% endif %}
+    {% if external and external_url %}
+        <link rel="canonical" href="{{external_url}}"/>
+    {% endif %}
+</head>
+
+<body>
+    <div class="c--theme-dark c--bg-gray-1 l--mar-top-none l--pad-top-s">
+        <nav class="l--space-flush {% if cover %}has-cover{% endif %} l--grid l--mar-top-none">
+            <div class="nav--container l--grid-wide">
+                <a href="/" class="nav--logo">
+                    <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="20"/>
+                    </svg>
+                    <div>Matthew Ström</div>
+                </a>
+
+                <div class="nav--menu">
+                    <a href="/writing" class="{% if activePage == "writing" %}active{% endif %}">Writing</a>
+                    <a href="/reading" class="{% if activePage == "reading" %}active{% endif %}">Reading</a>
+                    <a href="/speaking" class="{% if activePage == "speaking" %}active{% endif %}">Speaking</a>
+                    <a href="#" class="nav--theme-switcher" aria-label="Switch color themes">
+                        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <g class="switcher--icon switcher--icon-light">
+                                <path d="M18.866 3.866A22.01 22.01 0 0 0 18 10c0 12.15 9.85 22 22 22a22.01 22.01 0 0 0 6.134-.866C43.478 40.299 35.022 47 25 47 12.85 47 3 37.15 3 25 3 14.978 9.7 6.522 18.866 3.866z"/>
+                            </g>
+                            <g class="switcher--icon switcher--icon-dark">
+                                <circle cx="25" cy="25" r="14"/><path d="M.605 19.177l1.236-3.804L8.5 17.536 7.263 21.34zM41.501 32.464l1.236-3.804 6.658 2.163-1.236 3.804zM11.923 46.4l-3.236-2.35 4.115-5.664 3.236 2.352zM37.198 11.614l-3.236-2.352L38.077 3.6l3.236 2.351zM41.313 44.05l-3.236 2.35-4.115-5.662 3.236-2.352zM16.038 9.262l-3.236 2.352L8.687 5.95l3.236-2.35zM48.159 15.373l1.236 3.804-6.658 2.163-1.236-3.804zM7.263 28.66l1.236 3.804-6.658 2.163-1.236-3.804zM23 0h4v7h-4zM23 43h4v7h-4z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    <div class="copying--hero-container">
+        <svg id="copying-hero" viewBox="0 0 1447 800">
+            <defs>
+                <path id="type" d="M222.535 73.316h-48.382c-4.652 9.862-17.678 18.05-58.058 18.05-47.637 0-67.362-7.816-67.362-26.982 0-20.842 19.725-28.843 67.362-28.843 40.38 0 53.592 8.374 58.244 20.283h48.382C220.674 20.096 186.621.185 116.095.185 44.267.185.165 15.258.165 64.384s44.102 62.338 115.93 62.338c70.526 0 104.393-17.864 106.44-53.406zM357.707 126.722c81.132 0 112.58-21.586 112.58-63.269 0-41.682-31.448-63.268-112.58-63.268-81.133 0-112.581 21.586-112.581 63.268 0 41.683 31.448 63.269 112.581 63.269zm0-35.356c-38.333 0-64.199-5.583-64.199-27.913s25.866-27.912 64.199-27.912 62.338 5.582 62.338 27.912-24.005 27.913-62.338 27.913zM623.262 92.296c37.217 0 66.99-3.721 66.99-41.869 0-38.147-29.773-46.52-66.99-46.52H494.12V123h46.521V92.296h82.621zm7.257-51.173c7.444 0 13.212 1.489 13.212 9.305 0 7.815-5.768 9.304-13.212 9.304h-89.878V41.123h89.878zM889.353 3.907h-54.895l-43.543 55.452-43.916-55.452h-54.895l75.364 88.761V123h46.521V92.668l75.364-88.761zM906.158 3.907V123h46.521V3.907h-46.521zM1150.84 123h46.52V3.907h-46.52v72.386L1028.03 3.907h-46.523V123h46.523V51.916L1150.84 123zM1331.87 126.722c39.82 0 67.92-12.282 84.66-34.798-3.35 11.165-6.32 22.888-6.32 31.076h36.47V61.406h-99.18v19.54h60.66c-18.05 7.07-36.84 10.42-66.99 10.42-51.36 0-71.08-8.746-71.08-26.982 0-20.842 19.72-28.843 67.36-28.843 40.38 0 53.59 8.374 58.24 16.561h48.38C1442.03 20.096 1406.11.185 1337.45.185c-69.97 0-115.93 15.073-115.93 64.199s45.96 62.338 110.35 62.338z" fill="var(--c--theme-fg)" />
+                <path id="type-reversed" d="M222.535 73.316h-48.382c-4.652 9.862-17.678 18.05-58.058 18.05-47.637 0-67.362-7.816-67.362-26.982 0-20.842 19.725-28.843 67.362-28.843 40.38 0 53.592 8.374 58.244 20.283h48.382C220.674 20.096 186.621.185 116.095.185 44.267.185.165 15.258.165 64.384s44.102 62.338 115.93 62.338c70.526 0 104.393-17.864 106.44-53.406zM357.707 126.722c81.132 0 112.58-21.586 112.58-63.269 0-41.682-31.448-63.268-112.58-63.268-81.133 0-112.581 21.586-112.581 63.268 0 41.683 31.448 63.269 112.581 63.269zm0-35.356c-38.333 0-64.199-5.583-64.199-27.913s25.866-27.912 64.199-27.912 62.338 5.582 62.338 27.912-24.005 27.913-62.338 27.913zM623.262 92.296c37.217 0 66.99-3.721 66.99-41.869 0-38.147-29.773-46.52-66.99-46.52H494.12V123h46.521V92.296h82.621zm7.257-51.173c7.444 0 13.212 1.489 13.212 9.305 0 7.815-5.768 9.304-13.212 9.304h-89.878V41.123h89.878zM889.353 3.907h-54.895l-43.543 55.452-43.916-55.452h-54.895l75.364 88.761V123h46.521V92.668l75.364-88.761zM906.158 3.907V123h46.521V3.907h-46.521zM1150.84 123h46.52V3.907h-46.52v72.386L1028.03 3.907h-46.523V123h46.523V51.916L1150.84 123zM1331.87 126.722c39.82 0 67.92-12.282 84.66-34.798-3.35 11.165-6.32 22.888-6.32 31.076h36.47V61.406h-99.18v19.54h60.66c-18.05 7.07-36.84 10.42-66.99 10.42-51.36 0-71.08-8.746-71.08-26.982 0-20.842 19.72-28.843 67.36-28.843 40.38 0 53.59 8.374 58.24 16.561h48.38C1442.03 20.096 1406.11.185 1337.45.185c-69.97 0-115.93 15.073-115.93 64.199s45.96 62.338 110.35 62.338z" fill="var(--c--theme-fg)" transform="scale(1 -1) translate(0 -127)" />
+            </defs>
+        </svg>
+        <div class="copying-subtitle t--weight-light">(is the way design works)</div>
+    </div>
+    <script src="/js/copying.js"></script>
+    </div>
+    {{ content }}
+    <footer class="l--mar-top-m l--mar-btm-s l--grid">
+        <div class="l--grid-wide">
+            <div>
+                <hr class="l--mar-btm-s" />
+            </div>
+            <div>
+                <div class="footer-menu">
+                    <span>© 2020</span> ·
+                    <a href="https://twitter.com/ilikescience" rel="me noopener" target="_blank">Twitter</a> · 
+                    <a href="/feed.xml">RSS</a> ·
+                    <a href="mailto:matthew.h.strom@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>   
+
+</body>
+</html>
