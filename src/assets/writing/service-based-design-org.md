@@ -16,7 +16,7 @@ date: 2021-01-23
 
 Last year, I joined SimpleHealth with the mission of building a design org from scratch. On my first day, there were no in-house designers — just a rotating cast of freelance designers hired by various departments as they were needed.
 
-A blank slate is a design leader’s dream. Finally, I thought, an opportunity to correct every frustrating wrong I’d been cataloging in previous jobs. No more politics to navigate, no more entrenched habits, just me and the org chart.
+A blank slate is a design leader’s dream. Finally, I thought, an opportunity to correct every frustrating wrong I’d been cataloging in previous jobs. No politics to navigate, no entrenched habits, just me and the org chart.
 
 First question: _What does a good design org actually look like?_
 
