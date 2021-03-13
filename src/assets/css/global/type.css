@@ -168,6 +168,7 @@ pre,
 code {
     font-family: var(--t--family-mono);
     font-size: calc(var(--t--size-m) * 0.9);
+    white-space: normal;
 }
 
 .post p,

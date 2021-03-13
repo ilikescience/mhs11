@@ -10,9 +10,15 @@ layout: layouts/default.html
         <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
+{%if hero %}
+    <div class="l--grid-wide">
+        <img src="{{hero}}">
+    </div>
+{% else %}
 <div class="l--grid-narrow">
     <hr class="l--mar-top-s l--mar-btm-s" />
 </div>
+{% endif %}
 <article class="post l--grid-narrow">
     {{ content }}
 </article>
