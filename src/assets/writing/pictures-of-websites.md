@@ -202,7 +202,7 @@ That’s why we should be more deliberate in preparing our presentations: focus 
 
 Pictures that _discover_ are probably easiest to define and improve.
 
-**The purpose of a picture that discovers: explore the vast space of possible designs. Vsualize alternate realities. Play.**
+**The purpose of a picture that discovers: explore the vast space of possible designs. Visualize alternate realities. Play.**
 
 These live in design tools like [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/), or [Adobe XD](https://www.adobe.com/products/xd.html). I like to put them in a folder, artboard, or page titled “DISCOVERY” or “FUTURE EXPLORATIONS,” in case anyone is lurking through my work.
 
