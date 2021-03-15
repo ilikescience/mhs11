@@ -249,7 +249,7 @@ The newest rash of unicorn productivity apps — led by [Notion](https://www.not
 
 What lends these tools so much potential is their ability to provide context to thinking. That’s what pictures that define are all about. Even without live-updating embedded design files, or a video commentary, or hyperlinks and tooltips and nested databases, a design document can be immensely powerful if it can communicate why and how a design works.
 
-Pictures that define have to take a bird's-eye view. Include too many specifics, and you risk your stakeholders losing the forest from the trees, getting fixated on a font here or a color there. To communicate the specifics — the "what" — we need yet another type of pciture.
+Pictures that define have to take a bird's-eye view. Include too many specifics, and you risk your stakeholders losing the forest from the trees, getting fixated on a font here or a color there. To communicate the specifics — the "what" — we need yet another type of picture.
 
 ---
 
