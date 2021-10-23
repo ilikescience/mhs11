@@ -2,6 +2,7 @@
 
 const glob = require('fast-glob')
 const path = require('path')
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help")
 
 /**
  * The @11ty/eleventy configuration.
@@ -12,7 +13,7 @@ module.exports = function(eleventyConfig) {
     const dirs = {
         input: 'src/assets/',
         data: `../data/`,
-        includes: `../includes/`,
+        includes: `../_includes/`,
     }
 
     // markdown config
@@ -114,6 +115,9 @@ module.exports = function(eleventyConfig) {
     // syntax highlighting
     eleventyConfig.addPlugin(syntaxHighlight)
 
+    // upgrade helper
+    eleventyConfig.addPlugin(UpgradeHelper)
+
     // collection for next/prev posts
     eleventyConfig.addCollection("writing", function(collection) {
         const coll = collection.getFilteredByTag("writing");
@@ -133,4 +137,5 @@ module.exports = function(eleventyConfig) {
         dir: dirs,
         pathPrefix: '/',
     }
+    
 }
