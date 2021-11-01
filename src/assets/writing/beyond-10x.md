@@ -1,6 +1,6 @@
 ---
 title: Beyond 10&times;
-date: 2021-10-23
+date: 2021-11-01
 og:
     title: Beyond 10&times;
     description: Unlocking impact through design systems and automation
