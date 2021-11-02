@@ -1,10 +1,10 @@
 ---
-title: Beyond 10&times;
+title: Beyond 10×
 date: 2021-11-01
 og:
-    title: Beyond 10&times;
+    title: Beyond 10×
     description: Unlocking impact through design systems and automation
-    image: /images/beyond10&times;.jpg
+    image: /images/beyond10x.jpg
     image_width: 2880
     image_height: 1800
 ---
