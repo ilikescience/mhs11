@@ -17,8 +17,8 @@ The Communications of the ACM paper was widely cited and spread, most notably in
 
 1. Hates meetings
 2. Works irregular hours
-3. Use a dark theme for their IDE
-4. Rarely look at help documentation
+3. Uses a dark theme for their IDE
+4. Rarely looks at help documentation
 5. Etc.
 
 The thread was swiftly parodied mercilessly. What made the parodies hit home, though, is self-awareness: we all want to be the 10&times; programmer. Or the 10&times; designer. Or the 10&times; product manager. I definitely want to be a 10&times; design leader ! Maybe then I’d get my annual reviews done without an extra weekend of work. It’d make the case for a promotion or a raise much easier; maybe I’d get invited to speak at more conferences, or be given a bigger budget, or more headcount.
