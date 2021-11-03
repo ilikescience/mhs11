@@ -9,7 +9,7 @@ og:
     image_height: 1800
 ---
 
-In the January 1968 issue of computer science trade magazine _Communications of the ACM_, a paper appeared under the unassuming title “Exploratory experimental studies comparing online and offline programming performance.” “Programming is a multibillion dollar industry,” the paper begins, but given juzst how much money is spent on on their salaries, nobody had yet bothered to study how programmers work. So the authors broke new ground, creating a set of experiments to measure programmer productivity. Across different skill levels, years of experience, and task types, they found “large individual differences between high and low performers.” The differences were as large as “an order of magnitude”—that is, the most effective programmers were 10 times more productive than the least effective ones.[^1]
+In the January 1968 issue of computer science trade magazine _Communications of the ACM_, a paper appeared under the unassuming title “Exploratory experimental studies comparing online and offline programming performance.” “Programming is a multibillion dollar industry,” the paper begins, but given just how much money is spent on on their salaries, nobody had yet bothered to study how programmers work. So the authors broke new ground, creating a set of experiments to measure programmer productivity. Across different skill levels, years of experience, and task types, they found “large individual differences between high and low performers.” The differences were as large as “an order of magnitude”—that is, the most effective programmers were 10 times more productive than the least effective ones.[^1]
 
 The myth of the 10&times; programmer was born.
 
