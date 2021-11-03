@@ -9,7 +9,7 @@ og:
     image_height: 1800
 ---
 
-In the January 1968 issue of computer science trade magazine _Communications of the ACM_, a paper appeared under the unassuming title “Exploratory experimental studies comparing online and offline programming performance.” “Programming is a multibillion dollar industry,” the paper begins, but given juzst how much money is spent on on their salaries, nobody had yet bothered to study how programmers work. So the authors broke new ground, creating a set of experiments to measure programmer productivity. Across different skill levels, years of experience, and task types, they found “large individual differences between high and low performers.” The differences were as large as “an order of magnitude”—that is, the most effective programmers were 10 times more productive than the least effective ones.[^1]
+In the January 1968 issue of computer science trade magazine _Communications of the ACM_, a paper appeared under the unassuming title “Exploratory experimental studies comparing online and offline programming performance.” “Programming is a multibillion dollar industry,” the paper begins, but given just how much money is spent on on their salaries, nobody had yet bothered to study how programmers work. So the authors broke new ground, creating a set of experiments to measure programmer productivity. Across different skill levels, years of experience, and task types, they found “large individual differences between high and low performers.” The differences were as large as “an order of magnitude”—that is, the most effective programmers were 10 times more productive than the least effective ones.[^1]
 
 The myth of the 10&times; programmer was born.
 
@@ -17,8 +17,8 @@ The Communications of the ACM paper was widely cited and spread, most notably in
 
 1. Hates meetings
 2. Works irregular hours
-3. Use a dark theme for their IDE
-4. Rarely look at help documentation
+3. Uses a dark theme for their IDE
+4. Rarely looks at help documentation
 5. Etc.
 
 The thread was swiftly parodied mercilessly. What made the parodies hit home, though, is self-awareness: we all want to be the 10&times; programmer. Or the 10&times; designer. Or the 10&times; product manager. I definitely want to be a 10&times; design leader ! Maybe then I’d get my annual reviews done without an extra weekend of work. It’d make the case for a promotion or a raise much easier; maybe I’d get invited to speak at more conferences, or be given a bigger budget, or more headcount.
