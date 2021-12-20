@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'charter';
     font-display: 'fallback';
-    src: url('/fonts/charter.woff2') format('woff2');
+    src: url('/fonts/charter_regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
   }
@@ -32,26 +32,17 @@
 }
 
 @font-face {
-    font-family: 'inter';
-    font-display: 'fallback';
-    font-weight: 100 900;
-    font-style: normal;
-    font-named-instance: 'Regular';
-    src: url('/fonts/Inter-upright.woff2?v=3.3') format('woff2');
-  }
-@font-face {
-    font-family: 'inter';
-    font-display: 'fallback';
-    font-weight: 100 900;
-    font-style: italic;
-    font-named-instance: 'Italic';
-    src: url('/fonts/Inter-italic.woff2?v=3.3') format('woff2');
-  }
+  font-family: 'dm mono';
+  font-display: 'fallback';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/DMMono-Regular.woff2') format('woff2');
+}
 
-  @font-face {
-    font-family: 'source code';
-    font-display: 'fallback';
-    font-weight: 100 900;
-    font-style: normal;
-    src: url('/fonts/SourceCodeVariable.woff2') format('woff2');
-  }
+@font-face {
+  font-family: 'dm mono';
+  font-display: 'fallback';
+  font-weight: 400;
+  font-style: italic;
+  src: url('/fonts/DMMono-Italic.woff2') format('woff2');
+}
