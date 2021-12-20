@@ -28,6 +28,14 @@ const processForm = form => {
         })
 }
 
+const updateTime = () => {
+    const now = new Date()
+    const time = document.querySelectorAll('.currentTime')
+    time.forEach(t => {
+        t.innerHTML = now.toLocaleTimeString(undefined, {timeStyle: 'short'}).replace("AM","").replace("PM","")
+    });
+}
+
 window.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.querySelector('.nav--theme-switcher')
     themeToggle.addEventListener('click', e => {
@@ -43,4 +51,5 @@ window.addEventListener('DOMContentLoaded', () => {
             processForm(emailForm);
         })
     }
+    updateTime();
 })

@@ -15,6 +15,7 @@ pre[class*='language-'] {
 pre[class*='language-'] {
     padding: var(--l--space-s);
     overflow: auto;
+    border-radius: var(--l--border-radius);
 }
 
 p code,
