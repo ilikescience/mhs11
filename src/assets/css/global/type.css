@@ -10,8 +10,8 @@
     --t--family-serif: 'charter', 'Palatino Linotype', 'Palatino',
         'Book Antiqua', 'Baskerville', 'Bookman Old Style', 'Garamond',
         'Apple Garamond', 'Century Schoolbook', 'Georgia', serif;
-    --t--family-mono: 'source code', menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
-        monospace;
+    --t--family-mono: 'dm mono', menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
+        monospace, monospace;
 
     /* weights */
     --t--weight-black: 900;
