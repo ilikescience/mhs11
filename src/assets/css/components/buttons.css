@@ -1,5 +1,7 @@
 .button {
     display: inline-block;
+    padding: 0.75em 1em;
+    border-radius: var(--l--border-radius-s);
 }
 
 .button--primary {

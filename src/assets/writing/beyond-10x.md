@@ -37,7 +37,7 @@ The key insight is this: **what matters is your team’s outcomes, not the raw a
 
 Let’s take a look at some common tasks for a software development team, in terms of effort—how much time and energy the task takes—and outcome—the value that the task produces for users and stakeholders.
 
-<svg viewbox="0 0 100 100">
+<svg viewbox="0 0 1000 1000">
      <style>
           .axis-text {
                fill: var(--c--theme-gray-2);
@@ -47,91 +47,91 @@ Let’s take a look at some common tasks for a software development team, in ter
           }
      </style>
      <!-- axes -->
-     <line x1="50" y1="0" x2="50" y2="100" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
-     <line x1="0" y1="50" x2="100" y2="50" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
+     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
+     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
      <!-- axis labels -->
-     <text transform="rotate(-90) translate(-23 48)" font-size="2.5" class="axis-text">High Value Outcome</text>
-     <text transform="rotate(-90) translate(-99 48)" font-size="2.5" class="axis-text">Low Value Outcome</text>
-     <text transform="translate(0 48)" font-size="2.5" class="axis-text">Low effort</text>
-     <text transform="translate(88 48)" font-size="2.5" class="axis-text">High effort</text>
+     <text transform="rotate(-90) translate(-230 480)" font-size="25" class="axis-text">High Value Outcome</text>
+     <text transform="rotate(-90) translate(-990 480)" font-size="25" class="axis-text">Low Value Outcome</text>
+     <text transform="translate(0 480)" font-size="25" class="axis-text">Low effort</text>
+     <text transform="translate(880 480)" font-size="25" class="axis-text">High effort</text>
      <!-- data points -->
-     <g transform="translate(10 30)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(100 300)">
+          <text font-size="25" class="label-text">
                <tspan>Enforcing accessible</tspan>
-               <tspan x="0" y="2.5">color combinations</tspan>
+               <tspan x="0" y="25">color combinations</tspan>
           </text>
-          <circle cx=25 cy=-.75 r=1 fill="#F2C94C"></circle>
+          <circle cx=250 cy=-7.5 r=10 fill="#F2C94C"></circle>
      </g>
-     <g transform="translate(70 8)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(700 80)">
+          <text font-size="25" class="label-text">
                <tspan>Internationalization</tspan>
           </text>
-          <circle cx=23 cy=-.75 r=1 fill="#9B51E0"></circle>
+          <circle cx=230 cy=-7.5 r=10 fill="#9B51E0"></circle>
      </g>
-     <g transform="translate(55 15)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(550 150)">
+          <text font-size="25" class="label-text">
                <tspan>Creating automated</tspan>
-               <tspan x="0" y="2.5">accessibility tests</tspan>
+               <tspan x="0" y="25">accessibility tests</tspan>
           </text>
-          <circle cx=24 cy=-.75 r=1 fill="#9B51E0"></circle>
+          <circle cx=240 cy=-7.5 r=10 fill="#9B51E0"></circle>
      </g>
-     <g transform="translate(63 24)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(630 240)">
+          <text font-size="25" class="label-text">
                <tspan>Qualitative user research</tspan>
           </text>
-          <circle cx=28.5 cy=-.75 r=1 fill="#9B51E0"></circle>
+          <circle cx=285 cy=-7.5 r=10 fill="#9B51E0"></circle>
      </g>
-     <g transform="translate(60 30)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(600 300)">
+          <text font-size="25" class="label-text">
                <tspan>Multivariate testing</tspan>
           </text>
-          <circle cx=23 cy=-.75 r=1 fill="#9B51E0"></circle>
+          <circle cx=230 cy=-7.5 r=10 fill="#9B51E0"></circle>
      </g>
-     <g transform="translate(55 40)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(550 400)">
+          <text font-size="25" class="label-text">
                <tspan>Building a custom</tspan>
-               <tspan x="0" y="2.5">design system</tspan>
+               <tspan x="0" y="25">design system</tspan>
           </text>
-          <circle cx=22 cy=-.75 r=1 fill="#9B51E0"></circle>
+          <circle cx=220 cy=-7.5 r=10 fill="#9B51E0"></circle>
      </g>
-     <g transform="translate(5 55)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(50 550)">
+          <text font-size="25" class="label-text">
                <tspan>Using an open-source</tspan>
-               <tspan x="0" y="2.5">design system</tspan>
+               <tspan x="0" y="25">design system</tspan>
           </text>
-          <circle cx=27 cy=-.75 r=1 fill="#2D9CDB"></circle>
+          <circle cx=270 cy=-7.5 r=10 fill="#2D9CDB"></circle>
      </g>
-     <g transform="translate(15 75)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(150 750)">
+          <text font-size="25" class="label-text">
                <tspan>Tracking user metrics</tspan>
           </text>
-          <circle cx=25 cy=-.75 r=1 fill="#2D9CDB"></circle>
+          <circle cx=250 cy=-7.5 r=10 fill="#2D9CDB"></circle>
      </g>
-     <g transform="translate(55 58)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(550 580)">
+          <text font-size="25" class="label-text">
                <tspan>Fixing visual regressions</tspan>
           </text>
-          <circle cx=28 cy=-.75 r=1 fill="#6FCF97"></circle>
+          <circle cx=280 cy=-7.5 r=10 fill="#6FCF97"></circle>
      </g>
-     <g transform="translate(65 70)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(650 700)">
+          <text font-size="25" class="label-text">
                <tspan>Fully documenting the</tspan>
-               <tspan x="0" y="2.5">design system</tspan>
+               <tspan x="0" y="25">design system</tspan>
           </text>
-          <circle cx=27 cy=-.75 r=1 fill="#6FCF97"></circle>
+          <circle cx=270 cy=-7.5 r=10 fill="#6FCF97"></circle>
      </g>
-     <g transform="translate(55 85)">
-          <text font-size="2.5" class="label-text">
+     <g transform="translate(550 850)">
+          <text font-size="25" class="label-text">
                <tspan>Presenting the product</tspan>
-               <tspan x="0" y="2.5">roadmap to stakeholders</tspan>
+               <tspan x="0" y="25">roadmap to stakeholders</tspan>
           </text>
-          <circle cx=27 cy=-.75 r=1 fill="#6FCF97"></circle>
+          <circle cx=270 cy=-7.5 r=10 fill="#6FCF97"></circle>
      </g>
 </svg>
 
 Of course, the placement of tasks in this spectrum is highly subjective and varies from team to team. But all tasks fall somewhere on this spectrum. And there’s a 45-degree angle line down the middle dividing tasks into net positive—where the value of the outcome is greater than the effort — and net negative — where the effort is greater than the outcome.
 
-<svg viewbox="0 0 100 100">
+<svg viewbox="0 0 1000 1000">
      <style>
           .axis-text {
                fill: var(--c--theme-gray-2);
@@ -141,25 +141,25 @@ Of course, the placement of tasks in this spectrum is highly subjective and vari
           }
      </style>
      <!-- axes -->
-     <line x1="50" y1="0" x2="50" y2="100" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
-     <line x1="0" y1="50" x2="100" y2="50" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
+     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
+     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
      <!-- axis labels -->
-     <text transform="rotate(-90) translate(-23 48)" font-size="2.5" class="axis-text">High Value Outcome</text>
-     <text transform="rotate(-90) translate(-99 48)" font-size="2.5" class="axis-text">Low Value Outcome</text>
-     <text transform="translate(0 48)" font-size="2.5" class="axis-text">Low effort</text>
-     <text transform="translate(88 48)" font-size="2.5" class="axis-text">High effort</text>
+     <text transform="rotate(-90) translate(-230 480)" font-size="25" class="axis-text">High Value Outcome</text>
+     <text transform="rotate(-90) translate(-990 480)" font-size="25" class="axis-text">Low Value Outcome</text>
+     <text transform="translate(0 480)" font-size="25" class="axis-text">Low effort</text>
+     <text transform="translate(880 480)" font-size="25" class="axis-text">High effort</text>
      <!-- shapes -->
-     <path d="M 3 3 L 94 3 L 3 94 Z" fill="rgba(242, 153, 74, 0.2)"></path>
-     <path d="M 97 6 L 97 97 L 6 97 Z" fill="rgba(33, 150, 83, 0.2)"></path>
-     <path d="M 95.5 4.5 L 4.5 95.5" stroke="var(--c--theme-gray-2)" stroke-dasharray="3 3"></path>
+     <path d="M 30 30 L 940 30 L 30 940 Z" fill="rgba(242, 153, 74, 0.2)"></path>
+     <path d="M 970 60 L 970 970 L 60 970 Z" fill="rgba(33, 150, 83, 0.2)"></path>
+     <path d="M 955 45 L 45 955" stroke="var(--c--theme-gray-2)" stroke-width="10" stroke-dasharray="30 30"></path>
      <!-- text -->
-     <text text-anchor="middle" font-size="7" font-weight="var(--t--weight-bold)" transform="translate(25 25)" fill="#F2994A">
+     <text text-anchor="middle" font-size="70" font-weight="var(--t--weight-bold)" transform="translate(250 250)" fill="#F2994A">
           <tspan x=0 y=0>Net</tspan>
-          <tspan x=0 y=0 dy="6">Positive</tspan>
+          <tspan x=0 y=0 dy="60">Positive</tspan>
      </text>
-     <text text-anchor="middle" font-size="7" font-weight="var(--t--weight-bold)" transform="translate(75 75)" fill="#219653">
+     <text text-anchor="middle" font-size="70" font-weight="var(--t--weight-bold)" transform="translate(750 750)" fill="#219653">
           <tspan x=0 y=0>Net</tspan>
-          <tspan x=0 y=0 dy="6">Negative</tspan>
+          <tspan x=0 y=0 dy="60">Negative</tspan>
      </text>
 </svg>
 
@@ -167,7 +167,7 @@ Sometimes, “10&times;” conversations focus too much on picking and choosing 
 
 And the neat thing about this paradigm shift is that net-negative work can turn net-positive two different ways: by increasing the **value of the outcome**, or by **decreasing the effort required**. The increase or decrease doesn’t have to be by much; by finding tasks on the borders, and nudging them across to be net positive, a team can transform their productivity.
 
-<svg viewbox="0 0 100 100">
+<svg viewbox="0 0 1000 1000">
      <style>
           .axis-text {
                fill: var(--c--theme-gray-2);
@@ -177,28 +177,28 @@ And the neat thing about this paradigm shift is that net-negative work can turn 
           }
      </style>
      <!-- axes -->
-     <line x1="50" y1="0" x2="50" y2="100" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
-     <line x1="0" y1="50" x2="100" y2="50" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
+     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
+     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
      <!-- axis labels -->
-     <text transform="rotate(-90) translate(-23 48)" font-size="2.5" class="axis-text">High Value Outcome</text>
-     <text transform="rotate(-90) translate(-99 48)" font-size="2.5" class="axis-text">Low Value Outcome</text>
-     <text transform="translate(0 48)" font-size="2.5" class="axis-text">Low effort</text>
-     <text transform="translate(88 48)" font-size="2.5" class="axis-text">High effort</text>
+     <text transform="rotate(-90) translate(-230 480)" font-size="25" class="axis-text">High Value Outcome</text>
+     <text transform="rotate(-90) translate(-990 480)" font-size="25" class="axis-text">Low Value Outcome</text>
+     <text transform="translate(0 480)" font-size="25" class="axis-text">Low effort</text>
+     <text transform="translate(880 480)" font-size="25" class="axis-text">High effort</text>
      <!-- shapes -->
-     <path d="M 3 3 L 94 3 L 3 94 Z" fill="rgba(242, 153, 74, 0.2)"></path>
-     <path d="M 97 6 L 97 97 L 6 97 Z" fill="rgba(33, 150, 83, 0.2)"></path>
-     <path d="M 95.5 4.5 L 4.5 95.5" stroke="var(--c--theme-gray-2)" stroke-dasharray="3 3"></path>
+     <path d="M 30 30 L 940 30 L 30 940 Z" fill="rgba(242, 153, 74, 0.2)"></path>
+     <path d="M 970 60 L 970 970 L 60 970 Z" fill="rgba(33, 150, 83, 0.2)"></path>
+     <path d="M 955 45 L 45 955" stroke="var(--c--theme-gray-2)" stroke-width="10" stroke-dasharray="30 30"></path>
      <!-- points -->
-     <circle cx=50 cy=35 r=2 fill="#F2994A"></circle>
-     <circle cx=80 cy=35 r=2 fill="#219653"></circle>
-     <circle cx=35 cy=50 r=2 fill="#F2994A"></circle>
-     <circle cx=35 cy=80 r=2 fill="#219653"></circle>
+     <circle cx=500 cy=350 r=20 fill="#F2994A"></circle>
+     <circle cx=800 cy=350 r=20 fill="#219653"></circle>
+     <circle cx=350 cy=500 r=20 fill="#F2994A"></circle>
+     <circle cx=350 cy=800 r=20 fill="#219653"></circle>
      <!-- lines -->
-     <path d="M 35 75 L 35 55 M 33 57 L 35 55 L 37 57" stroke="var(--c--theme-fg)" fill="transparent"></path>
-     <path d="M 75 35 L 55 35 M 57 33 L 55 35 L 57 37" stroke="var(--c--theme-fg)" fill="transparent"></path>
+     <path d="M 350 750 L 350 550 M 330 570 L 350 550 L 370 570" stroke="var(--c--theme-fg)" stroke-width="10" fill="transparent"></path>
+     <path d="M 750 350 L 550 350 M 570 330 L 550 350 L 570 370" stroke="var(--c--theme-fg)" stroke-width="10" fill="transparent"></path>
      <!-- labels -->
-     <text class="label-text" font-size="4" transform="translate(53 30)">Decrease Effort</text>
-     <text class="label-text" font-size="4" transform="translate(30 77) rotate(-90)">Increase Value</text>
+     <text class="label-text" font-size="40" transform="translate(530 300)">Decrease Effort</text>
+     <text class="label-text" font-size="40" transform="translate(300 770) rotate(-90)">Increase Value</text>
 </svg>
 
 One of the biggest innovations in high-performing software development teams has been the use of design systems. That’s because design systems do exactly what I’ve been outlining: they increase the value or decrease the effort of many of the common tasks that teams have to do. Some of those shifts—like reusing components — are well-known. But other shifts — like automations — are just being explored.

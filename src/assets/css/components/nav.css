@@ -17,14 +17,12 @@
 
 .nav--logo svg,
 .nav--theme-switcher svg {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .nav--logo svg {
-    fill: transparent;
-    stroke-width: 4px;
-    stroke: currentColor;
+    fill: var(--c--theme-highlight-3);
 }
 
 .nav--theme-switcher svg {

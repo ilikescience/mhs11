@@ -1,38 +1,44 @@
-<div class="c--bg-gray-1 l--pad-s l--rounded-corners-l l--mar-top-none l--space-compact">
-        <h3 class="l--mar-top-none t--family-sans">Join the mailing list</h3>
-        <p>
-            I'll send new posts to your inbox, along with links to related content and a song recommendation or two.
-        </p>
+<div
+    class="
+        c--bg-gray-1
+        l--pad-s l--rounded-corners-l l--mar-top-none l--space-compact
+    "
+>
+    <h3 class="l--mar-top-none t--family-sans">Join the mailing list</h3>
+    <p>
+        I'll send new posts to your inbox, along with links to related content
+        and a song recommendation or two.
+    </p>
 
-        <form
-            class="email-form"
-            name="newsletter"
-            method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
+    <form
+        class="email-form"
+        name="newsletter"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+    >
+        <div hidden aria-hidden="true">
+            <label
+                >Don’t fill this out if you're human: <input name="bot-field"
+            /></label>
+        </div>
+        <div class="field">
+            <input
+                type="email"
+                name="email"
+                placeholder="name@example.com"
+                id="email"
+                required
+            />
+            <label for="email"
+                >Email</label
+            >
+        </div>
+        <button
+            class="button button--primary form--submit-inline"
+            type="submit"
         >
-            <div hidden aria-hidden="true">
-                <label
-                    >Don’t fill this out if you're human:
-                    <input name="bot-field"
-                /></label>
-            </div>
-            <label for="email" class="t--weight-bold l--mar-btm-none">Your email address</label>
-            <div class="l--flex l--mar-top-none">
-                <input
-                    class="l--flex-twothirds"
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    id="email"
-                    required
-                />
-                <button
-                    class="l--flex-onethird button button--primary form--submit-inline"
-                    type="submit"
-                >
-                    Subscribe
-                </button>
-            </div>
-        </form>
+            Subscribe
+        </button>
+    </form>
 </div>

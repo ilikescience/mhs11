@@ -3,8 +3,8 @@ layout: layouts/default.html
 ---
 
 <header class="l--grid-wide t--align-center">
-    <div class="l--mar-top-m l--space-compact">
-        <h1 class="t--weight-normal">
+    <div class="l--mar-block-m l--space-compact">
+        <h1 class="t--weight-normal t--family-sans">
             {{ title }}
         </h1>
         <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
@@ -12,12 +12,9 @@ layout: layouts/default.html
 </header>
 {%if hero %}
     <div class="l--grid-wide">
-        <img src="{{hero}}">
+        <img src="{{hero}}" class="l--rounded-corners">
     </div>
 {% else %}
-<div class="l--grid-narrow">
-    <hr class="l--mar-top-s l--mar-btm-s" />
-</div>
 {% endif %}
 <article class="post l--grid-narrow">
     {{ content }}

@@ -1,11 +1,12 @@
 :root {
     /* Grid configuration */
-    --l--grid-width-narrow: 34rem;
-    --l--grid-width-wide: 56rem;
+    --l--grid-width-narrow: 38rem;
+    --l--grid-width-wide: 70rem;
 
     /* Border radius */
-    --l--border-radius: 2px;
-    --l--border-radius-l: 8px;
+    --l--border-radius-s: 0.5rem;
+    --l--border-radius: 1rem;
+    --l--border-radius-l: 2rem;
 
     /* Z indexes */
     --l--z-lowest: -9999;
@@ -50,6 +51,7 @@ table * + * {
         [narrow-start] var(--l--grid-width-narrow) [narrow-end]
         minmax(0, calc((var(--l--grid-width-wide) - var(--l--grid-width-narrow)) / 2)) [wide-end]
         minmax(1rem, 1fr) [full-end];
+    gap: 0 1rem;
 }
 
 @media (max-width: 800px) {
@@ -57,8 +59,8 @@ table * + * {
         margin: 0;
         padding: 0 1rem;
         grid-template-columns:
-            [full-start wide-start narrow-start]
-            minmax(1rem, 1fr) [narrow-end wide-end full-end];
+            [full-start wide-start medium-start narrow-start]
+            minmax(1rem, 1fr) [narrow-end medium-end wide-end full-end];
     }
 }
 
@@ -150,6 +152,16 @@ table * + * {
     padding: 0;
 }
 
+.l--pad-block-l { padding-block: var(--l--space-l); }
+.l--pad-block-m { padding-block: var(--l--space-m); }
+.l--pad-block-s { padding-block: var(--l--space-s); }
+.l--pad-block-none { padding-block: 0; }
+
+.l--pad-inline-l { padding-inline: var(--l--space-l); }
+.l--pad-inline-m { padding-inline: var(--l--space-m); }
+.l--pad-inline-s { padding-inline: var(--l--space-s); }
+.l--pad-inline-none { padding-inline: 0; }
+
 .l--pad-top-l {
     padding-top: var(--l--space-l);
 }
@@ -202,6 +214,16 @@ table * + * {
 .l--mar-none {
     margin: 0;
 }
+
+.l--mar-block-l { margin-block: var(--l--space-l); }
+.l--mar-block-m { margin-block: var(--l--space-m); }
+.l--mar-block-s { margin-block: var(--l--space-s); }
+.l--mar-block-none { margin-block: 0; }
+
+.l--mar-inline-l { margin-inline: var(--l--space-l); }
+.l--mar-inline-m { margin-inline: var(--l--space-m); }
+.l--mar-inline-s { margin-inline: var(--l--space-s); }
+.l--mar-inline-none { margin-inline: 0; }
 
 .l--mar-top-l {
     margin-top: var(--l--space-l);
