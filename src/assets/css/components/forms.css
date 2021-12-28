@@ -19,6 +19,7 @@ input {
     appearance: none;
     border-radius: var(--l--border-radius-s);
     background-color: var(--c--theme-bg);
+    color: var(--c--theme-fg);
 }
 
 input:focus {
@@ -46,7 +47,7 @@ input:placeholder-shown + label {
 ::placeholder {
     opacity: 0;
     transition: inherit;
-    color: var(--c--theme-gray-2)
+    color: var(--c--theme-gray-2);
 }
 
 input:focus::placeholder {
@@ -66,5 +67,6 @@ input:focus {
 
 .form--success {
     padding: var(--l--space-s);
+    flex: 1;
     background: var(--c--theme-positive-1);
 }
