@@ -1,12 +1,12 @@
 :root {
     /* Grid configuration */
     --l--grid-width-narrow: 38rem;
-    --l--grid-width-medium: 55rem;
     --l--grid-width-wide: 70rem;
 
     /* Border radius */
-    --l--border-radius: 4px;
-    --l--border-radius-l: 8px;
+    --l--border-radius-s: 0.5rem;
+    --l--border-radius: 1rem;
+    --l--border-radius-l: 2rem;
 
     /* Z indexes */
     --l--z-lowest: -9999;
@@ -47,12 +47,11 @@ table * + * {
     display: grid;
     grid-template-columns:
         [full-start] minmax(1rem, 1fr)
-        [wide-start] minmax(0, calc((var(--l--grid-width-wide) - var(--l--grid-width-medium)) / 2))
-        [medium-start] minmax(0, calc((var(--l--grid-width-medium) - var(--l--grid-width-narrow)) / 2))
+        [wide-start] minmax(0, calc((var(--l--grid-width-wide) - var(--l--grid-width-narrow)) / 2))
         [narrow-start] var(--l--grid-width-narrow) [narrow-end]
-        minmax(0, calc((var(--l--grid-width-medium) - var(--l--grid-width-narrow)) / 2)) [medium-end]
-        minmax(0, calc((var(--l--grid-width-wide) - var(--l--grid-width-medium)) / 2)) [wide-end]
+        minmax(0, calc((var(--l--grid-width-wide) - var(--l--grid-width-narrow)) / 2)) [wide-end]
         minmax(1rem, 1fr) [full-end];
+    gap: 0 1rem;
 }
 
 @media (max-width: 800px) {
@@ -67,10 +66,6 @@ table * + * {
 
 .l--grid-narrow {
     grid-column: narrow;
-}
-
-.l--grid-medium {
-    grid-column: medium;
 }
 
 .l--grid-wide {

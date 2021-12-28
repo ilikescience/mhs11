@@ -21,8 +21,8 @@
 
     /* sizes */
     --t--size-xxl: clamp(2.5rem, 4vw, 3.5rem);
-    --t--size-xl: clamp(1.5rem, 4vw, 2.5rem);
-    --t--size-l: clamp(1.25rem, 3vw, 1.5rem);
+    --t--size-xl: clamp(1.5rem, 3vw, 2.5rem);
+    --t--size-l: clamp(1.25rem, 2vw, 1.5rem);
     --t--size-m: 1em;
     --t--size-s: clamp(0.75rem, 2vw, 0.85rem);
 }

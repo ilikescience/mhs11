@@ -1,14 +1,15 @@
 .table-of-contents {
     position: relative;
-    padding: calc(var(--l--space-m) + 1em) var(--l--space-m) var(--l--space-s);
+    padding: calc(var(--l--space-s) + 1.5em) var(--l--space-s) var(--l--space-s);
     background: var(--c--theme-gray-1);
     font-family: var(--t--family-sans);
+    border-radius: var(--l--border-radius);
 
     &::before {
-        content: 'Table of contents';
+        content: 'Contents';
         position: absolute;
-        top: calc(var(--l--space-s) + 0.5em);
-        left: var(--l--space-m);
+        top: var(--l--space-s);
+        left: var(--l--space-s);
         text-transform: uppercase;
         font-weight: var(--t--weight-bold);
         font-size: 0.8em;

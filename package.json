@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14",
     "stylelint-order": "^2.2.1"
   }
 }

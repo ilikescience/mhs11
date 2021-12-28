@@ -4,15 +4,9 @@ tags: projects
 layout: layouts/project.html
 ---
 
-<div class="l--mar-block-m l--grid">
-    <div class="l--grid-wide">
-        <h1 class="t--family-sans t--weight-normal t--size-xxl">
-            SimpleHealth
-        </h1>
-        <span class="c--gray">Director of design • 2020 &rarr; present</span>
-    </div>
-    <figure class="l--grid-wide l--mar-btm-s">
-        <svg class="l--rounded-corners-l" viewBox="0 0 1600 800">
+<div class="l--mar-block-m l--grid post">
+    <figure class="l--grid-wide">
+        <svg class="l--rounded-corners" viewBox="0 0 1600 800">
             <defs>
                 <mask id="c">
                     <path
@@ -48,12 +42,24 @@ layout: layouts/project.html
                         flood-opacity=".1"
                     />
                 </filter>
+                <linearGradient
+                    id="gradient-1"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                >
+                    <stop offset="0%" style="stop-color: #839299"></stop>
+                    <stop offset="100%" style="stop-color: #c0cbc7"></stop>
+                </linearGradient>
             </defs>
-            <image
-                href="https://source.unsplash.com/gJPbr-KRv7U/1600x900"
-                width="1600"
-                height="900"
-            />
+            <rect
+                x="0"
+                y="0"
+                width="100%"
+                height="100%"
+                fill="url(#gradient-1)"
+            ></rect>
             <g class="ipad" transform="translate(860 150)">
                 <rect
                     width="683"
@@ -436,6 +442,12 @@ layout: layouts/project.html
         </svg>
     </figure>
     <div class="l--grid-narrow">
+        <h1 class="t--weight-normal t--tracking-tight l--mar-top-s">SimpleHealth</h1>
+        <div class="t--size-s table-of-contents">
+            <ol class="t--family-sans">
+                <li><a href="#building-the-team">Building the team</a></li>
+            </ol>
+        </div>
         <p>
             SimpleHealth is a technology-focused healthcare company on a mission
             to be the most accessible and affordable reproductive healthcare
@@ -485,7 +497,7 @@ layout: layouts/project.html
             consistent user experience.
         </p>
     </div>
-    <figure class="l--grid-medium l--mar-block-m">
+    <figure class="l--grid-wide l--mar-block-m">
         <svg
             viewbox="0 0 1200 400"
             style="background-color: var(--c--theme-gray-1)"
@@ -502,16 +514,28 @@ layout: layouts/project.html
                     d="m 20,40 v 20 m 0 -10 h 230 v 10"
                     style="stroke: var(--c--theme-gray-2); fill: transparent"
                 ></path>
-                <text x="50" y="30" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">C-suite</text>
+                <text
+                    x="50"
+                    y="30"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    C-suite
+                </text>
                 <circle
                     cx="20"
                     cy="80"
                     r="20"
                     style="fill: var(--c--theme-gray-3)"
                 ></circle>
-                <text x="50" y="90" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Product</text>
+                <text
+                    x="50"
+                    y="90"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Product
+                </text>
                 <path
                     d="m 20,100 v 20"
                     style="stroke: var(--c--theme-gray-2)"
@@ -522,8 +546,14 @@ layout: layouts/project.html
                     r="20"
                     style="fill: var(--c--theme-gray-4)"
                 ></circle>
-                <text x="50" y="150" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Product design leader</text>
+                <text
+                    x="50"
+                    y="150"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Product design leader
+                </text>
                 <path
                     d="m 20,160 v 20"
                     style="stroke: var(--c--theme-gray-2)"
@@ -546,8 +576,14 @@ layout: layouts/project.html
                     r="20"
                     style="fill: var(--c--theme-gray-5)"
                 ></circle>
-                <text x="8" y="250" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Product design team</text>
+                <text
+                    x="8"
+                    y="250"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Product design team
+                </text>
                 <path
                     d="m 20,170 h50 v10 m0 -10 h50 v10"
                     style="stroke: var(--c--theme-gray-2); fill: transparent"
@@ -558,8 +594,14 @@ layout: layouts/project.html
                     r="20"
                     style="fill: var(--c--theme-gray-3)"
                 ></circle>
-                <text x="280" y="90" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Marketing</text>
+                <text
+                    x="280"
+                    y="90"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Marketing
+                </text>
                 <path
                     d="m 250,100 v 20"
                     style="stroke: var(--c--theme-gray-2)"
@@ -570,8 +612,14 @@ layout: layouts/project.html
                     r="20"
                     style="fill: var(--c--theme-gray-4)"
                 ></circle>
-                <text x="280" y="150" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Marketing design leader</text>
+                <text
+                    x="280"
+                    y="150"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Marketing design leader
+                </text>
                 <path
                     d="m 250,160 v 20"
                     style="stroke: var(--c--theme-gray-2)"
@@ -594,8 +642,14 @@ layout: layouts/project.html
                     r="20"
                     style="fill: var(--c--theme-gray-5)"
                 ></circle>
-                <text x="232" y="250" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Marketing design team</text>
+                <text
+                    x="232"
+                    y="250"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Marketing design team
+                </text>
                 <path
                     d="m 250,170 h50 v10 m0 -10 h50 v10"
                     style="stroke: var(--c--theme-gray-2); fill: transparent"
@@ -678,28 +732,73 @@ layout: layouts/project.html
                         fill: transparent;
                     "
                 ></path>
-                <text x="50" y="30" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">C-suite</text>
-                <text x="50" y="85" dy="-4" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Design leader</text>
-                <text x="-55" y="130" dy="-5" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;" text-anchor="end">
+                <text
+                    x="50"
+                    y="30"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    C-suite
+                </text>
+                <text
+                    x="50"
+                    y="85"
+                    dy="-4"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Design leader
+                </text>
+                <text
+                    x="-55"
+                    y="130"
+                    dy="-5"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                    text-anchor="end"
+                >
                     Cross-functional team
                 </text>
-                <text x="-55" y="180" dy="-5" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;" text-anchor="end">
+                <text
+                    x="-55"
+                    y="180"
+                    dy="-5"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                    text-anchor="end"
+                >
                     Cross-functional team
                 </text>
-                <text x="-55" y="230" dy="-5" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;" text-anchor="end">
+                <text
+                    x="-55"
+                    y="230"
+                    dy="-5"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                    text-anchor="end"
+                >
                     Cross-functional team
                 </text>
-                <text x="90" y="130" dy="-5" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Cross-functional team</text>
-                <text x="90" y="180" dy="-5" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Cross-functional team</text>
-                <text x="90" y="230" dy="-5" style="fill: var(--c--theme-gray-3);
-                font-size: 0.75rem;">Cross-functional team</text>
+                <text
+                    x="90"
+                    y="130"
+                    dy="-5"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Cross-functional team
+                </text>
+                <text
+                    x="90"
+                    y="180"
+                    dy="-5"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Cross-functional team
+                </text>
+                <text
+                    x="90"
+                    y="230"
+                    dy="-5"
+                    style="fill: var(--c--theme-gray-3); font-size: 0.75rem"
+                >
+                    Cross-functional team
+                </text>
                 <text
                     x="20"
                     y="290"
@@ -718,118 +817,364 @@ layout: layouts/project.html
     </figure>
     <div class="l--grid-narrow">
         <p>
-            Building the team in this way allowed me to attract great design talent, increase collaboration, deepen our community of practice, and create a stronger sense of belonging.
+            Building the team in this way allowed me to attract great design
+            talent, increase collaboration, deepen our community of practice,
+            and create a stronger sense of belonging.
         </p>
-        <h2>Designing our service</h2>
+        <h2 class="t--font-size-l t--family-sans">Designing our service</h2>
         <div class="project--related-post">
-            <span class="project--related-post-header c--gray">Related Essay:</span>
-            <a href="/writing/service-based-design-org" target="_blank">The service-based design org</a>
+            <span class="project--related-post-header c--gray"
+                >Related Essay:</span
+            >
+            <a href="/writing/service-based-design-org" target="_blank"
+                >The service-based design org</a
+            >
         </div>
         <p>
-            Another early win for the design team was positioning ourselves as a <em>service</em> rather than a fully user-facing team. This paradigm was born from the insight that design is, in some way or another, part of everything that the business does.
+            Another early win for the design team was positioning ourselves as a
+            <em>service</em> rather than a fully user-facing team. This paradigm
+            was born from the insight that design is, in some way or another,
+            part of everything that the business does.
         </p>
         <p>
-            Applying service design methodology — like service blueprints, SLAs, and service design principles — we were able to support rapid growth across the business with a relatively small design team.
+            Applying service design methodology — like service blueprints, SLAs,
+            and service design principles — we were able to support rapid growth
+            across the business with a relatively small design team.
         </p>
     </div>
-    <figure class="l--grid-medium l--mar-block-m">
+    <figure class="l--grid-wide l--mar-top-m">
         <svg fill="none" viewBox="0 0 2555 966">
-            <text fill="var(--c--theme-gray-4)" font-size="24"><tspan x="137" y="170.031">Discovery</tspan></text>
-            <text fill="var(--c--theme-gray-4)" font-size="24"><tspan x="785" y="170.031">Production</tspan></text>
-            <text fill="var(--c--theme-gray-4)" font-size="24"><tspan x="1890" y="170.031">Delivery</tspan></text>
-            <text fill="var(--c--theme-gray-4)" font-size="23"><tspan x="135" y="326.676">Stakeholder </tspan><tspan x="135" y="353.676">actions</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M335 285h200v91H335z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="355" y="318.477">Identifes and </tspan><tspan x="355" y="335.477">communicates creative </tspan><tspan x="355" y="352.477">needs</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M555 285h200v91H555z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="575" y="318.477">Works with embedded </tspan><tspan x="575" y="335.477">creative team member </tspan><tspan x="575" y="352.477">to refine the request</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M775 285h200v57H775z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="795" y="318.477">Approves the brief</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M995 285h200v74H995z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1015" y="318.477">Recieves draft for </tspan><tspan x="1015" y="335.477">review</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1215 285h200v74h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1235" y="318.477">Provides feedback to </tspan><tspan x="1235" y="335.477">drive iteration </tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 285h200v108h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1455" y="318.477">Gives approval that </tspan><tspan x="1455" y="335.477">creative product meets </tspan><tspan x="1455" y="352.477">the needs outlined in </tspan><tspan x="1455" y="369.477">the brief</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1875 285h200v74h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1895" y="318.477">Recieves the finished </tspan><tspan x="1895" y="335.477">product</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M2095 285h200v74h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="2115" y="318.477">Puts the creative </tspan><tspan x="2115" y="335.477">product into use</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M2315 285h200v91h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="2335" y="318.477">Reports on the </tspan><tspan x="2335" y="335.477">performance of creative </tspan><tspan x="2335" y="352.477">towards business goals</tspan></text>
-            <path stroke="var(--c--theme-gray-1)" d="M114 412.5h2401"/>
-            <text fill="var(--c--theme-gray-4)" font-size="23"><tspan x="135" y="454.676">Frontstage </tspan><tspan x="135" y="481.676">creative team </tspan><tspan x="135" y="508.676">actions</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M555 708h200v74H555z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="575" y="741.477">Brief templates and </tspan><tspan x="575" y="758.477">tools for self-service</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M555 433h200v108H555z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="575" y="466.477">Consults with </tspan><tspan x="575" y="483.477">stakeholder on level of </tspan><tspan x="575" y="500.477">effort and expected </tspan><tspan x="575" y="517.477">impact</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M775 433h200v108H775z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="795" y="466.477">Provides project </tspan><tspan x="795" y="483.477">management ticket for </tspan><tspan x="795" y="500.477">status and delivery </tspan><tspan x="795" y="517.477">tracking</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M775 581h200v74H775z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="795" y="614.477">Produces creative </tspan><tspan x="795" y="631.477">elements for review</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1210 581h200v74h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1230" y="614.477">Implements takeholder </tspan><tspan x="1230" y="631.477">feedback</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M995 433h200v91H995z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1015" y="466.477">Provides creative assets </tspan><tspan x="1015" y="483.477">for stakeholder </tspan><tspan x="1015" y="500.477">feedback</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1215 433h200v74h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1235" y="466.477">Facilitates and captures </tspan><tspan x="1235" y="483.477">stakeholder feedback</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 433h200v108h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1455" y="466.477">Outlines final delivery </tspan><tspan x="1455" y="483.477">plan, including steps to </tspan><tspan x="1455" y="500.477">get legal and/or clinical </tspan><tspan x="1455" y="517.477">approval</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1655 433h200v108h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1675" y="466.477">Communicates </tspan><tspan x="1675" y="483.477">progress and (if </tspan><tspan x="1675" y="500.477">required) changes from </tspan><tspan x="1675" y="517.477">legal and clinical teams</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1875 433h200v74h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1895" y="466.477">Delivers finished </tspan><tspan x="1895" y="483.477">creative product</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M2095 433h200v108h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="2115" y="466.477">Supports technical </tspan><tspan x="2115" y="483.477">delivery requirements </tspan><tspan x="2115" y="500.477">(email coding, image or </tspan><tspan x="2115" y="517.477">video encoding, etc)</tspan></text>
-            <path stroke="var(--c--theme-gray-1) stroke-width="2" d="M114 560h2401"/>
-            <text fill="var(--c--theme-gray-4)" font-size="23"><tspan x="135" y="602.676">Backstage </tspan><tspan x="135" y="629.676">creative team </tspan><tspan x="135" y="656.676">actions</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M335 581h200v91H335z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="355" y="614.477">Plans capacity around </tspan><tspan x="355" y="631.477">expected needs based </tspan><tspan x="355" y="648.477">on historical allocation</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M335 433h200v91H335z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="355" y="466.477">Communicates capacity </tspan><tspan x="355" y="483.477">and provides embedded </tspan><tspan x="355" y="500.477">creative team member</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M775 708h640v57H775z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="795" y="741.477">Project management support from design team</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M775 775h640v57H775z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="795" y="808.477">Standards and practices for consistent and productive feedback</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 581h200v91h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1455" y="614.477">Sends creative to legal </tspan><tspan x="1455" y="631.477">and clinical teams for </tspan><tspan x="1455" y="648.477">final reviews</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1655 581h200v91h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1675" y="614.477">Implements feedback </tspan><tspan x="1675" y="631.477">from legal and clinical </tspan><tspan x="1675" y="648.477">teams</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M2315 581h200v91h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="2335" y="614.477">Maintains performance </tspan><tspan x="2335" y="631.477">data to inform future </tspan><tspan x="2335" y="648.477">creative work</tspan></text>
-            <path stroke="var(--c--theme-gray-1)" d="M110 691.5h2401"/>
-            <text fill="var(--c--theme-gray-4)" font-size="23"><tspan x="135" y="733.676">Supporting </tspan><tspan x="135" y="760.676">processes</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M335 708h200v74H335z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="355" y="741.477">Forecasting from </tspan><tspan x="355" y="758.477">historical velocity data</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M555 792h200v125H555z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="575" y="825.477">Data sources like </tspan><tspan x="575" y="842.477">Facebook and Google </tspan><tspan x="575" y="859.477">Analytics provide </tspan><tspan x="575" y="876.477">support for expected </tspan><tspan x="575" y="893.477">outcomes </tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M775 842h640v74H775z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="795" y="875.477">Tools to gather and manage feedback through multiple iterations (Asana, Figma, Google </tspan><tspan x="795" y="892.477">Docs)</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 708h200v108h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1455" y="741.477">Legal and clinical teams </tspan><tspan x="1455" y="758.477">provide clear guidelines </tspan><tspan x="1455" y="775.477">and processes for </tspan><tspan x="1455" y="792.477">efficient reviews</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M1655 708h200v108h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="1675" y="741.477">Legal and clinical teams </tspan><tspan x="1675" y="758.477">provide feedback on </tspan><tspan x="1675" y="775.477">creative deliverables if </tspan><tspan x="1675" y="792.477">required</tspan></text>
-            <path fill="var(--c--theme-gray-1)" d="M2315 708h200v74h-200z"/>
-            <text fill="var(--c--theme-fg)" font-size="14"><tspan x="2335" y="741.477">Database tools </tspan><tspan x="2335" y="758.477">(Airtable, Looker, SQL)</tspan></text>
-            <path d="M435.53 380.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm1.28 147.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm1100.22-100.47c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-30h-1.5v30h1.5Zm-1.28 275.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-26h-1.5v26h1.5Zm-440.22-339.53a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v64h1.5v-64h-1.5Zm-7.72 164.47a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773ZM1086 602v.75h.75V602h-.75Zm-.75-73v73h1.5v-73h-1.5Zm.75 72.25H980v1.5h106v-1.5Zm15.47-72.78a.749.749 0 0 1 1.06 0l4.77 4.773c.3.293.3.767 0 1.06a.749.749 0 0 1-1.06 0l-4.24-4.242-4.24 4.242a.749.749 0 0 1-1.06 0 .737.737 0 0 1 0-1.06l4.77-4.773ZM1102 602v.75h-.75V602h.75Zm.75-73v73h-1.5v-73h1.5Zm-.75 72.25h103v1.5h-103v-1.5Zm873.53-237.78a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v64h1.5v-64h-1.5Zm-664.78 64.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-64h-1.5v64h1.5Zm-1.28 148.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-64h-1.5v64h1.5ZM660.53 380.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm-9.78 47.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L650 426.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-47h-1.5v47h1.5Zm223.72.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L875 426.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-81h-1.5v81h1.5Zm-1.28 148.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L875 574.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-30h-1.5v30h1.5ZM550.53 305.53a.749.749 0 0 0 0-1.06l-4.773-4.773a.749.749 0 1 0-1.06 1.06l4.242 4.243-4.242 4.243a.749.749 0 1 0 1.06 1.06l4.773-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.749.749 0 0 0 0-1.06l-4.773-4.773a.749.749 0 1 0-1.06 1.06l4.242 4.243-4.242 4.243a.749.749 0 1 0 1.06 1.06l4.773-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm440.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm660.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-439.47 149.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-219.47 276.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-10.53-126.78a.754.754 0 0 0 0 1.06l4.77 4.773c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.24-4.243 4.24-4.243c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.77 4.773Zm.53 1.28h10v-1.5h-10v1.5Zm120.53 74.72a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v26h1.5v-26h-1.5Z" fill="var(--c--theme-gray-4)"/>
-            <path d="M133 184h622l12 15-12 15H133v-30Z" fill="var(--c--theme-gray-1)"/>
-            <path d="M770 184h1088.5l12 15-12 15H770l11.5-15-11.5-15Z" fill="var(--c--theme-gray-1)"/>
-            <path d="M1872 184h640.82l7.18 15-7.18 15H1872l9.88-15-9.88-15Z" fill="var(--c--theme-gray-1)"/>
-            <path d="M333 234h202v26h-88.5l-12.5 7-12.5-7H333v-26Z" fill="var(--c--theme-gray-3)"/>
-            <text fill="var(--c--theme-bg)" font-size="15"><tspan x="367.159" y="252.332">Engagement starts</tspan></text>
-            <path d="M775 234h200v26h-87.624L875 267l-12.376-7H775v-26Zm220 0h202v26h-88.5l-12.5 7-12.5-7H995v-26Zm440 0h202v26h-88.5l-12.5 7-12.5-7H1435v-26Zm440 0h200v26h-87.62l-12.38 7-12.38-7H1875v-26Zm220 0h200v26h-87.62l-12.38 7-12.38-7H2095v-26Z" fill="var(--c--theme-gray-3)"/>
-            <text fill="var(--c--theme-bg)" font-size="15"><tspan x="813.394" y="252.332">Production starts</tspan></text>
-            <text fill="var(--c--theme-bg)" font-size="15"><tspan x="1055.38" y="252.332">First review</tspan></text>
-            <text fill="var(--c--theme-bg)" font-size="15"><tspan x="1458.44" y="252.332">Stakeholder approved</tspan></text>
-            <text fill="var(--c--theme-bg)" font-size="15"><tspan x="1912.48" y="252.332">Product delivered</tspan></text>
-            <text fill="var(--c--theme-bg)" font-size="15"><tspan x="2137.22" y="252.332">Product shipped</tspan></text>
-            <path stroke="var(--c--theme-gray-2)" stroke-dasharray="5 5" d="M1425.5 571.5h438v254h-438z"/>
-            <text fill="var(--c--theme-gray-3)" font-size="13"><tspan x="1547.46" y="848.621">May not be required for all work</tspan></text>
-            <text fill="var(--c--theme-fg)" font-size="34" font-weight="bold"><tspan x="40" y="72.586">SimpleHealth Creative Service Blueprint</tspan></text>
-            <text fill="var(--c--theme-fg)" font-size="20"><tspan x="40" y="100.109">Version 1.0 • September 18, 2021</tspan></text>
-            <path d="M1534.47 576.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-30h-1.5v30h1.5Zm219.78-30.53a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v30h1.5v-30h-1.5Z" fill="var(--c--theme-gray-4)"/>
-            <text fill="var(--c--theme-gray-3)" font-size="14"><tspan x="40" y="555.477">Line of
-          </tspan><tspan x="40" y="572.477">visibility</tspan></text>
-            <text fill="var(--c--theme-fg)" font-size="15"><tspan x="2101.41" y="56.332">For more information on how service blueprints work, go to</tspan><tspan x="2127.66" y="74.332">https://hbr.org/1984/01/designing-services-that-deliver</tspan></text>
-          </svg>
+            <text fill="var(--c--theme-gray-4)" font-size="24">
+                <tspan x="137" y="170.031">Discovery</tspan>
+            </text>
+            <text fill="var(--c--theme-gray-4)" font-size="24">
+                <tspan x="785" y="170.031">Production</tspan>
+            </text>
+            <text fill="var(--c--theme-gray-4)" font-size="24">
+                <tspan x="1890" y="170.031">Delivery</tspan>
+            </text>
+            <text fill="var(--c--theme-gray-4)" font-size="23">
+                <tspan x="135" y="326.676">Stakeholder</tspan>
+                <tspan x="135" y="353.676">actions</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M335 285h200v91H335z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="355" y="318.477">Identifes and</tspan>
+                <tspan x="355" y="335.477">communicates creative</tspan>
+                <tspan x="355" y="352.477">needs</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M555 285h200v91H555z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="575" y="318.477">Works with embedded</tspan>
+                <tspan x="575" y="335.477">creative team member</tspan>
+                <tspan x="575" y="352.477">to refine the request</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M775 285h200v57H775z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="795" y="318.477">Approves the brief</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M995 285h200v74H995z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1015" y="318.477">Recieves draft for</tspan>
+                <tspan x="1015" y="335.477">review</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1215 285h200v74h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1235" y="318.477">Provides feedback to</tspan>
+                <tspan x="1235" y="335.477">drive iteration</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1435 285h200v108h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1455" y="318.477">Gives approval that</tspan>
+                <tspan x="1455" y="335.477">creative product meets</tspan>
+                <tspan x="1455" y="352.477">the needs outlined in</tspan>
+                <tspan x="1455" y="369.477">the brief</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1875 285h200v74h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1895" y="318.477">Recieves the finished</tspan>
+                <tspan x="1895" y="335.477">product</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M2095 285h200v74h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="2115" y="318.477">Puts the creative</tspan>
+                <tspan x="2115" y="335.477">product into use</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M2315 285h200v91h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="2335" y="318.477">Reports on the</tspan>
+                <tspan x="2335" y="335.477">performance of creative</tspan>
+                <tspan x="2335" y="352.477">towards business goals</tspan>
+            </text>
+            <path stroke="var(--c--theme-gray-1)" d="M114 412.5h2401" />
+            <text fill="var(--c--theme-gray-4)" font-size="23">
+                <tspan x="135" y="454.676">Frontstage</tspan>
+                <tspan x="135" y="481.676">creative team</tspan>
+                <tspan x="135" y="508.676">actions</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M555 708h200v74H555z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="575" y="741.477">Brief templates and</tspan>
+                <tspan x="575" y="758.477">tools for self-service</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M555 433h200v108H555z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="575" y="466.477">Consults with</tspan>
+                <tspan x="575" y="483.477">stakeholder on level of</tspan>
+                <tspan x="575" y="500.477">effort and expected</tspan>
+                <tspan x="575" y="517.477">impact</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M775 433h200v108H775z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="795" y="466.477">Provides project</tspan>
+                <tspan x="795" y="483.477">management ticket for</tspan>
+                <tspan x="795" y="500.477">status and delivery</tspan>
+                <tspan x="795" y="517.477">tracking</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M775 581h200v74H775z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="795" y="614.477">Produces creative</tspan>
+                <tspan x="795" y="631.477">elements for review</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1210 581h200v74h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1230" y="614.477">Implements takeholder</tspan>
+                <tspan x="1230" y="631.477">feedback</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M995 433h200v91H995z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1015" y="466.477">Provides creative assets</tspan>
+                <tspan x="1015" y="483.477">for stakeholder</tspan>
+                <tspan x="1015" y="500.477">feedback</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1215 433h200v74h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1235" y="466.477">Facilitates and captures</tspan>
+                <tspan x="1235" y="483.477">stakeholder feedback</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1435 433h200v108h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1455" y="466.477">Outlines final delivery</tspan>
+                <tspan x="1455" y="483.477">plan, including steps to</tspan>
+                <tspan x="1455" y="500.477">get legal and/or clinical</tspan>
+                <tspan x="1455" y="517.477">approval</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1655 433h200v108h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1675" y="466.477">Communicates</tspan>
+                <tspan x="1675" y="483.477">progress and (if</tspan>
+                <tspan x="1675" y="500.477">required) changes from</tspan>
+                <tspan x="1675" y="517.477">legal and clinical teams</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1875 433h200v74h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1895" y="466.477">Delivers finished</tspan>
+                <tspan x="1895" y="483.477">creative product</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M2095 433h200v108h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="2115" y="466.477">Supports technical</tspan>
+                <tspan x="2115" y="483.477">delivery requirements</tspan>
+                <tspan x="2115" y="500.477">(email coding, image or</tspan>
+                <tspan x="2115" y="517.477">video encoding, etc)</tspan>
+            </text>
+            <path stroke="var(--c--theme-gray-1) stroke-width="2" d="M114
+            560h2401"/>
+            <text fill="var(--c--theme-gray-4)" font-size="23">
+                <tspan x="135" y="602.676">Backstage</tspan>
+                <tspan x="135" y="629.676">creative team</tspan>
+                <tspan x="135" y="656.676">actions</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M335 581h200v91H335z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="355" y="614.477">Plans capacity around</tspan>
+                <tspan x="355" y="631.477">expected needs based</tspan>
+                <tspan x="355" y="648.477">on historical allocation</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M335 433h200v91H335z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="355" y="466.477">Communicates capacity</tspan>
+                <tspan x="355" y="483.477">and provides embedded</tspan>
+                <tspan x="355" y="500.477">creative team member</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M775 708h640v57H775z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="795" y="741.477">
+                    Project management support from design team
+                </tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M775 775h640v57H775z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="795" y="808.477">
+                    Standards and practices for consistent and productive
+                    feedback
+                </tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1435 581h200v91h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1455" y="614.477">Sends creative to legal</tspan>
+                <tspan x="1455" y="631.477">and clinical teams for</tspan>
+                <tspan x="1455" y="648.477">final reviews</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1655 581h200v91h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1675" y="614.477">Implements feedback</tspan>
+                <tspan x="1675" y="631.477">from legal and clinical</tspan>
+                <tspan x="1675" y="648.477">teams</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M2315 581h200v91h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="2335" y="614.477">Maintains performance</tspan>
+                <tspan x="2335" y="631.477">data to inform future</tspan>
+                <tspan x="2335" y="648.477">creative work</tspan>
+            </text>
+            <path stroke="var(--c--theme-gray-1)" d="M110 691.5h2401" />
+            <text fill="var(--c--theme-gray-4)" font-size="23">
+                <tspan x="135" y="733.676">Supporting</tspan>
+                <tspan x="135" y="760.676">processes</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M335 708h200v74H335z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="355" y="741.477">Forecasting from</tspan>
+                <tspan x="355" y="758.477">historical velocity data</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M555 792h200v125H555z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="575" y="825.477">Data sources like</tspan>
+                <tspan x="575" y="842.477">Facebook and Google</tspan>
+                <tspan x="575" y="859.477">Analytics provide</tspan>
+                <tspan x="575" y="876.477">support for expected</tspan>
+                <tspan x="575" y="893.477">outcomes</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M775 842h640v74H775z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="795" y="875.477">
+                    Tools to gather and manage feedback through multiple
+                    iterations (Asana, Figma, Google
+                </tspan>
+                <tspan x="795" y="892.477">Docs)</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1435 708h200v108h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1455" y="741.477">Legal and clinical teams</tspan>
+                <tspan x="1455" y="758.477">provide clear guidelines</tspan>
+                <tspan x="1455" y="775.477">and processes for</tspan>
+                <tspan x="1455" y="792.477">efficient reviews</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M1655 708h200v108h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="1675" y="741.477">Legal and clinical teams</tspan>
+                <tspan x="1675" y="758.477">provide feedback on</tspan>
+                <tspan x="1675" y="775.477">creative deliverables if</tspan>
+                <tspan x="1675" y="792.477">required</tspan>
+            </text>
+            <path fill="var(--c--theme-gray-1)" d="M2315 708h200v74h-200z" />
+            <text fill="var(--c--theme-fg)" font-size="14">
+                <tspan x="2335" y="741.477">Database tools</tspan>
+                <tspan x="2335" y="758.477">(Airtable, Looker, SQL)</tspan>
+            </text>
+            <path
+                d="M435.53 380.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm1.28 147.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm1100.22-100.47c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-30h-1.5v30h1.5Zm-1.28 275.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-26h-1.5v26h1.5Zm-440.22-339.53a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v64h1.5v-64h-1.5Zm-7.72 164.47a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773ZM1086 602v.75h.75V602h-.75Zm-.75-73v73h1.5v-73h-1.5Zm.75 72.25H980v1.5h106v-1.5Zm15.47-72.78a.749.749 0 0 1 1.06 0l4.77 4.773c.3.293.3.767 0 1.06a.749.749 0 0 1-1.06 0l-4.24-4.242-4.24 4.242a.749.749 0 0 1-1.06 0 .737.737 0 0 1 0-1.06l4.77-4.773ZM1102 602v.75h-.75V602h.75Zm.75-73v73h-1.5v-73h1.5Zm-.75 72.25h103v1.5h-103v-1.5Zm873.53-237.78a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v64h1.5v-64h-1.5Zm-664.78 64.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-64h-1.5v64h1.5Zm-1.28 148.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-64h-1.5v64h1.5ZM660.53 380.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm-9.78 47.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L650 426.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-47h-1.5v47h1.5Zm223.72.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L875 426.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-81h-1.5v81h1.5Zm-1.28 148.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L875 574.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-30h-1.5v30h1.5ZM550.53 305.53a.749.749 0 0 0 0-1.06l-4.773-4.773a.749.749 0 1 0-1.06 1.06l4.242 4.243-4.242 4.243a.749.749 0 1 0 1.06 1.06l4.773-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.749.749 0 0 0 0-1.06l-4.773-4.773a.749.749 0 1 0-1.06 1.06l4.242 4.243-4.242 4.243a.749.749 0 1 0 1.06 1.06l4.773-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm440.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm660.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-439.47 149.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-219.47 276.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-10.53-126.78a.754.754 0 0 0 0 1.06l4.77 4.773c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.24-4.243 4.24-4.243c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.77 4.773Zm.53 1.28h10v-1.5h-10v1.5Zm120.53 74.72a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v26h1.5v-26h-1.5Z"
+                fill="var(--c--theme-gray-4)"
+            />
+            <path
+                d="M133 184h622l12 15-12 15H133v-30Z"
+                fill="var(--c--theme-gray-1)"
+            />
+            <path
+                d="M770 184h1088.5l12 15-12 15H770l11.5-15-11.5-15Z"
+                fill="var(--c--theme-gray-1)"
+            />
+            <path
+                d="M1872 184h640.82l7.18 15-7.18 15H1872l9.88-15-9.88-15Z"
+                fill="var(--c--theme-gray-1)"
+            />
+            <path
+                d="M333 234h202v26h-88.5l-12.5 7-12.5-7H333v-26Z"
+                fill="var(--c--theme-gray-3)"
+            />
+            <text fill="var(--c--theme-bg)" font-size="15">
+                <tspan x="367.159" y="252.332">Engagement starts</tspan>
+            </text>
+            <path
+                d="M775 234h200v26h-87.624L875 267l-12.376-7H775v-26Zm220 0h202v26h-88.5l-12.5 7-12.5-7H995v-26Zm440 0h202v26h-88.5l-12.5 7-12.5-7H1435v-26Zm440 0h200v26h-87.62l-12.38 7-12.38-7H1875v-26Zm220 0h200v26h-87.62l-12.38 7-12.38-7H2095v-26Z"
+                fill="var(--c--theme-gray-3)"
+            />
+            <text fill="var(--c--theme-bg)" font-size="15">
+                <tspan x="813.394" y="252.332">Production starts</tspan>
+            </text>
+            <text fill="var(--c--theme-bg)" font-size="15">
+                <tspan x="1055.38" y="252.332">First review</tspan>
+            </text>
+            <text fill="var(--c--theme-bg)" font-size="15">
+                <tspan x="1458.44" y="252.332">Stakeholder approved</tspan>
+            </text>
+            <text fill="var(--c--theme-bg)" font-size="15">
+                <tspan x="1912.48" y="252.332">Product delivered</tspan>
+            </text>
+            <text fill="var(--c--theme-bg)" font-size="15">
+                <tspan x="2137.22" y="252.332">Product shipped</tspan>
+            </text>
+            <path
+                stroke="var(--c--theme-gray-2)"
+                stroke-dasharray="5 5"
+                d="M1425.5 571.5h438v254h-438z"
+            />
+            <text fill="var(--c--theme-gray-3)" font-size="13">
+                <tspan x="1547.46" y="848.621">
+                    May not be required for all work
+                </tspan>
+            </text>
+            <text fill="var(--c--theme-fg)" font-size="34" font-weight="bold">
+                <tspan x="40" y="72.586">
+                    SimpleHealth Creative Service Blueprint
+                </tspan>
+            </text>
+            <text fill="var(--c--theme-fg)" font-size="20">
+                <tspan x="40" y="100.109">
+                    Version 1.0 • September 18, 2021
+                </tspan>
+            </text>
+            <path
+                d="M1534.47 576.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-30h-1.5v30h1.5Zm219.78-30.53a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v30h1.5v-30h-1.5Z"
+                fill="var(--c--theme-gray-4)"
+            />
+            <text fill="var(--c--theme-gray-3)" font-size="14">
+                <tspan x="40" y="555.477">Line of</tspan>
+                <tspan x="40" y="572.477">visibility</tspan>
+            </text>
+            <text fill="var(--c--theme-fg)" font-size="15">
+                <tspan x="2101.41" y="56.332">
+                    For more information on how service blueprints work, go to
+                </tspan>
+                <tspan x="2127.66" y="74.332">
+                    https://hbr.org/1984/01/designing-services-that-deliver
+                </tspan>
+            </text>
+        </svg>
     </figure>
+    <div class="l--grid-narrow">
+        <h2 class="t--font-size-l t--family-sans">Showing results</h2>
+        <p>
+            Over the two years I led the design team at SimpleHealth, the design
+            team was instrumental in a number of high-impact projects.
+        </p>
+        <h3 class="t--font-size-m t--font-weight-bold t--family-sans">
+            Increasing opt-in rates for new products
+        </h3>
+        <p>
+            In March of 2021, SimpleHealth launched 5 over-the-counter and
+            prescription health products and offered them as add-ons to our
+            patients' birth control subscriptions.
+        </p>
+        <figure>
+            <img
+                src="/images/sh-2.jpg"
+                alt="A mockup of the new products SimpleHealth launched in 2021"
+            />
+            <figcaption>
+                A mockup of the new products SimpleHealth launched in 2021
+            </figcaption>
+        </figure>
+    </div>
 </div>

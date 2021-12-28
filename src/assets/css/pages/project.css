@@ -3,7 +3,7 @@
     padding-bottom: var(--l--space-m);
 }
 
-.project--section > *:not(.l--grid-wide, .l--grid-medium) {
+.project--section > *:not(.l--grid-wide) {
     grid-column: narrow;
 }
 
