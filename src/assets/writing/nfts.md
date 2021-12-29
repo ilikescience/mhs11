@@ -2,7 +2,7 @@
 title: The legacy of NFTs
 og:
   title: The legacy of NFTs
-  description: What will be the lasting impact of the NFT boom?
+  description: What is the lasting impact of the NFT boom?
   image: /images/nfts-2.jpg
   image_width: 2000
   image_height: 2000
