@@ -26,6 +26,26 @@ module.exports = function(eleventyConfig) {
     const pluginRss = require('@11ty/eleventy-plugin-rss')
     const dateFilter = require('nunjucks-date-filter')
     const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+    const lazyImages = function lazyImages (eleventyConfig, userOptions = {}) {
+        const {parse} = require('node-html-parser')
+      
+        const options = {
+          name: 'lazy-images',
+          ...userOptions
+        }
+      
+        eleventyConfig.addTransform(options.extensions, (content, outputPath) => {
+          if (outputPath.endsWith('.html')) {
+            const root = parse(content);
+            const images = root.querySelectorAll('img');
+            images.forEach((img) => {
+              img.setAttribute('loading', 'lazy')
+            })
+            return root.toString()
+          }
+          return content;
+        })
+      }
 
     let mdOptions = {
         html: true,
@@ -117,6 +137,9 @@ module.exports = function(eleventyConfig) {
 
     // upgrade helper
     eleventyConfig.addPlugin(UpgradeHelper)
+
+    // lazy load images
+    eleventyConfig.addPlugin(lazyImages, {})
 
     // collection for next/prev posts
     eleventyConfig.addCollection("writing", function(collection) {
