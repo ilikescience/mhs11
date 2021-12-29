@@ -50,7 +50,7 @@ It’s easy to see the parallels between tulip mania and the NFT craze. This New
 
 In 2021, $23 billion moved through the NFT marketplace.[^1] This isn’t that much in the grand scheme of things: $474 billion worth of trades was conducted on Nasdaq, the second largest stock exchange in the world, in _just one day_.[^2] But Nasdaq has been around for 50 years; the NFT market has existed for less than 10.
 
-Still, vast amounts of energy are being poured into minting and staking new NFTs. While accurate estimates are elusive, a recent analysis shows that OpenSea, one of the most popular NFT trading platforms, is responsible for the equivalent of over 600 billion tons of CO<sub>2</sub> emissions over the past four years.[^3]
+Vast amounts of energy are being poured into minting and staking new NFTs. While accurate estimates are elusive, a recent analysis shows that OpenSea, one of the most popular NFT trading platforms, is responsible for the equivalent of over 600 billion tons of CO<sub>2</sub> emissions over the past four years.[^3]
 
 And we’re still on the upswing. The NFT market tripled in 2020 to more than $250 million; then, grew another $200 million in the first three months of 2021. It’s impossible to know where the top of this mountain is or what the slope on the other side of it looks like. My guess is: probably pretty high, and probably pretty steep.
 
