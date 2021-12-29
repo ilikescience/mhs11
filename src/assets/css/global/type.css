@@ -179,3 +179,7 @@ blockquote + blockquote {
     margin-top: 0;
     padding-top: var(--l--space-s);
 }
+
+figcaption {
+    font-size: var(--t--size-s);
+}

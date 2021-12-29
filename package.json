@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
+    "node-html-parser": "^5.2.0",
     "stylelint": "^14",
     "stylelint-order": "^2.2.1"
   }
