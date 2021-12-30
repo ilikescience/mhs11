@@ -56,7 +56,7 @@ And we’re still on the upswing. The NFT market tripled in 2020 to more than $2
 
 There are as many arguments about NFTs as there are NFTs themselves. They’re pretty bad for the environment — unless you know what you’re doing and use an environmentally-friendly blockchain. They’re often minted without authorization from artists — but blockchains can establish provenance and smoke out illegal copying. They’re a grift, a pyramid scheme, greater fools all the way down — but at least artists are getting paid.
 
-My point in bringing up tulip mania is this: Tulip mania didn’t start the Dutch Golden Age, and it didn’t end it. It was a product of the time. IN 1630, international trade, financial innovation, and class mobility were all at an all-time high. The economic innovations that led the ships of the Duch East India to circle the world were the same ones that led to tulip mania. 
+My point in bringing up tulip mania is this: Tulip mania didn’t start the Dutch Golden Age, and it didn’t end it. It was a product of the time. In 1630, international trade, financial innovation, and class mobility were all at an all-time high. The economic innovations that led the ships of the Duch East India to circle the world were the same ones that led to tulip mania. 
 
 Tulip mania may have been the world’s first recorded asset bubble, but it ended up ranking pretty low on the list of the worst economic catastrophes. Likewise, over the long arc of history, NFTs are much more likely to be an amusing anecdote than a watershed or a rubicon. 
 
