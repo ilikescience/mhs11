@@ -216,6 +216,14 @@ code {
     font-family: var(--t--family-serif);
 }
 
+.t--unselectable {
+    user-select: none;
+}
+
+.t--unselectable:hover {
+    cursor: default;
+}
+
 blockquote {
     padding-left: 1em;
     color: var(--c--theme-gray-3);

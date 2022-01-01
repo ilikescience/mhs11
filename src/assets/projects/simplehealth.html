@@ -4,44 +4,12 @@ tags: projects
 layout: layouts/project.html
 ---
 
-<div class="l--mar-block-m l--grid post">
+{% include 'components/devices.html' %}
+
+<div class="l--grid post l--mar-top-none">
     <figure class="l--grid-wide">
         <svg class="l--rounded-corners" viewBox="0 0 1600 800">
             <defs>
-                <mask id="c">
-                    <path
-                        d="M18 502h647a8 8 0 0 0 8-8V52H10v442a8 8 0 0 0 8 8"
-                        fill="white"
-                    />
-                </mask>
-                <mask id="d">
-                    <path
-                        d="M0 40h800v554a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6z"
-                        fill="white"
-                    />
-                </mask>
-                <mask id="e">
-                    <path
-                        d="M24 0h20q4 0 4 4 0 12 12 12h84q12 0 12-12 0-4 4-4h20q24 0 24 24v395q0 24-24 24H24q-24 0-24-24V24Q0 0 24 0"
-                        fill="white"
-                    />
-                </mask>
-                <filter id="b" filterUnits="userSpaceOnUse">
-                    <feDropShadow
-                        dx="0"
-                        dy="0"
-                        stdDeviation="6"
-                        flood-opacity=".15"
-                    />
-                </filter>
-                <filter id="a" filterUnits="userSpaceOnUse">
-                    <feDropShadow
-                        dx="0"
-                        dy="0"
-                        stdDeviation="20"
-                        flood-opacity=".1"
-                    />
-                </filter>
                 <linearGradient
                     id="gradient-1"
                     x1="0%"
@@ -60,394 +28,53 @@ layout: layouts/project.html
                 height="100%"
                 fill="url(#gradient-1)"
             ></rect>
-            <g class="ipad" transform="translate(860 150)">
-                <rect
-                    width="683"
-                    height="512"
-                    rx="15"
-                    style="fill: var(--c--theme-gray-1)"
-                    filter="url(#a)"
+            <g transform="translate(40, 100)">
+                <use href="#devices--safari" />
+                <image
+                    y="40"
+                    href="/images/sh-7.jpg"
+                    width="800"
+                    mask="url(#devices--safari-mask)"
                 />
-                <g class="ipad--chrome">
-                    <path
-                        d="M18 10h647a8 8 0 0 1 8 8v40H10V18a8 8 0 0 1 8-8"
-                        style="fill: var(--c--theme-gray-1)"
-                    />
-                    <g
-                        class="ipad--chrome-indicators"
-                        style="
-                            fill: var(--c--theme-gray-5);
-                            stroke: var(--c--theme-gray-5);
-                        "
-                    >
-                        <text
-                            class="currentTime"
-                            x="15"
-                            y="22"
-                            font-size="8.5"
-                            style="
-                                font-family: var(--t--family-sans);
-                                stroke: transparent;
-                            "
-                        >
-                            9:57 PM
-                        </text>
-                        <g
-                            class="ipad--chrome-indicators-dots"
-                            style="
-                                fill: var(--c--theme-gray-3);
-                                stroke: transparent;
-                            "
-                        >
-                            <circle cx="336.5" cy="15" r="1.5" />
-                            <circle cx="341.5" cy="15" r="1.5" />
-                            <circle cx="346.5" cy="15" r="1.5" />
-                        </g>
-                        <path
-                            d="M645 20a4 4 0 0 1 2 0m-3.25-1.75a4 4 0 0 1 4.5 0m-6-1.75a6 6 0 0 1 7.5 0"
-                            style="stroke-width: 1.25px; fill: transparent"
-                        />
-                        <g class="ipad--chrome-ios-battery">
-                            <rect
-                                x="656"
-                                y="16"
-                                width="10"
-                                height="5"
-                                rx="1"
-                                style="fill: transparent; stroke-width: 0.5"
-                            />
-                            <rect
-                                x="657.5"
-                                y="17.5"
-                                width="7"
-                                height="2"
-                                rx=".5"
-                            />
-                            <path d="M667 17.5v2" style="stroke-width: 0.5" />
-                        </g>
-                    </g>
-                    <path
-                        d="M18 30h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H18a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2m3 0v10m-3-7h1m-1 2h1m-1 2h1m31-6-4 4 4 4m20-8 4 4-4 4"
-                        class="ipad--chrome-left"
-                        style="
-                            stroke: var(--c--theme-gray-3);
-                            fill: transparent;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                        "
-                    />
-                    <g class="ipad--chrome-urlbar">
-                        <rect
-                            class="ipad-chrome--urlbar-bg"
-                            x="185"
-                            y="24"
-                            width="300"
-                            height="22"
-                            rx="5"
-                            style="fill: var(--c--theme-bg)"
-                            filter="url(#b)"
-                        />
-                        <text
-                            class="iphone--chrome-ipad-urlbar-text"
-                            text-anchor="middle"
-                            x="341.5"
-                            y="40"
-                            style="
-                                fill: var(--c--theme-gray-3);
-                                font-family: var(--t--family-sans);
-                                font-size: 0.5rem;
-                            "
-                        >
-                            simplehealth.com
-                        </text>
-                        <path
-                            d="M475 36a4 4 0 1 1-4-4 4 4 0 0 1 2.5.8m-2 2.2 2.5-2.5-2.5-2.5"
-                            style="
-                                stroke: var(--c--theme-gray-3);
-                                fill: transparent;
-                                stroke-linecap: round;
-                                stroke-linejoin: round;
-                            "
-                        />
-                    </g>
-                    <path
-                        d="m193 39 2-5 2 5m-2.75-1.5h1.5m3 1.5 3-7.5 3 7.5m-4-2.5h2M605 34h-2.5v8h9v-8H609m-2 4v-8m-2 2 2-2 2 2m26 0v10m-5-5h10m15-5v4h4v-4zm6 0v4h4v-4zm0 6v4h4v-4zm-6 0v4h4v-4z"
-                        class="ipad--chrome-icons"
-                        style="
-                            stroke: var(--c--theme-gray-3);
-                            fill: transparent;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                        "
-                    />
-                </g>
+            </g>
+            <g transform="translate(860, 188)">
+                <use href="#devices--ipad" />
                 <image
                     x="10"
                     y="50"
-                    href="https://mattstrom-screenshots.s3-us-east-2.amazonaws.com/pb-QRNI84BDtj.png"
+                    href="/images/sh-8.jpg"
                     width="663"
-                    mask="url(#c)"
+                    mask="url(#devices--ipad-mask)"
                     class="ipad--screen-image"
                 />
             </g>
-            <g class="safari" transform="translate(30 80)">
-                <rect
-                    width="800"
-                    height="600"
-                    rx="6"
-                    style="fill: var(--c--theme-gray-1)"
-                    filter="url(#a)"
-                />
-                <g class="safari--chrome">
-                    <g class="safari--chrome-stoplight">
-                        <circle
-                            cx="20"
-                            cy="18"
-                            r="4"
-                            style="fill: var(--c--theme-negative-3)"
-                        />
-                        <circle
-                            cx="33"
-                            cy="18"
-                            r="4"
-                            style="fill: var(--c--theme-highlight-3)"
-                        />
-                        <circle
-                            cx="46"
-                            cy="18"
-                            r="4"
-                            style="fill: var(--c--theme-positive-3)"
-                        />
-                    </g>
-                    <path
-                        d="m75 15-4 4 4 4m15-8 4 4-4 4"
-                        class="safari--chrome-arrows"
-                        style="
-                            stroke: var(--c--theme-gray-3);
-                            fill: transparent;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                        "
-                    />
-                    <g class="safari--chrome-urlbar">
-                        <rect
-                            class="safari-chrome--urlbar-bg"
-                            x="245"
-                            y="8"
-                            width="300"
-                            height="22"
-                            rx="5"
-                            style="fill: var(--c--theme-bg)"
-                        />
-                        <text
-                            class="iphone--chrome-safari-urlbar-text"
-                            text-anchor="middle"
-                            x="400"
-                            y="23"
-                            style="
-                                fill: var(--c--theme-gray-3);
-                                font-family: var(--t--family-sans);
-                                font-size: 0.5rem;
-                            "
-                        >
-                            simplehealth.com
-                        </text>
-                        <path
-                            d="M535 20a4 4 0 1 1-4-4 4 4 0 0 1 2.5.8m-2 2.2 2.5-2.5-2.5-2.5"
-                            style="
-                                stroke: var(--c--theme-gray-3);
-                                fill: transparent;
-                                stroke-linecap: round;
-                                stroke-linejoin: round;
-                            "
-                        />
-                    </g>
-                    <path
-                        d="M720 18h-2.5v8h9v-8H724m-2 4v-8m-2 2 2-2 2 2m26 0v10m-5-5h10m15-5v4h4v-4zm6 0v4h4v-4zm0 6v4h4v-4zm-6 0v4h4v-4z"
-                        class="safari--chrome-icons"
-                        style="
-                            stroke: var(--c--theme-gray-3);
-                            fill: transparent;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                        "
-                    />
-                </g>
+            <g transform="translate(700, 253)">
+                <use href="#devices--iphone" />
                 <image
-                    y="40"
-                    href="https://mattstrom-screenshots.s3-us-east-2.amazonaws.com/pb-VY9YENPBon.png"
-                    width="800"
-                    mask="url(#d)"
+                    width="204"
+                    href="/images/sh-9.jpg"
+                    mask="url(#devices--iphone-mask)"
                 />
-            </g>
-            <g class="iphone" transform="translate(750 270)">
-                <path
-                    class="iphone--background"
-                    d="M24 0h156q24 0 24 24v395q0 24-24 24H24q-24 0-24-24V24Q0 0 24 0"
-                    style="
-                        stroke: var(--c--theme-gray-1);
-                        stroke-width: 8;
-                        fill: var(--c--theme-gray-1);
-                    "
-                    filter="url(#a)"
-                />
-                <g class="iphone--screen-content">
-                    <image
-                        width="204"
-                        href="https://mattstrom-screenshots.s3-us-east-2.amazonaws.com/pb-1cPRDA1FYq.png"
-                        mask="url(#e)"
-                    />
-                    <g class="iphone--chrome-safari" mask="url(#e)">
-                        <path
-                            class="iphone--chrome-safari-background"
-                            style="fill: var(--c--theme-gray-1); opacity: 1"
-                            d="M0 380h204v70H0z"
-                        />
-                        <rect
-                            class="iphone--chrome-safari-urlbar"
-                            x="10"
-                            y="387"
-                            width="184"
-                            height="22"
-                            rx="5"
-                            style="fill: var(--c--theme-bg)"
-                            filter="url(#b)"
-                        />
-                        <text
-                            class="iphone--chrome-safari-urlbar-text"
-                            text-anchor="middle"
-                            x="102"
-                            y="401"
-                            style="
-                                fill: var(--c--theme-gray-3);
-                                font-family: var(--t--family-sans);
-                                font-size: 0.5rem;
-                            "
-                        >
-                            simplehealth.com
-                        </text>
-                        <rect
-                            class="iphone--chrome-safari-thumbbar"
-                            x="65"
-                            y="436"
-                            width="70"
-                            height="3"
-                            rx="1.5"
-                            style="fill: var(--c--theme-gray-2)"
-                        />
-                        <path
-                            d="m18 402 2-5 2 5m-2.75-1.5h1.5m3 1.5 3-7.5 3 7.5m-4-2.5h2M184 398a4 4 0 1 1-4-4 4 4 0 0 1 2.5.8m-2 2.2 2.5-2.5-2.5-2.5M15 418l-4 4 4 4m35-8 4 4-4 4m42-6h-2.5v8h9v-8H96m-2 4v-8m-2 2 2-2 2 2m38 2a4 4 0 0 1 6 0 4 4 0 0 1 6 0v8a4 4 0 0 0-6 0 4 4 0 0 0-6 0zm6 0v8m43-8h8v8h-8zm0 6h-2v-8h8v2"
-                            class="iphone--chrome-safari-icons"
-                            style="
-                                stroke: var(--c--theme-gray-3);
-                                fill: transparent;
-                                stroke-linecap: round;
-                                stroke-linejoin: round;
-                            "
-                        />
-                    </g>
-                    <g
-                        class="iphone--chrome-ios c--theme-light"
-                        style="
-                            stroke: var(--c--theme-fg);
-                            fill: var(--c--theme-fg);
-                        "
-                    >
-                        <text
-                            class="currentTime"
-                            x="22"
-                            y="15"
-                            font-size="8.5"
-                            style="
-                                font-family: var(--t--family-sans);
-                                stroke: transparent;
-                            "
-                        >
-                            9:57
-                        </text>
-                        <g
-                            class="iphone--chrome-ios-signal"
-                            style="stroke: transparent"
-                        >
-                            <rect
-                                x="156"
-                                y="14"
-                                width="1.5"
-                                height="2"
-                                rx="0"
-                            />
-                            <rect
-                                x="158.5"
-                                y="12.5"
-                                width="1.5"
-                                height="3.5"
-                                rx="1"
-                            />
-                            <rect
-                                x="161"
-                                y="11"
-                                width="1.5"
-                                height="5"
-                                rx="1"
-                            />
-                            <rect
-                                x="163.5"
-                                y="9.5"
-                                width="1.5"
-                                height="6.5"
-                                rx="1"
-                            />
-                        </g>
-                        <path
-                            d="M172 15a4 4 0 0 1 2 0m-3.25-1.75a4 4 0 0 1 4.5 0m-6-1.75a6 6 0 0 1 7.5 0"
-                            style="stroke-width: 1.25px; fill: transparent"
-                        />
-                        <g class="iphone--chrome-ios-battery">
-                            <rect
-                                x="181"
-                                y="10"
-                                width="10"
-                                height="5"
-                                rx="1"
-                                style="fill: transparent; stroke-width: 0.5"
-                            />
-                            <rect
-                                x="182.5"
-                                y="11.5"
-                                width="7"
-                                height="2"
-                                rx=".5"
-                            />
-                            <path d="M192 11.5v2" style="stroke-width: 0.5" />
-                        </g>
-                    </g>
-                </g>
-                <path
-                    class="iphone--outline"
-                    d="M24 0h156q24 0 24 24v395q0 24-24 24H24q-24 0-24-24V24Q0 0 24 0"
-                    style="
-                        stroke: var(--c--theme-gray-1);
-                        stroke-width: 8;
-                        fill: transparent;
-                    "
-                />
-                <g
-                    class="iphone--notch"
-                    style="fill: var(--c--theme-gray-2); opacity: 0.5"
-                >
-                    <rect x="84" y="4" width="30" height="4" rx="2" />
-                    <circle cx="124" cy="6" r="3" />
-                </g>
+                <use
+                    href="#devices--iphone-chrome-ios"
+                    class="c--theme-light"
+                ></use>
             </g>
         </svg>
     </figure>
     <div class="l--grid-narrow">
-        <h1 class="t--weight-normal t--tracking-tight l--mar-top-s">SimpleHealth</h1>
-        <span class="c--gray t--family-sans">Director of Design • 2020 &rarr; 2022</span>
+        <h1 class="t--size-xxl t--weight-normal t--tracking-tight l--mar-top-s">
+            SimpleHealth
+        </h1>
+        <span class="c--gray t--family-sans"
+            >Director of Design • 2020 &rarr; 2022</span
+        >
         <div class="t--size-s table-of-contents">
             <ol class="t--family-sans">
                 <li><a href="#building-the-team">Building the team</a></li>
-                <li><a href="#designing-our-service">Designing our service</a></li>
+                <li>
+                    <a href="#designing-our-service">Designing our service</a>
+                </li>
                 <li><a href="#showing-results">Showing results</a></li>
             </ol>
         </div>
@@ -502,11 +129,11 @@ layout: layouts/project.html
     </div>
     <figure class="l--grid-medium l--mar-block-m">
         <svg
-            viewbox="0 0 1200 400"
+            viewbox="0 0 1200 450"
             style="background-color: var(--c--theme-gray-1)"
-            class="l--rounded-corners-l"
+            class="l--rounded-corners"
         >
-            <g class="before" transform="translate(60 40)">
+            <g transform="translate(90 70)">
                 <circle
                     cx="20"
                     cy="20"
@@ -518,6 +145,7 @@ layout: layouts/project.html
                     style="stroke: var(--c--theme-gray-2); fill: transparent"
                 ></path>
                 <text
+                    class="t--unselectable"
                     x="50"
                     y="30"
                     dy="-4"
@@ -532,6 +160,7 @@ layout: layouts/project.html
                     style="fill: var(--c--theme-gray-3)"
                 ></circle>
                 <text
+                    class="t--unselectable"
                     x="50"
                     y="90"
                     dy="-4"
@@ -550,6 +179,7 @@ layout: layouts/project.html
                     style="fill: var(--c--theme-gray-4)"
                 ></circle>
                 <text
+                    class="t--unselectable"
                     x="50"
                     y="150"
                     dy="-4"
@@ -580,6 +210,7 @@ layout: layouts/project.html
                     style="fill: var(--c--theme-gray-5)"
                 ></circle>
                 <text
+                    class="t--unselectable"
                     x="8"
                     y="250"
                     dy="-4"
@@ -598,6 +229,7 @@ layout: layouts/project.html
                     style="fill: var(--c--theme-gray-3)"
                 ></circle>
                 <text
+                    class="t--unselectable"
                     x="280"
                     y="90"
                     dy="-4"
@@ -616,6 +248,7 @@ layout: layouts/project.html
                     style="fill: var(--c--theme-gray-4)"
                 ></circle>
                 <text
+                    class="t--unselectable"
                     x="280"
                     y="150"
                     dy="-4"
@@ -646,6 +279,7 @@ layout: layouts/project.html
                     style="fill: var(--c--theme-gray-5)"
                 ></circle>
                 <text
+                    class="t--unselectable"
                     x="232"
                     y="250"
                     dy="-4"
@@ -658,6 +292,7 @@ layout: layouts/project.html
                     style="stroke: var(--c--theme-gray-2); fill: transparent"
                 ></path>
                 <text
+                    class="t--unselectable"
                     x="100"
                     y="300"
                     style="
@@ -670,7 +305,7 @@ layout: layouts/project.html
                     Decentralized design team
                 </text>
             </g>
-            <g class="after" transform="translate(830 50)">
+            <g transform="translate(870 80)">
                 <circle
                     cx="20"
                     cy="20"
@@ -736,6 +371,7 @@ layout: layouts/project.html
                     "
                 ></path>
                 <text
+                    class="t--unselectable"
                     x="50"
                     y="30"
                     dy="-4"
@@ -744,6 +380,7 @@ layout: layouts/project.html
                     C-suite
                 </text>
                 <text
+                    class="t--unselectable"
                     x="50"
                     y="85"
                     dy="-4"
@@ -752,6 +389,7 @@ layout: layouts/project.html
                     Design leader
                 </text>
                 <text
+                    class="t--unselectable"
                     x="-55"
                     y="130"
                     dy="-5"
@@ -761,6 +399,7 @@ layout: layouts/project.html
                     Cross-functional team
                 </text>
                 <text
+                    class="t--unselectable"
                     x="-55"
                     y="180"
                     dy="-5"
@@ -770,6 +409,7 @@ layout: layouts/project.html
                     Cross-functional team
                 </text>
                 <text
+                    class="t--unselectable"
                     x="-55"
                     y="230"
                     dy="-5"
@@ -779,6 +419,7 @@ layout: layouts/project.html
                     Cross-functional team
                 </text>
                 <text
+                    class="t--unselectable"
                     x="90"
                     y="130"
                     dy="-5"
@@ -787,6 +428,7 @@ layout: layouts/project.html
                     Cross-functional team
                 </text>
                 <text
+                    class="t--unselectable"
                     x="90"
                     y="180"
                     dy="-5"
@@ -795,6 +437,7 @@ layout: layouts/project.html
                     Cross-functional team
                 </text>
                 <text
+                    class="t--unselectable"
                     x="90"
                     y="230"
                     dy="-5"
@@ -803,6 +446,7 @@ layout: layouts/project.html
                     Cross-functional team
                 </text>
                 <text
+                    class="t--unselectable"
                     x="20"
                     y="290"
                     text-anchor="middle"
@@ -845,319 +489,23 @@ layout: layouts/project.html
             across the business with a relatively small design team.
         </p>
     </div>
-    <figure class="l--grid-medium l--mar-top-m">
-        <svg fill="none" viewBox="0 0 2555 966">
-            <text fill="var(--c--theme-gray-4)" font-size="24">
-                <tspan x="137" y="170.031">Discovery</tspan>
-            </text>
-            <text fill="var(--c--theme-gray-4)" font-size="24">
-                <tspan x="785" y="170.031">Production</tspan>
-            </text>
-            <text fill="var(--c--theme-gray-4)" font-size="24">
-                <tspan x="1890" y="170.031">Delivery</tspan>
-            </text>
-            <text fill="var(--c--theme-gray-4)" font-size="23">
-                <tspan x="135" y="326.676">Stakeholder</tspan>
-                <tspan x="135" y="353.676">actions</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M335 285h200v91H335z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="355" y="318.477">Identifes and</tspan>
-                <tspan x="355" y="335.477">communicates creative</tspan>
-                <tspan x="355" y="352.477">needs</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M555 285h200v91H555z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="575" y="318.477">Works with embedded</tspan>
-                <tspan x="575" y="335.477">creative team member</tspan>
-                <tspan x="575" y="352.477">to refine the request</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M775 285h200v57H775z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="795" y="318.477">Approves the brief</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M995 285h200v74H995z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1015" y="318.477">Recieves draft for</tspan>
-                <tspan x="1015" y="335.477">review</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1215 285h200v74h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1235" y="318.477">Provides feedback to</tspan>
-                <tspan x="1235" y="335.477">drive iteration</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 285h200v108h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1455" y="318.477">Gives approval that</tspan>
-                <tspan x="1455" y="335.477">creative product meets</tspan>
-                <tspan x="1455" y="352.477">the needs outlined in</tspan>
-                <tspan x="1455" y="369.477">the brief</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1875 285h200v74h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1895" y="318.477">Recieves the finished</tspan>
-                <tspan x="1895" y="335.477">product</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M2095 285h200v74h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="2115" y="318.477">Puts the creative</tspan>
-                <tspan x="2115" y="335.477">product into use</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M2315 285h200v91h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="2335" y="318.477">Reports on the</tspan>
-                <tspan x="2335" y="335.477">performance of creative</tspan>
-                <tspan x="2335" y="352.477">towards business goals</tspan>
-            </text>
-            <path stroke="var(--c--theme-gray-1)" d="M114 412.5h2401" />
-            <text fill="var(--c--theme-gray-4)" font-size="23">
-                <tspan x="135" y="454.676">Frontstage</tspan>
-                <tspan x="135" y="481.676">creative team</tspan>
-                <tspan x="135" y="508.676">actions</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M555 708h200v74H555z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="575" y="741.477">Brief templates and</tspan>
-                <tspan x="575" y="758.477">tools for self-service</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M555 433h200v108H555z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="575" y="466.477">Consults with</tspan>
-                <tspan x="575" y="483.477">stakeholder on level of</tspan>
-                <tspan x="575" y="500.477">effort and expected</tspan>
-                <tspan x="575" y="517.477">impact</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M775 433h200v108H775z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="795" y="466.477">Provides project</tspan>
-                <tspan x="795" y="483.477">management ticket for</tspan>
-                <tspan x="795" y="500.477">status and delivery</tspan>
-                <tspan x="795" y="517.477">tracking</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M775 581h200v74H775z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="795" y="614.477">Produces creative</tspan>
-                <tspan x="795" y="631.477">elements for review</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1210 581h200v74h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1230" y="614.477">Implements takeholder</tspan>
-                <tspan x="1230" y="631.477">feedback</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M995 433h200v91H995z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1015" y="466.477">Provides creative assets</tspan>
-                <tspan x="1015" y="483.477">for stakeholder</tspan>
-                <tspan x="1015" y="500.477">feedback</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1215 433h200v74h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1235" y="466.477">Facilitates and captures</tspan>
-                <tspan x="1235" y="483.477">stakeholder feedback</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 433h200v108h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1455" y="466.477">Outlines final delivery</tspan>
-                <tspan x="1455" y="483.477">plan, including steps to</tspan>
-                <tspan x="1455" y="500.477">get legal and/or clinical</tspan>
-                <tspan x="1455" y="517.477">approval</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1655 433h200v108h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1675" y="466.477">Communicates</tspan>
-                <tspan x="1675" y="483.477">progress and (if</tspan>
-                <tspan x="1675" y="500.477">required) changes from</tspan>
-                <tspan x="1675" y="517.477">legal and clinical teams</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1875 433h200v74h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1895" y="466.477">Delivers finished</tspan>
-                <tspan x="1895" y="483.477">creative product</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M2095 433h200v108h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="2115" y="466.477">Supports technical</tspan>
-                <tspan x="2115" y="483.477">delivery requirements</tspan>
-                <tspan x="2115" y="500.477">(email coding, image or</tspan>
-                <tspan x="2115" y="517.477">video encoding, etc)</tspan>
-            </text>
-            <path stroke="var(--c--theme-gray-1) stroke-width="2" d="M114
-            560h2401"/>
-            <text fill="var(--c--theme-gray-4)" font-size="23">
-                <tspan x="135" y="602.676">Backstage</tspan>
-                <tspan x="135" y="629.676">creative team</tspan>
-                <tspan x="135" y="656.676">actions</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M335 581h200v91H335z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="355" y="614.477">Plans capacity around</tspan>
-                <tspan x="355" y="631.477">expected needs based</tspan>
-                <tspan x="355" y="648.477">on historical allocation</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M335 433h200v91H335z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="355" y="466.477">Communicates capacity</tspan>
-                <tspan x="355" y="483.477">and provides embedded</tspan>
-                <tspan x="355" y="500.477">creative team member</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M775 708h640v57H775z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="795" y="741.477">
-                    Project management support from design team
-                </tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M775 775h640v57H775z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="795" y="808.477">
-                    Standards and practices for consistent and productive
-                    feedback
-                </tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 581h200v91h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1455" y="614.477">Sends creative to legal</tspan>
-                <tspan x="1455" y="631.477">and clinical teams for</tspan>
-                <tspan x="1455" y="648.477">final reviews</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1655 581h200v91h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1675" y="614.477">Implements feedback</tspan>
-                <tspan x="1675" y="631.477">from legal and clinical</tspan>
-                <tspan x="1675" y="648.477">teams</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M2315 581h200v91h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="2335" y="614.477">Maintains performance</tspan>
-                <tspan x="2335" y="631.477">data to inform future</tspan>
-                <tspan x="2335" y="648.477">creative work</tspan>
-            </text>
-            <path stroke="var(--c--theme-gray-1)" d="M110 691.5h2401" />
-            <text fill="var(--c--theme-gray-4)" font-size="23">
-                <tspan x="135" y="733.676">Supporting</tspan>
-                <tspan x="135" y="760.676">processes</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M335 708h200v74H335z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="355" y="741.477">Forecasting from</tspan>
-                <tspan x="355" y="758.477">historical velocity data</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M555 792h200v125H555z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="575" y="825.477">Data sources like</tspan>
-                <tspan x="575" y="842.477">Facebook and Google</tspan>
-                <tspan x="575" y="859.477">Analytics provide</tspan>
-                <tspan x="575" y="876.477">support for expected</tspan>
-                <tspan x="575" y="893.477">outcomes</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M775 842h640v74H775z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="795" y="875.477">
-                    Tools to gather and manage feedback through multiple
-                    iterations (Asana, Figma, Google
-                </tspan>
-                <tspan x="795" y="892.477">Docs)</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1435 708h200v108h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1455" y="741.477">Legal and clinical teams</tspan>
-                <tspan x="1455" y="758.477">provide clear guidelines</tspan>
-                <tspan x="1455" y="775.477">and processes for</tspan>
-                <tspan x="1455" y="792.477">efficient reviews</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M1655 708h200v108h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="1675" y="741.477">Legal and clinical teams</tspan>
-                <tspan x="1675" y="758.477">provide feedback on</tspan>
-                <tspan x="1675" y="775.477">creative deliverables if</tspan>
-                <tspan x="1675" y="792.477">required</tspan>
-            </text>
-            <path fill="var(--c--theme-gray-1)" d="M2315 708h200v74h-200z" />
-            <text fill="var(--c--theme-fg)" font-size="14">
-                <tspan x="2335" y="741.477">Database tools</tspan>
-                <tspan x="2335" y="758.477">(Airtable, Looker, SQL)</tspan>
-            </text>
-            <path
-                d="M435.53 380.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm1.28 147.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm1100.22-100.47c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-30h-1.5v30h1.5Zm-1.28 275.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-26h-1.5v26h1.5Zm-440.22-339.53a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v64h1.5v-64h-1.5Zm-7.72 164.47a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773ZM1086 602v.75h.75V602h-.75Zm-.75-73v73h1.5v-73h-1.5Zm.75 72.25H980v1.5h106v-1.5Zm15.47-72.78a.749.749 0 0 1 1.06 0l4.77 4.773c.3.293.3.767 0 1.06a.749.749 0 0 1-1.06 0l-4.24-4.242-4.24 4.242a.749.749 0 0 1-1.06 0 .737.737 0 0 1 0-1.06l4.77-4.773ZM1102 602v.75h-.75V602h.75Zm.75-73v73h-1.5v-73h1.5Zm-.75 72.25h103v1.5h-103v-1.5Zm873.53-237.78a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v64h1.5v-64h-1.5Zm-664.78 64.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-64h-1.5v64h1.5Zm-1.28 148.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-64h-1.5v64h1.5ZM660.53 380.47a.749.749 0 0 0-1.06 0l-4.773 4.773a.749.749 0 1 0 1.06 1.06l4.243-4.242 4.243 4.242a.749.749 0 1 0 1.06-1.06l-4.773-4.773Zm-1.28.53v47h1.5v-47h-1.5Zm-9.78 47.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L650 426.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-47h-1.5v47h1.5Zm223.72.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L875 426.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-81h-1.5v81h1.5Zm-1.28 148.53a.749.749 0 0 0 1.06 0l4.773-4.773a.749.749 0 1 0-1.06-1.06L875 574.939l-4.243-4.242a.749.749 0 1 0-1.06 1.06l4.773 4.773Zm1.28-.53v-30h-1.5v30h1.5ZM550.53 305.53a.749.749 0 0 0 0-1.06l-4.773-4.773a.749.749 0 1 0-1.06 1.06l4.242 4.243-4.242 4.243a.749.749 0 1 0 1.06 1.06l4.773-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.749.749 0 0 0 0-1.06l-4.773-4.773a.749.749 0 1 0-1.06 1.06l4.242 4.243-4.242 4.243a.749.749 0 1 0 1.06 1.06l4.773-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm440.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm660.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm220.53 1.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-439.47 149.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-219.47 276.28a.754.754 0 0 0 0-1.06l-4.77-4.773a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.24 4.243-4.24 4.243c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.77-4.773Zm-.53-1.28h-10v1.5h10v-1.5Zm-10.53-126.78a.754.754 0 0 0 0 1.06l4.77 4.773c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.24-4.243 4.24-4.243c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.77 4.773Zm.53 1.28h10v-1.5h-10v1.5Zm120.53 74.72a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v26h1.5v-26h-1.5Z"
-                fill="var(--c--theme-gray-4)"
-            />
-            <path
-                d="M133 184h622l12 15-12 15H133v-30Z"
-                fill="var(--c--theme-gray-1)"
-            />
-            <path
-                d="M770 184h1088.5l12 15-12 15H770l11.5-15-11.5-15Z"
-                fill="var(--c--theme-gray-1)"
-            />
-            <path
-                d="M1872 184h640.82l7.18 15-7.18 15H1872l9.88-15-9.88-15Z"
-                fill="var(--c--theme-gray-1)"
-            />
-            <path
-                d="M333 234h202v26h-88.5l-12.5 7-12.5-7H333v-26Z"
-                fill="var(--c--theme-gray-3)"
-            />
-            <text fill="var(--c--theme-bg)" font-size="15">
-                <tspan x="367.159" y="252.332">Engagement starts</tspan>
-            </text>
-            <path
-                d="M775 234h200v26h-87.624L875 267l-12.376-7H775v-26Zm220 0h202v26h-88.5l-12.5 7-12.5-7H995v-26Zm440 0h202v26h-88.5l-12.5 7-12.5-7H1435v-26Zm440 0h200v26h-87.62l-12.38 7-12.38-7H1875v-26Zm220 0h200v26h-87.62l-12.38 7-12.38-7H2095v-26Z"
-                fill="var(--c--theme-gray-3)"
-            />
-            <text fill="var(--c--theme-bg)" font-size="15">
-                <tspan x="813.394" y="252.332">Production starts</tspan>
-            </text>
-            <text fill="var(--c--theme-bg)" font-size="15">
-                <tspan x="1055.38" y="252.332">First review</tspan>
-            </text>
-            <text fill="var(--c--theme-bg)" font-size="15">
-                <tspan x="1458.44" y="252.332">Stakeholder approved</tspan>
-            </text>
-            <text fill="var(--c--theme-bg)" font-size="15">
-                <tspan x="1912.48" y="252.332">Product delivered</tspan>
-            </text>
-            <text fill="var(--c--theme-bg)" font-size="15">
-                <tspan x="2137.22" y="252.332">Product shipped</tspan>
-            </text>
-            <path
-                stroke="var(--c--theme-gray-2)"
-                stroke-dasharray="5 5"
-                d="M1425.5 571.5h438v254h-438z"
-            />
-            <text fill="var(--c--theme-gray-3)" font-size="13">
-                <tspan x="1547.46" y="848.621">
-                    May not be required for all work
-                </tspan>
-            </text>
-            <text fill="var(--c--theme-fg)" font-size="34" font-weight="bold">
-                <tspan x="40" y="72.586">
-                    SimpleHealth Creative Service Blueprint
-                </tspan>
-            </text>
-            <text fill="var(--c--theme-fg)" font-size="20">
-                <tspan x="40" y="100.109">
-                    Version 1.0 • September 18, 2021
-                </tspan>
-            </text>
-            <path
-                d="M1534.47 576.53c.29.293.77.293 1.06 0l4.77-4.773c.3-.293.3-.767 0-1.06a.749.749 0 0 0-1.06 0l-4.24 4.242-4.24-4.242a.749.749 0 0 0-1.06 0c-.3.293-.3.767 0 1.06l4.77 4.773Zm1.28-.53v-30h-1.5v30h1.5Zm219.78-30.53a.749.749 0 0 0-1.06 0l-4.77 4.773c-.3.293-.3.767 0 1.06.29.293.76.293 1.06 0l4.24-4.242 4.24 4.242c.3.293.77.293 1.06 0 .3-.293.3-.767 0-1.06l-4.77-4.773Zm-1.28.53v30h1.5v-30h-1.5Z"
-                fill="var(--c--theme-gray-4)"
-            />
-            <text fill="var(--c--theme-gray-3)" font-size="14">
-                <tspan x="40" y="555.477">Line of</tspan>
-                <tspan x="40" y="572.477">visibility</tspan>
-            </text>
-            <text fill="var(--c--theme-fg)" font-size="15">
-                <tspan x="2101.41" y="56.332">
-                    For more information on how service blueprints work, go to
-                </tspan>
-                <tspan x="2127.66" y="74.332">
-                    https://hbr.org/1984/01/designing-services-that-deliver
-                </tspan>
-            </text>
-        </svg>
+</div>
+<section class="c--bg-gray-1 l--grid l--pad-block-m">
+    <figure class="l--grid-medium">
+        <div class=" l--flex">
+            <div class="l--flex-half">
+                <img src="/images/sh-15.jpg" class="l--rounded-corners" alt="A closeup of a service blueprint for the SimpleHealth design team">
+            </div>
+            <div class="l--flex-half">
+                <img src="/images/sh-16.jpg" class="l--rounded-corners" alt=" closeup of a service blueprint for the SimpleHealth design team">
+            </div>
+        </div>
+        <figcaption>Excerpts from the SimpleHealth creative service blueprint</figcaption>
     </figure>
+</section>
+<section class="l--grid">
     <div class="l--grid-narrow">
-        <h2 class="t--font-size-l t--family-sans">Showing results</h2>
+        <h2 class="t--size-xl t--family-sans">Showing results</h2>
         <p>
             Over the two years I led the design team at SimpleHealth, the design
             team was instrumental in a number of high-impact projects.
@@ -1172,35 +520,124 @@ layout: layouts/project.html
         </p>
     </div>
     <figure class="l--grid-medium">
-        <img
-            src="/images/sh-2.jpg"
-            alt="A mockup of the new products SimpleHealth launched in 2021"
-        />
-        <figcaption>
-            A mockup of the new products SimpleHealth launched in 2021
-        </figcaption>
+        <div class="l--flex">
+            <div class="l--flex-onethird">
+                <svg viewBox="0 0 350 520">
+                    <g transform="translate(70, 30)">
+                        <use href="#devices--iphone" />
+                        <image
+                            href="/images/sh-10.jpg"
+                            width="205"
+                            mask="url(#devices--iphone-mask)"
+                        />
+                        <use
+                            href="#devices--iphone-chrome-ios"
+                            class="c--theme-light"
+                        ></use>
+                    </g>
+                </svg>
+            </div>
+            <div class="l--flex-twothirds">
+                <img
+                    class="l--flex-twothirds l--rounded-corners"
+                    src="/images/sh-2.jpg"
+                    alt="A mockup of the new products SimpleHealth launched in 2021"
+                />
+            </div>
+        </div>
     </figure>
-</div>
-<section class="project--section c--bg-gray-1 l--grid">
+    <div class="l--grid-narrow">
+        <p>
+            The initial scope of the project was strictly MVP. After releasing the new products, we saw a low conversion rate on promotional screens; after a long medical questionnaire, users were quickly tapping through to complete their subscription.
+        </p>
+        <p>
+            The challenge was a common one: how do we iterate on the user experience to improve the opt-in rate for these products? In this case, we chose to do extensive research on competitors and comparable products to determine the best approach.
+        </p>
+    </div>
+</section>
+<section class="l--pad-block-m c--bg-gray-1 l--grid">
     <figure class="l--grid-wide">
         <div class="l--flex l--space-flush">
             <div class="l--flex-auto">
-                <img loading="lazy" src="/images/sh-3.jpg">
+                <img class="l--rounded-corners" loading="lazy" src="/images/sh-3.jpg" />
             </div>
             <div class="l--flex-auto">
-                <img loading="lazy" src="/images/sh-4.jpg">
+                <img class="l--rounded-corners" loading="lazy" src="/images/sh-4.jpg" />
             </div>
         </div>
         <div class="l--flex l--space-flush">
             <div class="l--flex-auto">
-                <img loading="lazy" src="/images/sh-5.jpg">
+                <img class="l--rounded-corners" loading="lazy" src="/images/sh-5.jpg" />
             </div>
             <div class="l--flex-auto">
-                <img loading="lazy" src="/images/sh-6.jpg">
+                <img class="l--rounded-corners" loading="lazy" src="/images/sh-6.jpg" />
             </div>
         </div>
         <figcaption>
             Excerpts from competitve research and strategic analysis
         </figcaption>
+    </figure>
+</section>
+<section class="post l--grid">
+    <div class="l--grid-narrow">
+        <p>In the end, with the help of freelance research Rori Spivey, we decided to add elements of personalization throughout the intial medical questionnaire. By referring back to these choices when presenting recommendations, we were able to increase conversion rates by over <strong>2&times; (3% &rarr; 7%).</strong></p>
+    </div>
+        <figure class="l--grid-medium l--flex">
+        <div class="l--flex-auto">
+            <svg viewBox="0 0 550 520">
+                <g transform="translate(40, 30)">
+                    <use href="#devices--iphone" />
+                    <image
+                        href="/images/sh-11.jpg"
+                        width="205"
+                        mask="url(#devices--iphone-mask)"
+                    />
+                    <use
+                        href="#devices--iphone-chrome-ios"
+                        class="c--theme-light"
+                    ></use>
+                </g>
+                <g transform="translate(300, 30)">
+                    <use href="#devices--iphone" />
+                    <image
+                        href="/images/sh-12.jpg"
+                        width="205"
+                        mask="url(#devices--iphone-mask)"
+                    />
+                    <use
+                        href="#devices--iphone-chrome-ios"
+                        class="c--theme-light"
+                    ></use>
+                </g>
+            </svg>
+        </div>
+        <div class="l--flex-auto">
+            <svg viewBox="0 0 550 520">
+                <g transform="translate(40, 30)">
+                    <use href="#devices--iphone" />
+                    <image
+                        href="/images/sh-13.jpg"
+                        width="205"
+                        mask="url(#devices--iphone-mask)"
+                    />
+                    <use
+                        href="#devices--iphone-chrome-ios"
+                        class="c--theme-light"
+                    ></use>
+                </g>
+                <g transform="translate(300, 30)">
+                    <use href="#devices--iphone" />
+                    <image
+                        href="/images/sh-14.jpg"
+                        width="205"
+                        mask="url(#devices--iphone-mask)"
+                    />
+                    <use
+                        href="#devices--iphone-chrome-ios"
+                        class="c--theme-light"
+                    ></use>
+                </g>
+            </svg>
+        </div>
     </figure>
 </section>
