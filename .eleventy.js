@@ -2,7 +2,6 @@
 
 const glob = require('fast-glob')
 const path = require('path')
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help")
 
 /**
  * The @11ty/eleventy configuration.
@@ -134,9 +133,6 @@ module.exports = function(eleventyConfig) {
 
     // syntax highlighting
     eleventyConfig.addPlugin(syntaxHighlight)
-
-    // upgrade helper
-    eleventyConfig.addPlugin(UpgradeHelper)
 
     // lazy load images
     eleventyConfig.addPlugin(lazyImages, {})

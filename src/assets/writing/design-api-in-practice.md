@@ -192,39 +192,90 @@ An [interoperable](https://jxnblk.com/blog/interoperability/), [guessable](https
 <span class="t--family-sans t--weight-bold">Definitions</span>
 <dl class="definition--list">
 	<div class="definition" id="api">
-		<dt class="definition--term" >API</dt>
-		<dd class="definition--description">Stands for “Application Programming Interface.” A reliable way for two or more programs to cooperate. It allows programs to work together despite differences in hardware, language, architecture, or other operating constraints.&nbsp;<a href="#src-api" class="footnote-backref">↩︎</a> </dd>
-	</div>
-	<div class="definition" id="design-system">
-		<dt class="definition--term" >Design system</dt>
-		<dd class="definition--description">Collection of code and design specifications that enables faster and more consistent collaboration between designers and developers.&nbsp;<a href="#src-design-system" class="footnote-backref">↩︎</a></dd>
-	</div>
+        <dt class="definition--term">API</dt>
+        <dd class="definition--description">
+            Stands for “Application Programming Interface.” A reliable way for two or more programs
+            to cooperate. It allows programs to work together despite differences in hardware,
+            language, architecture, or other operating constraints.&nbsp;<a
+                href="#src-api"
+                class="footnote-backref"
+                >↩︎</a
+            >
+        </dd>
+    </div>
+    <div class="definition" id="design-system">
+        <dt class="definition--term">Design system</dt>
+        <dd class="definition--description">
+            Collection of code and design specifications that enables faster and more consistent
+            collaboration between designers and developers.&nbsp;<a
+                href="#src-design-system"
+                class="footnote-backref"
+                >↩︎</a
+            >
+        </dd>
+    </div>
 	<div class="definition" id="design-token">
-		<dt class="definition--term" >Design token</dt>
-		<dd class="definition--description">Self-contained piece of code describing a single design decision, like a color or a typeface.&nbsp;<a href="#src-design-token" class="footnote-backref">↩︎</a></dd>
-	</div>
+        <dt class="definition--term">Design token</dt>
+        <dd class="definition--description">
+            Self-contained piece of code describing a single design decision, like a color or a
+            typeface.&nbsp;<a href="#src-design-token" class="footnote-backref">↩︎</a>
+        </dd>
+    </div>
 	<div class="definition" id="express-js">
-		<dt class="definition--term" >Express.js</dt>
-		<dd class="definition--description">Lightweight javascript library for building web applications. <a href="https://expressjs.com/" target="_blank">Link to official Express.js website &#8599;</a>&nbsp;<a href="#src-express-js" class="footnote-backref">↩︎</a></dd>
-	</div>
+        <dt class="definition--term">Express.js</dt>
+        <dd class="definition--description">
+            Lightweight javascript library for building web applications.
+            <a href="https://expressjs.com/" target="_blank"
+                >Link to official Express.js website &#8599;</a
+            >&nbsp;<a href="#src-express-js" class="footnote-backref">↩︎</a>
+        </dd>
+    </div>
 	<div class="definition" id="graphql">
-		<dt class="definition--term" >GraphQL</dt>
-		<dd class="definition--description">Language for querying APIs, designed enable web applications to make fewer queries. <a href="https://graphql.org/" target="_blank">Link to official GraphQL website &#8599;</a>&nbsp;<a href="#src-graphql" class="footnote-backref">↩︎</a></dd>
-	</div>
+        <dt class="definition--term">GraphQL</dt>
+        <dd class="definition--description">
+            Language for querying APIs, designed enable web applications to make fewer queries.
+            <a href="https://graphql.org/" target="_blank"
+                >Link to official GraphQL website &#8599;</a
+            >&nbsp;<a href="#src-graphql" class="footnote-backref">↩︎</a>
+        </dd>
+    </div>
 	<div class="definition" id="json">
-		<dt class="definition--term" >JSON</dt>
-		<dd class="definition--description">Open standard file format that uses human-readable text to store and transmit data.&nbsp;<a href="#src-json" class="footnote-backref">↩︎</a></dd>
-	</div>
+        <dt class="definition--term">JSON</dt>
+        <dd class="definition--description">
+            Open standard file format that uses human-readable text to store and transmit
+            data.&nbsp;<a href="#src-json" class="footnote-backref">↩︎</a>
+        </dd>
+    </div>
 	<div class="definition" id="netlify-functions">
-		<dt class="definition--term">Netlify Functions</dt>
-		<dd class="definition--description">A service that deploys, hosts, and scales serverless functions. <a href="https://www.netlify.com/products/functions/" target="_blank">Link to Netlify Functions site &#8599;</a>&nbsp;<a href="#src-netlify-functions" class="footnote-backref">↩︎</a>
-	</div>
+        <dt class="definition--term">Netlify Functions</dt>
+        <dd class="definition--description">
+            A service that deploys, hosts, and scales serverless functions.
+            <a href="https://www.netlify.com/products/functions/" target="_blank"
+                >Link to Netlify Functions site &#8599;</a
+            >&nbsp;<a href="#src-netlify-functions" class="footnote-backref">↩︎</a>
+        </dd>
+    </div>
 	<div class="definition" id="serverless-function">
-		<dt class="definition--term">Serverless function</dt>
-		<dd class="definition--description">Piece of code that runs — paradoxically — on a server. In contrast to traditional functions, serverless functions are managed by large platforms like Amazon and allow developers to deliver small pieces of functionality to end users without worrying about complicated infrastructure management.&nbsp;<a href="#src-serverless-function" class="footnote-backref">↩︎</a></dd>
-	</div>
+        <dt class="definition--term">Serverless function</dt>
+        <dd class="definition--description">
+            Piece of code that runs — paradoxically — on a server. In contrast to traditional
+            functions, serverless functions are managed by large platforms like Amazon and allow
+            developers to deliver small pieces of functionality to end users without worrying about
+            complicated infrastructure management.&nbsp;<a
+                href="#src-serverless-function"
+                class="footnote-backref"
+                >↩︎</a
+            >
+        </dd>
+    </div>
 	<div class="definition" id="theo">
-		<dt class="definition--term">Theo</dt>
-		<dd class="definition--description">Library that converts design tokens into a variety of formats. Theo was developed by Salesforce and was one of the first open-source examples of design tokens in use. <a href="https://github.com/salesforce-ux/theo" target="_blank">Link to Theo on GitHub &#8599;</a>&nbsp;<a href="#src-theo" class="footnote-backref">↩︎</a></dd>
-	</div>
+        <dt class="definition--term">Theo</dt>
+        <dd class="definition--description">
+            Library that converts design tokens into a variety of formats. Theo was developed by
+            Salesforce and was one of the first open-source examples of design tokens in use.
+            <a href="https://github.com/salesforce-ux/theo" target="_blank"
+                >Link to Theo on GitHub &#8599;</a
+            >&nbsp;<a href="#src-theo" class="footnote-backref">↩︎</a>
+        </dd>
+    </div>
 </dl>

@@ -1,17 +1,38 @@
 :root {
     /* base values */
     --t--base-size: clamp(18px, 2vw, 21px);
-    --t--base-leading: 1.4;
-    --t--leading-small: 1;
+    --t--base-leading: clamp(1.3em, calc(30px - 1vw), 1.4em);
 
     /* families */
-    --t--family-sans: -apple-system, 'BlinkMacSystemFont', 'Segoe UI',
-        'Roboto', 'Helvetica', 'Arial', sans-serif;
-    --t--family-serif: 'charter', 'Palatino Linotype', 'Palatino',
-        'Book Antiqua', 'Baskerville', 'Bookman Old Style', 'Garamond',
-        'Apple Garamond', 'Century Schoolbook', 'Georgia', serif;
-    --t--family-mono: 'dm mono', menlo, monaco, consolas, 'Liberation Mono', 'Courier New',
-        monospace, monospace;
+    --t--family-sans:
+        -apple-system,
+        'BlinkMacSystemFont',
+        'Segoe UI',
+        'Roboto',
+        'Helvetica',
+        'Arial',
+        sans-serif;
+    --t--family-serif:
+        'charter',
+        'Palatino Linotype',
+        'Palatino',
+        'Book Antiqua',
+        'Baskerville',
+        'Bookman Old Style',
+        'Garamond',
+        'Apple Garamond',
+        'Century Schoolbook',
+        'Georgia',
+        serif;
+    --t--family-mono:
+        'dm mono',
+        menlo,
+        monaco,
+        consolas,
+        'Liberation Mono',
+        'Courier New',
+        monospace,
+        monospace;
 
     /* weights */
     --t--weight-black: 900;
@@ -68,9 +89,6 @@
 
 .t--leading-normal {
     line-height: var(--t--base-leading);
-}
-.t--leading-small {
-    line-height: var(--t--leading-small);
 }
 
 .t--tracking-tight {
