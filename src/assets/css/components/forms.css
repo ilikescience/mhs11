@@ -13,7 +13,7 @@ input {
 
 input {
     padding: 1.5em 0.75em 0.5em;
-    font-size: 1rem;
+    font-size: var(--t--size-m);
     border: 0;
     font-family: inherit;
     appearance: none;

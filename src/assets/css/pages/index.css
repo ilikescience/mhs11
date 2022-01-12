@@ -11,6 +11,6 @@
     margin-top: var(--l--space-s);
 }
 
-.year h2{
-    font-size: 1.25rem;
+.year h2 {
+    line-height: var(--t--base-line-height);
 }

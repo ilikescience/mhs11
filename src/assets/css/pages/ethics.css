@@ -9,7 +9,7 @@
 .ethics--link {
     display: inline-block;
     font-family: var(--t--family-serif);
-    font-size: 1.3rem;
+    font-size: var(--t--size-l);
     border-bottom: none;
 }
 
@@ -67,26 +67,26 @@
 
 .ethics--pill {
     display: inline-block;
-    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    font-size: var(--t--size-s);
     background-color: var(--c--theme-gray-1);
     color: var(--c--theme-gray-3);
     border-radius: 3px;
-    padding: 0.25rem 0.5rem;
 }
 
-.ethics--part span{
+.ethics--part span {
     display: inline-block;
     border-bottom: 1px solid var(--c--theme-gray-2);
     text-transform: uppercase;
     color: var(--c--theme-gray-3);
 }
 
-.ethics--intro p{
+.ethics--intro p {
     font-family: var(--t--family-sans);
 }
 
 .ethics--initial-graf::first-letter {
-    font-size: 2.75rem;
+    font-size: var(--t--size-xl);
     float: left;
     line-height: 1;
     padding-right: 0.25rem;
