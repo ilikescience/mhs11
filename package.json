@@ -47,21 +47,13 @@
     "postcss-preset-env": "^7.0.1",
     "rimraf": "^2.7.1",
     "serverless-http": "^2.7.0",
-    "theo": "^8.1.5",
-    "@netlify/functions": "^0.10.0",
-    "chrome-aws-lambda": "^9.1.0",
-    "dotenv": "^14.2.0",
-    "puppeteer-core": "^9.1.1",
-    "simplex-noise": "^3.0.1"
+    "theo": "^8.1.5"
   },
   "devDependencies": {
     "@11ty/eleventy-img": "^1.0.0",
     "browser-sync": "^2.26.14",
     "node-html-parser": "^5.2.0",
     "stylelint": "^14",
-    "stylelint-order": "^5.0.0",
-    "puppeteer": "^9.1.1",
-    "webpack": "^5.67.0",
-    "webpack-cli": "^4.9.2"
+    "stylelint-order": "^5.0.0"
   }
 }
