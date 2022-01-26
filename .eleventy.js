@@ -73,8 +73,8 @@ module.exports = function (eleventyConfig) {
                         ? new URL(ogImage.getAttribute('content'))
                         : undefined;
                     if (ogURL && ogURL.pathname.includes('/og/')) {
-                        const newURL = await saveOgImage(ogURL.href);
-                        newURL.replace('/dist', '');
+                        let newURL = await saveOgImage(ogURL.href);
+                        newURL = newURL.replace('dist/', '');
                         ogImage.setAttribute('content', `https://matthewstrom.com/${newURL}`);
                     }
                     return root.toString();
