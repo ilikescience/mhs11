@@ -45,7 +45,7 @@
     --t--size-xl: clamp(1.5rem, 3vw, 2.5rem);
     --t--size-l: clamp(1.25rem, 2vw, 1.5rem);
     --t--size-m: 1em;
-    --t--size-s: clamp(0.75rem, 2vw, 0.85rem);
+    --t--size-s: clamp(0.7rem, 2vw, 0.8rem);
 }
 
 .t--family-sans {
