@@ -50,6 +50,7 @@
     "theo": "^8.1.5"
   },
   "devDependencies": {
+    "@11ty/eleventy-img": "^1.0.0",
     "browser-sync": "^2.26.14",
     "node-html-parser": "^5.2.0",
     "stylelint": "^14",
