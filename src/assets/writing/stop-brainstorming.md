@@ -3,10 +3,7 @@ title: Stop brainstorming
 og:
   title: Stop brainstorming
   description: Why brainstorming doesn't work - and why to do nothing instead
-  image: https://mhs-og.netlify.app/og/headline=Stop brainstorming/subhead=January 26, 2022
-  image_width: 1200
-  image_height: 675
-date: 2022-01-26
+date: 2022-01-18
 ---
 
 “Brainstorming” — the problem-solving technique of coming up with as many ideas as possible in a short period of time — has been showing up on a lot of my leadership meeting agendas lately. Many of my peers are employing brainstorming in the belief that, as thought-leading creative consultancy Ideo puts it, “the more ideas you come up with, the better chance you have to reach a truly brilliant solution.” Here’s a little more about Ideo and brainstorming from a 2001 [Fast Company piece](https://www.fastcompany.com/63818/seven-secrets-good-brainstorming):
