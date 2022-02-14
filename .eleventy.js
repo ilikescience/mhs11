@@ -27,6 +27,7 @@ module.exports = function (eleventyConfig) {
     const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
     const { parse } = require('node-html-parser');
     const Image = require("@11ty/eleventy-img");
+    const mathjaxPlugin = require("eleventy-plugin-mathjax");
     
     const lazyImages = function lazyImages(eleventyConfig, userOptions = {}) {
         const options = {
@@ -176,6 +177,9 @@ module.exports = function (eleventyConfig) {
 
     // trigger for og images function
     eleventyConfig.addPlugin(saveOgImages);
+
+    // mathjax plugin
+    eleventyConfig.addPlugin(mathjaxPlugin);
 
     // collection for next/prev posts
     eleventyConfig.addCollection('writing', function (collection) {

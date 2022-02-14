@@ -160,3 +160,7 @@
 .c--bg-gray-5 {
     background-color: var(--c--theme-gray-5);
 }
+
+.c--bg-highlight-1 {
+    background-color: var(--c--theme-highlight-1);
+}
