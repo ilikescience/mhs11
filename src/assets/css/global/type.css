@@ -1,6 +1,6 @@
 :root {
     /* base values */
-    --t--base-size: clamp(18px, 2vw, 21px);
+    --t--base-size: clamp(18px, 2vw, 20px);
     --t--base-leading: clamp(1.3em, calc(30px - 1vw), 1.4em);
 
     /* families */
@@ -95,6 +95,10 @@
     letter-spacing: -0.5px;
 }
 
+.t--tracking-loose {
+    letter-spacing: 0.5px;
+}
+
 .t--align-left {
     text-align: left;
 }
@@ -115,6 +119,21 @@
 
 .t--transform-uppercase {
     text-transform: uppercase;
+}
+
+.t--transform-lowercase {
+    text-transform: lowercase;
+}
+
+.t--variant-smallcaps {
+    font-variant-caps: small-caps;
+}
+
+.t--dropcap::first-letter {
+    font-size: calc(var(--t--size-m) * 2.5);
+    float: left;
+    line-height: 1;
+    padding-right: calc(var(--t--size-s) / 2.5);
 }
 
 sup {
@@ -171,7 +190,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: var(--t--size-m);
     color: var(--c--theme-gray-3);
 }
 

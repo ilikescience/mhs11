@@ -6,17 +6,15 @@
     font-family: var(--t--family-sans);
     font-size: var(--t--size-s);
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1em;
     text-align: center;
     text-decoration: none;
-    border-bottom: 1px solid var(--c--theme-gray-2);
 }
 
 .footnote-backref {
     margin: 0 0.1rem;
     text-decoration: none;
     color: var(--c--theme-gray);
-    border-bottom: 1px solid var(--c--theme-gray-2);
 }
 
 .footnote-ref a:hover {
