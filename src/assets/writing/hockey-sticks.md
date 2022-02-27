@@ -10,95 +10,98 @@ date: 2022-02-26
 
 For example, here’s three hockey-stick graphs showing the revenues of Alphabet (Google), and Meta (Facebook).
 
-<figure class="l--flex">
-    <div class="l--flex-auto">
-        <svg viewBox="0 0 900 820">
-            <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);">Alphabet</text>
-            <g transform="translate(0 0)">
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 70h760" />
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 170h760" />
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 270h760" />
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 370h760" />
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 470h760" />
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 570h760" />
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 670h760" />
-            <path style="stroke:var(--c--theme-gray-2)" d="M90 770h760" />
-            </g>
-            <g transform="translate(25, 400)">
-                <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">Revenue, billions</text>
-            </g>
-            <g text-anchor="end" transform="translate(30 30)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
-                <text x="40" y="150">3</text>
-                <text x="40" y="350">2</text>
-                <text x="40" y="550">1</text>
-                <text x="40" y="750">0</text>
-            </g>
-            <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
-                <text x="50" y="780">Year 1</text>
-                <text x="170" y="780">Year 2</text>
-                <text x="290" y="780">Year 3</text>
-                <text x="410" y="780">Year 4</text>
-                <text x="530" y="780">Year 5</text>
-                <text x="650" y="780">Year 6</text>
-                <text x="770" y="780">Year 7</text>
-            </g>
-            <g transform="translate(0 20)" style="fill: var(--c--theme-positive-3)">
-                <circle cx="110" cy="750" r="10"/>
-                <circle cx="230" cy="750" r="10"/>
-                <circle cx="350" cy="740" r="10"/>
-                <circle cx="470" cy="710" r="10"/>
-                <circle cx="590" cy="660" r="10"/>
-                <circle cx="710" cy="440" r="10"/>
-                <circle cx="830" cy="110" r="10"/>
-            </g>
-            <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-positive-3)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-220 120-330" />
-        </svg>
-    </div>
-    <div class="l--flex-auto">
-        <svg viewBox="0 0 900 820">
-            <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);">Meta</text>
-            <g transform="translate(0 0)">
+<figure>
+    <div class="l--flex">
+        <div class="l--flex-auto">
+            <svg viewBox="0 0 900 820">
+                <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);">Alphabet</text>
+                <g transform="translate(0 0)">
                 <path style="stroke:var(--c--theme-gray-2)" d="M90 70h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 157h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 244h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 331h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 418h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 505h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 592h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 679h760" />
+                <path style="stroke:var(--c--theme-gray-2)" d="M90 170h760" />
+                <path style="stroke:var(--c--theme-gray-2)" d="M90 270h760" />
+                <path style="stroke:var(--c--theme-gray-2)" d="M90 370h760" />
+                <path style="stroke:var(--c--theme-gray-2)" d="M90 470h760" />
+                <path style="stroke:var(--c--theme-gray-2)" d="M90 570h760" />
+                <path style="stroke:var(--c--theme-gray-2)" d="M90 670h760" />
                 <path style="stroke:var(--c--theme-gray-2)" d="M90 770h760" />
-            </g>
-            <g transform="translate(25, 400)">
-                <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">Revenue, billions</text>
-            </g>
-            <g text-anchor="end" transform="translate(30 10)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
-                <text x="40" y="70">2</text>
-                <text x="40" y="244">1.5</text>
-                <text x="40" y="418">1</text>
-                <text x="40" y="592">0.5</text>
-                <text x="40" y="770">0</text>
-            </g>
-            <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
-                <text x="50" y="780">Year 1</text>
-                <text x="170" y="780">Year 2</text>
-                <text x="290" y="780">Year 3</text>
-                <text x="410" y="780">Year 4</text>
-                <text x="530" y="780">Year 5</text>
-                <text x="650" y="780">Year 6</text>
-                <text x="770" y="780">Year 7</text>
-            </g>
-            <g transform="translate(0 20)" style="fill: var(--c--theme-primary-3)">
-                <circle cx="110" cy="750" r="10"/>
-                <circle cx="230" cy="750" r="10"/>
-                <circle cx="350" cy="740" r="10"/>
-                <circle cx="470" cy="710" r="10"/>
-                <circle cx="590" cy="660" r="10"/>
-                <circle cx="710" cy="490" r="10"/>
-                <circle cx="830" cy="110" r="10"/>
-            </g>
-            <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-primary-3)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-170 120-380" />
-        </svg>
+                </g>
+                <g transform="translate(25, 400)">
+                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">Revenue, billions</text>
+                </g>
+                <g text-anchor="end" transform="translate(30 30)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                    <text x="40" y="150">3</text>
+                    <text x="40" y="350">2</text>
+                    <text x="40" y="550">1</text>
+                    <text x="40" y="750">0</text>
+                </g>
+                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                    <text x="50" y="780">Year 1</text>
+                    <text x="170" y="780">Year 2</text>
+                    <text x="290" y="780">Year 3</text>
+                    <text x="410" y="780">Year 4</text>
+                    <text x="530" y="780">Year 5</text>
+                    <text x="650" y="780">Year 6</text>
+                    <text x="770" y="780">Year 7</text>
+                </g>
+                <g transform="translate(0 20)" style="fill: var(--c--theme-positive-3)">
+                    <circle cx="110" cy="750" r="10"/>
+                    <circle cx="230" cy="750" r="10"/>
+                    <circle cx="350" cy="740" r="10"/>
+                    <circle cx="470" cy="710" r="10"/>
+                    <circle cx="590" cy="660" r="10"/>
+                    <circle cx="710" cy="440" r="10"/>
+                    <circle cx="830" cy="110" r="10"/>
+                </g>
+                <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-positive-3)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-220 120-330" />
+            </svg>
+        </div>
+        <div class="l--flex-auto">
+            <svg viewBox="0 0 900 820">
+                <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);">Meta</text>
+                <g transform="translate(0 0)">
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 70h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 157h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 244h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 331h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 418h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 505h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 592h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 679h760" />
+                    <path style="stroke:var(--c--theme-gray-2)" d="M90 770h760" />
+                </g>
+                <g transform="translate(25, 400)">
+                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">Revenue, billions</text>
+                </g>
+                <g text-anchor="end" transform="translate(30 10)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                    <text x="40" y="70">2</text>
+                    <text x="40" y="244">1.5</text>
+                    <text x="40" y="418">1</text>
+                    <text x="40" y="592">0.5</text>
+                    <text x="40" y="770">0</text>
+                </g>
+                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                    <text x="50" y="780">Year 1</text>
+                    <text x="170" y="780">Year 2</text>
+                    <text x="290" y="780">Year 3</text>
+                    <text x="410" y="780">Year 4</text>
+                    <text x="530" y="780">Year 5</text>
+                    <text x="650" y="780">Year 6</text>
+                    <text x="770" y="780">Year 7</text>
+                </g>
+                <g transform="translate(0 20)" style="fill: var(--c--theme-primary-3)">
+                    <circle cx="110" cy="750" r="10"/>
+                    <circle cx="230" cy="750" r="10"/>
+                    <circle cx="350" cy="740" r="10"/>
+                    <circle cx="470" cy="710" r="10"/>
+                    <circle cx="590" cy="660" r="10"/>
+                    <circle cx="710" cy="490" r="10"/>
+                    <circle cx="830" cy="110" r="10"/>
+                </g>
+                <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-primary-3)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-170 120-380" />
+            </svg>
+        </div>
     </div>
+    <figcaption>Source: <a href="https://hockeystickprinciples.com/charts/" target="_blank" rel="noopener">https://hockeystickprinciples.com/charts/</a></figcaption>
 </figure>
 
 Looking at a hockey-stick graph, it’s not hard to see why it’s so desirable. Once a business hits the handle side of the stick, any investment made on the low end is quickly multiplied to astronomical returns. This is particularly alluring to venture capitalists who see the potential for rocket-ship growth as justification for risky investments in early-stage companies.
