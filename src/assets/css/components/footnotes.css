@@ -42,7 +42,7 @@
     }
 
     & li {
-        padding-left: var(--l--space-s);
+        padding-left: var(--l--space-xs);
         &:target {
             background-color: var(--c--theme-primary-1);
         }

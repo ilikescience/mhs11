@@ -48,7 +48,7 @@
     }
 
     & .table--group-start,
-    & .table--group-start {
+    & .table--group-end {
         border-left: 1px solid var(--c--theme-gray-2);
     }
 
@@ -86,25 +86,29 @@ thead {
     border-bottom: 1px solid var(--c--theme-gray-2);
 }
 
+td,
 th {
+    text-align: left;
+}
+
+th {
+    padding: 0.13rem 0.25rem;
     color: var(--c--theme-gray-3);
     font-weight: var(--t--weight-normal);
 }
 
-td,
-th {
-    padding: 0;
-    text-align: left;
-}
-
 td {
-    padding: 0.25em 0;
+    padding: 0.25em 0.13rem;
     vertical-align: top;
 }
 
 .posts-table {
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.table--group-header {
+    border-bottom: 1px solid var(--c--theme-gray-2);
 }
 
 @media (max-width: 1024px) {

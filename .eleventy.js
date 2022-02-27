@@ -179,7 +179,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(saveOgImages);
 
     // mathjax plugin
-    eleventyConfig.addPlugin(mathjaxPlugin);
+    eleventyConfig.addPlugin(mathjaxPlugin, {
+        tex: {
+            inlineMath: [
+              ["$$", "$$"],
+            ],
+            displayMath: [
+                ["$$$", "$$$"],
+            ]
+          }
+    });
 
     // collection for next/prev posts
     eleventyConfig.addCollection('writing', function (collection) {
