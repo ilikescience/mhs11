@@ -8,7 +8,7 @@ date: 2022-02-26
 
 “Hockey stick” growth has long been the elusive goal of Silicon Valley (and Valley-esque) venture-capital-backed startups. It’s so named because the graph of some company metric — users, revenue, retention, orders — starts low and flat, then slowly lifts, then turns steeper and steeper into a near-vertical line representing thunderous growth.
 
-For example, here’s three hockey-stick graphs showing the revenues of Alphabet (Google), and Meta (Facebook).
+For example, here’s two hockey-stick graphs showing the revenues of Alphabet (Google), and Meta (Facebook).
 
 <figure>
     <div class="l--flex">
@@ -271,7 +271,7 @@ But on day 310 (November 7 if we started on January 1), Christmas comes early:
         </tr>
         <tr>
             <th scope="row">Day 310</th>
-            <td class="t--align-right t--numbers-tabular" data-label="Account A">$920,100.00</td>
+            <td class="t--align-right t--numbers-tabular" data-label="Account A">$900,100.00</td>
             <td class="t--align-right t--numbers-tabular" data-label="Account B">$926,195.00</td>
         </tr>
     </tbody>
