@@ -7,6 +7,11 @@ layout: layouts/default.html
         <h1 class="t--weight-normal t--family-sans">
             {{ title }}
         </h1>
+        {% if subtitle %}
+            <h2 class="t--size-l t--family-sans t--weight-normal c--gray l--mar-btm-s">
+                {{ subtitle }}
+            </h2>
+        {% endif %}
         <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>

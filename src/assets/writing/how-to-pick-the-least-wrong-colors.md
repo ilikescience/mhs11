@@ -1,6 +1,11 @@
 ---
 title: How to pick the least wrong colors
 subtitle: An algorithm for creating color palettes for data visualization
+og:
+    title: How to pick the least wrong colors
+    subtitle: An algorithm for creating color palettes for data visualization
+    description: An algorithm for creating color palettes for data visualization
+    descriptionInImage: true
 date: 2022-05-26
 ---
 
@@ -268,16 +273,16 @@ The following table analyzes four 12-color palettes:
 3. The first 12 colors of d3’s `d3.category20` palette
 4. The best of five runs of my optimizer generating 12 random colors[^10]
 
-<table>
+<table class="table--responsive">
     <colgroup span="1"></colgroup>
     <colgroup span="4"></colgroup>
     <thead>
         <tr>
-            <th class="table--header-empty" colspan="1"></th>
+            <th class="table--group-header table--group-start table--group-end t--weight-bold" colspan="1">Color vision deficiency</th>
             <th class="table--group-header t--align-right table--group-start table--group-end t--weight-bold" colspan="4" scope="colgroup">JND issues</th>
         </tr>
         <tr>
-            <th width="40%">Color Deficiency</th>
+            <th width="40%"></th>
             <th class="t--align-right" width="15%">Adobe</th>
             <th class="t--align-right" width="15%">IBM</th>
             <th class="t--align-right" width="15%">D3</th>
@@ -286,32 +291,32 @@ The following table analyzes four 12-color palettes:
     </thead>
     <tbody>
         <tr>
-            <th scope="row">None</th>
-            <td class="t--align-right t--numbers-tabular">2</td>
-            <td class="t--align-right t--numbers-tabular">1</td>
-            <td class="t--align-right t--numbers-tabular">4</td>
-            <td class="t--align-right t--numbers-tabular">0</td>
+            <th scope="row">No color vision deficiency</th>
+            <td data-label="Adobe" class="t--align-right t--numbers-tabular">2</td>
+            <td data-label="IBM" class="t--align-right t--numbers-tabular">1</td>
+            <td data-label="D3" class="t--align-right t--numbers-tabular">4</td>
+            <td data-label="Mine" class="t--align-right t--numbers-tabular">0</td>
         </tr>
         <tr>
             <th scope="row">Protanopia</th>
-            <td class="t--align-right t--numbers-tabular">6</td>
-            <td class="t--align-right t--numbers-tabular">9</td>
-            <td class="t--align-right t--numbers-tabular">13</td>
-            <td class="t--align-right t--numbers-tabular">3</td>
+            <td data-label="Adobe" class="t--align-right t--numbers-tabular">6</td>
+            <td data-label="IBM" class="t--align-right t--numbers-tabular">9</td>
+            <td data-label="D3" class="t--align-right t--numbers-tabular">13</td>
+            <td data-label="Mine" class="t--align-right t--numbers-tabular">3</td>
         </tr>
         <tr>
             <th scope="row">Deuteranopia</th>
-            <td class="t--align-right t--numbers-tabular">6</td>
-            <td class="t--align-right t--numbers-tabular">11</td>
-            <td class="t--align-right t--numbers-tabular">12</td>
-            <td class="t--align-right t--numbers-tabular">4</td>
+            <td data-label="Adobe" class="t--align-right t--numbers-tabular">6</td>
+            <td data-label="IBM" class="t--align-right t--numbers-tabular">11</td>
+            <td data-label="D3" class="t--align-right t--numbers-tabular">12</td>
+            <td data-label="Mine" class="t--align-right t--numbers-tabular">4</td>
         </tr>
         <tr class="c--bg-gray-1">
             <th scope="row">Total</th>
-            <td class="t--align-right t--numbers-tabular">14</td>
-            <td class="t--align-right t--numbers-tabular">21</td>
-            <td class="t--align-right t--numbers-tabular">29</td>
-            <td class="t--align-right t--numbers-tabular">7</td>
+            <td data-label="Adobe" class="t--align-right t--numbers-tabular">14</td>
+            <td data-label="IBM" class="t--align-right t--numbers-tabular">21</td>
+            <td data-label="D3" class="t--align-right t--numbers-tabular">29</td>
+            <td data-label="Mine" class="t--align-right t--numbers-tabular">7</td>
         </tr>
     </tbody>
 </table>
