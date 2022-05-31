@@ -3,9 +3,10 @@ title: How to pick the least wrong colors
 subtitle: An algorithm for creating color palettes for data visualization
 og:
     title: How to pick the least wrong colors
-    subtitle: An algorithm for creating color palettes for data visualization
     description: An algorithm for creating color palettes for data visualization
-    descriptionInImage: true
+    image: /images/annealing-og.jpg
+    image_width: 1200
+    image_height: 675
 date: 2022-05-31
 ---
 
