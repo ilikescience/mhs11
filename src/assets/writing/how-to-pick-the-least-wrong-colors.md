@@ -6,7 +6,7 @@ og:
     subtitle: An algorithm for creating color palettes for data visualization
     description: An algorithm for creating color palettes for data visualization
     descriptionInImage: true
-date: 2022-05-26
+date: 2022-05-31
 ---
 
 I’m a self-taught designer.[^1] This has its upsides: I learn at my own pace (in my case, slowly over decades and counting), I design my own curriculum, and I don’t have to do any homework or pass any tests. But it also has a serious downside: because I don’t have to learn anything, I skip the things that intimidate me. That’s why, for years and years, I’ve avoided learning much of anything about color.
