@@ -190,7 +190,7 @@ h3 {
 }
 
 h4 {
-    font-size: var(--t--size-m);
+    font-size: var(--t--size-l);
     color: var(--c--theme-gray-3);
 }
 

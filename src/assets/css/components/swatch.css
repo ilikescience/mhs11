@@ -3,4 +3,6 @@
     width: 0.75em;
     height: 0.75em;
     border-radius: calc(var(--l--border-radius-s) / 2);
+    margin-top: 0;
+    margin-left: 0.125em;
 }
