@@ -1,1 +1,11 @@
-/* empty */
+/* stylelint-disable declaration-no-important */
+/* stylelint-disable selector-type-no-unknown */
+
+mjx-container[jax='SVG'] > svg {
+    max-width: 100%;
+}
+
+mjx-container mjx-assistive-mml {
+    width: 1px !important;
+    height: 1px !important;
+}
