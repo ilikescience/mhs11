@@ -12,6 +12,10 @@ tags: [design]
 
 ![](/images/design-api-5.jpg)
 
+<div class="c--bg-highlight-1 l--pad-s l--rounded-corners-l">
+<strong>Update 6/12/22:</strong> The links to the implmentation of the API are currently broken. I'm updating some dependencies to make it work again.
+</div>
+
 A few months ago I wrote an essay titled "[Design APIs: the evolution of design systems](/writing/design-apis)". The API model for design systems resonated with design systems practitioners. The response blew me away. 
 
 Since then, I’ve had lots of conversations (and [one podcast](https://www.digitale-leute.de/interview/design-systems-into-design-api/)) about the concept of a design API. One question comes up almost every time: what does a design API actually look like? Good question.

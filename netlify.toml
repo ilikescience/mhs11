@@ -4,11 +4,6 @@
     command = "npm run build"
     functions = "./functions"
 [[redirects]]
-  from = "/api"
-  to = "/.netlify/functions/api"
-  status = 200
-  force = true
-[[redirects]]
   from = "/og/*"
   to = "/.netlify/builders/og"
   status = 200
