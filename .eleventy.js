@@ -28,6 +28,7 @@ module.exports = function (eleventyConfig) {
     const { parse } = require('node-html-parser');
     const Image = require("@11ty/eleventy-img");
     const mathjaxPlugin = require("eleventy-plugin-mathjax");
+    const embedTwitter = require("eleventy-plugin-embed-twitter");
     
     const lazyImages = function lazyImages(eleventyConfig, userOptions = {}) {
         const options = {
@@ -188,6 +189,11 @@ module.exports = function (eleventyConfig) {
                 ["$$$", "$$$"],
             ]
           }
+    });
+
+    // twitter embed
+    eleventyConfig.addPlugin(embedTwitter, {
+        cacheText: true,
     });
 
     // collection for next/prev posts

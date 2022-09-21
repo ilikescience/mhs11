@@ -27,6 +27,7 @@
     font-family: var(--t--family-sans);
     font-size: var(--t--size-s);
     margin-top: 0.25rem;
+    line-height: var(--t--leading-tight);
 }
 
 .footnotes {
