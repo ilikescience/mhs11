@@ -1,7 +1,8 @@
 :root {
     /* base values */
     --t--base-size: clamp(18px, 2vw, 20px);
-    --t--base-leading: clamp(1.3em, calc(30px - 1vw), 1.4em);
+    --t--leading-base: clamp(1.3em, calc(30px - 1vw), 1.4em);
+    --t--leading-tight: clamp(1.25em, calc(26px - 1vw), 1.35em);
 
     /* families */
     --t--family-sans:
@@ -46,6 +47,7 @@
     --t--size-l: clamp(1.25rem, 2vw, 1.5rem);
     --t--size-m: 1em;
     --t--size-s: clamp(0.7rem, 2vw, 0.8rem);
+    --t--size-xs: clamp(0.5rem, 2vw, 0.7rem);
 }
 
 .t--family-sans {
@@ -73,6 +75,9 @@
 .t--size-s {
     font-size: var(--t--size-s);
 }
+.t--size-xs {
+    font-size: var(--t--size-xs);
+}
 
 .t--weight-black {
     font-weight: var(--t--weight-black);
@@ -87,8 +92,12 @@
     font-weight: var(--t--weight-light);
 }
 
+.t--leading-tight {
+    line-height: var(--t--leading-tight);
+}
+
 .t--leading-normal {
-    line-height: var(--t--base-leading);
+    line-height: var(--t--leading-base);
 }
 
 .t--tracking-tight {
@@ -146,7 +155,7 @@ html {
     color: var(--c--theme-fg);
     font-size: var(--t--base-size);
     font-family: var(--t--family-sans);
-    line-height: var(--t--base-leading);
+    line-height: var(--t--leading-base);
     font-feature-settings: 'kern';
     font-kerning: normal;
 }
@@ -219,4 +228,5 @@ blockquote + blockquote {
 
 figcaption {
     font-size: var(--t--size-s);
+    line-height: var(--t--leading-tight);
 }
