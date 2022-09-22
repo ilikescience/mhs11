@@ -4,7 +4,7 @@ date: 2022-09-21
 
 og:
     title: "Beauty in the machine: post-industrial design"
-    description: Has the design become boring? Or is it just harder to notice?
+    description: Has design become boring? Or is it just harder to notice?
     image: /images/postindustrial-0.jpg?v=1
 ---
 
