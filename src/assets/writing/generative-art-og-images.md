@@ -5,7 +5,7 @@ date: 2022-10-29
 
 I like writing and sharing essays on twitter. I especially like the way the link previews look when they have images that stand out in the timeline. In the past, I’ve created illustrations for each of my posts. But I have two problems: 1. Creating illustrations takes time, and 2. I’m not good at it.
 
-Fortunately, [Zach Leatherman](https://www.zachleat.com/web/automatic-Open Graph/) wrote up a potential solution to my problems: his site automatically generates nice-looking images that include the title, date, and site name. But I’m a glutton for punishment. I wanted to take it one step further. A terrible idea stuck itself in my brain:
+Fortunately, [Zach Leatherman](https://www.zachleat.com/web/automatic-opengraph/) wrote up a potential solution to my problems: his site automatically generates nice-looking images that include the title, date, and site name. But I’m a glutton for punishment. I wanted to take it one step further. A terrible idea stuck itself in my brain:
 
 What if each preview image was a piece of generative art?
 
