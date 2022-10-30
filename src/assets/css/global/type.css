@@ -206,6 +206,7 @@ h4 {
 pre,
 code {
     font-family: var(--t--family-mono);
+    font-size: calc(var(--t--base-size) * 0.85);
     white-space: normal;
 }
 

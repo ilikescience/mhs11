@@ -71,6 +71,9 @@ module.exports = function (eleventyConfig) {
                     const ogImage = root.querySelector(
                         'meta[property="og:image"]'
                     );
+                    const twitterImage = root.querySelector(
+                        'meta[property="twitter:image"]'
+                    );
                     const ogURL = ogImage
                         ? new URL(ogImage.getAttribute('content'))
                         : undefined;
@@ -78,6 +81,7 @@ module.exports = function (eleventyConfig) {
                         let newURL = await saveOgImage(ogURL.href);
                         newURL = newURL.replace('dist/', '');
                         ogImage.setAttribute('content', `https://matthewstrom.com/${newURL}`);
+                        twitterImage.setAttribute('content', `https://matthewstrom.com/${newURL}`);
                     }
                     return root.toString();
                 }
