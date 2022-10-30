@@ -69,6 +69,7 @@ button {
 }
 
 img {
+    display: block;
     height: auto;
     max-width: 100%;
     border: 0;
