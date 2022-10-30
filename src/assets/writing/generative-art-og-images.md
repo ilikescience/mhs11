@@ -1,11 +1,11 @@
 ---
-title: Generative art opengraph preview images
+title: Generative art Open Graph preview images
 date: 2022-10-29
 ---
 
 I like writing and sharing essays on twitter. I especially like the way the link previews look when they have images that stand out in the timeline. In the past, I’ve created illustrations for each of my posts. But I have two problems: 1. Creating illustrations takes time, and 2. I’m not good at it.
 
-Fortunately, [Zach Leatherman](https://www.zachleat.com/web/automatic-opengraph/) wrote up a potential solution to my problems: his site automatically generates nice-looking images that include the title, date, and site name. But I’m a glutton for punishment. I wanted to take it one step further. A terrible idea stuck itself in my brain:
+Fortunately, [Zach Leatherman](https://www.zachleat.com/web/automatic-Open Graph/) wrote up a potential solution to my problems: his site automatically generates nice-looking images that include the title, date, and site name. But I’m a glutton for punishment. I wanted to take it one step further. A terrible idea stuck itself in my brain:
 
 What if each preview image was a piece of generative art?
 
@@ -185,13 +185,13 @@ At that point, I had accomplished a lot — all told, I’d wager the art algori
 However, this was only half of my goal. The other half would really stretch my technical abilities; it’s where the greatest opportunities for improvement still lie.
 
 
-## Making opengraph images
+## Making Open Graph images
 
 In order to use these images to accompany my website’s previews, I’d need to wade into automation. Sure, I could hand-pick the background image, mock up the preview image in Figma, and serve it alongside my site. But that would be far too easy, and wouldn’t involve painstakingly learning how to automate a browser.
 
 ### Taking a screenshot
 
-Opengraph image generators like [Github’s](https://github.blog/2021-06-22-framework-building-open-graph-images/) and [Vercel’s](https://github.com/vercel/og-image) generally approach the problem from the same angle:
+Open Graph image generators like [Github’s](https://github.blog/2021-06-22-framework-building-open-graph-images/) and [Vercel’s](https://github.com/vercel/og-image) generally approach the problem from the same angle:
 
 1. Use the metadata from the page (like the title, subtitle, and date) to generate some HTML from a template
 2. Pipe that HTML to a browser and use an automation framework to take a screenshot
@@ -207,7 +207,7 @@ But the same page, accessed from a url ending in `headline=Different%20Headline/
 
 ![An example of the algorithm using the headline as a seed for the random number generator](/images/generative-og-17.jpg)
 
-Unfortunately, this wasn’t an image yet — it was an HTML page rendered by the browser. Since opengraph images are … well, images … they need to be something like a .jpg or a .png. Following in the footsteps of other (more talented) developers, I used [Puppeteer](https://pptr.dev).
+Unfortunately, this wasn’t an image yet — it was an HTML page rendered by the browser. Since Open Graph images are … well, images … they need to be something like a .jpg or a .png. Following in the footsteps of other (more talented) developers, I used [Puppeteer](https://pptr.dev).
 
 Puppeteer is an automation tool for the Chromium browser engine. With a few commands, you tell Chromium to load up a blob of HTML, and take a screenshot.
 
@@ -262,7 +262,7 @@ The thing is, these images don’t change very often (maybe never). Once a post�
 
 Instead, I used Zach Leatherman’s [eleventy-img plugin](https://github.com/11ty/eleventy-img). When my site is built in production, Eleventy downloads an image for each post on the site that needs one. It saves that image into the build directory, then pipes the filename/URI into the relevant meta tag in the post’s `<head>` tag.
 
-This has the added benefit of making sure my opengraph images still exist, even if the Netlify function stops working (or, in my case, when I accidentally disable it by changing the environment settings).
+This has the added benefit of making sure my Open Graph images still exist, even if the Netlify function stops working (or, in my case, when I accidentally disable it by changing the environment settings).
 
 
 ## In the end
@@ -273,7 +273,7 @@ It may seem like overkill to write a serverless generative art algorithm to get 
 
 Pursuing technical challenges, no matter how seemingly sisyphean, is a great way to learn. And the feeling of accomplishment when you finally get the boulder up the hill is priceless.
 
-You can find all the source code for my generative art opengraph images in [the repo for this site](https://github.com/ilikescience/mhs11) and [the repo for the serverless function](https://github.com/ilikescience/mhs-og). Happy hacking!
+You can find all the source code for my generative art Open Graph images in [the repo for this site](https://github.com/ilikescience/mhs11) and [the repo for the serverless function](https://github.com/ilikescience/mhs-og). Happy hacking!
 
 [^1]: What I've drawn here looks a lot like [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion), which does indeed occur in nature, albeit at a sub-molecular scale.
 
