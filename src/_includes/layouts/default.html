@@ -24,6 +24,7 @@
         <meta name="twitter:site"content="@ilikescience" />
         <meta name="twitter:creator"content="@ilikescience" />
         <meta property="twitter:image" content="https://matthewstrom.com{{ cover }}" />
+        <meta property="twitter:title" content="A review of {{ title }} by {{ author }}" />
         <meta property="og:title" content="A review of {{ title }} by {{ author }}" />
         <meta property="og:url" content="https://matthewstrom.com{{ page.url }}" />
         <meta property="og:image" content="https://matthewstrom.com{{ cover }}" />
@@ -34,6 +35,7 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site"content="@ilikescience" />
         <meta name="twitter:creator"content="@ilikescience" />
+        <meta property="twitter:title" content="{{ og.title }}" />
         <meta property="og:title" content="{{ og.title }}" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://matthewstrom.com{{ page.url }}" />
@@ -44,6 +46,7 @@
             <meta property="twitter:image" content="https://mhs-og.netlify.app/og/headline={{ og.title }}/subhead={{ og.subtitle }}" />
             <meta property="og:image" content="https://mhs-og.netlify.app/og/headline={{ og.title }}/subhead={{ og.subtitle }}" />
         {% endif %}
+        <meta property="twitter:description" content="{{ og.description }}" />
         <meta property="og:description" content="{{ og.description }}" />
         <meta property="og:article:published_time" content="{{ date }}" />
         <meta property="og:article:author" content="Matthew Ström" />
