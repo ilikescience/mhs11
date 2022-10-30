@@ -20,9 +20,9 @@
     </script>
     <script defer src="/js/main.js"></script>
     {% if layout == "layouts/book.html" %}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site"content="@ilikescience" />
-        <meta name="twitter:creator"content="@ilikescience" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:site"content="@ilikescience" />
+        <meta property="twitter:creator"content="@ilikescience" />
         <meta property="twitter:image" content="https://matthewstrom.com{{ cover }}" />
         <meta property="twitter:title" content="A review of {{ title }} by {{ author }}" />
         <meta property="og:title" content="A review of {{ title }} by {{ author }}" />
@@ -32,9 +32,9 @@
         <meta property="og:article:author" content="Matthew Ström" />
         
     {% else if layout == "layouts/post.html" and og %}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site"content="@ilikescience" />
-        <meta name="twitter:creator"content="@ilikescience" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site"content="@ilikescience" />
+        <meta property="twitter:creator"content="@ilikescience" />
         <meta property="twitter:title" content="{{ og.title }}" />
         <meta property="og:title" content="{{ og.title }}" />
         <meta property="og:type" content="article" />
