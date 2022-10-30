@@ -8,7 +8,7 @@
     {% if og.description %}
         <meta name="description" content="{{ og.description }}">
     {% else %}
-        <meta name="description" content="I speak and write about product design, front-end code, leadership, and (occasionally) math.">
+        <meta name="description" content="I speak and write about design, front-end code, leadership, and (occasionally) math.">
     {% endif %}
     <title>{% if title %} {{title}} || {% endif %}Matthew Ström, designer-leader</title>
     <link type="application/atom+xml" rel="alternate" href="https://matthewstrom.com/feed.xml" title="Matthew Ström">
@@ -46,8 +46,6 @@
             <meta property="twitter:image" content="https://mhs-og.netlify.app/og/headline={{ og.title }}/subhead={{ og.subtitle }}" />
             <meta property="og:image" content="https://mhs-og.netlify.app/og/headline={{ og.title }}/subhead={{ og.subtitle }}" />
         {% endif %}
-        <meta property="twitter:description" content="{{ og.description }}" />
-        <meta property="og:description" content="{{ og.description }}" />
         <meta property="og:article:published_time" content="{{ date }}" />
         <meta property="og:article:author" content="Matthew Ström" />
     {% endif %}

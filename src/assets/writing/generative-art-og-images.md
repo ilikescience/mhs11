@@ -1,6 +1,11 @@
 ---
 title: Generative art Open Graph preview images
 date: 2022-10-29
+
+og:
+    title: Generative art Open Graph preview images
+    description: A how-to on generative art and browser automation
+
 ---
 
 I like writing and sharing essays on twitter. I especially like the way the link previews look when they have images that stand out in the timeline. In the past, I’ve created illustrations for each of my posts. But I have two problems: 1. Creating illustrations takes time, and 2. I’m not good at it.
