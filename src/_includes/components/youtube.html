@@ -1,0 +1,10 @@
+<!-- Load the JS only when the component is needed -->
+<script src="/js/yt-lite.js"></script>
+<!-- Web component for lite-youtube-embed -->
+<lite-youtube
+    videoid="{{ videoId }}"
+    style="background-image: url('https://i.ytimg.com/vi/{{ videoId }}/hqdefault.jpg');"
+    {% if params %}
+    params="{{ params }}"
+    {% endif %}>
+</lite-youtube>
