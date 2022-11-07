@@ -83,22 +83,6 @@ body.c--theme-dark {
     }
 }
 
-@media (max-width: 800px) {
-    .nav--container {
-        flex-flow: column;
-    }
-
-    .nav--menu {
-        align-self: flex-end;
-    }
-
-    .nav--logo div {
-        margin-right: calc(1.5rem + var(--l--space-s));
-        border-bottom: 1px solid var(--c--theme-gray-2);
-        flex: 1 0 auto;
-    }
-}
-
 nav.has-cover {
     position: absolute;
     top: 0;
