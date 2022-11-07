@@ -1,6 +1,7 @@
 .nav--container {
     display: flex;
     justify-content: space-between;
+    font-size: var(--t--size-s);
 }
 
 .nav--logo,
@@ -25,12 +26,16 @@
     fill: var(--c--theme-highlight-3);
 }
 
-.nav--theme-switcher svg {
-    fill: var(--c--theme-gray-3);
-
-    &:hover {
+.nav--theme-switcher {
+    padding: 0;
+    &:hover svg {
         fill: var(--c--theme-primary);
     }
+}
+
+.nav--theme-switcher svg {
+    fill: var(--c--theme-gray-2);
+    vertical-align: middle;
 }
 
 .nav--menu {
@@ -42,17 +47,21 @@
 }
 
 .nav--menu a:not(:last-child) {
-    margin-right: calc(var(--l--space-s) / 2);
+    margin-right: 0.25em;
+}
+
+.nav--menu a {
+    padding: 0.25em 0.75em;
+    border-radius: var(--l--border-radius-s);
+
+    &.active {
+        background: var(--c--theme-gray-1);
+    }
 }
 
 nav a {
     color: var(--c--theme-fg);
     text-decoration: none;
-
-    &.active {
-        color: var(--c--theme-primary);
-        border-bottom: 1px solid currentColor;
-    }
 }
 
 body.c--theme-light {
