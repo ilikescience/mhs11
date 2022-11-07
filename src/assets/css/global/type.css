@@ -1,6 +1,6 @@
 :root {
     /* base values */
-    --t--base-size: clamp(18px, 2vw, 20px);
+    --t--base-size: clamp(17px, 2vw, 19px);
     --t--leading-base: clamp(1.3em, calc(30px - 1vw), 1.4em);
     --t--leading-tight: clamp(1.25em, calc(26px - 1vw), 1.35em);
 
@@ -42,12 +42,12 @@
     --t--weight-light: 300;
 
     /* sizes */
-    --t--size-xxl: clamp(2.5rem, 4vw, 3.5rem);
-    --t--size-xl: clamp(1.5rem, 3vw, 2.5rem);
-    --t--size-l: clamp(1.25rem, 2vw, 1.5rem);
+    --t--size-xxl: clamp(2.2rem, 4vw, 3rem);
+    --t--size-xl: clamp(1.25rem, 3vw, 2rem);
+    --t--size-l: clamp(1.15rem, 2vw, 1.25rem);
     --t--size-m: 1em;
-    --t--size-s: clamp(0.7rem, 2vw, 0.8rem);
-    --t--size-xs: clamp(0.5rem, 2vw, 0.7rem);
+    --t--size-s: clamp(0.8rem, 2vw, 0.9rem);
+    --t--size-xs: clamp(0.65rem, 2vw, 0.75rem);
 }
 
 .t--family-sans {
