@@ -20,8 +20,9 @@ pre[class*='language-'] {
 
 p code,
 li code {
-    padding: 0.2em;
+    padding: 0.1em 0.25em;
     background: var(--c--theme-gray-1);
+    word-break: break-all;
 }
 
 .token.comment,
