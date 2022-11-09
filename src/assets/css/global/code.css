@@ -84,7 +84,7 @@ li code {
 
 .token.important,
 .token.bold {
-    font-weight: bold;
+    font-weight: var(--t--font-weight-bold);
 }
 
 .token.italic {
