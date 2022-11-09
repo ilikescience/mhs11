@@ -12,7 +12,7 @@ tags: [design]
 
 ![](/images/design-api-5.jpg)
 
-<div class="c--bg-highlight-1 l--pad-s l--rounded-corners-l">
+<div class="c--bg-highlight-1 l--pad-s l--rounded-corners">
 <strong>Update 6/12/22:</strong> The links to the implmentation of the API are currently broken. I'm updating some dependencies to make it work again.
 </div>
 
