@@ -1,6 +1,6 @@
 ---
 title: The micromanager's dilemma
-date: 2022-13-13
+date: 2022-12-13
 og:
     title: The micromanager's dilemma
     description: Why micromanagement isn't going away, and how to thrive despite it
