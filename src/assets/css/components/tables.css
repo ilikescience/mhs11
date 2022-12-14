@@ -107,6 +107,10 @@ td {
     text-overflow: ellipsis;
 }
 
+.table--layout-fixed {
+    table-layout: fixed;
+}
+
 .table--group-header {
     border-bottom: 1px solid var(--c--theme-gray-2);
 }

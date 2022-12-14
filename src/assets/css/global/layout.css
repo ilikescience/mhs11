@@ -239,3 +239,23 @@ figure figcaption {
 .l--rounded-corners-l {
     border-radius: var(--l--border-radius-l);
 }
+
+.l--border-style-solid { border-style: solid;}
+.l--border-width-s { border-width: 1px; }
+.l--border-none { border: 0; }
+
+.l--border-top-style-solid { border-top-style: solid;}
+.l--border-top-width-s { border-top-width: 1px; }
+.l--border-top-none { border-top: 0; }
+
+.l--border-right-style-solid { border-right-style: solid;}
+.l--border-right-width-s { border-right-width: 1px; }
+.l--border-right-none { border-right: 0; }
+
+.l--border-btm-style-solid { border-bottom-style: solid;}
+.l--border-btm-width-s { border-bottom-width: 1px; }
+.l--border-btm-none { border-bottom: 0; }
+
+.l--border-left-style-solid { border-left-style: solid;}
+.l--border-left-width-s { border-left-width: 1px; }
+.l--border-left-none { border-left: 0; }
