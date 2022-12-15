@@ -227,7 +227,7 @@ In the management game, being willing to micromanage — and demonstrating that 
 
 ## Why micromanagers persist
 
-So, hopefully, I’ve convinced you that micromanagement is a real possibility in even the healthiest and most cooperative manager–report relationship. And in those ideal relationships, a manager using a tit-for-tat strategy with like-minded employees never has to actually micromanage. Unfortunately, most workplace relationships are ideal.
+So, hopefully, I’ve convinced you that micromanagement is a real possibility in even the healthiest and most cooperative manager–report relationship. And in those ideal relationships, a manager using a tit-for-tat strategy with like-minded employees never has to actually micromanage. Unfortunately, most workplace relationships aren't ideal.
 
 That’s because the optimal strategy is so counterintuitive: tit for tat looks worse when compared to other strategies. Here are a few strategies that beat tit for tat in head-to-head comparisons:
 
