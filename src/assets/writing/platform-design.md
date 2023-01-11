@@ -1,5 +1,5 @@
 ---
-title: What does it mean to design a platform?
+title: What it means to design a platform
 date: 2023-01-11
 
 og:
