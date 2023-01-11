@@ -4,6 +4,7 @@ date: 2023-01-11
 
 og:
     title: What it means to design a platform
+    description: How interfaces, incentives, emergence, and second-order thinking make platforms a unique design opportunity
 
 ---
 
