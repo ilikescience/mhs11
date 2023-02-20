@@ -29,8 +29,6 @@ module.exports = function (eleventyConfig) {
     const Image = require("@11ty/eleventy-img");
     const mathjaxPlugin = require("eleventy-plugin-mathjax");
     const embedTwitter = require("eleventy-plugin-embed-twitter");
-    const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
-
     
     const lazyImages = function lazyImages(eleventyConfig, userOptions = {}) {
         const options = {
@@ -201,9 +199,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(embedTwitter, {
         cacheText: true,
     });
-
-    // upgrade helper
-    eleventyConfig.addPlugin(UpgradeHelper);
 
     // collection for next/prev posts
     eleventyConfig.addCollection('writing', function (collection) {
