@@ -8,10 +8,6 @@ og:
 
 ---
 
-<div class="c--bg-highlight-1 l--pad-s l--rounded-corners">
-<strong>Editor’s note:</strong> This essay was adapted from a post I wrote on an employees-only blog at Stripe.
-</div>
-
 After four months of parental leave, I came back to work and noticed something different. Many of the words, phrases, acronyms, and figures of speech I took for granted no longer held the same meanings. Specifically, the word "platform:" before my time off, I would breeze over it in any presentation or document without a second thought. Now, I find it totally devoid of any meaning. 
 
 I decided to start sketching out some possible defintions, and quickly uncovered something exciting: platform design isn’t just another flavor of UX or product design. There are challenges, mental models, and requisite skills that set platform design apart. I lead the platform design team;the work that we can do as platform designers gives us extreme leverage in solving user problems. We have the opportunity to make an outsize difference in the experience of our users.
