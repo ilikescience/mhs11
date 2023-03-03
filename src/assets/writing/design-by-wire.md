@@ -82,10 +82,6 @@ But pilots are still needed. Likewise, designers won’t be replaced; they’ll 
 
 It’ll take years of training to become an expert at designing with these new AI-powered systems. Start now, and you’ll stay ahead of the curve. Wait, and the challenge won’t come from the AI itself; it’ll be other designers — ones who are skilled at AI-powered design — who will come for your job.
 
-
-<!-- Footnotes themselves at the bottom. -->
-## Notes
-
 [^1]:
      “Wright Flyer.” In _Wikipedia_, February 19, 2023. https://en.wikipedia.org/w/index.php?title=Wright_Flyer&oldid=1140234161.
 
