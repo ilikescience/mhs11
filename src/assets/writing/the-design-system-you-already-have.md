@@ -4,13 +4,8 @@ tags: [design, design systems]
 og:
   title: The design system you already have
   description: How to avoid starting from scratch
-  image: /images/ds-0.jpg
-  image_width: 1200 
-  image_height: 800
 date: 2018-11-21
 ---
-
-![I'm so sorry](/images/ds-0.jpg)
 
 With beautiful design systems like [Polaris](https://polaris.shopify.com/), [Lightning](https://www.lightningdesignsystem.com/), and [Carbon](https://www.carbondesignsystem.com/) for inspiration, it's tempting to open up a Sketch file and start your own. A fresh start: all the freedom in the world. Finally, a great-looking date picker.
 
