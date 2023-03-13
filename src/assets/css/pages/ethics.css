@@ -3,7 +3,7 @@
 }
 
 .ethics--toc li {
-    margin-bottom: 1rem;
+    margin-bottom: var(--l--space-xs);
 }
 
 .ethics--link {
@@ -28,7 +28,7 @@
 
 .ethics--toc-numeral {
     display: inline-block;
-    width: 2rem;
+    width: 1.5rem;
     text-decoration: none;
     color: var(--c--theme-gray-3);
 }
@@ -76,7 +76,6 @@
 
 .ethics--part span {
     display: inline-block;
-    border-bottom: 1px solid var(--c--theme-gray-2);
     text-transform: uppercase;
     color: var(--c--theme-gray-3);
 }

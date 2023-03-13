@@ -2,30 +2,14 @@
 title: The unexamined life
 part: I
 date: 2020-03-30
-image: /images/ethics_1_0.jpg
 og:
   title: "Ethics for designers part I: The unexamined life"
   description: An introduction to the history of ethics and design ethics in general
-  image: /images/ethics_1_0.jpg
-  image_width: 1440
-  image_height: 810
 ---
-
-<div class="c--bg-gray-1 l--pad-s ethics--intro">
-
-Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on… well, ethics.
-
-The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically-aware decisions. Part 1 introduces ethics generally and ethical design specifically.
-</div>
 
 ## Why ethics?
 
-<div class="ethics--initial-graf"> 
-
 The 2010s were a remarkable decade for technology. Day after day, tech lined the front pages of major newspapers, the chyrons of broadcast news, and the glossy sheets of magazines. And in 2019, the trend took a turn: the stories became about the _ethics_ of technology. Not the ethics of future technology — that’s still the realm of science fiction. Not the regular “ethics of AI” or “ethics of cloning” think pieces. Instead, 2019 saw countless discussions of the ethics of the technology we all use every day:
-
-</div>
-
 
 
 *   In January, TechCrunch reported that Facebook was paying teens to install software on their phones that would circumvent built-in security features in order to collect personal data.[^1]

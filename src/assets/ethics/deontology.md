@@ -2,27 +2,12 @@
 title: Deontology
 part: III
 date: 2020-04-27
-image: /images/deontology-01.jpg
 og:
   title: "Ethics for designers part III: Deontology"
   description: What are the rules of ethical design?
-  image: /images/deontology-01.jpg
-  image_width: 1600
-  image_height: 900
 ---
 
-<div class="c--bg-gray-1 l--pad-s ethics--intro">
-
-Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on applying the best of classical ethical philosophy to modern digital design.
-
-The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically aware decisions. In Part 3, we’ll look at another school of ethics: deontology.
-</div>
-
-<div class="ethics--initial-graf">
-
 Deontology was the result of a surge of new energy in philosophy beginning in the 17th century. After the chaos and destruction of the Black Death, Europeans re-evaluated their relationship to the world around them. Scholars like René Descartes and Isaac Newton took on monumental projects to discover the rules that govern nature. Philosophers like David Hume and Immanuel Kant followed in their footsteps, taking a controversial and critical approach to ethics, morals, society, and politics.
-
-</div>
 
 ## What is deontology?
 

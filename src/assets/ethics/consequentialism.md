@@ -2,27 +2,12 @@
 title: Consequentialism
 part: IV
 date: 2020-05-10
-image: /images/cons-0.jpg
 og:
   title: "Ethics for designers part IV: Consequentialism"
   description: How to design for the best possible outcomes
-  image: /images/cons-0.jpg
-  image_width: 1600
-  image_height: 900
 ---
 
-<div class="c--bg-gray-1 l--pad-s ethics--intro">
-
-Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on applying the best of classical ethical philosophy to modern digital design.
-
-The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically aware decisions. In Part 3, we’ll look at another school of ethics: consequentialism.
-</div>
-
-<div class="ethics--initial-graf">
-
 Consequentialism became the most popular approach to ethics following the Age of Enlightenment. Writers in the late 18th and early 19th century saw how strict, rule-based, duty-bound theories of ethics resulted in contradictory and often destructive behavior. After Napoleon’s wars and the bloody French Revolution that followed, philosophers wondered how our individual decisions impact the communities we live in. As the Industrial Revolution began, politicians and scholars alike wondered: what responsibilities do we have to society?
-
-</div>
 
 ## What is consequentialism?
 

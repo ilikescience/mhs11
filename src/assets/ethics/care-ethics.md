@@ -2,27 +2,12 @@
 title: Care ethics
 part: V
 date: 2020-05-26
-image: /images/care-1.jpg
 og:
   title: "Ethics for designers part V: Care ethics"
   description: How can we design to support our communities?
-  image: /images/care-1.jpg
-  image_width: 1600
-  image_height: 900
 ---
 
-<div class="c--bg-gray-1 l--pad-s ethics--intro">
-
-Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on applying the best of classical ethical philosophy to modern digital design.
-
-The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically aware decisions. In Part 5, we’ll look at one last school of ethics: care ethics.
-</div>
-
-<div class="ethics--initial-graf">
-
 Care ethics is closely related to the rise of feminist voices in philosophy starting in the 1970s. Writers at the time were inspired by the vanguard of feminism — Mary Astell in 1694, Mary Wollstonecraft in 1792, and Harriet Taylor Mill in 1869. They pointed out the dominance of men in the history of ethics and sought to understand the impact that such a one-sided approach might have on ethical theories. Care ethics emerged as the counterpoint to consequentialism and deontology. It emphasizes relationships — not tabulated outcomes or logical rulebooks — as the primary test of ethical behavior.
-
-</div>
 
 ### A note from the author
 

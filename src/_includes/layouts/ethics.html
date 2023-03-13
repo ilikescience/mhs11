@@ -2,7 +2,7 @@
 layout: layouts/default.html
 ---
 
-<header class="l--grid-wide t--align-center">
+<header class="l--grid-wide t--align-center l--space-compact">
     <div class="l--mar-top-m l--mar-btm-m">
         <a class="t--decoration-none" href="/ethics">
         <div class="ethics--pill">Ethics for designers</div>
@@ -13,7 +13,7 @@ layout: layouts/default.html
         <h1 class="t--weight-normal l--mar-top-none">
             {{ title }}
         </h1>
-        <p class="c--gray l--mar-top-s">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
+        <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
 <div class="l--grid-wide">

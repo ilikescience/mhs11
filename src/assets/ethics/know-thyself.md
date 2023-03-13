@@ -2,27 +2,12 @@
 title: Know thyself
 part: VI
 date: 2020-06-08
-image: /images/knowthyself.jpg
 og:
   title: "Ethics for designers part VI: Know thyself"
   description: One final case for ethics in design
-  image: /images/knowthyself.jpg
-  image_width: 1600
-  image_height: 900
 ---
 
-<div class="c--bg-gray-1 l--pad-s ethics--intro">
-
-Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on applying the best of classical ethical philosophy to modern digital design.
-
-The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically aware decisions. Part 6 sums up what we’ve learned so far and makes a final case for ethics in design.
-</div>
-
-<div class="ethics--initial-graf">
-
 Throughout the series, we’ve covered four of the major ethical movements in philosophy. Here’s a brief recap:
-
-</div>
 
 1. **[Virtue ethics](/ethics/virtue-ethics)** is the belief that well-being comes from having the right personality traits or dispositions. The key to virtue ethics is finding those special skills that, when practiced faithfully, result in ethical behavior.
 2. **[Deontology](/ethics/deontology)** is the study of duty. According to deontology, acting ethically is all about the action itself, not the intention or consequences of the action.

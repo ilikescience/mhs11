@@ -2,27 +2,12 @@
 title: Virtue ethics
 part: II
 date: 2020-04-13
-image: /images/virtue-01.jpg
 og:
   title: "Ethics for designers part II: Virtue ethics"
   description: What qualities do ethical designers have?
-  image: /images/virtue-01.jpg
-  image_width: 1600
-  image_height: 900
 ---
 
-<div class="c--bg-gray-1 l--pad-s ethics--intro">
-
-Welcome to <a href="/ethics">Ethics for Designers</a>, a series of essays on… well, ethics.
-
-The goal of this series is to provide designers with tools to apply in their everyday work to make more ethically aware decisions. In Part 2, we’ll look at one of the main schools of ethics: virtue ethics.
-</div>
-
-<div class="ethics--initial-graf">
-
 Virtue ethics was one of the earliest attempts at defining a language and a logic around ethics. The effort to identify and understand virtues began in Ancient Greece and continues to this day.
-
-</div>
 
 ## What is a virtue?
 
