@@ -2,6 +2,8 @@
 title:  "What makes a good design principle?"
 date: 2017-11-14
 tags: writing
+og:
+  title: What makes a good design principle
 ---
 
 Like many design teams, the Wall Street Journal team has been thinking through our design principles. Writing design principles comes pretty naturally (especially if you read this [excellent list by Jeremy Keith](https://principles.adactio.com/)). As we collaborate, we end up with a lot of candidates. However, it's unclear what exactly a _good_ design principle is.
