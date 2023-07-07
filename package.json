@@ -51,7 +51,7 @@
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "node-html-parser": "^5.2.0",
-    "stylelint": "^14",
+    "stylelint": "^15",
     "stylelint-order": "^5.0.0"
   }
 }
