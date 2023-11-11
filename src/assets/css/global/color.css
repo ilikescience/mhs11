@@ -134,8 +134,17 @@
 }
 
 .c--gray { color: var(--c--theme-gray-3); }
+.c--gray-1 { color: var(--c--theme-gray-1); }
+.c--gray-2 { color: var(--c--theme-gray-2); }
+.c--gray-3 { color: var(--c--theme-gray-3); }
+.c--gray-4 { color: var(--c--theme-gray-4); }
+.c--gray-5 { color: var(--c--theme-gray-5); }
 
 .c--bg-primary-1 { background-color: var(--c--theme-primary-1); }
+.c--bg-primary-2 { background-color: var(--c--theme-primary-1); }
+.c--bg-primary-3 { background-color: var(--c--theme-primary-1); }
+.c--bg-primary-4 { background-color: var(--c--theme-primary-1); }
+.c--bg-primary-5 { background-color: var(--c--theme-primary-1); }
 
 .c--bg-gray-1 { background-color: var(--c--theme-gray-1); }
 .c--bg-gray-2 { background-color: var(--c--theme-gray-2); }

@@ -1,0 +1,7 @@
+.badge {
+    display: inline-block;
+    padding: calc(var(--l--space-s) / 4) calc(var(--l--space-s) / 3);
+    line-height: 1;
+    font-size: var(--t--size-s);
+    border-radius: calc(var(--l--border-radius) / 2);
+}
