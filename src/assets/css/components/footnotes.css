@@ -1,13 +1,13 @@
+sup {
+    font-size: inherit;
+    vertical-align: baseline;
+    font-variant-position: super;
+}
+
 .footnote-ref a {
-    display: inline-block;
-    top: -0.5em;
-    height: 1.5em;
     margin: 0 0.05rem;
     font-family: var(--t--family-sans);
-    font-size: var(--t--size-s);
     font-weight: 500;
-    line-height: 1em;
-    text-align: center;
     text-decoration: none;
 }
 

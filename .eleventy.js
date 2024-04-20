@@ -90,6 +90,7 @@ module.exports = function (eleventyConfig) {
         );
     };
 
+
     let mdOptions = {
         html: true,
         typographer: true,
@@ -192,7 +193,10 @@ module.exports = function (eleventyConfig) {
             displayMath: [
                 ["$$$", "$$$"],
             ]
-          }
+          },
+        svg: {
+            scale: 0.85,
+        }
     });
 
     // twitter embed
@@ -213,6 +217,10 @@ module.exports = function (eleventyConfig) {
         }
 
         return coll;
+    });
+
+    eleventyConfig.addShortcode("swatch", function(hex) {
+        return `<span class="swatch" style="background: ${hex}"></span> <span class="t--family-mono">${hex}</span>`;
     });
 
     return {

@@ -24,25 +24,18 @@
 }
 
 @font-face {
-  font-family: 'charter';
-  font-display: 'fallback';
-  src: url('/fonts/charter_bold_italicwoff2') format('woff2');
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'dm mono';
+  font-family: 'monaspace neon';
   font-display: 'fallback';
   font-weight: 400;
   font-style: normal;
-  src: url('/fonts/DMMono-Regular.woff2') format('woff2');
+  src: url('/fonts/MonaspaceNeon-Regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'dm mono';
+  font-family: 'monaspace neon';
   font-display: 'fallback';
+  src: url('/fonts/MonaspaceNeon-Italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
-  src: url('/fonts/DMMono-Italic.woff2') format('woff2');
 }
+

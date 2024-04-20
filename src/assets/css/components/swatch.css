@@ -5,4 +5,5 @@
     border-radius: calc(var(--l--border-radius-s) / 2);
     margin-top: 0;
     margin-left: 0.125em;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
 }

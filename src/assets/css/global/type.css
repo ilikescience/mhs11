@@ -26,7 +26,7 @@
         'Georgia',
         serif;
     --t--family-mono:
-        'dm mono',
+        'monaspace neon',
         menlo,
         monaco,
         consolas,
@@ -145,8 +145,18 @@
     padding-right: calc(var(--t--size-s) / 2.5);
 }
 
+sup,
+sub {
+    font-size: inherit;
+    vertical-align: baseline;
+}
+
 sup {
-    line-height: 1;
+    font-variant-position: super;
+}
+
+sub {
+    font-variant-position: sub;
 }
 
 body,
