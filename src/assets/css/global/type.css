@@ -6,6 +6,7 @@
 
     /* families */
     --t--family-sans:
+        'Inter',
         -apple-system,
         'BlinkMacSystemFont',
         'Segoe UI',
@@ -26,7 +27,7 @@
         'Georgia',
         serif;
     --t--family-mono:
-        'monaspace neon',
+        'Geist Mono',
         menlo,
         monaco,
         consolas,
@@ -92,6 +93,10 @@
     font-weight: var(--t--weight-light);
 }
 
+.t--style-italic {
+    font-style: italic;
+}
+
 .t--leading-tight {
     line-height: var(--t--leading-tight);
 }
@@ -149,6 +154,7 @@ sup,
 sub {
     font-size: inherit;
     vertical-align: baseline;
+    letter-spacing: -2%;
 }
 
 sup {
@@ -157,6 +163,22 @@ sup {
 
 sub {
     font-variant-position: sub;
+}
+
+.faux--sub,
+.faux--sup {
+    position: relative;
+    top: 0.25em;
+    font-size: 0.75em;
+    line-height: 1;
+}
+
+.faux--sub {
+    bottom: 0.25em;
+}
+
+.faux--sup {
+    top: 0.25em;
 }
 
 body,
@@ -216,7 +238,6 @@ h4 {
 pre,
 code {
     font-family: var(--t--family-mono);
-    font-size: calc(var(--t--base-size) * 0.85);
     white-space: normal;
 }
 

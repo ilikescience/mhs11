@@ -195,7 +195,7 @@ module.exports = function (eleventyConfig) {
             ]
           },
         svg: {
-            scale: 0.85,
+            scale: 0.9,
         }
     });
 

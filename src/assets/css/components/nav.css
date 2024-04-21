@@ -1,7 +1,6 @@
 .nav--container {
     display: flex;
     justify-content: space-between;
-    font-size: var(--t--size-s);
 }
 
 .nav--logo,

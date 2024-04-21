@@ -18,7 +18,7 @@
         border: 1px solid var(--c--theme-gray-2);
     }
 
-    & th:not(.table--group-end):not(.table--header-empty) {
+    & th:is(:not(.table--header-empty)) {
         border: 1px solid var(--c--theme-gray-2);
     }
 
@@ -131,7 +131,7 @@ td {
 
         & tr {
             display: block;
-            border-bottom: 1px solid var(--c--theme-gray-1);
+            border-bottom: 1px solid var(--c--theme-gray-2);
             margin-bottom: 0.5em;
             padding-bottom: 0.5em;
         }
@@ -139,6 +139,7 @@ td {
         & td,
         & th {
             display: block;
+            padding: 0.125em;
         }
 
         & td {
@@ -175,6 +176,8 @@ td {
 
             & th {
                 border-left: 0;
+                border-top: 0;
+                border-right: 0;
                 border-bottom: 1px solid var(--c--theme-gray-2);
             }
 
