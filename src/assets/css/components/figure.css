@@ -14,5 +14,4 @@ mjx-container mjx-assistive-mml {
     color: var(--c--theme-gray-3);
     font-size: var(--t--size-xs);
     vertical-align: middle;
-    white-space: nowrap;
 }
