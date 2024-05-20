@@ -11,7 +11,11 @@ mjx-container mjx-assistive-mml {
 }
 
 .figure--credit {
-    color: var(--c--theme-gray-3);
     font-size: var(--t--size-xs);
     vertical-align: middle;
+}
+
+figure figcaption {
+    margin-top: 0.5em;
+    color: var(--c--theme-gray-3);
 }

@@ -8,7 +8,7 @@ date: 2018-02-11
 
 When an Airbus A320 takes off, there are typically 10 people who are operating it. Between the pilots and cabin crew, their responsibilities include:
 
-- Understanding how the plane workss
+- Understanding how the plane works
 - Monitoring the flight's progress
 - Evaluating the weather conditions
 - Communicating with operators on the ground
