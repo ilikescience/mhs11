@@ -37,7 +37,7 @@ Craigslist is another visually dense example, with its hundreds of plain links t
 
 <article class="post l--grid-narrow">
 
-You can form an opinion about the density of these websites simply by looking at an image for a franction of a second. This opinion is from our subconsciousness, so it's fast and intuitive. But like other snap judgements, it's biased and unreliable. For example, which of these images is more dense?
+You can form an opinion about the density of these websites simply by looking at an image for a fraction of a second. This opinion is from our subconsciousness, so it's fast and intuitive. But like other snap judgements, it's biased and unreliable. For example, which of these images is more dense?
 
 <figure>
     <img src="/images/ui-density-04.png" alt="Two rectangles. On the left, the rectangle is filled with many dots that are randomly arranged. On the right, the rectangle is filled with an equal number of dots, but they are arranged neatly in rows and columns.">
