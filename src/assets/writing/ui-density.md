@@ -208,7 +208,7 @@ Solving this optimization problem can have some counterintuitive results. When t
 
 <article class="post l--grid-narrow">
 
-The UI was much less visually dense, but value-dense by orders of magnitude. The results speak for themselves: Google went from a $23B valuation in 2004 to being worth over $2T today — closing in on a 100x increase. Yahoo went from being worth $125B in 2000 to being sold for $4.8B — less than 3% of its peak value.
+The UI was much less visually dense, but more value-dense by orders of magnitude. The results speak for themselves: Google went from a $23B valuation in 2004 to being worth over $2T today — closing in on a 100x increase. Yahoo went from being worth $125B in 2000 to being sold for $4.8B — less than 3% of its peak value.
 
 ## Conclusion
 
