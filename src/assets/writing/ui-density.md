@@ -75,10 +75,10 @@ You can increase the ratio in two ways:
 
 <figure class="l--grid-wide">
     <div class="l--flex">
-        <div class="l--flex-auto"><img src="/images/ui-density-06.jpg" alt="An image of the periodicity of elements. It uses many superfluous visual elements such as grid marks that do not convey information."/></div>
-        <div class="l--flex-auto"><img src="/images/ui-density-07.jpg" alt="An improved version of the image of the periodicity of elements. It removes the grid marks and adds additional information in the same space."/></div>
+        <div class="l--flex-auto"><img src="/images/ui-density-07.jpg" alt="An image of the periodicity of elements. It uses many superfluous visual elements such as grid marks that do not convey information."/></div>
+        <div class="l--flex-auto"><img src="/images/ui-density-06.jpg" alt="An improved version of the image of the periodicity of elements. It removes the grid marks and adds additional information in the same space."/></div>
     </div>
-    <figcaption>Tufte's examples of graphics with a low data-ink ratio (left) and a high one (right). <span class="figure--credit">Reproduced from Edward Tufte's <i>The Visual Display of Quantitative Information</i></span></figcaption>
+    <figcaption>Tufte's examples of graphics with a low data-ink ratio (first) and a high one (second). <span class="figure--credit">Reproduced from Edward Tufte's <i>The Visual Display of Quantitative Information</i></span></figcaption>
     </figcaption>
 </figure>
 
@@ -208,7 +208,7 @@ Solving this optimization problem can have some counterintuitive results. When t
 
 <article class="post l--grid-narrow">
 
-The UI was much less visually dense, but more value-dense by orders of magnitude. The results speak for themselves: Google went from a $23B valuation in 2004 to being worth over $2T today — closing in on a 100x increase. Yahoo went from being worth $125B in 2000 to being sold for $4.8B — less than 3% of its peak value.
+The UI was much less visually dense, but more value-dense by orders of magnitude. The results speak for themselves: Google went from a $23B valuation in 2004 to being worth over $2T today — closing in on a 100x increase. Yahoo went from being worth $125B in 2000 to being sold for $4.8B — less than 3% of its peak value.[^6]
 
 ## Conclusion
 
@@ -223,3 +223,4 @@ Speed, usability, consistency, predictability, information richness, and functio
 [^3]: Nielsen, Jakob. "How Long Do Users Stay on Web Pages?" Nielsen Norman Group, 11 Sept. 2011, <https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/>
 [^4]: I have no scientific backing for this claim, but I believe it's because a typical blink occurs in 100ms. When we blink, our brains fill in the gap with the last thing we saw, so we don't notice the blink. That's is why we don't notice the gap between two actions that are less than 100ms apart. You can read more about this effect here: [Visual Perception: Saccadic Omission — Suppression or Temporal Masking?](https://www.sciencedirect.com/science/article/pii/S0960982209011105)
 [^5]: Harrison, Chris, Zhiquan Yeo, and Scott E. Hudson. "Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations." Carnegie Mellon University, 2010, <https://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf>
+[^6]: HackerNews as pointed out that this is a ridiculous statement. And it is. Of course, value density isn't the _only_ reason why Google succeeded where Yahoo failed. But as a reflection of how each company thought about their products, it was a good leading indicator.
