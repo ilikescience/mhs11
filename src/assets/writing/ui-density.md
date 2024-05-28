@@ -11,7 +11,7 @@ Interfaces are becoming less dense.
 
 I'm usually one to be skeptical of nostalgia and "we liked it that way" bias, but comparing websites and applications of 2024 to their 2000s-era counterparts, the spreading out of software is hard to ignore.
 
-To explain this trend, and suggest how we might regain density, I started by asking what, exactly, UI density is. It's not just the way an interface looks at one moment in time; it's about the amount of information an interface can provide over a series of moments. It's about how those moments are connected through design design decisions, and how those decisions are connected to the value the software provides.
+To explain this trend, and suggest how we might regain density, I started by asking what, exactly, UI density is. It's not just the way an interface looks at one moment in time; it's about the amount of information an interface can provide over a series of moments. It's about how those moments are connected through design decisions, and how those decisions are connected to the value the software provides.
 
 I'd like to share what I found. Hopefully this exploration helps you define UI density in concrete and useable terms. If you're a designer, I'd like you to question the density of the interfaces you're creating; if you're not a designer, use the lens of UI density to understand the software you use.
 
@@ -86,7 +86,7 @@ You can increase the ratio in two ways:
 
 There's an upper limit to information density, which means you can subtract too much ink, or add too much information. The audience matters, too: A bond trader at their 4-monitor desk will have a pretty high threshold; a 2nd grader reading a textbook will have a low one.
 
-Information density is can be related to visual density. Usually, the higher the information density is, the more dense a visualization will look.
+Information density can be related to visual density. Usually, the higher the information density is, the more dense a visualization will look.
 
 For example, take the train schedule published by E.J. Marey in 1885[^2]. It shows the arrival and departure times of dozens of trains across 13 stops from Paris to Lyon. The horizontal axis is time, and the vertical axis is space. The distance between stops on the chart reflects how far apart they are in the real world. 
 
@@ -125,7 +125,7 @@ You might have already seen the first challenge in defining density in terms of 
 
 In UI, UX, and product design, we make many decisions, consciously and subconsciously, in order to communicate information and ideas. But  why do those particular choices convey the meaning that they do? Which ones are superlative or simply aesthetic, and which are actually doing the heavy lifting? 
 
-These questions sparked that led 20th century German psychologists to explore how humans understand and interpret shapes and patterns. They called this field "gestalt," which in German means "form." In the course of their exploration, Gestalt psychologists described principles that describe how some things appear orderly, symmetrical, or simple, while others do not. While these psychologists weren't designers, in some sense, they discovered the fundamental laws of design:
+These questions led 20th century German psychologists to explore how humans understand and interpret shapes and patterns. They called this field "gestalt," which in German means "form." In the course of their exploration, Gestalt psychologists described principles that describe how some things appear orderly, symmetrical, or simple, while others do not. While these psychologists weren't designers, in some sense, they discovered the fundamental laws of design:
 
 1. **Proximity**: we perceive things that are close together a comprising a single group
 2. **Similarity**: objects that are similar in shape, size, color, or in other ways, appear related to one another.
