@@ -86,7 +86,7 @@ You can increase the ratio in two ways:
 
 There's an upper limit to information density, which means you can subtract too much ink, or add too much information. The audience matters, too: A bond trader at their 4-monitor desk will have a pretty high threshold; a 2nd grader reading a textbook will have a low one.
 
-Information density is can be related to visual density. Usually, the higher the information density is, the more dense a visualization will look.
+Information density is related to visual density. Usually, the higher the information density is, the more dense a visualization will look.
 
 For example, take the train schedule published by E.J. Marey in 1885[^2]. It shows the arrival and departure times of dozens of trains across 13 stops from Paris to Lyon. The horizontal axis is time, and the vertical axis is space. The distance between stops on the chart reflects how far apart they are in the real world. 
 
@@ -125,7 +125,7 @@ You might have already seen the first challenge in defining density in terms of 
 
 In UI, UX, and product design, we make many decisions, consciously and subconsciously, in order to communicate information and ideas. But  why do those particular choices convey the meaning that they do? Which ones are superlative or simply aesthetic, and which are actually doing the heavy lifting? 
 
-These questions sparked that led 20th century German psychologists to explore how humans understand and interpret shapes and patterns. They called this field "gestalt," which in German means "form." In the course of their exploration, Gestalt psychologists described principles that describe how some things appear orderly, symmetrical, or simple, while others do not. While these psychologists weren't designers, in some sense, they discovered the fundamental laws of design:
+These questions sparked 20th century German psychologists to explore how humans understand and interpret shapes and patterns. They called this field "gestalt," which in German means "form." In the course of their exploration, Gestalt psychologists described principles that describe how some things appear orderly, symmetrical, or simple, while others do not. While these psychologists weren't designers, in some sense, they discovered the fundamental laws of design:
 
 1. **Proximity**: we perceive things that are close together a comprising a single group
 2. **Similarity**: objects that are similar in shape, size, color, or in other ways, appear related to one another.
@@ -223,4 +223,4 @@ Speed, usability, consistency, predictability, information richness, and functio
 [^3]: Nielsen, Jakob. "How Long Do Users Stay on Web Pages?" Nielsen Norman Group, 11 Sept. 2011, <https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/>
 [^4]: I have no scientific backing for this claim, but I believe it's because a typical blink occurs in 100ms. When we blink, our brains fill in the gap with the last thing we saw, so we don't notice the blink. That's is why we don't notice the gap between two actions that are less than 100ms apart. You can read more about this effect here: [Visual Perception: Saccadic Omission — Suppression or Temporal Masking?](https://www.sciencedirect.com/science/article/pii/S0960982209011105)
 [^5]: Harrison, Chris, Zhiquan Yeo, and Scott E. Hudson. "Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations." Carnegie Mellon University, 2010, <https://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf>
-[^6]: HackerNews as pointed out that this is a ridiculous statement. And it is. Of course, value density isn't the _only_ reason why Google succeeded where Yahoo failed. But as a reflection of how each company thought about their products, it was a good leading indicator.
+[^6]: HackerNews has pointed out that this is a ridiculous statement. And it is. Of course, value density isn't the _only_ reason why Google succeeded where Yahoo failed. But as a reflection of how each company thought about their products, it was a good leading indicator.
