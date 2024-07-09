@@ -11,7 +11,7 @@ Interfaces are becoming less dense.
 
 I'm usually one to be skeptical of nostalgia and "we liked it that way" bias, but comparing websites and applications of 2024 to their 2000s-era counterparts, the spreading out of software is hard to ignore.
 
-To explain this trend, and suggest how we might regain density, I started by asking what, exactly, UI density is. It's not just the way an interface looks at one moment in time; it's about the amount of information an interface can provide over a series of moments. It's about how those moments are connected through design design decisions, and how those decisions are connected to the value the software provides.
+To explain this trend, and suggest how we might regain density, I started by asking what, exactly, UI density is. It's not just the way an interface looks at one moment in time; it's about the amount of information an interface can provide over a series of moments. It's about how those moments are connected through design decisions, and how those decisions are connected to the value the software provides.
 
 I'd like to share what I found. Hopefully this exploration helps you define UI density in concrete and useable terms. If you're a designer, I'd like you to question the density of the interfaces you're creating; if you're not a designer, use the lens of UI density to understand the software you use.
 
@@ -121,7 +121,7 @@ So, while information density is a helpful stepping stone, it's clear that it's 
 
 ## Design density
 
-You might have already seen the first challenge in defining density in terms of design decisons: what counts as a decision decision? 
+You might have already seen the first challenge in defining density in terms of design decisons: what counts as a design decision? 
 
 In UI, UX, and product design, we make many decisions, consciously and subconsciously, in order to communicate information and ideas. But  why do those particular choices convey the meaning that they do? Which ones are superlative or simply aesthetic, and which are actually doing the heavy lifting? 
 
