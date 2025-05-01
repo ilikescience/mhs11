@@ -3,6 +3,9 @@
     --l--grid-width-narrow: 40rem;
     --l--grid-width-wide: 60rem;
 
+    /* Breakpoints */
+    --l--breakpoint-s: 800px;
+
     /* Border radius */
     --l--border-radius-s: 0.5rem;
     --l--border-radius: 1rem;
@@ -55,7 +58,7 @@ table * + * {
     gap: 0 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: var(--l--breakpoint-s)) {
     .l--grid {
         margin: 0;
         padding: 0 1rem;
@@ -101,7 +104,7 @@ table * + * {
     display: flex;
 }
 
-@media (max-width: 800px) {
+@media (max-width: var(--l--breakpoint-s)) {
     .l--flex {
         flex-flow: column;
     }

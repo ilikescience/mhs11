@@ -223,6 +223,26 @@ module.exports = function (eleventyConfig) {
         return `<span class="swatch" style="background: ${hex}"></span> <span class="t--family-mono">${hex}</span>`;
     });
 
+    eleventyConfig.addPairedShortcode("gallery", function(content) {
+        return `</article>
+        <div class="l--grid-wide">
+            <div class="gallery">${content}</div>
+        </div>
+        <article class="l--grid-narrow">
+        `;
+      });
+
+    eleventyConfig.addShortcode("image", async function(src, alt, caption, credit) {
+
+        return `<figure>
+        <img src="${src}" alt="${alt}" loading="lazy"/>
+        <figcaption>
+          ${caption} ${credit ? `<span class="figure--credit">${credit}</span>` : ''}
+        </figcaption>
+        </figure>`;
+    }
+    );
+
     return {
         dir: dirs,
         pathPrefix: '/',

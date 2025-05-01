@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery figure {
+  margin: 0;
+  flex: 0 1 auto;
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    flex-direction: column;
+  }
+}
