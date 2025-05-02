@@ -225,11 +225,8 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPairedShortcode("gallery", function(content) {
         return `</article>
-        <div class="l--grid-wide">
             <div class="gallery">${content}</div>
-        </div>
-        <article class="l--grid-narrow">
-        `;
+        <article class="l--grid-narrow post">`;
       });
 
     eleventyConfig.addShortcode("image", async function(src, alt, caption, credit) {

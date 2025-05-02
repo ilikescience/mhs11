@@ -1,15 +1,51 @@
 .gallery {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  margin: var(--l--space-m) 0;
+  grid-column: wide;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--l--space-s);
 }
 
-.gallery figure {
+.gallery + article {
+  margin-top: 0;
+}
+
+.gallery:has(> :nth-child(2):last-child) {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery:has(> :nth-child(4):last-child) {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery > figure {
   margin: 0;
-  flex: 0 1 auto;
+  min-width: 0;
 }
 
-@media (max-width: 800px) {
+@media (--l--breakpoint-s) {
   .gallery {
-    flex-direction: column;
+    display: flex;
+    padding: 0 1rem;
+    grid-column: full;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    grid-template-columns: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 0 1rem;
   }
+
+  .gallery::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gallery > figure {
+    flex: 0 0 75vw;
+    scroll-snap-align: start;
+  }
+
 }

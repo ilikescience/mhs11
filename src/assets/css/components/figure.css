@@ -15,6 +15,14 @@ mjx-container mjx-assistive-mml {
     white-space: nowrap;
 }
 
+.post figure {
+    margin: var(--l--space-m) 0;
+}
+
+.post figure + p {
+    margin-top: 0;
+}
+
 .figure--credit {
     font-size: var(--t--size-xs);
     vertical-align: middle;

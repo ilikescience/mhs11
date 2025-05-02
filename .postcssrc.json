@@ -11,6 +11,7 @@
         },
         "cssnano": {
             "preset": "default"
-        }
+        },
+        "postcss-custom-media": {}
     }
 }
