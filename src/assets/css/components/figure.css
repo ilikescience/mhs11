@@ -25,7 +25,7 @@ mjx-container mjx-assistive-mml {
 
 .figure--credit {
     font-size: var(--t--size-xs);
-    vertical-align: middle;
+    vertical-align: baseline;
 }
 
 figure figcaption {

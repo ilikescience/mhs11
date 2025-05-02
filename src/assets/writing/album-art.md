@@ -11,7 +11,7 @@ Album art didn’t always exist.
 
 In the early 1900s, recorded music was still a novelty, overshadowed by sales of sheet music. Early vinyl records were vastly different from what we think of today: discs were sold individually and could only hold up to four minutes of music per side. Sometimes, only one side of the record was used. One of the most popular records of 1910, for example, was “Come, Josephine, in My Flying Machine”: it clocked in at two minutes and 39 seconds.
 
-{% image "/images/albumart-1.jpg" "" "An example of early album art" "via <a href='https://commons.wikimedia.org/w/index.php?curid=141713042'>Wikipedia</a>" %}
+{% image "/images/albumart-1.jpg" "A brown album cover with simple typography" "An example of early album art" "via <a href='https://commons.wikimedia.org/w/index.php?curid=141713042'>Wikipedia</a>" %}
 
 
 The packaging of these records was strictly utilitarian: a brown paper sleeve to protect the record from dust, printed with the name of the record label or the retailer. Rarely did the packaging include any information on the disc inside; the label on the center of the disc was all there was to differentiate one record from another.
@@ -31,9 +31,9 @@ Alex Steinweiss was born in 1917, the son of eastern European immigrants.
 Growing up in Brooklyn, New York, Steinweiss took an early interest in art and earned a scholarship to Parsons School of Design. On graduating, he worked for Austrian designer Joseph Binder, whose bold, graphic posters had influenced design for the first decades of the 1900s.
 
 {% gallery %}
-{% image "/images/albumart-2.jpg" "" "Joseph Binder, <i>The Most Important Wheels in America, Association of American Railroads</i> (1952)" "via Moma" %}
-{% image "/images/albumart-4.jpg" "" "Joseph Binder, <i>Österreichs Wiederaufbau Ausstellung Salzburg</i> (1933)" "via Moma" %}
-{% image "/images/albumart-3.jpg" "" "Joseph Binder, <i>Air Corps U.S. Army (Winning entry for the MoMA National Defense Poster Competition [Army Air Corps Recruiting])</i>" "via Moma" %}
+{% image "/images/albumart-2.jpg" "A poster with bold graphic design" "Joseph Binder, <i>The Most Important Wheels in America, Association of American Railroads</i> (1952)" "via Moma" %}
+{% image "/images/albumart-4.jpg" "A poster with bold graphic design" "Joseph Binder, <i>Österreichs Wiederaufbau Ausstellung Salzburg</i> (1933)" "via Moma" %}
+{% image "/images/albumart-3.jpg" "A poster with bold graphic design" "Joseph Binder, <i>Air Corps U.S. Army (Winning entry for the MoMA National Defense Poster Competition [Army Air Corps Recruiting])</i>" "via Moma" %}
 {% endgallery %}
 
 After his work with Binder, Steinweiss was hired by Columbia Records to produce promotional displays and ads, but the job didn’t stick. At the outbreak of World War II, he went to work for the Navy's Training and Development Center in New York City, designing teaching material and cautionary posters. 
@@ -46,7 +46,7 @@ His first chance to prove his case was a 1940 compilation by the songwriters Rod
 
 Album art was born.
 
-{% image "/images/albumart-5.jpg" "" "Steinweiss' cover art for Columbia's <i>Smash Song Hits by Rodgers & Hart</i>" "via <a target='_blank' rel='noopener' href='https://rateyourmusic.com/release/album/richard-rodgers/smash-song-hits-by-rodgers-and-hart/'>RateYourMusic</a>" %}
+{% image "/images/albumart-5.jpg" "An album cover featuring a photo of a marquee superimposed with text" "Steinweiss' cover art for Columbia's <i>Smash Song Hits by Rodgers & Hart</i>" "via <a target='_blank' rel='noopener' href='https://rateyourmusic.com/release/album/richard-rodgers/smash-song-hits-by-rodgers-and-hart/'>RateYourMusic</a>" %}
 
 Steinweiss would go on to design hundreds of covers for Columbia from 1940 to 1945\. His methodology was rigorous; the covers went beyond nice pictures to be visual representations of the music itself. Before most people owned a TV set, Steinweiss’s album covers were affordable multi-sensory entertainment. Looking at the album cover and listening to the music created an experience that was more than the sum of its parts.
 
@@ -56,7 +56,7 @@ Steinweiss would go on to design hundreds of covers for Columbia from 1940 to 19
 
 Steinweiss was prophetic: His colorful compositions sold records. *Newsweek* reported that sales of Bruno Walter's recording of Beethoven's "Eroica" symphony increased 895% with its new Steinweiss cover.” [^2]
 
-{% image "/images/albumart-7.jpg" "" "Steinweiss' cover art for Columbia's recording of Beethoven's <i>Eroica</i>" %}
+{% image "/images/albumart-7.jpg" "An illustrated album cover" "Steinweiss' cover art for Columbia's recording of Beethoven's <i>Eroica</i>" %}
 
 
 ## The challenger: Reid Miles
@@ -64,9 +64,9 @@ Steinweiss was prophetic: His colorful compositions sold records. *Newsweek* rep
 From 1940 to 1950, Columbia Records was the dominant force in music sales. Buoyed by Steinweiss’s initial successes, Columbia hired more artists and designers to produce album art. Jim Flora led the charge from 1947–1950 with irreverent illustrations and more daring explorations of typography, and like Steinweiss, his work mirrored the music on the records. During the era, Columbia began to focus much more on popular music. Flora’s campy compositions screamed “this isn’t your parent’s music.”
 
 {% gallery %}
-{% image "/images/albumart-8.jpg" "" "Jim Flora's cover for <i>Gene Krupa and His Orchestra</i>" "via <a href='https://www.jimflora.com/prints/album-cover-art/gene-krupa/' target='_blank' rel='noopener'>JimFlora.com</a>" %}
-{% image "/images/albumart-9.jpg" "" "Jim Flora's cover for <i>Bix and Tram</i>" "via <a href='https://www.jimflora.com/prints/album-cover-art/bix-tram/' target='_blank' rel='noopener'>JimFlora.com</a>" %}
-{% image "/images/albumart-10.jpg" "" "Jim Flora's cover for <i>Kid Ory and His Creole Jazz Band</i>" "via <a href='https://www.jimflora.com/prints/album-cover-art/kid-ory/' target='_blank' rel='noopener'>JimFlora.com</a>" %}
+{% image "/images/albumart-8.jpg" "An album cover with a busy, quirky, fun graphic design style" "Jim Flora's cover for <i>Gene Krupa and His Orchestra</i>" "via <a href='https://www.jimflora.com/prints/album-cover-art/gene-krupa/' target='_blank' rel='noopener'>JimFlora.com</a>" %}
+{% image "/images/albumart-9.jpg" "An album cover with a busy, quirky, fun graphic design style" "Jim Flora's cover for <i>Bix and Tram</i>" "via <a href='https://www.jimflora.com/prints/album-cover-art/bix-tram/' target='_blank' rel='noopener'>JimFlora.com</a>" %}
+{% image "/images/albumart-10.jpg" "An album cover with a busy, quirky, fun graphic design style" "Jim Flora's cover for <i>Kid Ory and His Creole Jazz Band</i>" "via <a href='https://www.jimflora.com/prints/album-cover-art/kid-ory/' target='_blank' rel='noopener'>JimFlora.com</a>" %}
 {% endgallery %}
 
 But while Columbia was focusing on making it into the hit parade, an upstart label was honing in on a sound that would come to define the era; Blue Note Records, founded in 1939, was fixated on the jazz underground.
@@ -82,9 +82,9 @@ Art Blakey, Thelonius Monk, Charlie Parker, Dizzy Gillespie, and John Coltrane a
 Album art was one more revolutionary way for Blue Note to explore “genuine expression.” Just as they fostered talented musicians, they’d give young designers a chance to shine. Alfred Lion’s childhood friend Francis Wolff had joined the label as a producer and photographer; he’d shoot candid portraits of the musicians as they worked. Then, designers like Paul Bacon, Gil Mellé (himself a musician), and John Hermansader would pair Wolff’s black-and-white photos with a single, bright color, then juxtapose them with stark, sans-serif type.
 
 {% gallery %}
-{% image "/images/albumart-11.jpg" "" "Paul Bacon's cover featuring Francis Wolff's photography for Thelonious Monk's <i>Genius of Modern Music Vol. 1</i>" "via <a href='https://dgmono.com/the-deep-groove-mono-classic-jazz-album-art-gallery-blue-note-records-5000-series/' target='_blank' rel='noopener'>Deep Groove Mono</a>" %}
-{% image "/images/albumart-12.jpg" "" "Gil Mellé's cover featuring Francis Wolff's photography for his band's <i>New Faces — New Sounds</i>" "via <a href='https://dgmono.com/the-deep-groove-mono-classic-jazz-album-art-gallery-blue-note-records-5000-series/' target='_blank' rel='noopener'>Deep Groove Mono</a>" %}
-{% image "/images/albumart-13.jpg" "" "John Hermansader's cover featuring Francis Wolff's photography for George Wallington's <i>Showcase</i>" "via <a href='https://dgmono.com/the-deep-groove-mono-classic-jazz-album-art-gallery-blue-note-records-5000-series/' target='_blank' rel='noopener'>Deep Groove Mono</a>" %}
+{% image "/images/albumart-11.jpg" "An album cover using a photo of the artist and bold graphic design" "Paul Bacon's cover featuring Francis Wolff's photography for Thelonious Monk's <i>Genius of Modern Music Vol. 1</i>" "via <a href='https://dgmono.com/the-deep-groove-mono-classic-jazz-album-art-gallery-blue-note-records-5000-series/' target='_blank' rel='noopener'>Deep Groove Mono</a>" %}
+{% image "/images/albumart-12.jpg" "An album cover using a photo of the artist and bold graphic design" "Gil Mellé's cover featuring Francis Wolff's photography for his band's <i>New Faces — New Sounds</i>" "via <a href='https://dgmono.com/the-deep-groove-mono-classic-jazz-album-art-gallery-blue-note-records-5000-series/' target='_blank' rel='noopener'>Deep Groove Mono</a>" %}
+{% image "/images/albumart-13.jpg" "An album cover using a photo of the artist and bold graphic design" "John Hermansader's cover featuring Francis Wolff's photography for George Wallington's <i>Showcase</i>" "via <a href='https://dgmono.com/the-deep-groove-mono-classic-jazz-album-art-gallery-blue-note-records-5000-series/' target='_blank' rel='noopener'>Deep Groove Mono</a>" %}
 {% endgallery %}
 
 As the 1960s approached, the musicians Blue Note worked so hard to cultivate were forging new styles, leaving behind the swing-era pretense of jazz as dance music. Charlie Parker and Bud Powell kept speeding up the tempo and stuffing more chords into progressions. Max Roach started playing the drums like a boxer, bobbing and weaving around the beat with skittering cymbals, waiting for the right moment to land a single monumental “thud” of a kick drum. Without the drums keeping a steady rhythm, bass players like Milt Hinton and Gene Ramey had to furiously mark out time with eighth notes, traversing chords by plucking up and down the scale.
@@ -97,7 +97,7 @@ Miles had recently moved to New York and had been working for John Hermansader a
 
 The first cover Miles created was for vibraphone player Milt Jackson; it picked up from the established art style, with Wolff’s photos and a single bright hue. But the type was even more exaggerated, and the photo took up more than half the cover. White dots overlayed on Jackson’s mallets were the perfect abstraction of the staccato tones of the vibraphone. It’s a great cover, but it was just a hint of what was to come.
 
-{% image "/images/albumart-14.jpg" "" "Reid Miles' cover for Milt Jackson" "via <a href='https://arielsalminen.com/2015/the-iconic-work-of-reid-miles/' target='_blank' rel='noopener'>Ariel Salminen</a>" %}
+{% image "/images/albumart-14.jpg" "An album cover with modern typography and an image with graphics overlaid" "Reid Miles' cover for Milt Jackson" "via <a href='https://arielsalminen.com/2015/the-iconic-work-of-reid-miles/' target='_blank' rel='noopener'>Ariel Salminen</a>" %}
 
 A common theme of Miles’ covers was the emphasis on Wolff’s photography. We’re familiar with these iconic images today, but at the time they were revolutionary; before, black musicians like Louis Armstrong and Ella Fitzgerald were portrayed in tuxedos and evening gowns, posed smiling genially or laughing, rendered so as to not offend the largely white listening audience. Wolff’s portraits were candid, realistic, showing black musicians at work. 
 
@@ -108,9 +108,9 @@ For example, the cover for Art Blakey’s *The Freedom Rider* shows Blakey lost 
 Miles sometimes reversed this relationship, pioneering the use of typography to convey the spirit of the music. His cover for Jackie McLean’s *It’s Time\!* is composed of an edge-to-edge grid of 243 exclamation marks; a postage stamp picture of McLean graces the upper corner, almost a punchline. Lee Morgan’s *The Rumproller* is another type-only cover, this time with the title smeared out from corner to corner, like it was left on a hot dashboard for the day. Larry Young’s *Unity* has no photo at all; the four members of the quartet become orange dots resting in (or bubbling out of) the bowl of the U.
 
 {% gallery %}
-{% image "/images/albumart-17.jpg" "" "Reid Miles' cover for Jackie McLean's <i>It's Time</i>" "via <a href='https://arielsalminen.com/2015/the-iconic-work-of-reid-miles/' target='_blank' rel='noopener'>Ariel Salminen</a>" %}
-{% image "/images/albumart-16.jpg" "" "Reid Miles' cover for Lee Morgan's <i>The Rumproller</i>" "via <a href='https://fontsinuse.com/uses/53373/lee-morgan-the-rumproller-album-art' target='_blank' rel='noopener'>Fonts in Use</a>" %}
-{% image "/images/albumart-18.jpg" "" "Reid Miles' cover for Larry Young's <i>Unity</i>" "" %}
+{% image "/images/albumart-17.jpg" "An album cover with only bold typography" "Reid Miles' cover for Jackie McLean's <i>It's Time</i>" "via <a href='https://arielsalminen.com/2015/the-iconic-work-of-reid-miles/' target='_blank' rel='noopener'>Ariel Salminen</a>" %}
+{% image "/images/albumart-16.jpg" "An album covere with the name of the album smeared and distorted" "Reid Miles' cover for Lee Morgan's <i>The Rumproller</i>" "via <a href='https://fontsinuse.com/uses/53373/lee-morgan-the-rumproller-album-art' target='_blank' rel='noopener'>Fonts in Use</a>" %}
+{% image "/images/albumart-18.jpg" "An album cover with only text, enlarged to the point of abstraction" "Reid Miles' cover for Larry Young's <i>Unity</i>" "" %}
 {% endgallery %}
 
 Miles fulfilled the Blue Note manifesto. His album covers pushed the envelope of graphic design just as the artists on the records inside continued to break new ground in jazz. With the partnership of Miles and Wolff, alongside Alfred Lion’s commitment to artistic integrity, Blue Note became the standard-bearer for jazz.
@@ -130,8 +130,8 @@ Still, Fujita agreed to take the job.
 Fujita’s first covers fit in with the work that Reid Miles was doing at Blue Note: single-color accents set against black-and-white photography.
 
 {% gallery %}
-{% image "/images/albumart-19.jpg" "" "Fujita's cover for <i>The Jazz Messengers</i>" "via <a href='https://www.discogs.com/release/1046790-Various-Jazz-At-The-Plaza' target='_blank' rel='noopener'>Discogs</a>" %}
-{% image "/images/albumart-20.jpg" "" "Fujita's cover for Miles Davis' <i>'Round About Midnight</i>" "via <a href='https://www.discogs.com/release/1046790-Various-Jazz-At-The-Plaza' target='_blank' rel='noopener'>Discogs</a>" %}
+{% image "/images/albumart-19.jpg" "An album cover with photography and bold graphic design" "Fujita's cover for <i>The Jazz Messengers</i>" "via <a href='https://www.discogs.com/release/1046790-Various-Jazz-At-The-Plaza' target='_blank' rel='noopener'>Discogs</a>" %}
+{% image "/images/albumart-20.jpg" "An album cover with photography and bold graphic design" "Fujita's cover for Miles Davis' <i>'Round About Midnight</i>" "via <a href='https://www.discogs.com/release/1046790-Various-Jazz-At-The-Plaza' target='_blank' rel='noopener'>Discogs</a>" %}
 {% endgallery %}
 
 In 1959, jazz was leaving the stratosphere. Ornette Coleman was performing what he called “free jazz,” frenetic, inscrutable compositions that drew backlash and praise in equal parts. John Coltrane recorded *Giant Steps* with a level of virtuosity that even his own bandmates struggled to keep up with. Miles Davis recorded *Kind of Blue*, which would go on to be regarded as one of the best recordings of all time.
@@ -139,8 +139,8 @@ In 1959, jazz was leaving the stratosphere. Ornette Coleman was performing what 
 Fujita was also breaking ground at Columbia. He was one of the first directors to hire both men and women in a racially integrated office.[^5] He delegated work, tapping painters, illustrators, and photographers to contribute to covers. Fujita himself trained to be a painter before starting his career in design; he started looking for ways to incorporate his own original paintings into the covers: “We thought about what the picture was saying about the music,” Fujita recalled, “and how we could use that to sell the record. And abstract art was getting popular so we used a lot more abstraction in the designs—with jazz records especially.” He got the perfect opportunity to make his mark with two albums released in 1959: Charles Mingus’s *Mingus Ah Um* and Dave Brubeck’s *Time Out*.
 
 {% gallery %}
-{% image '/images/albumart-21.jpg' "" "Fujita's cover for Charles Mingus' <i>Mingus Ah Um</i>" "" %}
-{% image "/images/albumart-22.jpg" "" "Fujita's cover for Dave Brubeck's <i>Time Out</i>" "" %}
+{% image '/images/albumart-21.jpg' "An album cover with a modern abstract painting" "Fujita's cover for Charles Mingus' <i>Mingus Ah Um</i>" "" %}
+{% image "/images/albumart-22.jpg" "An album cover with a modern abstract painting" "Fujita's cover for Dave Brubeck's <i>Time Out</i>" "" %}
 {% endgallery %}
 
 Fujita’s abstract paintings reflected the pure exuberance of Mingus’ and Brubeck’s music. In the case of *Mingus Ah Um*, the divisions and intersections spanning the cover read like a beam of light passing through exotic lenses, magnifiers, refractors, and prisms; through his music, Mingus was reflecting on the transition of jazz from popular entertainment to mind-expanding creative exercise. For *Time Out*, the wheels and rollers spooling out across the page echo the way that Brubeck’s quartet was experimenting with how time signatures could be interlocked, multiplied, and divided to create completely new textures and musical patterns.
@@ -152,9 +152,9 @@ Fujita’s covers made it plain: Jazz was art.
 Fujita left Columbia records shortly after these major successes. “I wanted to be something other than just a record designer,” he said, “so I left to go on my own.” He’d go on to design the book covers for Truman Capote’s *In Cold Blood* and Mario Puzo’s *The Godfather* — when the latter was turned into Francis Coppola’s breakthrough film, Fujita’s design was used for its title and promotional art. But he’d continue to design album covers, creating paintings for each one.
 
 {% gallery %}
-{% image '/images/albumart-23.jpg' "" "Fujita's cover for Johnny Eaton's <i>Far Out, Near In</i>" "" %}
-{% image "/images/albumart-24.jpg" "" "Fujita's cover for Dony Byrd and Gigi Gryce's <i>Modern Jazz Perspective</i>" "" %}
-{% image "/images/albumart-25.jpg" "" "Fujita's cover for Columbia's recording of Glenn Gould performing Berg, Křenek, and Schoenberg." "" %}
+{% image '/images/albumart-23.jpg' "An album cover with a modern abstract painting" "Fujita's cover for Johnny Eaton's <i>Far Out, Near In</i>" "" %}
+{% image "/images/albumart-24.jpg" "An album cover with a modern abstract painting" "Fujita's cover for Dony Byrd and Gigi Gryce's <i>Modern Jazz Perspective</i>" "" %}
+{% image "/images/albumart-25.jpg" "An album cover with a modern abstract painting" "Fujita's cover for Columbia's recording of Glenn Gould performing Berg, Křenek, and Schoenberg." "" %}
 {% endgallery %}
 
 ## The next generation
@@ -168,11 +168,22 @@ Budgets for production grew larger and larger. The Beatles’ *Sgt. Pepper’s L
 The zany campiness of *Sgt. Pepper’s* could only be matched by an absurd gift box full of toys and games. The stark loneliness of the Beatles’ next album would be paired with a plain white cover, without even ink to fill in the impression of the words “The Beatles” on the front.
 
 {% gallery %}
-{% image '/images/albumart-26.jpg' "" "The cover of <i>Sgt. Pepper's Lonely Hearts Club Band</i>, designed by Jann Haworth and Peter Blake and photographed by Michael Cooper" "" %}
-{% image "/images/albumart-27.jpg" "" "The cover of <i>The Beatles</i>, designed by Richard Hamilton" "via <a href='https://www.reddit.com/r/beatles/comments/vdm37b/high_resolution_remasters_of_beatles_album_covers/' rel='noopener' target='_blank'>Reddit</a>" %}
+{% image '/images/albumart-26.jpg' "An album cover with colorful, vivid, and busy photography" "The cover of <i>Sgt. Pepper's Lonely Hearts Club Band</i>, designed by Jann Haworth and Peter Blake and photographed by Michael Cooper" "" %}
+{% image "/images/albumart-27.jpg" "An album cover with no elements except for the name 'The Beatles'" "The cover of <i>The Beatles</i>, designed by Richard Hamilton" "via <a href='https://www.reddit.com/r/beatles/comments/vdm37b/high_resolution_remasters_of_beatles_album_covers/' rel='noopener' target='_blank'>Reddit</a>" %}
 {% endgallery %}
 
 The most famous artists and designers of each generation would try their hand at album art. Salvador Dali, Andy Warhol, Saul Bass, Keith Haring, Annie Leibovitz, Jeff Koons, Shepard Fairey, and Banksy would all create work for albums. Some of those pieces would become the most recognizable ones in an artist’s catalog.
+
+{% gallery %}
+{% image "/images/albumart-28.jpg" "An album cover featuring Salvador Dali's artwork" "Salvador Dali's cover for <i>Greatest Hits</i> by The Modern Jazz Quartet" "" %}
+{% image "/images/albumart-29.jpg" "An album cover featuring Andy Warhol's artwork" "Andy Warhol's cover for <i>The Velvet Underground & Nico</i>" "via <a href='https://www.flickr.com/photos/lwr/49877603372/' target='_blank' rel='noopener'>Leo Reynolds</a>" %}
+{% image "/images/albumart-30.jpg" "An album cover featuring Saul Bass's artwork" "Saul Bass's cover for <i>Frank Sinatra Conducts Tone Poems of Color</i>" "via <a href='https://www.moma.org/collection/works/125365' target='_blank' rel='noopener'>Moma</a>" %}
+{% image "/images/albumart-31.jpg" "An album cover featuring Keith Haring's artwork" "Keith Haring's cover for David Bowie's <i>Without You</i>" "" %}
+{% image "/images/albumart-32.jpg" "An album cover featuring Annie Leibovitz and Andrea Klein's artwork" "Annie Leibovitz and Andrea Klein's cover for Bruce Springsteen's <i>Born In The USA</i>" "" %}
+{% image "/images/albumart-33.jpg" "An album cover featuring Jeff Koons' artwork" "Jeff Koons' cover for Lady Gaga's <i>Artpop</i>" "" %}
+{% image "/images/albumart-34.jpg" "An album cover featuring Shepard Fairey's artwork" "Shepard Fairey's cover for The Smashing Pumpkins' <i>Zeitgeist</i>" "" %}
+{% image "/images/albumart-35.jpg" "An album cover featuring Banksy's artwork" "Banksy's cover for Blur's <i>Think Tank</i>" "" %}
+{% endgallery %}
 
 None of this would have been possible without the contributions of Alex Steinweiss, Jim Flora, Paul Bacon, Gil Mellé, John Hermansader, Reid Miles, S. Neil Fujita, and others. If not for the arms race between Columbia Records and Blue Note for the best art and the best artists of the ’50s, many artists would never have found their career. And in some cases, an album like The Rolling Stones’ *Sticky Fingers* would be remembered more for its art than for its music.
 

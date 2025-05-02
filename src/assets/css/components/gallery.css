@@ -18,6 +18,10 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.gallery:has(> :nth-child(7)) {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .gallery > figure {
   margin: 0;
   min-width: 0;
