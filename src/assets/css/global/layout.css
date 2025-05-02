@@ -24,6 +24,11 @@
     --l--space-xs: 0.75rem;
 }
 
+    /* Breakpoints */
+
+@custom-media --l--breakpoint-s (max-width: 800px);
+
+
 /* General spacing guide */
 body * + * {
     margin-top: var(--l--space-s);
@@ -55,13 +60,16 @@ table * + * {
     gap: 0 1rem;
 }
 
-@media (max-width: 800px) {
+@media (--l--breakpoint-s) {
     .l--grid {
         margin: 0;
-        padding: 0 1rem;
+        padding: 0 ;
         grid-template-columns:
-            [full-start wide-start medium-start narrow-start]
-            minmax(1rem, 1fr) [narrow-end medium-end wide-end full-end];
+            [full-start] 1rem 
+            [wide-start medium-start narrow-start] minmax(1rem, 1fr) 
+            [narrow-end medium-end wide-end] 1rem
+            [full-end];
+        gap: 0;
     }
 }
 
@@ -101,7 +109,7 @@ table * + * {
     display: flex;
 }
 
-@media (max-width: 800px) {
+@media (--l--breakpoint-s) {
     .l--flex {
         flex-flow: column;
     }
@@ -119,7 +127,7 @@ table * + * {
     margin-left: calc(var(--l--space-s) / 2);
 }
 
-@media (max-width: 800px) {
+@media (--l--breakpoint-s) {
     [class*='l--flex-']:not(:first-child) {
         margin-left: 0;
         margin-top: var(--l--space-s);
