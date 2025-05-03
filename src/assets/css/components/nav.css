@@ -40,10 +40,6 @@
     margin: 0;
 }
 
-.nav--logo div {
-    margin-left: 0.5rem;
-}
-
 .nav--menu a:not(:last-child) {
     margin-right: 0.25em;
 }

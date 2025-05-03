@@ -36,7 +36,7 @@ font-family: 'Inter';
 font-display: 'fallback';
 src: url('/fonts/InterVariable.woff2') format('woff2-variations');
 font-feature-settings: 'liga' 1, 'calt' 1, 'ss03' 1, 'cv06' 1;
-size-adjust: 94%;
+size-adjust: 91%;
 font-weight: 100 1000;
 font-style: normal;
 }
@@ -46,7 +46,7 @@ font-family: 'Inter';
 font-display: 'fallback';
 src: url('/fonts/InterVariable-Italic.woff2') format('woff2-variations');
 font-feature-settings: 'liga' 1, 'calt' 1, 'ss03' 1, 'cv06' 1;
-size-adjust: 94%;
+size-adjust: 91%;
 font-weight: 100 1000;
 font-style: italic;
 }

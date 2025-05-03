@@ -1,6 +1,6 @@
 :root {
     /* Grid configuration */
-    --l--grid-width-narrow: 40rem;
+    --l--grid-width-narrow: 35rem;
     --l--grid-width-wide: 60rem;
 
     /* Border radius */
@@ -18,10 +18,10 @@
     --l--z-highest: 9999;
 
     /* Spacing definitions */
-    --l--space-l: 6rem;
-    --l--space-m: 3rem;
-    --l--space-s: 1.25rem;
-    --l--space-xs: 0.75rem;
+    --l--space-l: 5rem;
+    --l--space-m: 2.75rem;
+    --l--space-s: 1rem;
+    --l--space-xs: 0.5rem;
 }
 
     /* Breakpoints */

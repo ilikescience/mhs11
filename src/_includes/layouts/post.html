@@ -2,17 +2,17 @@
 layout: layouts/default.html
 ---
 
-<header class="l--grid-wide t--align-center">
+<header class="l--grid-narrow">
     <div class="l--mar-block-m l--space-compact">
-        <h1 class="t--weight-normal t--family-sans">
+        <h1 class="t--weight-bold t--size-xl t--tracking-tight l--mar-top-l">
             {{ title }}
         </h1>
         {% if subtitle %}
-            <h2 class="t--size-l t--family-sans t--weight-normal c--gray l--mar-btm-s">
+            <h2 class="t--size-m t--family-sans t--weight-normal l--mar-top-none">
                 {{ subtitle }}
             </h2>
         {% endif %}
-        <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
+        <p class="c--gray l--mar-top-xs t--size-s">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
 {%if hero %}

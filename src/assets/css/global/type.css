@@ -43,9 +43,9 @@
     --t--weight-light: 200;
 
     /* sizes */
-    --t--size-xxl: clamp(2.2rem, 4vw, 3rem);
-    --t--size-xl: clamp(1.25rem, 3vw, 2rem);
-    --t--size-l: clamp(1.15rem, 2vw, 1.25rem);
+    --t--size-xxl: clamp(1.5rem, 4vw, 2rem);
+    --t--size-xl: clamp(1.2rem, 3vw, 1.5rem);
+    --t--size-l: clamp(1.2rem, 2vw, 1.4rem);
     --t--size-m: 1em;
     --t--size-s: clamp(0.85rem, 2vw, 0.9rem);
     --t--size-xs: clamp(0.7rem, 2vw, 0.8rem);
