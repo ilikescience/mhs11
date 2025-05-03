@@ -189,12 +189,12 @@ None of this would have been possible without the contributions of Alex Steinwei
 
 When music was first pressed into discs, design was less than an afterthought. Today, album art is an extension of music itself.
 
-[^1]:  <https://www.nytimes.com/2011/07/20/business/media/alex-steinweiss-originator-of-artistic-album-covers-dies-at-94.htm>
+[^1]:  <https://www.nytimes.com/2011/07/20/business/media/alex-steinweiss-originator-of-artistic-album-covers-dies-at-94.html>
 
 [^2]:  <https://web.archive.org/web/20120412033422/http://www.adcglobal.org/archive/hof/1998/?id=318>
 
 [^3]:  <https://web.archive.org/web/20080503055603/https://www.bluenote.com/History.aspx>
 
-[^4]:  <https://www.hellerbooks.com/pdfs/voice\_s\_neil\_fujita.pdf>
+[^4]:  <https://www.hellerbooks.com/pdfs/voice_s_neil_fujita.pdf>
 
 [^5]:  <https://www.nationalww2museum.org/war/articles/s-neil-fujita>
