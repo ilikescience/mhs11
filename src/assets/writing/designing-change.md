@@ -63,7 +63,7 @@ As you take more steps with confidence, you’ll hear a question from your team 
 
 I wrote a response to this question in[ Responsive Roadmaps](https://matthewstrom.com/writing/responsive-roadmaps/):
 
-<div class="c--bg-gray-1 l--pad-s">
+<div class="c--bg-gray-25 l--pad-s">
 
 Shane Parrish’s essay “The Map is Not the Territory” begins:
 

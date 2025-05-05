@@ -85,7 +85,7 @@ Lego incentivizes play. Specifically, they encourage builders to (literally) thi
             </tr>
         </thead>
         <tbody>
-            <tr class="l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">
+            <tr class="l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-100">
                 <th scope="row">Positive</th>
                 <td> Sponsored events like <a href="https://www.lego.com/en-us/rebuild-the-world/build-day">Lego Build Day</a>, where builders are encouraged to explore ideas like “take a space ship and rebuild it into a panda bear hammock.”
                 </td>

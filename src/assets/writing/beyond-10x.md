@@ -40,15 +40,15 @@ Let’s take a look at some common tasks for a software development team, in ter
 <svg viewbox="0 0 1000 1000">
      <style>
           .axis-text {
-               fill: var(--c--theme-gray-2);
+               fill: var(--c--gray-200);
           }
           .label-text {
                fill: var(--c--theme-fg);
           }
      </style>
      <!-- axes -->
-     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
-     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--theme-gray-3)" stroke-width="0.1"></line>
+     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--gray-500)" stroke-width="0.1"></line>
+     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--gray-500)" stroke-width="0.1"></line>
      <!-- axis labels -->
      <text transform="rotate(-90) translate(-230 480)" font-size="25" class="axis-text">High Value Outcome</text>
      <text transform="rotate(-90) translate(-990 480)" font-size="25" class="axis-text">Low Value Outcome</text>
@@ -134,15 +134,15 @@ Of course, the placement of tasks in this spectrum is highly subjective and vari
 <svg viewbox="0 0 1000 1000">
      <style>
           .axis-text {
-               fill: var(--c--theme-gray-2);
+               fill: var(--c--gray-200);
           }
           .label-text {
                fill: var(--c--theme-fg);
           }
      </style>
      <!-- axes -->
-     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
-     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
+     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--gray-500)" stroke-width="1"></line>
+     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--gray-500)" stroke-width="1"></line>
      <!-- axis labels -->
      <text transform="rotate(-90) translate(-230 480)" font-size="25" class="axis-text">High Value Outcome</text>
      <text transform="rotate(-90) translate(-990 480)" font-size="25" class="axis-text">Low Value Outcome</text>
@@ -151,7 +151,7 @@ Of course, the placement of tasks in this spectrum is highly subjective and vari
      <!-- shapes -->
      <path d="M 30 30 L 940 30 L 30 940 Z" fill="rgba(242, 153, 74, 0.2)"></path>
      <path d="M 970 60 L 970 970 L 60 970 Z" fill="rgba(33, 150, 83, 0.2)"></path>
-     <path d="M 955 45 L 45 955" stroke="var(--c--theme-gray-2)" stroke-width="10" stroke-dasharray="30 30"></path>
+     <path d="M 955 45 L 45 955" stroke="var(--c--gray-200)" stroke-width="10" stroke-dasharray="30 30"></path>
      <!-- text -->
      <text text-anchor="middle" font-size="70" font-weight="var(--t--weight-bold)" transform="translate(250 250)" fill="#F2994A">
           <tspan x=0 y=0>Net</tspan>
@@ -170,15 +170,15 @@ And the neat thing about this paradigm shift is that net-negative work can turn 
 <svg viewbox="0 0 1000 1000">
      <style>
           .axis-text {
-               fill: var(--c--theme-gray-2);
+               fill: var(--c--gray-200);
           }
           .label-text {
                fill: var(--c--theme-fg);
           }
      </style>
      <!-- axes -->
-     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
-     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--theme-gray-3)" stroke-width="1"></line>
+     <line x1="500" y1="0" x2="500" y2="1000" stroke="var(--c--gray-500)" stroke-width="1"></line>
+     <line x1="0" y1="500" x2="1000" y2="500" stroke="var(--c--gray-500)" stroke-width="1"></line>
      <!-- axis labels -->
      <text transform="rotate(-90) translate(-230 480)" font-size="25" class="axis-text">High Value Outcome</text>
      <text transform="rotate(-90) translate(-990 480)" font-size="25" class="axis-text">Low Value Outcome</text>
@@ -187,7 +187,7 @@ And the neat thing about this paradigm shift is that net-negative work can turn 
      <!-- shapes -->
      <path d="M 30 30 L 940 30 L 30 940 Z" fill="rgba(242, 153, 74, 0.2)"></path>
      <path d="M 970 60 L 970 970 L 60 970 Z" fill="rgba(33, 150, 83, 0.2)"></path>
-     <path d="M 955 45 L 45 955" stroke="var(--c--theme-gray-2)" stroke-width="10" stroke-dasharray="30 30"></path>
+     <path d="M 955 45 L 45 955" stroke="var(--c--gray-200)" stroke-width="10" stroke-dasharray="30 30"></path>
      <!-- points -->
      <circle cx=500 cy=350 r=20 fill="#F2994A"></circle>
      <circle cx=800 cy=350 r=20 fill="#219653"></circle>

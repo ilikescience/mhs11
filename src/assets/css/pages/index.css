@@ -4,7 +4,7 @@
 
 .book--favorite {
     display: inline-block;
-    color: var(--c--theme-gray-2);
+    color: var(--c--gray-100);
 }
 
 .year + .index--item {

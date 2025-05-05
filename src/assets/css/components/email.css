@@ -14,8 +14,13 @@
         width: 100%;
         margin-top: 0;
     }
+}
 
-    @media (max-width: 400px) {
+@media (--l--breakpoint-s) {
+    .button {
+        margin-top: var(--l--space-xs);
+    }
+    .email-form {
         flex-direction: column;
     }
 }

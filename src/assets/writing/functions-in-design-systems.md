@@ -24,9 +24,9 @@ Comparing design systems to dictionaries isn’t a slight. Dictionaries often sh
 
 Let’s look at the first part of the New Oxford American Dictionary entry for “design”: 
 
-<div class="c--bg-gray-1 l--rounded-corners l--pad-s t--family-serif">
+<div class="c--bg-gray-25 l--rounded-corners l--pad-s t--family-serif">
 
-<span class="t--size-l"><strong>de·sign</strong></span> <span class="c--gray">| dəˈzīn </span>
+<span class="t--size-l"><strong>de·sign</strong></span> <span class="c--gray-500">| dəˈzīn </span>
 
 <dl class="l--space-compact">
     <dt class="t--weight-bold">noun</dt>
@@ -71,7 +71,7 @@ The dictionary that maps the names of components to their design, functional, an
 
 Design systems are composed of discrete parts; each specification has a one-to-one relationship with a kind of name or signifier. In Material Design, for example, there are 15 different signifiers for types of text. The signifier ‘Display large’ maps to text with the following qualities:
 
-<div class="c--bg-gray-1 l--rounded-corners l--pad-s">
+<div class="c--bg-gray-25 l--rounded-corners l--pad-s">
 
 <span class="t--size-l t--weight-bold">Display large</span>
 
@@ -103,7 +103,7 @@ When you see ‘display large’ referenced in design or code, you can look it u
 
 Likewise, colors in Material Design are mapped in a dictionary format. The signifiers ‘md.sys.color.primary’ and ‘md.sys.color.primary-container’ are defined like this:
 
-<div class="c--bg-gray-1 l--rounded-corners l--pad-s">
+<div class="c--bg-gray-25 l--rounded-corners l--pad-s">
 
 <span class="t--size-l t--weight-bold">Primary</span>
 
@@ -115,7 +115,7 @@ Likewise, colors in Material Design are mapped in a dictionary format. The signi
 
 </div>
 
-<div class="c--bg-gray-1 l--rounded-corners l--pad-s">
+<div class="c--bg-gray-25 l--rounded-corners l--pad-s">
 
 <span class="t--size-l t--weight-bold">Primary container</span>
 
@@ -182,7 +182,7 @@ When you first learned how to do multiplication in grade school, how was it taug
     <tbody>
         <tr>
             <th scope="row">1</th>
-            <td class="t--align-center c--bg-gray-1">1</td>
+            <td class="t--align-center c--bg-gray-25">1</td>
             <td class="t--align-center">2</td>
             <td class="t--align-center">3</td>
             <td class="t--align-center">4</td>
@@ -198,7 +198,7 @@ When you first learned how to do multiplication in grade school, how was it taug
         <tr>
             <th scope="row">2</th>
             <td class="t--align-center">2</td>
-            <td class="t--align-center c--bg-gray-1">4</td>
+            <td class="t--align-center c--bg-gray-25">4</td>
             <td class="t--align-center">6</td>
             <td class="t--align-center">8</td>
             <td class="t--align-center">10</td>
@@ -214,7 +214,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <th scope="row">3</th>
             <td class="t--align-center">3</td>
             <td class="t--align-center">6</td>
-            <td class="t--align-center c--bg-gray-1">9</td>
+            <td class="t--align-center c--bg-gray-25">9</td>
             <td class="t--align-center">12</td>
             <td class="t--align-center">15</td>
             <td class="t--align-center">18</td>
@@ -230,7 +230,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">4</td>
             <td class="t--align-center">8</td>
             <td class="t--align-center">12</td>
-            <td class="t--align-center c--bg-gray-1">16</td>
+            <td class="t--align-center c--bg-gray-25">16</td>
             <td class="t--align-center">20</td>
             <td class="t--align-center">24</td>
             <td class="t--align-center">28</td>
@@ -246,7 +246,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">10</td>
             <td class="t--align-center">15</td>
             <td class="t--align-center">20</td>
-            <td class="t--align-center c--bg-gray-1">25</td>
+            <td class="t--align-center c--bg-gray-25">25</td>
             <td class="t--align-center">30</td>
             <td class="t--align-center">35</td>
             <td class="t--align-center">40</td>
@@ -262,7 +262,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">18</td>
             <td class="t--align-center">24</td>
             <td class="t--align-center">30</td>
-            <td class="t--align-center c--bg-gray-1">36</td>
+            <td class="t--align-center c--bg-gray-25">36</td>
             <td class="t--align-center">42</td>
             <td class="t--align-center">48</td>
             <td class="t--align-center">54</td>
@@ -278,7 +278,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">28</td>
             <td class="t--align-center">35</td>
             <td class="t--align-center">42</td>
-            <td class="t--align-center c--bg-gray-1">49</td>
+            <td class="t--align-center c--bg-gray-25">49</td>
             <td class="t--align-center">56</td>
             <td class="t--align-center">63</td>
             <td class="t--align-center">70</td>
@@ -294,7 +294,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">40</td>
             <td class="t--align-center">48</td>
             <td class="t--align-center">56</td>
-            <td class="t--align-center c--bg-gray-1">64</td>
+            <td class="t--align-center c--bg-gray-25">64</td>
             <td class="t--align-center">72</td>
             <td class="t--align-center">80</td>
             <td class="t--align-center">88</td>
@@ -310,7 +310,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">54</td>
             <td class="t--align-center">63</td>
             <td class="t--align-center">72</td>
-            <td class="t--align-center c--bg-gray-1">81</td>
+            <td class="t--align-center c--bg-gray-25">81</td>
             <td class="t--align-center">90</td>
             <td class="t--align-center">99</td>
             <td class="t--align-center">108</td>
@@ -326,7 +326,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">70</td>
             <td class="t--align-center">80</td>
             <td class="t--align-center">90</td>
-            <td class="t--align-center c--bg-gray-1">100</td>
+            <td class="t--align-center c--bg-gray-25">100</td>
             <td class="t--align-center">110</td>
             <td class="t--align-center">120</td>
         </tr>
@@ -342,7 +342,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">88</td>
             <td class="t--align-center">99</td>
             <td class="t--align-center">110</td>
-            <td class="t--align-center c--bg-gray-1">121</td>
+            <td class="t--align-center c--bg-gray-25">121</td>
             <td class="t--align-center">132</td>
         </tr>
         <tr>
@@ -358,7 +358,7 @@ When you first learned how to do multiplication in grade school, how was it taug
             <td class="t--align-center">108</td>
             <td class="t--align-center">120</td>
             <td class="t--align-center">132</td>
-            <td class="t--align-center c--bg-gray-1">144</td>
+            <td class="t--align-center c--bg-gray-25">144</td>
         </tr>
     </tbody>
 </table>
@@ -373,16 +373,16 @@ You’re able to multiply large numbers because you learned a second way to do m
     <g transform="translate(200 40)">
         <text>
             <tspan x="30">187</tspan>
-            <tspan x="0" y="21" style="fill: var(--c--gray-50)">&times;</tspan>
+            <tspan x="0" y="21" style="fill: var(--c--gray-500-700)">&times;</tspan>
             <tspan x="42" y="22">54</tspan>
         </text>
-        <line x1="0" y1="28" x2="70" y2="28" style="stroke: var(--c--gray-50)"></line>
+        <line x1="0" y1="28" x2="70" y2="28" style="stroke: var(--c--gray-500-700)"></line>
         <text>
             <tspan x="30" y="50">748</tspan>
-            <tspan x="0" y="68" style="fill: var(--c--gray-50)">&plus;</tspan>
+            <tspan x="0" y="68" style="fill: var(--c--gray-500-700)">&plus;</tspan>
             <tspan x="18" y="69">9350</tspan>
         </text>
-        <line x1="0" y1="76" x2="70" y2="76" style="stroke: var(--c--gray-50)"></line>
+        <line x1="0" y1="76" x2="70" y2="76" style="stroke: var(--c--gray-500-700)"></line>
         <text>
             <tspan x="6" y="97">10098</tspan>
         </text>
@@ -399,7 +399,7 @@ A dictionary is a _discrete_ function: it connects a word to its definition. Dis
 
 Multiplication, on the other hand, can handle any number you throw at it; it is a _continuous_ function. For anything that counts as a number (15, 0.25, 3/8ths, the square root of pi), you can multiply it by another number (or itself) and get a product.
 
-<div class="c--bg-highlight-1 l--rounded-corners l--pad-s">
+<div class="c--bg-yellow-25 l--rounded-corners l--pad-s">
 
 _N.B.: For the rest of the essay, I’ll be focusing on continuous functions. Continuous functions are so ubiquitous and useful that mathematicians and scientists will often use the word “functions” to mean “continuous functions”; I’ll follow that convention for ease of reading._ 
 

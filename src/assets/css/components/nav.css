@@ -1,61 +1,45 @@
 .nav--container {
     display: flex;
-    justify-content: space-between;
-}
-
-.nav--logo,
-.nav--menu {
-    display: flex;
-    flex: 0 1 auto;
+    margin-left: -0.25rem;
+    justify-content: flex-start;
     align-items: center;
 }
 
-.nav--logo svg,
-.nav--logo div {
-    flex: 0 1 auto;
+.nav--logo {
+    font-weight: 500;
 }
 
-.nav--logo svg,
-.nav--theme-switcher svg {
-    width: 1.25rem;
-}
-
-.nav--logo svg {
-    fill: var(--c--theme-highlight-3);
-}
-
-.nav--theme-switcher {
-    padding: 0;
-    &:hover svg {
-        fill: var(--c--theme-primary);
-    }
-}
-
-.nav--theme-switcher svg {
-    fill: var(--c--theme-gray-2);
-    vertical-align: middle;
-}
-
-.nav--menu {
-    margin: 0;
-}
-
-.nav--menu a:not(:last-child) {
-    margin-right: 0.25em;
-}
-
-.nav--menu a {
-    padding: 0.25em 0.75em;
-    border-radius: var(--l--border-radius-s);
-
-    &.active {
-        background: var(--c--theme-gray-1);
-    }
-}
-
-nav a {
-    color: var(--c--theme-fg);
+.nav--container a {
+    display: flex;
+    padding: 0.25rem;
     text-decoration: none;
+    border-radius: 0.25rem;
+
+    &.nav--theme-switcher {
+        border-radius: 50%;
+    }
+
+    &:hover {
+        text-decoration: none;
+        background: var(--c--blue-25);
+
+        & svg {
+            stroke: var(--c--blue-500);
+            fill: var(--c--blue-500);
+        }
+    }
+}
+
+
+.nav--theme-switcher,
+.nav--menu-toggle {
+    display: block;
+    & svg {
+        width: 1.1em;
+        height: 1.1em;
+        stroke: var(--c--gray-500);
+        fill: var(--c--gray-500);
+    }
 }
 
 body.c--theme-light {

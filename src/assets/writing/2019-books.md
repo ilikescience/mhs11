@@ -24,7 +24,7 @@ I’ve also started sharing the my thoughts on these books when I finish them. Y
 
 ## The Fifth Season
 
-<span class="c--gray">by N.K. Jemisin</span></div>
+<span class="c--gray-500">by N.K. Jemisin</span></div>
 
 I picked up this book after seeing it won the Hugo Award in 2016\. I love sci-fi, but had never really gotten into fantasy. This book promised to be a bridge between the two.
 
@@ -40,7 +40,7 @@ Jemisin builds a really fascinating world throughout the book. I enjoyed the way
 
 ## Discussing Design
 
-<span class="c--gray">by Adam Connor and Aaron Irizarry</span></div>
+<span class="c--gray-500">by Adam Connor and Aaron Irizarry</span></div>
 
 This book is a good collection of techniques to improve creative feedback. I’ve used a lot of them since reading it. My favorites:
 
@@ -58,7 +58,7 @@ This book is a good collection of techniques to improve creative feedback. I’v
 
 ## 21 Lessons for the 21st Century
 
-<span class="c--gray">by Yuval Noah Harari</span></div>
+<span class="c--gray-500">by Yuval Noah Harari</span></div>
 
 This one wasn’t as good as _Sapiens_, but was enjoyable nonetheless. Here’s one of my favorite passages:
 
@@ -74,7 +74,7 @@ This one wasn’t as good as _Sapiens_, but was enjoyable nonetheless. Here’s 
 
 ## Leviathan Wakes
 
-<span class="c--gray">by James S. A. Corey</span></div>
+<span class="c--gray-500">by James S. A. Corey</span></div>
 
 I tried to get Sasha to watch the TV show with me, but failed. So I started to read the book instead. I haven’t read any more of the ‘Expanse’ series, so it’s difficult to assess where the hype comes from. In part, I think it’s a blending of genres; there’s the typical science fiction bent, but there’s also a bit of noir, and a dash of post-apocalyptic distopia.
 
@@ -90,7 +90,7 @@ The whole book revolves around a mystery. Oddly, the mystery is solved at the en
 
 ## Endurance
 
-<span class="c--gray">by Alfred Lansing</span></div>
+<span class="c--gray-500">by Alfred Lansing</span></div>
 
 Shackleton and his team went through an incredible ordeal. It’s impossible to imagine what it’s like to be completely stranded for three years in one of the harshest environments on earth, thousands of miles from the scraps of civilization. Not a single crew member died. How is this possible? Beyond that, the crew kept meticulous notes, even took photos of their ship being crushed by the ice.
 
@@ -106,7 +106,7 @@ An amazing fact: the expedition lasted the length of the first World War. The cr
 
 ## Brave New Work
 
-<span class="c--gray">by Aaron Dignan</span></div>
+<span class="c--gray-500">by Aaron Dignan</span></div>
 
 I got the chance to work with Aaron when he was leading a company called Undercurrent. His approach to work was so unique, and so clearly articulated, that I can still detect his impact on the folks he employed, 5 years after Undercurrent ceased to exist.
 
@@ -122,7 +122,7 @@ It was really nice to read all of Aaron’s advice summed up in a simple package
 
 ## Exhalation
 
-<span class="c--gray">by Ted Chiang</span></div>
+<span class="c--gray-500">by Ted Chiang</span></div>
 
 Black Mirror x Borges — great short stories that explore some traditionally sci-fi concepts from more of a prodding, philosophical standpoint. The best part about Chiang’s stories are the feels … instead of being Borges-style think pieces, you get lots of emotional depth. Especially with the parrot.
 
@@ -136,7 +136,7 @@ Black Mirror x Borges — great short stories that explore some traditionally sc
 
 ## Trillion Dollar Coach
 
-<span class="c--gray">by Eric Schmidt, Jonathan Rosenberg, and Alan Eagle</span></div>
+<span class="c--gray-500">by Eric Schmidt, Jonathan Rosenberg, and Alan Eagle</span></div>
 
 Bill Campbell was an extraordinary coach. His experience coaching Columbia’s football team clearly influenced his approach to business. But this book isn’t really about Campbell’s coaching style. He cursed a lot, he gave good hugs, and he was a good listener: those are the memorable aspects of Campbell as a coach.
 
@@ -152,7 +152,7 @@ The book is really about the power of networks; Campbell had the good fortune of
 
 ## Midnight in Chernobyl
 
-<span class="c--gray">by Adam Higginbotham</span></div>
+<span class="c--gray-500">by Adam Higginbotham</span></div>
 
 Nuclear power is one of the cleanest sources of energy on earth. Its potential to save the planet from man-made climate change is enormous. That’s why the Chernobyl disaster is doubly tragic: first, the loss of life and catastrophic damage done to the Pripyat area were entirely preventable with better planning and communication. Second, the psychological impact of the disaster put a complete stop to the development of nuclear energy as a replacement for coal and oil.
 
@@ -168,7 +168,7 @@ Higginbotham does a really good job of illustrating the characters in the story 
 
 ## Einstein
 
-<span class="c--gray">by Walter Isaacson</span></div>
+<span class="c--gray-500">by Walter Isaacson</span></div>
 
 In 1905 Einstein had never held an academic position. He published four papers that year: one on the Photoelectric effect (for which he won the Nobel Prize), one on Brownian motion which opened the door for the observation of the atom, one on special relativity which upendended our understanding of space and time, and one on the mass-energy equivalence which demonstrated the famous equation E = mc<sup>2</sup>.
 
@@ -184,7 +184,7 @@ It’s easy to get caught up in the mythos of Einstein, to think of him as the k
 
 ## The Black Swan
 
-<span class="c--gray">by Nassim Taleb</span></div>
+<span class="c--gray-500">by Nassim Taleb</span></div>
 
 I have a love-hate relationship with Taleb. His writing is dripping with ego. The book might as well be called _I Was Right,_ since that’s the subject most of the time. But I have to hand it to Taleb, the way he tends to be right about things is interesting. I really resonate with the sentiment that people tend to take shortcuts and overlook data when the goal is certainty. Particularly this quote:
 
@@ -200,7 +200,7 @@ I have a love-hate relationship with Taleb. His writing is dripping with ego. Th
 
 ## Thinking, Fast and Slow
 
-<span class="c--gray">by Daniel Kahneman <span class="book--favorite">★</span></span></div>
+<span class="c--gray-500">by Daniel Kahneman <span class="book--favorite">★</span></span></div>
 
 It’s hard to overstate the value of understanding bias. This book is a must-read: Kahneman has such a talent for unraveling the counter-intuitive nature of bias, heuristics, and the way people make decisions. His research with Amos Tversky (called _prosepect theory_) has influenced economics in ways I can’t understand, but the effect is recognizable when you book a hotel online (scarcity bias at play) or check out on Amazon.
 
@@ -216,7 +216,7 @@ The sections of the book on expert intuition were especially relevant at the tim
 
 ## How to Do Nothing
 
-<span class="c--gray">by Jenny Odell</span></div>
+<span class="c--gray-500">by Jenny Odell</span></div>
 
 This book is an expanded version of Odell’s talk/essay [How to Do Nothing](https://medium.com/@the_jennitaur/how-to-do-nothing-57e100f59bbb). It’s possible to get the gist of the book by reading the talk/essay, so start there if this concept is interesting to you. But there’s a few places in the book that Odell goes deep, and it’s worth a read.
 
@@ -232,7 +232,7 @@ One of my favorite threads throughout the book was the idea of _active disengage
 
 ## Pandemic
 
-<span class="c--gray">by A. G. Riddle</span></div>
+<span class="c--gray-500">by A. G. Riddle</span></div>
 
 I picked this up looking for a break after reading a few heavy non-fiction titles. It delivered exactly that: an entertaining read with enough science to keep my brain busy. Specifically, the book includes some ideas from epidemiology, as its heroes have day jobs in agencies like the Centers for Disease Control. The conclusion of the book strays a little bit too far into Dan Brown conspiracy fodder, which means it was ultimately pretty forgettable.
 
@@ -246,7 +246,7 @@ I picked this up looking for a break after reading a few heavy non-fiction title
 
 ## Org Design for Design Orgs
 
-<span class="c--gray">by Peter Merholz and Kristin Skinner</span></div>
+<span class="c--gray-500">by Peter Merholz and Kristin Skinner</span></div>
 
 I read this after my design team at Bitly was re-organized into a decentralized structure. I personally preferred being in a centralized org, so I thought I’d try and read a bit to understand why a decentralized org might make sense.
 
@@ -262,7 +262,7 @@ The biggest takeaway from this book is its articulation of the Centralized Partn
 
 ## Articulating Design Decisions
 
-<span class="c--gray">by Tom Greever</span></div>
+<span class="c--gray-500">by Tom Greever</span></div>
 
 I’m constantly trying to improve the way I work with stakeholders. Feedback is the lifeblood of great design: when you see great design in the world, it’s a product of a group of people that agreed to deliver that design. Seldom is a single designer left alone to make all the decisions.
 
@@ -278,7 +278,7 @@ The author spends a lot of the book setting the scene for a meeting where design
 
 ## Children of Time
 
-<span class="c--gray">by Adrian Tchaikovksy</span></div>
+<span class="c--gray-500">by Adrian Tchaikovksy</span></div>
 
 _Children of Time_ is different. It’s definitely sci-fi. It has all the familiar space tropes: laser battles, light-speed travel, planetary crash landings. But its protagonists are spiders. That’s really the only way to begin to explain the different-ness of the book.
 
@@ -294,7 +294,7 @@ The spiders evolve from your garden variety (yow) spiders to extremely evolved i
 
 ## Competing Against Luck
 
-<span class="c--gray">by Clayton M. Christensen, Karen Dillon, Taddy Hall and David S. Duncan</span></div>
+<span class="c--gray-500">by Clayton M. Christensen, Karen Dillon, Taddy Hall and David S. Duncan</span></div>
 
 This one’s a pretty standard business read; Christiansen (et al, there are lots of co-authors) describes the Jobs to be Done framework, examples of it in action, and ways to implement it in your own work. I picked it up because I’d heard “Jobs to be Done” used all over the place and needed to be able to cut through buzzword bullshit.
 
@@ -314,7 +314,7 @@ The value of the book might be entirely in some of the more practical advice for
 
 ## Rocket Men
 
-<span class="c--gray">by Robert Kurson</span></div>
+<span class="c--gray-500">by Robert Kurson</span></div>
 
 The Apollo Program is a fascinating study of organizational design. It started disastrously with Apollo 1’s fatal launchpad fire. Subsequent missions were largely uncrewed, testing components of the lunar flight system. During these early tests, the Soviet space program was advancing much faster than the American’s, putting an immense amount of pressure on NASA to deliver a propaganda victory to the US. NASA was huge, a bureaucracy of epic proportions. And when it came time to plan Apollo 8, NASA’s leaders decided to bet everything they had on a manned orbit of the moon, the first one in history.
 
@@ -330,7 +330,7 @@ The story of Apollo 8’s success is riveting. Kurson does a great job of tellin
 
 ## Shanzhai
 
-<span class="c--gray">by Byung-Chul Han and Philippa Hurd</span></div>
+<span class="c--gray-500">by Byung-Chul Han and Philippa Hurd</span></div>
 
 Such a cool thing to read about: concepts that we take for granted like originality, authorship, and duplication are understood entirely different in East Asia. I wonder if it’s possible it is to maintain a truly global marketplace of both ideas and goods when there are some things (like art or literature) which are valued so totally differently by different people. In the west, duplicating something removes all value from the end result, whereas in China a duplicate is often more valuable than the original. Such a completely different way of understanding creativity — do you think it’s possible to adopt this viewpoint as an outsider?
 
@@ -344,7 +344,7 @@ Such a cool thing to read about: concepts that we take for granted like original
 
 ## The Goal
 
-<span class="c--gray">by Eliyahu M. Goldratt and Jeff Cox <span class="book--favorite">★</span></span></div>
+<span class="c--gray-500">by Eliyahu M. Goldratt and Jeff Cox <span class="book--favorite">★</span></span></div>
 
 This is one of the best business books I’ve read. Granted: I haven’t read a whole lot of business books. But this one is very good nonetheless.
 
@@ -364,7 +364,7 @@ At the end of the book is a more traditional essay that walks through the histor
 
 ## The Art of Taking Action
 
-<span class="c--gray">by Gregg Krech</span></div>
+<span class="c--gray-500">by Gregg Krech</span></div>
 
 This is a solid, well-organized, somewhat survey-ish collection of essays on what Zen & Buddhism & Eastern philosophy have to say about taking action, being productive in a meaningful and rewarding way. It’s easy to read in chunks (I read it over 6 months).
 
@@ -380,7 +380,7 @@ One of my favorite parts of the book is about using your time wisely. Specifical
 
 ## Radical Candor
 
-<span class="c--gray">by Kim Malone Scott</span></div>
+<span class="c--gray-500">by Kim Malone Scott</span></div>
 
 I read this book because my current manager said it was one of her favorites. She’s a total enigma to me, so I thought reading it would give me some insight into how her brain works.
 
@@ -402,7 +402,7 @@ Kim Scott is infuriating as a character. She name-drops constantly. (paraphrasin
 
 ## High Output Management
 
-<span class="c--gray">by Andrew S. Grove <span class="book--favorite">★</span></span></div>
+<span class="c--gray-500">by Andrew S. Grove <span class="book--favorite">★</span></span></div>
 
 I finally finished this after a few years of off-and-on reading. Such a solid book. I found that much of the advice was really befitting a manager-of-managers, which is a very small percentage of people in the workplace. The advice is still solid and applicable nonetheless.
 
@@ -422,7 +422,7 @@ Here’s one of my favorite highlights:
 
 ## Several Short Sentences About Writing
 
-<span class="c--gray">by Verlyn Klinkenborg</span></div>
+<span class="c--gray-500">by Verlyn Klinkenborg</span></div>
 
 This is a very good book about writing. Not just about the form of writing, or the action of writing. It’s also about why we write, what is so challenging about writing, and what makes good writing good.
 
@@ -442,7 +442,7 @@ One of my favorite excerpts:
 
 ## The Square and the Tower
 
-<span class="c--gray">by Niall Ferguson</span></div>
+<span class="c--gray-500">by Niall Ferguson</span></div>
 
 _The Square and the Tower_ is a history of networks. It begins with the Illuminati and ends with Trump’s election; in between, networks rise and fall in a constant churn. Ferguson combines his own original research with piles of other analyses to paint a picture of the conditions that enable networks or hierarchies to prevail.
 
@@ -458,7 +458,7 @@ It was a little slow getting through the early history of networks, since hierar
 
 ## Dare to Lead
 
-<span class="c--gray">by Brené Brown</span></div>
+<span class="c--gray-500">by Brené Brown</span></div>
 
 This was another book I read to try and understand my manager’s leadership style. Between this and _Radical Candor,_ I see a pattern.
 

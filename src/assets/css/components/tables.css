@@ -1,7 +1,7 @@
 .table--bordered {
 
     & colgroup {
-        border-right: 1px solid var(--c--theme-gray-2);
+        border-right: 1px solid var(--c--gray-100);
     }
 
     & th,
@@ -10,16 +10,16 @@
     }
 
     & td {
-        border: 1px solid var(--c--theme-gray-2);
+        border: 1px solid var(--c--gray-100);
     }
 
     & th:not(.table--header-empty) {
-        background: var(--c--theme-gray-1);
-        border: 1px solid var(--c--theme-gray-2);
+        background: var(--c--gray-25);
+        border: 1px solid var(--c--gray-100);
     }
 
     & th:is(:not(.table--header-empty)) {
-        border: 1px solid var(--c--theme-gray-2);
+        border: 1px solid var(--c--gray-100);
     }
 
     & .table--header-empty {
@@ -28,47 +28,47 @@
 
     & tbody {
         & tr {
-            border-bottom: 1px solid var(--c--theme-gray-2);
+            border-bottom: 1px solid var(--c--gray-100);
         }
 
         & tr:last-child {
-            border-bottom: 1px solid var(--c--theme-gray-2);
+            border-bottom: 1px solid var(--c--gray-100);
         }
 
         & td {
-            border-right: 1px solid var(--c--theme-gray-2);
+            border-right: 1px solid var(--c--gray-100);
         }
 
         & th {
-            border-left: 1px solid var(--c--theme-gray-2);
+            border-left: 1px solid var(--c--gray-100);
         }
     }
 
     & .table--group-start,
     & .table--group-end {
-        border-left: 1px solid var(--c--theme-gray-2);
+        border-left: 1px solid var(--c--gray-100);
     }
 
     & .table--group-end {
-        border-right: 1px solid var(--c--theme-gray-2);
+        border-right: 1px solid var(--c--gray-100);
     }
 
     & tfoot {
 
         & th:first-child {
-            border-left: 1px solid var(--c--theme-gray-2);
+            border-left: 1px solid var(--c--gray-100);
         }
 
         & th,
         & td {
-            background: var(--c--theme-gray-1);
-            border-bottom: 1px solid var(--c--theme-gray-2);
-            border-top: 1px solid var(--c--theme-gray-2);
-            color: var(--c--theme-gray-3);
+            background: var(--c--gray-25);
+            border-bottom: 1px solid var(--c--gray-100);
+            border-top: 1px solid var(--c--gray-100);
+            color: var(--c--gray-500);
         }
 
         & td {
-            border-right: 1px solid var(--c--theme-gray-1);
+            border-right: 1px solid var(--c--gray-100);
         }
     }
 }
@@ -86,7 +86,7 @@ table {
 }
 
 thead {
-    border-bottom: 1px solid var(--c--theme-gray-2);
+    border-bottom: 1px solid var(--c--gray-100);
 }
 
 td,
@@ -96,7 +96,7 @@ th {
 
 th {
     padding: 0.13rem 0.25rem;
-    color: var(--c--theme-gray-3);
+    color: var(--c--gray-700);
     font-weight: var(--t--weight-normal);
 }
 
@@ -115,7 +115,7 @@ td {
 }
 
 .table--group-header {
-    border-bottom: 1px solid var(--c--theme-gray-2);
+    border-bottom: 1px solid var(--c--gray-100);
 }
 
 @media (max-width: 1024px) {
@@ -131,7 +131,7 @@ td {
 
         & tr {
             display: block;
-            border-bottom: 1px solid var(--c--theme-gray-2);
+            border-bottom: 1px solid var(--c--gray-100);
             margin-bottom: 0.5em;
             padding-bottom: 0.5em;
         }
@@ -149,7 +149,7 @@ td {
         & td::before {
             content: attr(data-label);
             float: left;
-            color: var(--c--theme-gray-3);
+            color: var(--c--gray-500);
         }
 
         &.table--bordered {
@@ -164,21 +164,21 @@ td {
             }
 
             & .table--group-end:not(:last-child) {
-                border-bottom: 1px solid var(--c--theme-gray-1);
+                border-bottom: 1px solid var(--c--gray-100);
             }
 
             & tr {
                 margin-bottom: 0;
                 padding-bottom: 0;
-                border-right: 1px solid var(--c--theme-gray-2);
-                border-left: 1px solid var(--c--theme-gray-2);
+                border-right: 1px solid var(--c--gray-100);
+                border-left: 1px solid var(--c--gray-100);
             }
 
             & th {
                 border-left: 0;
                 border-top: 0;
                 border-right: 0;
-                border-bottom: 1px solid var(--c--theme-gray-2);
+                border-bottom: 1px solid var(--c--gray-100);
             }
 
             & tbody {
@@ -188,12 +188,12 @@ td {
                 }
 
                 & tr:first-child {
-                    border-top: 1px solid var(--c--theme-gray-2);
+                    border-top: 1px solid var(--c--gray-100);
                 }
             }
 
             & tfoot {
-                border-bottom: 1px solid var(--c--theme-gray-2);
+                border-bottom: 1px solid var(--c--gray-100);
 
                 & td {
                     border: none;

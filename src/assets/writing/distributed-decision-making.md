@@ -21,12 +21,12 @@ tags: [work]
 Neil Armstrong was the commander of Apollo 11, responsible for making decisions aboard the lunar lander. During the landing, He and Buzz Aldrin (who was piloting the lander) were in direct communication with the Capsule Communicator in Houston, Charles Duke. When the alarm appeared, Armstrong and Aldrin nervously called out to Duke[^1]:
 
 <div class="t--family-mono">
-<span class="t--size-s c--gray">(06:38:26)</span> Armstrong: PROGRAM ALARM.<br/>
-<span class="t--size-s c--gray">(06:38:30)</span> Armstrong: It's a 1202.<br/>
-<span class="t--size-s c--gray">(06:38:32)</span> Aldrin: 1202.<br/>
-<span class="t--size-s c--gray">(06:38:48)</span> Armstrong: Give us a reading on the 1202 program alarm.<br/>
-<span class="t--size-s c--gray">(06:38:53)</span> Duke: Roger. We got - We're GO on that alarm<br/>
-<span class="t--size-s c--gray">(06:38:59)</span> Armstrong: Roger.<br/>
+<span class="t--size-s c--gray-500">(06:38:26)</span> Armstrong: PROGRAM ALARM.<br/>
+<span class="t--size-s c--gray-500">(06:38:30)</span> Armstrong: It's a 1202.<br/>
+<span class="t--size-s c--gray-500">(06:38:32)</span> Aldrin: 1202.<br/>
+<span class="t--size-s c--gray-500">(06:38:48)</span> Armstrong: Give us a reading on the 1202 program alarm.<br/>
+<span class="t--size-s c--gray-500">(06:38:53)</span> Duke: Roger. We got - We're GO on that alarm<br/>
+<span class="t--size-s c--gray-500">(06:38:59)</span> Armstrong: Roger.<br/>
 </div>
 
 Duke's call of "we're go" was a blessing to continue with the mission. But Duke didn't make that decision himself. Neither did the flight director for Apollo 11, Gene Krantz. Neither did Steve Bales, the man in the control room responsible for the guidance computer. The decision to either continue or abort passed quickly down the chain of command, from Duke to Krantz to Bales, and finally to Jack Garman, a 23-year-old NASA computer engineer.

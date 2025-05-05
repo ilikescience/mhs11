@@ -10,7 +10,7 @@
 .project figcaption {
     padding-top: 0.5em;
     font-size: var(--t--size-s);
-    color: var(--c--theme-gray-3);
+    color: var(--c--gray-500);
 }
 
 .project figure * + * {

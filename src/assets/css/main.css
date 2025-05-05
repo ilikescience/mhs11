@@ -18,6 +18,9 @@
 @import 'components/youtube.css';
 @import 'components/tweet.css';
 @import 'components/gallery.css';
+@import 'components/linkArrow.css';
+@import 'components/stub.css';
+@import 'components/sectionHeader.css';
 @import 'pages/intuition.css';
 @import 'pages/project.css';
 @import 'pages/index.css';

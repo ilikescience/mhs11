@@ -30,5 +30,5 @@ mjx-container mjx-assistive-mml {
 
 figure figcaption {
     margin-top: 0.5em;
-    color: var(--c--theme-gray-3);
+    color: var(--c--gray-500);
 }

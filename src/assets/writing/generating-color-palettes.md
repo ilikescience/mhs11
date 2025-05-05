@@ -5,6 +5,8 @@ date: 2024-04-20
 og:
     title: How to generate color palettes for design systems
     description: A guide on how to generate color palettes for design systems
+
+stub: Color palettes are one of the most fundamental aspects of design systems. How can we make them more flexible, scalable, and accessible?
 ---
 
 It used to be easy to pick colors for design systems. Years ago, you could pick a handful of colors to match your brand's ethos, or start with an off-the-shelf palette (remember flatuicolors.com?). Each hue and shade served a purpose, and usually had a quirky name like "idea yellow" or "innovation blue". This hands-on approach allowed for control and creativity, resulting in color schemes that could convey any mood or style.
@@ -590,7 +592,7 @@ A color with a Y value of 0.18 will have the particular quality of passing WCAG 
 Using this equation for our color system, we can now get both dark mode and light mode colors, calculated automatically based on the background color we choose.
 
 <figure>
-<h4 class="t--family-sans t--weight-bold t--size-m c--gray-5">The color palette calculated with a background color of #000000 (Y<sub>b</sub> = 0)</h4>
+<h4 class="t--family-sans t--weight-bold t--size-m c--gray-700">The color palette calculated with a background color of #000000 (Y<sub>b</sub> = 0)</h4>
 <table class="table--responsive l--mar-top-none">
   <thead>
     <tr>
@@ -935,7 +937,7 @@ Second, I’d like to extend this approach to work in wide-gamut color spaces li
 
 Ultimately, however, the approach outlined in this essay should be a solid basis for generating colors for any design system. No matter how many hues you need, how expressive you’d like to be, how many shades your system consists of, or what kinds of themes you design, the set of functions I’ve covered will provide accessible color combinations.
 
-<span class="t--style-italic c--gray-3">Special thanks to [Dmitry Belyaev](https://twitter.com/blvdmitry) for providing feedback on a draft of this essay.</span>
+<span class="t--style-italic c--gray-500">Special thanks to [Dmitry Belyaev](https://twitter.com/blvdmitry) for providing feedback on a draft of this essay.</span>
 
 [^1]: (70, -15) is the coordinate for pink in lab colors space.
 

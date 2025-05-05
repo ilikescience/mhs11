@@ -71,19 +71,19 @@ Here are those options laid out in a table game theorists call a “payoff matri
     <tr>
         <td></td>
         <td></td>
-        <th class="t--align-center c--bg-gray-1 l--border-right-width-s l--border-right-style-solid c--border-right-gray-2">Stay silent</th>
-        <th class="t--align-center c--bg-gray-1">Blame A</th>
+        <th class="t--align-center c--bg-gray-25 l--border-right-width-s l--border-right-style-solid c--border-right-gray-50">Stay silent</th>
+        <th class="t--align-center c--bg-gray-25">Blame A</th>
     </tr>
     <tr>
         <th rowspan="2" class="t--align-right"><strong>A’s strategy</strong></th>
-        <th class="t--align-center c--bg-gray-1 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">Stay silent</th>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">-1, -1</td>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">-3, 0</td>
+        <th class="t--align-center c--bg-gray-25 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-50">Stay silent</th>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">-1, -1</td>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">-3, 0</td>
     </tr>
     <tr>
-        <th class="t--align-center c--bg-gray-1">Blame B</th>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">0, -3</td>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">-2, -2</td>
+        <th class="t--align-center c--bg-gray-25">Blame B</th>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">0, -3</td>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">-2, -2</td>
     </tr>
 </table>
 <figcaption>
@@ -121,19 +121,19 @@ Axelrod set the payoffs as follows. Following a game theory convention, staying 
     <tr>
         <td></td>
         <td></td>
-        <th class="t--align-center c--bg-gray-1 l--border-right-width-s l--border-right-style-solid c--border-right-gray-2">Stay silent</th>
-        <th class="t--align-center c--bg-gray-1">Blame A</th>
+        <th class="t--align-center c--bg-gray-25 l--border-right-width-s l--border-right-style-solid c--border-right-gray-50">Stay silent</th>
+        <th class="t--align-center c--bg-gray-25">Blame A</th>
     </tr>
     <tr>
         <th rowspan="2" class="t--align-right"><strong>A’s strategy</strong></th>
-        <th class="t--align-center c--bg-gray-1 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">Stay silent</th>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">3, 3</td>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">0, 5</td>
+        <th class="t--align-center c--bg-gray-25 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-50">Stay silent</th>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">3, 3</td>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">0, 5</td>
     </tr>
     <tr>
-        <th class="t--align-center c--bg-gray-1">Blame B</th>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">5, 0</td>
-        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">1, 1</td>
+        <th class="t--align-center c--bg-gray-25">Blame B</th>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">5, 0</td>
+        <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">1, 1</td>
     </tr>
 </table>
 <figcaption>
@@ -190,28 +190,28 @@ Here are the results of a 100-round tournament between “always cooperate,” �
         <tr>
             <td></td>
             <td></td>
-            <th class="t--align-center c--bg-gray-1 l--border-right-width-s l--border-right-style-solid c--border-right-gray-2">Always cooperate</th>
-            <th class="t--align-center c--bg-gray-1 l--border-right-width-s l--border-right-style-solid c--border-right-gray-2">Tit for tat</th>
-            <th class="t--align-center c--bg-gray-1">Always defect</th>
+            <th class="t--align-center c--bg-gray-25 l--border-right-width-s l--border-right-style-solid c--border-right-gray-50">Always cooperate</th>
+            <th class="t--align-center c--bg-gray-25 l--border-right-width-s l--border-right-style-solid c--border-right-gray-50">Tit for tat</th>
+            <th class="t--align-center c--bg-gray-25">Always defect</th>
         </tr>
         <tr>
             <th rowspan="3" class="t--align-right"><strong>A’s strategy</strong></th>
-            <th class="t--align-center c--bg-gray-1 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">Always cooperate</th>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">0, 500</td>
+            <th class="t--align-center c--bg-gray-25 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-50">Always cooperate</th>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">0, 500</td>
         </tr>
         <tr>
-            <th class="t--align-center c--bg-gray-1 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">Always Tit for tat</th>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">99, 104</td>
+            <th class="t--align-center c--bg-gray-25 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-50">Always Tit for tat</th>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">99, 104</td>
         </tr>
         <tr>
-            <th class="t--align-center c--bg-gray-1">Always defect</th>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">500, 0</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">104, 99</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">100, 100</td>
+            <th class="t--align-center c--bg-gray-25">Always defect</th>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">500, 0</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">104, 99</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">100, 100</td>
         </tr>
     </table>
 </figure>
@@ -251,39 +251,39 @@ Here’s the outcomes of 100 games with Axelrod’s payoff matrix:[^7]
         <tr>
             <td></td>
             <td></td>
-            <th class="t--align-center c--bg-gray-1 l--border-right-width-s l--border-right-style-solid c--border-right-gray-2">Grim</td>
-            <th class="t--align-center c--bg-gray-1 l--border-right-width-s l--border-right-style-solid c--border-right-gray-2">Bully</td>
-            <th class="t--align-center c--bg-gray-1 l--border-right-width-s l--border-right-style-solid c--border-right-gray-2">Prober</td>
-            <th class="t--align-center c--bg-gray-1">Tit for tat</td>
+            <th class="t--align-center c--bg-gray-25 l--border-right-width-s l--border-right-style-solid c--border-right-gray-50">Grim</td>
+            <th class="t--align-center c--bg-gray-25 l--border-right-width-s l--border-right-style-solid c--border-right-gray-50">Bully</td>
+            <th class="t--align-center c--bg-gray-25 l--border-right-width-s l--border-right-style-solid c--border-right-gray-50">Prober</td>
+            <th class="t--align-center c--bg-gray-25">Tit for tat</td>
         </tr>
         <tr>
             <th rowspan="4" class="t--align-right"><strong>A’s strategy</strong></th>
-            <th class="t--align-center c--bg-gray-1 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">Grim</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">103, 103</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">107, 112</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
+            <th class="t--align-center c--bg-gray-25 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-50">Grim</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">103, 103</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">107, 112</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
         </tr>
         <tr>
-            <th class="t--align-center c--bg-gray-1 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">Bully</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">103, 103</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">100, 100</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">250, 250</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">250, 250</td>
+            <th class="t--align-center c--bg-gray-25 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-50">Bully</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">103, 103</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">100, 100</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">250, 250</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">250, 250</td>
         </tr>
         <tr>
-            <th class="t--align-center c--bg-gray-1 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-2">Prober</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">112, 107</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">250, 250</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">108, 108</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">112, 107</td>
+            <th class="t--align-center c--bg-gray-25 l--border-btm-width-s l--border-btm-style-solid c--border-btm-gray-50">Prober</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">112, 107</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">250, 250</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">108, 108</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">112, 107</td>
         </tr>
         <tr>
-            <th class="t--align-center c--bg-gray-1">Tit for Tat</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">250, 250</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">107, 112</td>
-            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-2">300, 300</td>
+            <th class="t--align-center c--bg-gray-25">Tit for Tat</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">250, 250</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">107, 112</td>
+            <td class="t--align-center l--border-width-s l--border-style-solid c--border-gray-50">300, 300</td>
         </tr>
     </table>
 </figure>

@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
         </div>
     {% endif %}
     <div class="post l--grid-narrow l--mar-top-none index--item">
-        <span class="c--gray l--mar-right-s t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</span>
+        <span class="c--gray-500 l--mar-right-s t--numbers-tabular">{{ post.date | date('MM/DD/YY') }}</span>
         <a class="index--title t--family-serif" href="{{ post.url }}">{{ post.data.title }}</a>
     </div>
 {% endfor %}

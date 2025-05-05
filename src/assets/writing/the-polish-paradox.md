@@ -5,6 +5,7 @@ date: 2024-04-28
 og:
   title: The polish paradox
   description: The more you polish, the less you see
+stub: We like to talk about polish in design, but what does it mean? Is it just a fancy word for quality? Or is there something deeper at play?
 ---
 
 Polish is a word that gets thrown out in conversations about craft, quality, and beauty. We talk about it at the end of the design process, before the work goes out the door: let's polish this up. Let's do a polish sprint. Could this use more polish?

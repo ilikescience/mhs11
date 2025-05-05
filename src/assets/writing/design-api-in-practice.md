@@ -12,7 +12,7 @@ tags: [design]
 
 ![](/images/design-api-5.jpg)
 
-<div class="c--bg-highlight-1 l--pad-s l--rounded-corners">
+<div class="c--bg-yellow-25 l--pad-s l--rounded-corners">
 <strong>Update 6/12/22:</strong> The links to the implmentation of the API are currently broken. I'm updating some dependencies to make it work again.
 </div>
 
@@ -22,7 +22,7 @@ Since then, I’ve had lots of conversations (and [one podcast](https://www.digi
 
 So I built one. It’s up and running at [https://matthewstrom.com/api](https://matthewstrom.com/api). It’s very rudimentary, but it makes an excellent proof of concept. In this essay I’ll describe how it works, how I built it, and what it can (and can’t yet) do.
 
-<div class="c--bg-gray-1 l--pad-s l--rounded-corners-l">
+<div class="c--bg-gray-25 l--pad-s l--rounded-corners-l">
 <strong>Heads up:</strong> This essay is more technical than usual; some terms may be unfamiliar. The first time a technical term appears, I'll use <a class="definition--link">dotted underline</a> to link to a definition. A full glossary appears at the bottom.
 </div>
 

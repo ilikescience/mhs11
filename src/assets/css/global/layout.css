@@ -1,12 +1,12 @@
 :root {
     /* Grid configuration */
-    --l--grid-width-narrow: 35rem;
+    --l--grid-width-narrow: 40rem;
     --l--grid-width-wide: 60rem;
 
     /* Border radius */
-    --l--border-radius-s: 0.5rem;
-    --l--border-radius: 1rem;
-    --l--border-radius-l: 2rem;
+    --l--border-radius-s: 0.25rem;
+    --l--border-radius: 0.5rem;
+    --l--border-radius-l: 1rem;
 
     /* Z indexes */
     --l--z-lowest: -9999;
@@ -19,7 +19,7 @@
 
     /* Spacing definitions */
     --l--space-l: 5rem;
-    --l--space-m: 2.75rem;
+    --l--space-m: 2.25rem;
     --l--space-s: 1rem;
     --l--space-xs: 0.5rem;
 }
@@ -34,8 +34,12 @@ body * + * {
     margin-top: var(--l--space-s);
 }
 
+.l--space-loose * + * {
+    margin-top: var(--l--space-m);
+}
+
 .l--space-compact * + * {
-    margin-top: calc(var(--l--space-s) / 2);
+    margin-top: calc(var(--l--space-xs));
 }
 
 .l--space-flush * + * {
@@ -232,7 +236,7 @@ table * + * {
 
 hr {
     margin: var(--l--space-m);
-    border-color: var(--c--theme-gray-2);
+    border-color: var(--c--gray-50);
 }
 
 .l--rounded-corners {

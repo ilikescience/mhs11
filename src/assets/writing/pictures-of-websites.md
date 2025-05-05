@@ -19,7 +19,7 @@ A scene from the 2001 movie _Zoolander_[^1]:
 
 .screenplay {
     padding: 2rem 1rem;
-    background: var(--c--theme-gray-1);
+    background: var(--c--gray-25);
     border-radius: var(--l--border-radius-l);
 }
 

@@ -4,7 +4,7 @@
         {% if prevPost.url %}
             <p class="ctr">
             <strong>Older</strong>:
-            <div class="c--gray t--family-sans">{{ prevPost.data.date | date: '%B %d, %Y' }}</div>
+            <div class="c--gray-500 t--family-sans">{{ prevPost.data.date | date: '%B %d, %Y' }}</div>
             <h3 class="t--weight-normal l--mar-top-none"><a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a></h3>
             </p>
         {% endif %}
@@ -12,7 +12,7 @@
     <div class="l--flex-auto l--space-compact t--align-right">
         {% if nextPost.url %}
             <strong>Newer</strong>: 
-            <div class="c--gray t--family-sans">{{ nextPost.data.date | date: '%B %d, %Y' }}</div>
+            <div class="c--gray-500 t--family-sans">{{ nextPost.data.date | date: '%B %d, %Y' }}</div>
             <h3 class="t--weight-normal l--mar-top-none"><a class="previous" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></h3>
             </p>
         {% endif %}

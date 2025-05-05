@@ -5,6 +5,8 @@ date: 2024-05-20
 og:
   title: UI Density
   subtitle: What UI density means and how to design for it
+stub: UI density is more than just the way things look; it's about the information they convey and how much value they generate.
+
 ---
 
 Interfaces are becoming less dense.
@@ -195,12 +197,12 @@ Solving this optimization problem can have some counterintuitive results. When t
 
 <figure class="l--grid-wide">
     <div class="l--flex">
-        <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-1" src="/images/ui-density-12.jpg" alt="A screenshot of Google's homepage in 2001"/></div>
-        <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-1" src="/images/ui-density-13.jpg" alt="A screenshot of Yahoo's homepage in 2001"/></div>
+        <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-50" src="/images/ui-density-12.jpg" alt="A screenshot of Google's homepage in 2001"/></div>
+        <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-50" src="/images/ui-density-13.jpg" alt="A screenshot of Yahoo's homepage in 2001"/></div>
     </div>
     <div class="l--flex">
-         <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-1" src="/images/ui-density-14.jpg" alt="A screenshot of Google's homepage in 2024"/></div>
-        <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-1" src="/images/ui-density-15.jpg" alt="A screenshot of Yahoo's homepage in 2024"/></div>
+         <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-50" src="/images/ui-density-14.jpg" alt="A screenshot of Google's homepage in 2024"/></div>
+        <div class="l--flex-auto"><img class="l--border-style-solid l--border-width-s c--border-gray-50" src="/images/ui-density-15.jpg" alt="A screenshot of Yahoo's homepage in 2024"/></div>
     </div>
     <figcaption>Google and Yahoo's approach to data, design, and value density hasn't changed from 2001 (when the first screenshots were archived) to 2024 (when the second set of screenshots were taken). The value of the two companies' stocks reflect the result of these differing approaches.</figcaption>
     </figcaption>

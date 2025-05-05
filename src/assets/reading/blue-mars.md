@@ -5,7 +5,7 @@ date: 2022-11-01
 cover: /images/book-blue-mars.jpg
 ---
 
-<div class="c--bg-highlight-1 l--pad-s l--rounded-corners">
+<div class="c--bg-yellow-25 l--pad-s l--rounded-corners">
 
 This review is for the _Mars_ trilogy, which includes _[Red Mars](/reading/red-mars),_ _[Green Mars](/reading/green-mars),_ and _[Blue Mars](/reading/green-mars)_.
 

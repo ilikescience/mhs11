@@ -1,10 +1,20 @@
 .button {
     display: inline-block;
-    padding: 0.75em 1em;
+    padding: 0.25em 0.75em;
     border-radius: var(--l--border-radius-s);
+    font-size: var(--t--size-s);
+    font-weight: var(--t--weight-medium);
 }
 
 .button--primary {
-    background: var(--c--theme-primary);
-    color: var(--c--theme-bg);
+    background: var(--c--blue-500);
+    color: var(--c--pure-white);
+    transition: background 100ms ease-out;
+    &:hover {
+        background: var(--c--blue-600);
+        transition: background 50ms ease-out;
+    }
+    &:active {
+        background: var(--c--blue-700);
+    }
 }

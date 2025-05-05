@@ -1,0 +1,48 @@
+.stub {
+  display: block;
+  text-decoration: none;
+}
+
+.stub--title,
+.stub--date {
+  display: inline-block;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+.stub--header {
+  display: flex;
+  gap: var(--l--space-xs);
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.stub--title {
+  margin: 0;
+  font-size: var(--t--size-m);
+  font-weight: var(--t--weight-medium);
+}
+
+.stub--date {
+  color: var(--c--gray-500);
+  font-weight: var(--t--weight-normal);
+  font-size: var(--t--size-s);
+  white-space: nowrap;
+}
+
+.stub--content {
+  color: var(--c--gray-500);
+  margin-top: var(--l--space-xs);
+  line-height: var(--t--leading-tight);
+}
+
+a:hover .stub--title {
+  color: var(--c--blue-500);
+}
+
+@media (--l--breakpoint-s) {
+  .stub--header {
+    flex-direction: column;
+    gap: 0;
+  }
+}

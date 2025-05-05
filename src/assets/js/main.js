@@ -20,7 +20,7 @@ const processForm = form => {
         body: data,
     })
         .then(() => {
-            form.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`;
+            form.innerHTML = `<div class="form--success">Thanks! Check your inbox for a confirmation e-mail.</div>`;
             
         })
         .catch(error => {

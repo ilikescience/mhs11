@@ -240,6 +240,15 @@ module.exports = function (eleventyConfig) {
     }
     );
 
+    eleventyConfig.addShortcode("linkArrow", function() {
+        return `<svg class="linkArrow" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+                    <g fill-rule="evenodd">
+                        <path class="linkArrow--line" d="M0 5h7"></path>
+                        <path class="linkArrow--tip" d="M1 1l4 4-4 4"></path>
+                    </g>
+                </svg>`;
+    });
+
     return {
         dir: dirs,
         pathPrefix: '/',

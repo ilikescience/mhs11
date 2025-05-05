@@ -3,8 +3,8 @@ layout: layouts/default.html
 ---
 
 <header class="l--grid-narrow">
-    <div class="l--mar-block-m l--space-compact">
-        <h1 class="t--weight-bold t--size-xl t--tracking-tight l--mar-top-l">
+    <div class="l--mar-top-none l--mar-btm-m l--space-compact">
+        <h1 class="t--family-sans t--weight-medium t--size-xl t--tracking-tight">
             {{ title }}
         </h1>
         {% if subtitle %}
@@ -12,7 +12,7 @@ layout: layouts/default.html
                 {{ subtitle }}
             </h2>
         {% endif %}
-        <p class="c--gray l--mar-top-xs t--size-s">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
+        <p class="c--gray-500 t--size-s">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
 {%if hero %}

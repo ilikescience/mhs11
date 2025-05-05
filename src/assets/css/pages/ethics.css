@@ -15,27 +15,27 @@
 
 .ethics--link-upcoming .ethics--toc-title {
     border-bottom: none;
-    color: var(--c--theme-gray-3);
+    color: var(--c--gray-500);
 }
 
 .ethics--link-upcoming .ethics--toc-numeral {
-    color: var(--c--theme-gray-2);
+    color: var(--c--gray-200);
 }
 
 .ethics--toc-title {
-    border-bottom: 1px solid var(--c--theme-gray-2);
+    border-bottom: 1px solid var(--c--gray-200);
 }
 
 .ethics--toc-numeral {
     display: inline-block;
     width: 1.5rem;
     text-decoration: none;
-    color: var(--c--theme-gray-3);
+    color: var(--c--gray-500);
 }
 
 .ethics--byline {
     margin-top: 0.5rem;
-    color: var(--c--theme-gray-3);
+    color: var(--c--gray-500);
 }
 
 .ethics--container {
@@ -69,15 +69,15 @@
     display: inline-block;
     padding: 0.25rem 0.5rem;
     font-size: var(--t--size-s);
-    background-color: var(--c--theme-gray-1);
-    color: var(--c--theme-gray-3);
+    background-color: var(--c--gray-25);
+    color: var(--c--gray-500);
     border-radius: 3px;
 }
 
 .ethics--part span {
     display: inline-block;
     text-transform: uppercase;
-    color: var(--c--theme-gray-3);
+    color: var(--c--gray-500);
 }
 
 .ethics--intro p {

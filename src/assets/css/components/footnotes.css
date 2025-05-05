@@ -14,12 +14,12 @@ sup {
 .footnote-backref {
     margin: 0 0.1rem;
     text-decoration: none;
-    color: var(--c--theme-gray);
+    color: var(--c--gray-500);
 }
 
 .footnote-ref a:hover {
-    color: var(--c--theme-gray-3);
-    border-bottom: 1px solid var(--c--theme-gray-3);
+    color: var(--c--gray-500);
+    border-bottom: 1px solid var(--c--gray-500);
 }
 
 .footnotes p,
@@ -31,7 +31,7 @@ sup {
 }
 
 .footnotes {
-    color: var(--c--theme-gray-4);
+    color: var(--c--gray-700);
 
     & a {
         word-break: break-all;
@@ -45,7 +45,8 @@ sup {
     & li {
         padding-left: var(--l--space-xs);
         &:target {
-            background-color: var(--c--theme-primary-1);
+            background-color: var(--c--yellow-25);
+            border-radius: var(--l--border-radius-s);
         }
     }
 }
