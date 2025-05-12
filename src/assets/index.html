@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
     </div>
     {% assign posts = collections.writing | reverse %}
     {% for post in posts limit: 4 %}
-      {% stub post, true %}
+      {% stub post, true, true %}
     {% endfor %}
     {%- include "components/email.html" -%}
 </div>

@@ -27,32 +27,12 @@ input:focus {
 }
 
 label {
-    position: absolute;
-    bottom: 1.25em;
-    left: 0;
-    margin-top: 0;
     color: var(--c--gray-600);
     font-size: var(--t--size-s);
-    line-height: 1;
-    transition: opacity 100ms ease-out;
-}
-
-input:placeholder-shown + label {
-    cursor: text;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transform: translate(0.75em, 0.5em);
 }
 
 ::placeholder {
-    opacity: 0;
-    transition: opacity 100ms ease-out;
     color: var(--c--gray-300);
-}
-
-input:focus::placeholder {
-    opacity: 1;
 }
 
 input:not(:placeholder-shown) + label,

@@ -1,6 +1,6 @@
 .button {
     display: inline-block;
-    padding: 0.25em 0.75em;
+    padding: 0.25em 1em;
     border-radius: var(--l--border-radius-s);
     font-size: var(--t--size-s);
     font-weight: var(--t--weight-medium);
