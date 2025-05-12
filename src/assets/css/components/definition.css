@@ -4,7 +4,7 @@
 
 .definition--link:hover {
     color: currentColor;
-    background: var(--c--theme-highlight-2);
+    background: var(--c--yellow-100);
 }
 
 .definition--list * + * {
@@ -15,7 +15,7 @@
     padding: 0.25em 0.5em;
     margin-left: -0.5em;
     margin-right: -0.5em;
-    background-color: var(--c--theme-highlight-1);
+    background-color: var(--c--yellow-25);
     border-radius: 4px;
 }
 

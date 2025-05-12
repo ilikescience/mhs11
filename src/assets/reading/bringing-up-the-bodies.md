@@ -4,7 +4,7 @@ author: Hilary Mantel
 date: 2022-07-16
 cover: /images/book-bringing-up-the-bodies.jpg
 ---
-<div class="c--bg-highlight-1 l--pad-s l--rounded-corners">
+<div class="c--bg-yellow-25 l--pad-s l--rounded-corners">
 
 This review is for the Wolf Hall Trilogy, which includes _[Wolf Hall](/reading/wolf-hall),_ _[Bringing Up the Bodies](/reading/bringing-up-the-bodies),_ and _[The Mirror & the Light](/reading/the-mirror-and-the-light)_.
 

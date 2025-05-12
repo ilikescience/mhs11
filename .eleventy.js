@@ -1,247 +1,305 @@
 'use strict';
-
-const glob = require('fast-glob');
-const path = require('path');
-
 /**
  * The @11ty/eleventy configuration.
  *
  * For a full list of options, see: https://www.11ty.io/docs/config/
  */
 module.exports = function (eleventyConfig) {
-    const dirs = {
-        input: 'src/assets/',
-        data: `../data/`,
-        includes: `../_includes/`,
+  const dirs = {
+    input: 'src/assets/',
+    data: `../data/`,
+    includes: `../_includes/`,
+  };
+
+  // markdown config
+  const markdownIt = require('markdown-it');
+  const markdownItFootnote = require('markdown-it-footnote');
+  const markdownItImplicitFigures = require('markdown-it-implicit-figures');
+  const markdownItLinkAttributes = require('markdown-it-link-attributes');
+  const markdownItAnchor = require('markdown-it-anchor');
+  const markdownItToc = require('markdown-it-toc-done-right');
+  const pluginRss = require('@11ty/eleventy-plugin-rss');
+  const dateFilter = require('nunjucks-date-filter');
+  const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+  const { parse } = require('node-html-parser');
+  const Image = require('@11ty/eleventy-img');
+  const mathjaxPlugin = require('eleventy-plugin-mathjax');
+  const embedTwitter = require('eleventy-plugin-embed-twitter');
+
+  const lazyImages = function lazyImages(eleventyConfig, userOptions = {}) {
+    const options = {
+      name: 'lazy-images',
+      ...userOptions,
     };
 
-    // markdown config
-    const markdownIt = require('markdown-it');
-    const markdownItFootnote = require('markdown-it-footnote');
-    const markdownItImplicitFigures = require('markdown-it-implicit-figures');
-    const markdownItLinkAttributes = require('markdown-it-link-attributes');
-    const markdownItAnchor = require('markdown-it-anchor');
-    const markdownItToc = require('markdown-it-toc-done-right');
-    const pluginRss = require('@11ty/eleventy-plugin-rss');
-    const dateFilter = require('nunjucks-date-filter');
-    const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-    const { parse } = require('node-html-parser');
-    const Image = require("@11ty/eleventy-img");
-    const mathjaxPlugin = require("eleventy-plugin-mathjax");
-    const embedTwitter = require("eleventy-plugin-embed-twitter");
-    
-    const lazyImages = function lazyImages(eleventyConfig, userOptions = {}) {
-        const options = {
-            name: 'lazy-images',
-            ...userOptions,
-        };
+    eleventyConfig.addTransform(options.extensions, (content, outputPath) => {
+      if (outputPath.endsWith('.html')) {
+        const root = parse(content);
+        const images = root.querySelectorAll('img');
+        images.forEach((img) => {
+          img.setAttribute('loading', 'lazy');
+        });
+        return root.toString();
+      }
+      return content;
+    });
+  };
 
-        eleventyConfig.addTransform(
-            options.extensions,
-            (content, outputPath) => {
-                if (outputPath.endsWith('.html')) {
-                    const root = parse(content);
-                    const images = root.querySelectorAll('img');
-                    images.forEach((img) => {
-                        img.setAttribute('loading', 'lazy');
-                    });
-                    return root.toString();
-                }
-                return content;
-            }
-        );
+  const saveOgImage = async (url) => {
+    const options = {
+      widths: [1200],
+      outputDir: 'dist/images/og/',
     };
+    let metadata = await Image(url, options);
+    return metadata.jpeg[0].outputPath;
+  };
 
-    const saveOgImage = async (url) => {
-        const options = {
-            widths: [1200],
-            outputDir: "dist/images/og/",
+  const saveOgImages = async function setOgImages() {
+    eleventyConfig.addTransform(
+      'save-og-images',
+      async (content, outputPath) => {
+        if (outputPath.endsWith('.html')) {
+          const root = parse(content);
+          const ogImage = root.querySelector('meta[property="og:image"]');
+          const twitterImage = root.querySelector(
+            'meta[property="twitter:image"]'
+          );
+          const ogURL = ogImage
+            ? new URL(ogImage.getAttribute('content'))
+            : undefined;
+          if (ogURL && ogURL.pathname.includes('/og/')) {
+            let newURL = await saveOgImage(ogURL.href);
+            newURL = newURL.replace('dist/', '');
+            ogImage.setAttribute(
+              'content',
+              `https://matthewstrom.com/${newURL}`
+            );
+            twitterImage.setAttribute(
+              'content',
+              `https://matthewstrom.com/${newURL}`
+            );
           }
-        let metadata = await Image(url, options);
-        return metadata.jpeg[0].outputPath;
+          return root.toString();
+        }
+        return content;
+      }
+    );
+  };
+
+  let mdOptions = {
+    html: true,
+    typographer: true,
+  };
+  let mdLib = markdownIt(mdOptions)
+    .use(markdownItFootnote)
+    .use(markdownItImplicitFigures, {
+      dataType: true,
+      figcaption: true,
+    })
+    .use(markdownItLinkAttributes, {
+      attrs: {
+        target: '_blank',
+        rel: 'noopener',
+      },
+    })
+    .use(markdownItAnchor)
+    .use(markdownItToc);
+
+  // set footnote renderer content
+  mdLib.renderer.rules.footnote_caption = (tokens, idx) => {
+    var n = Number(tokens[idx].meta.id + 1).toString();
+
+    if (tokens[idx].meta.subId > 0) {
+      n += ':' + tokens[idx].meta.subId;
+    }
+
+    return n;
+  };
+
+  mdLib.renderer.rules.footnote_block_open = (
+    tokens,
+    idx,
+    options
+  ) => `<section class="footnotes">
+<div class="sectionHeader">
+<div class="sectionHeader--name">Footnotes & References</div>
+<div class="sectionHeader--divider"></div>
+</div>
+<ol class="footnotes-list">`;
+
+  eleventyConfig.setLibrary('md', mdLib);
+
+  // pass through static assets
+  eleventyConfig.addPassthroughCopy('src/assets/images');
+  eleventyConfig.addPassthroughCopy('src/assets/fonts');
+  eleventyConfig.addPassthroughCopy('src/assets/js');
+  eleventyConfig.addPassthroughCopy('src/assets/favicon.ico');
+  eleventyConfig.addPassthroughCopy('src/assets/favicon.png');
+  eleventyConfig.addPassthroughCopy('src/assets/tokens');
+  eleventyConfig.addPassthroughCopy('src/_redirects');
+
+  eleventyConfig.addFilter('readingTime', function (text) {
+    const wordBound = (c) => {
+      return ' ' === c || '\n' === c || '\r' === c || '\t' === c;
     };
 
-    const saveOgImages = async function setOgImages() {
+    let start = 0,
+      end = text.length - 1,
+      words = 0;
 
-        eleventyConfig.addTransform(
-            'save-og-images',
-            async (content, outputPath) => {
-                if (outputPath.endsWith('.html')) {
-                    const root = parse(content);
-                    const ogImage = root.querySelector(
-                        'meta[property="og:image"]'
-                    );
-                    const twitterImage = root.querySelector(
-                        'meta[property="twitter:image"]'
-                    );
-                    const ogURL = ogImage
-                        ? new URL(ogImage.getAttribute('content'))
-                        : undefined;
-                    if (ogURL && ogURL.pathname.includes('/og/')) {
-                        let newURL = await saveOgImage(ogURL.href);
-                        newURL = newURL.replace('dist/', '');
-                        ogImage.setAttribute('content', `https://matthewstrom.com/${newURL}`);
-                        twitterImage.setAttribute('content', `https://matthewstrom.com/${newURL}`);
-                    }
-                    return root.toString();
-                }
-                return content;
-            }
-        );
-    };
+    while (wordBound(text[start])) start++;
+    while (wordBound(text[start])) end--;
 
+    for (let i = start; i <= end; ) {
+      for (; i <= end && !wordBound(text[i]); i++);
+      words++;
+      for (; i <= end && wordBound(text[i]); i++);
+    }
 
-    let mdOptions = {
-        html: true,
-        typographer: true,
-    };
-    let mdLib = markdownIt(mdOptions)
-        .use(markdownItFootnote)
-        .use(markdownItImplicitFigures, {
-            dataType: true,
-            figcaption: true,
-        })
-        .use(markdownItLinkAttributes, {
-            attrs: {
-                target: '_blank',
-                rel: 'noopener',
-            },
-        })
-        .use(markdownItAnchor)
-        .use(markdownItToc);
+    const minutes = words / 200;
 
-    // set footnote renderer content
-    mdLib.renderer.rules.footnote_caption = (tokens, idx) => {
-        var n = Number(tokens[idx].meta.id + 1).toString();
+    return Math.ceil(minutes.toFixed(2));
+  });
 
-        if (tokens[idx].meta.subId > 0) {
-            n += ':' + tokens[idx].meta.subId;
-        }
+  // year filter for posts
+  eleventyConfig.addFilter('year', function (date) {
+    const dateObj = new Date(date);
+    return dateObj.getFullYear();
+  });
 
-        return n;
-    };
+  eleventyConfig.addNunjucksFilter('date', dateFilter);
 
-    mdLib.renderer.rules.footnote_block_open = (tokens, idx, options) =>
-        '<hr/>\n' +
-        '<section class="footnotes l--space-compact">\n' +
-        '<div class="t--weight-bold l--pad-btm-s">Footnotes & References</div>\n' +
-        '<ol class="footnotes-list">\n';
+  // deep merge data
+  eleventyConfig.setDataDeepMerge(true);
 
-    eleventyConfig.setLibrary('md', mdLib);
+  // add rss plugins
+  eleventyConfig.addPlugin(pluginRss);
 
-    // pass through static assets
-    eleventyConfig.addPassthroughCopy('src/assets/images');
-    eleventyConfig.addPassthroughCopy('src/assets/fonts');
-    eleventyConfig.addPassthroughCopy('src/assets/js');
-    eleventyConfig.addPassthroughCopy('src/assets/favicon.ico');
-    eleventyConfig.addPassthroughCopy('src/assets/favicon.png');
-    eleventyConfig.addPassthroughCopy('src/assets/tokens');
-    eleventyConfig.addPassthroughCopy('src/_redirects');
+  // syntax highlighting
+  eleventyConfig.addPlugin(syntaxHighlight);
 
-    eleventyConfig.addFilter('readingTime', function (text) {
-        const wordBound = (c) => {
-            return ' ' === c || '\n' === c || '\r' === c || '\t' === c;
-        };
+  // lazy load images
+  eleventyConfig.addPlugin(lazyImages, {});
 
-        let start = 0,
-            end = text.length - 1,
-            words = 0;
+  // trigger for og images function
+  eleventyConfig.addPlugin(saveOgImages);
 
-        while (wordBound(text[start])) start++;
-        while (wordBound(text[start])) end--;
+  // mathjax plugin
+  eleventyConfig.addPlugin(mathjaxPlugin, {
+    tex: {
+      inlineMath: [['$$', '$$']],
+      displayMath: [['$$$', '$$$']],
+    },
+    svg: {
+      scale: 0.9,
+    },
+  });
 
-        for (let i = start; i <= end; ) {
-            for (; i <= end && !wordBound(text[i]); i++);
-            words++;
-            for (; i <= end && wordBound(text[i]); i++);
-        }
+  // twitter embed
+  eleventyConfig.addPlugin(embedTwitter, {
+    cacheText: true,
+  });
 
-        const minutes = words / 200;
+  // collection for next/prev posts
+  eleventyConfig.addCollection('writing', function (collection) {
+    const coll = collection.getFilteredByTag('writing');
 
-        return Math.ceil(minutes.toFixed(2));
-    });
+    for (let i = 0; i < coll.length; i++) {
+      const prevPost = coll[i - 1];
+      const nextPost = coll[i + 1];
 
-    // year filter for posts
-    eleventyConfig.addFilter('year', function (date) {
-        const dateObj = new Date(date);
-        return dateObj.getFullYear();
-    });
+      coll[i].data['prevPost'] = prevPost;
+      coll[i].data['nextPost'] = nextPost;
+    }
 
-    eleventyConfig.addNunjucksFilter('date', dateFilter);
+    return coll;
+  });
 
-    // deep merge data
-    eleventyConfig.setDataDeepMerge(true);
+  eleventyConfig.addShortcode('swatch', function (hex) {
+    return `<span class="swatch" style="background: ${hex}"></span> <span class="t--family-mono">${hex}</span>`;
+  });
 
-    // add rss plugins
-    eleventyConfig.addPlugin(pluginRss);
-
-    // syntax highlighting
-    eleventyConfig.addPlugin(syntaxHighlight);
-
-    // lazy load images
-    eleventyConfig.addPlugin(lazyImages, {});
-
-    // trigger for og images function
-    eleventyConfig.addPlugin(saveOgImages);
-
-    // mathjax plugin
-    eleventyConfig.addPlugin(mathjaxPlugin, {
-        tex: {
-            inlineMath: [
-              ["$$", "$$"],
-            ],
-            displayMath: [
-                ["$$$", "$$$"],
-            ]
-          },
-        svg: {
-            scale: 0.9,
-        }
-    });
-
-    // twitter embed
-    eleventyConfig.addPlugin(embedTwitter, {
-        cacheText: true,
-    });
-
-    // collection for next/prev posts
-    eleventyConfig.addCollection('writing', function (collection) {
-        const coll = collection.getFilteredByTag('writing');
-
-        for (let i = 0; i < coll.length; i++) {
-            const prevPost = coll[i - 1];
-            const nextPost = coll[i + 1];
-
-            coll[i].data['prevPost'] = prevPost;
-            coll[i].data['nextPost'] = nextPost;
-        }
-
-        return coll;
-    });
-
-    eleventyConfig.addShortcode("swatch", function(hex) {
-        return `<span class="swatch" style="background: ${hex}"></span> <span class="t--family-mono">${hex}</span>`;
-    });
-
-    eleventyConfig.addPairedShortcode("gallery", function(content) {
-        return `</article>
+  eleventyConfig.addPairedShortcode('gallery', function (content) {
+    return `</article>
             <div class="gallery">${content}</div>
         <article class="l--grid-narrow post">`;
-      });
+  });
 
-    eleventyConfig.addShortcode("image", async function(src, alt, caption, credit) {
-
-        return `<figure>
+  eleventyConfig.addShortcode(
+    'image',
+    async function (src, alt, caption, credit) {
+      return `<figure>
         <img src="${src}" alt="${alt}" loading="lazy"/>
         <figcaption>
-          ${caption} ${credit ? `<span class="figure--credit">${credit}</span>` : ''}
+          ${caption} ${
+        credit ? `<span class="figure--credit">${credit}</span>` : ''
+      }
         </figcaption>
         </figure>`;
     }
-    );
+  );
 
-    return {
-        dir: dirs,
-        pathPrefix: '/',
-    };
+  eleventyConfig.addShortcode('linkArrow', function () {
+    return `<svg class="linkArrow" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+                    <g fill-rule="evenodd">
+                        <path class="linkArrow--line" d="M0 5h7"></path>
+                        <path class="linkArrow--tip" d="M1 1l4 4-4 4"></path>
+                    </g>
+                </svg>`;
+  });
+
+  eleventyConfig.addShortcode(
+    'stub',
+    function (post, showExcerpt = true, showYear = false) {
+      const { DateTime } = require('luxon');
+      const date = showYear
+        ? DateTime.fromJSDate(post.date).toFormat('LLL dd, yyyy')
+        : DateTime.fromJSDate(post.date).toFormat('LLL dd');
+      const title = post.data.title;
+      const url = post.url;
+      const stub = post.data.stub;
+
+      return `<a class="stub unstyled" href="${url}">
+    <div class="stub--header">
+      <div class="stub--date">${date}</div>
+      <h2 class="stub--title">
+        ${title}
+        ${eleventyConfig.getShortcodes().linkArrow()}
+      </h2>
+    </div>
+    ${showExcerpt && stub ? `<div class="stub--content">${stub}</div>` : ''}
+  </a>`;
+    }
+  );
+
+const fs = require("fs");
+
+eleventyConfig.addTransform("injectEmailBeforeFootnotes", function (content, outputPath) {
+  if (outputPath && outputPath.endsWith(".html")) {
+    const emailPartial = fs.readFileSync("./src/_includes/components/email.html", "utf-8");
+
+    // Try injecting before footnotes
+    const footnotesRegex = /<section[^>]*class=["']?footnotes["'][^>]*>/i;
+    if (footnotesRegex.test(content)) {
+      return content.replace(footnotesRegex, `${emailPartial}\n$&`);
+    }
+
+    // Fallback: replace emailFallback div
+    const fallbackRegex = /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
+    if (fallbackRegex.test(content)) {
+      return content.replace(fallbackRegex, emailPartial);
+    }
+
+    // If neither exists, remove unused fallback container
+    const unusedFallbackRegex = /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
+    return content.replace(unusedFallbackRegex, '');
+  }
+
+  return content;
+});
+
+  return {
+    dir: dirs,
+    pathPrefix: '/',
+  };
 };

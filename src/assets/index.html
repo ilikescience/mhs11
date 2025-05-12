@@ -3,42 +3,24 @@ layout: layouts/home.html
 eleventyExcludeFromCollections: true
 ---
 
-<header class="h-card l--mar-top-m l--grid-wide l--mar-btm-l">
-    <div class="l--space-compact">
-        <h1 class="t--size-xxl t--family-sans t--tracking-tight t--weight-normal">I work on the future of design.</h1>
-        <h2 class="t--family-serif t--size-xl t--weight-normal">
-            Currently I lead design at <a href="https://copilot.money" target="_blank" rel="noopener">Copilot Money</a>.
-        </h2>
-        <h3 class="t--family-serif t--size-xl t--weight-normal">
-            Previously, I led design teams at Stripe, The Wall Street Journal and SoundCloud.
-        </h3>
+<header class="h-card l--mar-top-m l--grid-narrow l--mar-btm-l">
+    <div>
+        <p>I'm a design leader focused on building and managing high-performing teams.</p>
+        <p>Most recently, I led design at <a href="https://copilot.money" rel="noopener" target="_blank">Copilot  Money</a>, helping the team move from start-up to scale-up. Before that I led teams at Stripe, The Wall Street Journal, and Soundcloud.</p>
     </div>
 </header>
 
-<div class="l--mar-top-m l--grid-wide l--flex l--space-compact">
-    <div class="l--space-flush l--flex-auto">
-        <strong>Latest writing</strong>
-        {%- for post in collections.writing reversed %}
-            {% if forloop.index0 < 4 %}
-                <div class="post">
-                    <a class="t--decoration-none" href="{{ post.url }}">
-                        <h2  class="t--decoration-none t--weight-normal t--size-xl t--family-sans l--mar-top-s">
-                            {{ post.data.title }}
-                        </h2>
-                        <div class="t--size-normal c--gray-3">
-                            {{ post.date | date: "%B %d, %Y" }}
-                        </div>
-                    </a>
-                </div>
-            {% else %}
-                {% break %}
-            {% endif %}
-        {%- endfor -%}
-        <div class="l--mar-top-m">
-            <a href="/writing">All writing &rarr;</a>
+<div class="l--mar-top-m l--grid-narrow l--space-loose">
+    <div class="sectionHeader">
+        <div class="sectionHeader--name">Latest writing</div>
+        <div class="sectionHeader--divider"></div>
+        <div class="sectionHeader--link">
+            <a href="/writing">All writing {% linkArrow %}</a>
         </div>
     </div>
-    <div class="l--flex-auto">
-        {%- include "components/email.html" -%}
-    </div>
+    {% assign posts = collections.writing | reverse %}
+    {% for post in posts limit: 4 %}
+      {% stub post, true, true %}
+    {% endfor %}
+    {%- include "components/email.html" -%}
 </div>

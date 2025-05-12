@@ -5,6 +5,7 @@ og:
   title: The history of album art
   subtitle: Three designers who made music visible
   image: /images/albumart-5.jpg
+stub: How design pioneers like Alex Steinweiss, Reid Miles, and S. Neil Fujita saw an opportunity to connect music to listeners through art
 ---
 
 Album art didn’t always exist.

@@ -1,0 +1,16 @@
+footer {
+  background-color: var(--c--gray-25);
+}
+
+.footer--inner {
+  padding: var(--l--space-l) 0;
+  gap: var(--l--space-s);
+}
+
+.footer--menu {
+  display: flex;
+  font-size: var(--t--size-s);
+  color: var(--c--gray-500);
+  flex-direction: column;
+  flex: 1 0 auto;
+}

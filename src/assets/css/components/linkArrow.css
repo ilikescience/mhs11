@@ -1,0 +1,32 @@
+.linkArrow {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin: 0;
+  vertical-align: middle;
+  stroke: currentcolor;
+  fill: none;
+
+  & path {
+    stroke-width: 0.05em;
+  }
+}
+
+.linkArrow--line {
+  opacity: 0;
+  transition: opacity 100ms ease-out;
+}
+
+.linkArrow--tip {
+  transform: translateX(0);
+  transition: transform 100ms ease-out;
+}
+
+a:hover .linkArrow--line {
+  transition-duration: 50ms;
+  opacity: 1;
+}
+a:hover .linkArrow--tip {
+  transition-duration: 50ms;
+  transform: translateX(0.18em);
+}

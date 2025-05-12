@@ -86,14 +86,14 @@ _Simulated_ annealing is an optimization algorithm that operates on a set of dat
 If we have a formula for comparing how optimized two versions of our data are, why don’t we always choose the better-scoring one? This is the key to simulated annealing. Hill-climbing algorithms, ones that _always_ pick iterations with better scores, can quickly get stuck in what are called “local maxima” or “local minima” — states which are surrounded by less optimal neighbors but aren’t as optimal as farther-away options.
 
 <svg viewBox="0 0 1200 260">
-  <text x="5" y="50" font-size="24" style="fill: var(--c--theme-gray-3)">More optimal</text>
-  <text x="5" y="230" font-size="24" style="fill: var(--c--theme-gray-3)">Less optimal</text>
-  <text x="340" y="120" font-size="30" style="fill: var(--c--theme-primary-3)"> Local maximum</text>
-  <text x="770" y="60" font-size="30" style="fill: var(--c--theme-positive-3)"> Global maximum</text>
-  <path d="M65,65 l-8,8 m8,-8 l8,8 m-8,-8 v140 l-8,-8 m8,8 l8,-8" style="stroke: var(--c--theme-gray-2)" fill="transparent" stroke-width="5px"></path>
-  <path fill="transparent" style="stroke: var(--c--theme-gray-3)"  stroke-width="7px" d="M150,220 c154 0 169 -80 271 -80 c79 0 107 71 189 71 c100 0 120 -130 250 -130 c136 0 171 139 293 139"></path>
-  <circle cx="420" cy="140" r="10" style="fill: var(--c--theme-primary-3)"></circle>
-  <circle cx="860" cy="80" r="10" style="fill: var(--c--theme-positive-3)"></circle>
+  <text x="5" y="50" font-size="24" style="fill: var(--c--theme-text-secondary)">More optimal</text>
+  <text x="5" y="230" font-size="24" style="fill: var(--c--theme-text-secondary)">Less optimal</text>
+  <text x="340" y="120" font-size="30" style="fill: var(--c--blue-500)"> Local maximum</text>
+  <text x="770" y="60" font-size="30" style="fill: var(--c--green-500)"> Global maximum</text>
+  <path d="M65,65 l-8,8 m8,-8 l8,8 m-8,-8 v140 l-8,-8 m8,8 l8,-8" style="stroke: var(--c--gray-100)" fill="transparent" stroke-width="5px"></path>
+  <path fill="transparent" style="stroke: var(--c--theme-text-secondary)"  stroke-width="7px" d="M150,220 c154 0 169 -80 271 -80 c79 0 107 71 189 71 c100 0 120 -130 250 -130 c136 0 171 139 293 139"></path>
+  <circle cx="420" cy="140" r="10" style="fill: var(--c--blue-500)"></circle>
+  <circle cx="860" cy="80" r="10" style="fill: var(--c--green-500)"></circle>
 </svg>
 
 So, by sometimes picking less-optimal iterations, simulated annealing can find good solutions to problems that have complicated sets of criteria, like my problem of picking color palettes.
@@ -238,19 +238,19 @@ Overall, the algorithm appears to be doing a great job of finding colors that fi
 
 <figure>
 <svg viewBox="0 0 600 300">
-  <text x="5" y="30" font-size="24" font-weight="600" style="fill: var(--c--theme-gray-4)">Loss function over time</text>
-  <text x="5" y="70" font-size="18" style="fill: var(--c--theme-gray-3)">More optimal</text>
-  <text x="5" y="270" font-size="18" style="fill: var(--c--theme-gray-3)">Less optimal</text>
-  <text x="130" y="70" font-size="14" style="fill: var(--c--theme-gray-3)">100</text>
-  <text x="130" y="136" font-size="14" style="fill: var(--c--theme-gray-3)">150</text>
-  <text x="130" y="203" font-size="14" style="fill: var(--c--theme-gray-3)">200</text>
-  <text x="130" y="270" font-size="14" style="fill: var(--c--theme-gray-3)">250</text>
-  <path d="M160 65 h800" style="stroke: var(--c--theme-gray-2)"></path>
-  <path d="M160 131 h800" style="stroke: var(--c--theme-gray-2)"></path>
-  <path d="M160 198 h800" style="stroke: var(--c--theme-gray-2)"></path>
-  <path d="M160 265 h800" style="stroke: var(--c--theme-gray-2)"></path>
+  <text x="5" y="30" font-size="24" font-weight="600" style="fill: var(--c--gray-600)">Loss function over time</text>
+  <text x="5" y="70" font-size="18" style="fill: var(--c--theme-text-secondary)">More optimal</text>
+  <text x="5" y="270" font-size="18" style="fill: var(--c--theme-text-secondary)">Less optimal</text>
+  <text x="130" y="70" font-size="14" style="fill: var(--c--theme-text-secondary)">100</text>
+  <text x="130" y="136" font-size="14" style="fill: var(--c--theme-text-secondary)">150</text>
+  <text x="130" y="203" font-size="14" style="fill: var(--c--theme-text-secondary)">200</text>
+  <text x="130" y="270" font-size="14" style="fill: var(--c--theme-text-secondary)">250</text>
+  <path d="M160 65 h800" style="stroke: var(--c--gray-100)"></path>
+  <path d="M160 131 h800" style="stroke: var(--c--gray-100)"></path>
+  <path d="M160 198 h800" style="stroke: var(--c--gray-100)"></path>
+  <path d="M160 265 h800" style="stroke: var(--c--gray-100)"></path>
   <g transform="translate(160, 100) ">
-    <path d="M1 104v2h1c0-1 0-1 0 0h1c0-1 0-1 0 0l1 4v-6l1 2c0 1 0 1 0 0v-2h1V94h1c0 1 0 1 0 0l1-2v5h2v-2l1-1v-4h1v-1h1v-5h1v-1h1v-5s0-1 0 0h1v-2l1 4v3c0 1 0 1 0 0v-1h1v-1 1h1v1l1 4v-1c0-1 0-1 0 0h1v-1h1v2-3h1v2-1h1v-1h1v-6h1v4h1v-1h1v1h1v-7l1-1h1v7l1 1 1 3v2h1v5h1v-6l1-1v-7h1v-1h1v2h1v1h1v-6h1v-2l1 3v1-1h1v-1 3h1v-2h1v12h1v2-8h1v3l1 1v-2h1v1c0 1 0 1 0 0h1v3h1v1l1 2v8h1v-2h1v-7l1-2v1h1v-4l1-5v5h1v2h1v-6h1v-4l1-1v8l1 1v6h2v10h1v-5l1-2c0-1 0-1 0 0h1v-4l1-4v-9 8l1-6v-2c0-1 0-1 0 0h1v3l1 1v-4h1v-1c0-1 0-1 0 0v4l1 1v2l1 1v9l1-8v9l1 2v-4l1-2c0-1 0-1 0 0v-2l1-1v3h1v2h1v-3h1v-3h1v3c0 1 0 1 0 0v1l1 1v-1l1-1v6h1v1-1h1c0-1 0-1 0 0v-1l1-2v-3l1 2v8l1-1v-6l1 7v-3h1v8l1 3v-6h1v3h1v-4l1-2v-9l1-1v1h1v-1l1-2v-3 10h1v6h1c0-1 0-1 0 0h1v6l1 2v-1h1v-2l1 2v3h1v-5h1v1-1h1c0-1 0-1 0 0l1-4v3c0 1 0 1 0 0l1-2v-5l1 8h1v-5l1 2v1-4h1v-6h1v8h1v3-3l1-9v-5l1-3v7-5h1v9l1-1v-4l1 10v2h1v-1h1v-4l1 1v1c0-1 0-1 0 0h1v-3h1v-3h1v2l1-3v-2 2h1v-2l1-1V76h1v2c0-1 0-1 0 0l1-4v-4l1-6v-5h1v-6h1v1l1 2v1l1-6v6l1 3v10l1-3v-5h1v4l1-1v-2l1-1v3l1 5v5l1 4V68h1v11-12 3h1v-4c0-1 0-1 0 0l1-1v-1h1v-3l1-3c0 1 0 1 0 0v-3h1v6h1v5-6h1v-6l1-3c0-1 0-1 0 0v3h2v1-2h1v7-4l1-5v3l1 6v6-6h1v-4l1-6c0 1 0 1 0 0l1 4c0-1 0-1 0 0l1 3v6l1-4v-3l1-1v-2h1v-2 2h2v5-4l1-1v-2h1v-3h1c0 1 0 1 0 0v-1l1-2v-4l1 1v2h1v-1 11-3h1c0-1 0-1 0 0h1v3h1v-1s0-1 0 0h1v-4h1l1-2v4h1v1l1-3v11h1v2h1v-3h1v1c0-1 0-1 0 0h1v-4l1-1v-1l1-1v3h1v-7l1 1v2s0 1 0 0l1-4v-1h1v1-3c0-1 0-1 0 0h1c0-1 0-1 0 0h1v-3h1v1h1v-6l1-1h1l1-1v-1h1v1h1v-5l1-1v-3h2v2h2v1h1v-3l1-3v-4h1v1h1v3h1v-3l1 1h1v-1l1-1h1v-3h2v-1h1v-1h1l1 1v3h1v1h1l1-1c0-1 0-1 0 0l1-1v-1h1v-3h1v-1h1v-1h1v-1h1V9h1V8h1V7s0-1 0 0V6l1 1V6h4l1 1h2l1-1h1V5h2V4h1l1 1h5v1-1h4V4h6v1-1h2c0 1 0 0 0 0h1V3l1 1h1l1-1h6V2h15l1-1h194" style="stroke: var(--c--theme-primary-3)" stroke-width="2" stroke-miterlimit="10" fill="transparent"/>
+    <path d="M1 104v2h1c0-1 0-1 0 0h1c0-1 0-1 0 0l1 4v-6l1 2c0 1 0 1 0 0v-2h1V94h1c0 1 0 1 0 0l1-2v5h2v-2l1-1v-4h1v-1h1v-5h1v-1h1v-5s0-1 0 0h1v-2l1 4v3c0 1 0 1 0 0v-1h1v-1 1h1v1l1 4v-1c0-1 0-1 0 0h1v-1h1v2-3h1v2-1h1v-1h1v-6h1v4h1v-1h1v1h1v-7l1-1h1v7l1 1 1 3v2h1v5h1v-6l1-1v-7h1v-1h1v2h1v1h1v-6h1v-2l1 3v1-1h1v-1 3h1v-2h1v12h1v2-8h1v3l1 1v-2h1v1c0 1 0 1 0 0h1v3h1v1l1 2v8h1v-2h1v-7l1-2v1h1v-4l1-5v5h1v2h1v-6h1v-4l1-1v8l1 1v6h2v10h1v-5l1-2c0-1 0-1 0 0h1v-4l1-4v-9 8l1-6v-2c0-1 0-1 0 0h1v3l1 1v-4h1v-1c0-1 0-1 0 0v4l1 1v2l1 1v9l1-8v9l1 2v-4l1-2c0-1 0-1 0 0v-2l1-1v3h1v2h1v-3h1v-3h1v3c0 1 0 1 0 0v1l1 1v-1l1-1v6h1v1-1h1c0-1 0-1 0 0v-1l1-2v-3l1 2v8l1-1v-6l1 7v-3h1v8l1 3v-6h1v3h1v-4l1-2v-9l1-1v1h1v-1l1-2v-3 10h1v6h1c0-1 0-1 0 0h1v6l1 2v-1h1v-2l1 2v3h1v-5h1v1-1h1c0-1 0-1 0 0l1-4v3c0 1 0 1 0 0l1-2v-5l1 8h1v-5l1 2v1-4h1v-6h1v8h1v3-3l1-9v-5l1-3v7-5h1v9l1-1v-4l1 10v2h1v-1h1v-4l1 1v1c0-1 0-1 0 0h1v-3h1v-3h1v2l1-3v-2 2h1v-2l1-1V76h1v2c0-1 0-1 0 0l1-4v-4l1-6v-5h1v-6h1v1l1 2v1l1-6v6l1 3v10l1-3v-5h1v4l1-1v-2l1-1v3l1 5v5l1 4V68h1v11-12 3h1v-4c0-1 0-1 0 0l1-1v-1h1v-3l1-3c0 1 0 1 0 0v-3h1v6h1v5-6h1v-6l1-3c0-1 0-1 0 0v3h2v1-2h1v7-4l1-5v3l1 6v6-6h1v-4l1-6c0 1 0 1 0 0l1 4c0-1 0-1 0 0l1 3v6l1-4v-3l1-1v-2h1v-2 2h2v5-4l1-1v-2h1v-3h1c0 1 0 1 0 0v-1l1-2v-4l1 1v2h1v-1 11-3h1c0-1 0-1 0 0h1v3h1v-1s0-1 0 0h1v-4h1l1-2v4h1v1l1-3v11h1v2h1v-3h1v1c0-1 0-1 0 0h1v-4l1-1v-1l1-1v3h1v-7l1 1v2s0 1 0 0l1-4v-1h1v1-3c0-1 0-1 0 0h1c0-1 0-1 0 0h1v-3h1v1h1v-6l1-1h1l1-1v-1h1v1h1v-5l1-1v-3h2v2h2v1h1v-3l1-3v-4h1v1h1v3h1v-3l1 1h1v-1l1-1h1v-3h2v-1h1v-1h1l1 1v3h1v1h1l1-1c0-1 0-1 0 0l1-1v-1h1v-3h1v-1h1v-1h1v-1h1V9h1V8h1V7s0-1 0 0V6l1 1V6h4l1 1h2l1-1h1V5h2V4h1l1 1h5v1-1h4V4h6v1-1h2c0 1 0 0 0 0h1V3l1 1h1l1-1h6V2h15l1-1h194" style="stroke: var(--c--blue-5000)" stroke-width="2" stroke-miterlimit="10" fill="transparent"/>
   </g>
 </svg>
 <figcaption>A chart of the algorithm's loss function over time</figcaption>
@@ -310,7 +310,7 @@ The following table analyzes four 12-color palettes:
             <td data-label="D3" class="t--align-right t--numbers-tabular">12</td>
             <td data-label="Mine" class="t--align-right t--numbers-tabular">4</td>
         </tr>
-        <tr class="c--bg-gray-1">
+        <tr class="c--bg-gray-25">
             <th scope="row">Total</th>
             <td data-label="Adobe" class="t--align-right t--numbers-tabular">14</td>
             <td data-label="IBM" class="t--align-right t--numbers-tabular">21</td>

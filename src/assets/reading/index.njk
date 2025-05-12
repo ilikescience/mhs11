@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
     {% endif %}
     <div class="book index--item l--grid-narrow l--mar-top-none">
         <a class="t--family-serif index--title" href="{{ book.url }}">{{ book.data.title }}</a>
-        <span class="c--gray">
+        <span class="c--theme-text-secondary">
             by {{ book.data.author }}  
             {% if book.data.favorite %}
                 <span class="book--favorite">&starf;</span>

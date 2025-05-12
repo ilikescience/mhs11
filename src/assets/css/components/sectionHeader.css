@@ -1,0 +1,32 @@
+.sectionHeader {
+  display: flex;
+  gap: var(--l--space-xs);
+}
+
+.sectionHeader--name,
+.sectionHeader--divider,
+.sectionHeader--link {
+  margin: 0;
+}
+
+.sectionHeader--name,
+.sectionHeader--link {
+  font-size: var(--t--size-s);
+  flex: 0 1 auto;
+  line-height: 0.75;
+}
+
+.sectionHeader--name {
+  font-weight: var(--t--weight-medium);
+  color: var(--c--gray-900);
+}
+
+.sectionHeader--divider {
+  flex: 1 1 auto;
+  border-bottom: 1px solid var(--c--gray-100);
+}
+
+.sectionHeader--link a {
+  text-decoration: none;
+  color: var(--c--theme-text-secondary);
+}

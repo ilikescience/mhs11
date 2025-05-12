@@ -1,6 +1,6 @@
 .intuition--container {
     padding: calc(var(--l--space-s) + 1rem) var(--l--space-m) var(--l--space-m) var(--l--space-m);
-    background: var(--c--theme-gray-1);
+    background: var(--c--gray-25);
 }
 
 .intuition--slider {
@@ -15,7 +15,7 @@
 .intuition--label,
 .intuition--header {
     text-align: center;
-    color: var(--c--theme-gray-3);
+    color: var(--c--theme-text-secondary);
 }
 
 .intuition--labels {

@@ -16,6 +16,7 @@
     <script>
         window.addEventListener('DOMContentLoaded', () => {
             document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
+            document.querySelector('body').classList.add(localStorage.getItem('textTheme') || 't--theme-default');
         });
     </script>
     <script defer src="/js/main.js"></script>
@@ -65,20 +66,7 @@
         {{ content }}
     </main>
     {% endif %}
-    <footer class="l--mar-top-m l--mar-btm-s l--grid">
-        <div class="l--grid-wide">
-            <div>
-                <hr class="l--mar-btm-s" />
-            </div>
-            <div>
-                <div class="footer-menu">
-                    <a href="https://twitter.com/ilikescience" rel="me noopener" target="_blank">Twitter</a> · 
-                    <a href="/feed.xml">RSS</a> ·
-                    <a href="mailto:matthew.h.strom@gmail.com">Email</a>
-                </div>
-            </div>
-        </div>
-    </footer>   
+    {% include '../components/footer.html' %}
 
 </body>
 </html>

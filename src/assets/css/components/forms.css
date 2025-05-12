@@ -1,72 +1,55 @@
-form * + * {
-    margin-top: 0;
-}
-
 .field {
     position: relative;
 }
 
-label,
 input {
-    transition: all 150ms;
-}
-
-input {
-    padding: 1.5em 0.75em 0.5em;
-    font-size: var(--t--size-m);
+    padding: 0.75em;
+    font-size: var(--t--size-s);
+    line-height: 1;
     border: 0;
     font-family: inherit;
     appearance: none;
     border-radius: var(--l--border-radius-s);
-    background-color: var(--c--theme-bg);
+    background-color: var(--c--gray-25);
     color: var(--c--theme-fg);
+    transition: background-color 100ms ease-out;
+}
+
+input:hover {
+    background-color: var(--c--gray-50);
+    transition: background-color 50ms ease-out;
 }
 
 input:focus {
     outline: 0;
-    box-shadow: 0 0 3px 3px var(--c--theme-primary-2);
+    box-shadow: 0 0 0 3px var(--c--blue-100);
+    background-color: var(--c--gray-50);
 }
 
 label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform-origin: left bottom;
-    color: var(--c--theme-gray-3);
-}
-
-input:placeholder-shown + label {
-    cursor: text;
-    max-width: 66.66%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transform: translate(0.75em, 0.5em) scale(1);
+    color: var(--c--gray-600);
+    font-size: var(--t--size-s);
 }
 
 ::placeholder {
-    opacity: 0;
-    transition: inherit;
-    color: var(--c--theme-gray-2);
-}
-
-input:focus::placeholder {
-    opacity: 1;
+    color: var(--c--gray-300);
 }
 
 input:not(:placeholder-shown) + label,
 input:focus + label {
-    transform: translate(0.75em, -0.4em) scale(0.8);
-    cursor: pointer;
+    opacity: 0;
 }
 
 .field:hover input,
 input:focus {
-    border-color: var(--c--theme-primary);
+    border-color: var(--c--blue-100);
 }
 
 .form--success {
-    padding: var(--l--space-s);
+    padding: var(--l--space-xs);
     flex: 1;
-    background: var(--c--theme-positive-1);
+    background: var(--c--green-50);
+    color: var(--c--green-700);
+    font-size: var(--t--size-s);
+    border-radius: var(--l--border-radius-s);
 }

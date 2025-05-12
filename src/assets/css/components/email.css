@@ -1,3 +1,7 @@
+.email p {
+    font-family: var(--t--family-sans);
+}
+
 .email-form {
     display: flex;
     gap: 0 1em;
@@ -14,8 +18,20 @@
         width: 100%;
         margin-top: 0;
     }
+}
 
-    @media (max-width: 400px) {
+@media (--l--breakpoint-s) {
+    .button {
+        padding: calc(var(--l--space-xs) * 2) 0;
+        font-size: var(--t--size-m);
+        margin-top: calc(var(--l--space-xs) * 2);
+    }
+    .email-form {
         flex-direction: column;
+
+        & input {
+                    font-size: var(--t--size-m);
+
+        }
     }
 }

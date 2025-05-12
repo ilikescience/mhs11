@@ -1,20 +1,19 @@
-<hr/>
-<div class="latest--posts l--flex">
-    <div class="l--flex-auto l--space-compact">
-        {% if prevPost.url %}
-            <p class="ctr">
-            <strong>Older</strong>:
-            <div class="c--gray t--family-sans">{{ prevPost.data.date | date: '%B %d, %Y' }}</div>
-            <h3 class="t--weight-normal l--mar-top-none"><a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a></h3>
-            </p>
-        {% endif %}
+<aside class="readMore l--mar-top-l">
+  <div class="sectionHeader">
+    <div class="sectionHeader--name">Keep reading</div>
+    <div class="sectionHeader--divider"></div>
+    <div class="sectionHeader--link">
+      <a href="/writing">All writing {% linkArrow %}</a>
     </div>
-    <div class="l--flex-auto l--space-compact t--align-right">
-        {% if nextPost.url %}
-            <strong>Newer</strong>: 
-            <div class="c--gray t--family-sans">{{ nextPost.data.date | date: '%B %d, %Y' }}</div>
-            <h3 class="t--weight-normal l--mar-top-none"><a class="previous" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></h3>
-            </p>
-        {% endif %}
-    </div>
-</div>
+  </div>
+  <div class="l--mar-top-m">
+      {% if nextPost.url %}
+        {% stub nextPost true true %}
+      {% endif %}
+  </div>
+  <div class="">
+      {% if prevPost.url %}
+        {% stub prevPost true true %}
+      {% endif %}
+  </div>
+</aside>

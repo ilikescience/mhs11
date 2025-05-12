@@ -2,17 +2,17 @@
 layout: layouts/default.html
 ---
 
-<header class="l--grid-wide t--align-center">
-    <div class="l--mar-block-m l--space-compact">
-        <h1 class="t--weight-normal t--family-sans">
+<header class="l--grid-narrow">
+    <div class="l--mar-top-l l--mar-btm-m l--space-compact">
+        <h1 class="t--family-sans t--weight-medium t--size-xl t--tracking-tight">
             {{ title }}
         </h1>
         {% if subtitle %}
-            <h2 class="t--size-l t--family-sans t--weight-normal c--gray l--mar-btm-s">
+            <h2 class="t--size-l c--theme-text-secondary t--family-sans t--weight-medium l--mar-top-none">
                 {{ subtitle }}
             </h2>
         {% endif %}
-        <p class="c--gray">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
+        <p class="c--theme-text-secondary t--size-s l--mar-top-none">{{ page.date | date: '%b %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
 {%if hero %}
@@ -23,11 +23,10 @@ layout: layouts/default.html
 {% endif %}
 <article class="post l--grid-narrow">
     {{ content }}
+<div class="emailFallback">
+    
+</div>
 </article>
-
 <aside class="l--grid-narrow">
     {%- include "components/latest.html" -%}
-</aside>
-<aside class="l--grid-narrow">
-    {%- include "components/email.html" -%}
 </aside>

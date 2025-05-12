@@ -1,7 +1,7 @@
 .table-of-contents {
     position: relative;
     padding: calc(var(--l--space-s) + 1.5em) var(--l--space-s) var(--l--space-s);
-    background: var(--c--theme-gray-1);
+    background: var(--c--gray-25);
     font-family: var(--t--family-sans);
     border-radius: var(--l--border-radius);
 
@@ -29,6 +29,6 @@
 
     & a {
         text-decoration: none;
-        border-bottom: 1px solid var(--c--theme-gray-2);
+        border-bottom: 1px solid var(--c--gray-100);
     }
 }

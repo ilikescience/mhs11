@@ -1,33 +1,17 @@
 /* stylelint-disable */
 @font-face {
-  font-family: 'charter';
+  font-family: 'charterVariable';
   font-display: 'fallback';
-  src: url('/fonts/charter_regular.woff2') format('woff2');
-  font-weight: 400;
+  src: url('/fonts/charter_variable.woff2') format('woff2-variations');
+  font-weight: 400 700;
   font-style: normal;
 }
 
 @font-face {
-font-family: 'charter';
+font-family: 'charterVariable';
 font-display: 'fallback';
-src: url('/fonts/charter_italic.woff2') format('woff2');
-font-weight: 400;
-font-style: italic;
-}
-
-@font-face {
-font-family: 'charter';
-font-display: 'fallback';
-src: url('/fonts/charter_bold.woff2') format('woff2');
-font-weight: 700;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'charter';
-font-display: 'fallback';
-src: url('/fonts/charter_bold_italicwoff2') format('woff2');
-font-weight: 700;
+src: url('/fonts/charter_variable_italic.woff2') format('woff2');
+font-weight: 400 700;
 font-style: italic;
 }
 
@@ -35,8 +19,8 @@ font-style: italic;
 font-family: 'Inter';
 font-display: 'fallback';
 src: url('/fonts/InterVariable.woff2') format('woff2-variations');
-font-feature-settings: 'liga' 1, 'calt' 1, 'ss03' 1, 'cv06' 1;
-size-adjust: 94%;
+font-feature-settings: 'liga', 'calt', 'ss03', 'cv06';
+size-adjust: 92%;
 font-weight: 100 1000;
 font-style: normal;
 }
@@ -45,8 +29,8 @@ font-style: normal;
 font-family: 'Inter';
 font-display: 'fallback';
 src: url('/fonts/InterVariable-Italic.woff2') format('woff2-variations');
-font-feature-settings: 'liga' 1, 'calt' 1, 'ss03' 1, 'cv06' 1;
-size-adjust: 94%;
+font-feature-settings: 'liga', 'calt', 'ss03', 'cv06';
+size-adjust: 92%;
 font-weight: 100 1000;
 font-style: italic;
 }
@@ -55,6 +39,6 @@ font-style: italic;
 font-family: 'Geist Mono';
 font-display: 'fallback';
 src: url('/fonts/GeistMonoVariableVF.woff2') format('woff2-variations');
-size-adjust: 88%;
+size-adjust: 90%;
 font-weight: 100 1000;
 }

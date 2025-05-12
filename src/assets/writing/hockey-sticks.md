@@ -14,27 +14,27 @@ For example, here’s two hockey-stick graphs showing the revenues of Alphabet (
     <div class="l--flex">
         <div class="l--flex-auto">
             <svg viewBox="0 0 900 820">
-                <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);">Alphabet</text>
+                <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--gray-600);">Alphabet</text>
                 <g transform="translate(0 0)">
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 70h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 170h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 270h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 370h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 470h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 570h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 670h760" />
-                <path style="stroke:var(--c--theme-gray-2)" d="M90 770h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 70h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 170h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 270h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 370h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 470h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 570h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 670h760" />
+                <path style="stroke:var(c--gray-100)" d="M90 770h760" />
                 </g>
                 <g transform="translate(25, 400)">
-                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">Revenue, billions</text>
+                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">Revenue, billions</text>
                 </g>
-                <g text-anchor="end" transform="translate(30 30)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                <g text-anchor="end" transform="translate(30 30)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="40" y="150">3</text>
                     <text x="40" y="350">2</text>
                     <text x="40" y="550">1</text>
                     <text x="40" y="750">0</text>
                 </g>
-                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="50" y="780">Year 1</text>
                     <text x="170" y="780">Year 2</text>
                     <text x="290" y="780">Year 3</text>
@@ -43,7 +43,7 @@ For example, here’s two hockey-stick graphs showing the revenues of Alphabet (
                     <text x="650" y="780">Year 6</text>
                     <text x="770" y="780">Year 7</text>
                 </g>
-                <g transform="translate(0 20)" style="fill: var(--c--theme-positive-3)">
+                <g transform="translate(0 20)" style="fill: var(--c--green-500)">
                     <circle cx="110" cy="750" r="10"/>
                     <circle cx="230" cy="750" r="10"/>
                     <circle cx="350" cy="740" r="10"/>
@@ -52,34 +52,34 @@ For example, here’s two hockey-stick graphs showing the revenues of Alphabet (
                     <circle cx="710" cy="440" r="10"/>
                     <circle cx="830" cy="110" r="10"/>
                 </g>
-                <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-positive-3)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-220 120-330" />
+                <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--green-500)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-220 120-330" />
             </svg>
         </div>
         <div class="l--flex-auto">
             <svg viewBox="0 0 900 820">
-                <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);">Meta</text>
+                <text x="10" y="30" style="font-size: 2em; font-weight: var(--t--weight-bold); fill: var(--c--gray-600);">Meta</text>
                 <g transform="translate(0 0)">
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 70h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 157h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 244h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 331h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 418h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 505h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 592h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 679h760" />
-                    <path style="stroke:var(--c--theme-gray-2)" d="M90 770h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 70h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 157h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 244h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 331h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 418h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 505h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 592h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 679h760" />
+                    <path style="stroke:var(c--gray-100)" d="M90 770h760" />
                 </g>
                 <g transform="translate(25, 400)">
-                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">Revenue, billions</text>
+                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">Revenue, billions</text>
                 </g>
-                <g text-anchor="end" transform="translate(30 10)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                <g text-anchor="end" transform="translate(30 10)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="40" y="70">2</text>
                     <text x="40" y="244">1.5</text>
                     <text x="40" y="418">1</text>
                     <text x="40" y="592">0.5</text>
                     <text x="40" y="770">0</text>
                 </g>
-                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-gray-3)">
+                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="50" y="780">Year 1</text>
                     <text x="170" y="780">Year 2</text>
                     <text x="290" y="780">Year 3</text>
@@ -88,7 +88,7 @@ For example, here’s two hockey-stick graphs showing the revenues of Alphabet (
                     <text x="650" y="780">Year 6</text>
                     <text x="770" y="780">Year 7</text>
                 </g>
-                <g transform="translate(0 20)" style="fill: var(--c--theme-primary-3)">
+                <g transform="translate(0 20)" style="fill: var(--c--blue-500)">
                     <circle cx="110" cy="750" r="10"/>
                     <circle cx="230" cy="750" r="10"/>
                     <circle cx="350" cy="740" r="10"/>
@@ -97,7 +97,7 @@ For example, here’s two hockey-stick graphs showing the revenues of Alphabet (
                     <circle cx="710" cy="490" r="10"/>
                     <circle cx="830" cy="110" r="10"/>
                 </g>
-                <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-primary-3)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-170 120-380" />
+                <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--blue-500)" stroke-width="5" d="M110 750 h120l120-10 120-30 120-50 120-170 120-380" />
             </svg>
         </div>
     </div>
@@ -326,14 +326,14 @@ The “second half of the chessboard” effect shows up in our earlier thought e
 
 <figure>
     <svg viewBox="0 0 900 620">
-    <text x="10" y="30" style="font-size: 1.5em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);"><tspan style="fill: var(--c--theme-highlight-4)">Account A</tspan> vs. <tspan style="fill: var(--c--theme-primary-3)">Account B</tspan>, entire year</text>
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,70h 760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,170 h760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,270 h760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,370 h760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,470 h760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,570 h760" />
-        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--theme-gray-3)">
+    <text x="10" y="30" style="font-size: 1.5em; font-weight: var(--t--weight-bold); fill: var(--c--gray-600);"><tspan style="fill: var(--c--yellow-600)">Account A</tspan> vs. <tspan style="fill: var(--c--blue-500)">Account B</tspan>, entire year</text>
+        <path style="stroke:var(c--gray-100)" d="M90,70h 760" />
+        <path style="stroke:var(c--gray-100)" d="M90,170 h760" />
+        <path style="stroke:var(c--gray-100)" d="M90,270 h760" />
+        <path style="stroke:var(c--gray-100)" d="M90,370 h760" />
+        <path style="stroke:var(c--gray-100)" d="M90,470 h760" />
+        <path style="stroke:var(c--gray-100)" d="M90,570 h760" />
+        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="40" y="50">$5M</text>
             <text x="40" y="150">$4M</text>
             <text x="40" y="250">$3M</text>
@@ -341,13 +341,13 @@ The “second half of the chessboard” effect shows up in our earlier thought e
             <text x="40" y="450">$1M</text>
             <text x="40" y="550">$0</text>
         </g>
-        <g style="font-size:1em; fill: var(--c--theme-gray-3)">
+        <g style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="85" y="600">Month 1</text>
             <text x="415" y="600">Month 6</text>
             <text  x="765" y="600">Month 12</text>
         </g>
-        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-highlight-4)" stroke-width="5" d="M100,550 l740,-105 " />
-        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-primary-3)" stroke-width="5" d="M100,550 c600,0 700,0 740,-480 " />
+        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--yellow-600)" stroke-width="5" d="M100,550 l740,-105 " />
+        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--blue-500)" stroke-width="5" d="M100,550 c600,0 700,0 740,-480 " />
     </svg>
 </figure>
 
@@ -357,23 +357,23 @@ But what if we look at the graph only halfway through the year? Not only was acc
 
 <figure>
     <svg viewBox="0 0 900 420">
-    <text x="10" y="30" style="font-size: 1.5em; font-weight: var(--t--weight-bold); fill: var(--c--theme-gray-4);"><tspan style="fill: var(--c--theme-highlight-4)">Account A</tspan> vs. <tspan style="fill: var(--c--theme-primary-3)">Account B</tspan>, first half of the year</text>
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,70h 760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,170 h760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,270 h760" />
-        <path style="stroke:var(--c--theme-gray-2)" d="M90,370 h760" />
-        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--theme-gray-3)">
+    <text x="10" y="30" style="font-size: 1.5em; font-weight: var(--t--weight-bold); fill: var(--c--gray-600);"><tspan style="fill: var(--c--yellow-600)">Account A</tspan> vs. <tspan style="fill: var(--c--blue-500)">Account B</tspan>, first half of the year</text>
+        <path style="stroke:var(c--gray-100)" d="M90,70h 760" />
+        <path style="stroke:var(c--gray-100)" d="M90,170 h760" />
+        <path style="stroke:var(c--gray-100)" d="M90,270 h760" />
+        <path style="stroke:var(c--gray-100)" d="M90,370 h760" />
+        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="40" y="50">$0.3M</text>
             <text x="40" y="150">$0.2M</text>
             <text x="40" y="250">$0.1M</text>
             <text x="40" y="350">$0.0M</text>
         </g>
-        <g style="font-size:1em; fill: var(--c--theme-gray-3)">
+        <g style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="85" y="400">Month 1</text>
             <text  x="765" y="400">Month 6</text>
         </g>
-        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-highlight-4)" stroke-width="5" d="M100,350 l740,-305 " />
-        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--theme-primary-3)" stroke-width="5" d="M100,350 c600,-10 600,-10 740,-20 " />
+        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--yellow-600)" stroke-width="5" d="M100,350 l740,-305 " />
+        <path transform="translate(0 20)" fill="transparent" style="stroke: var(--c--blue-500)" stroke-width="5" d="M100,350 c600,-10 600,-10 740,-20 " />
     </svg>
 </figure>
 

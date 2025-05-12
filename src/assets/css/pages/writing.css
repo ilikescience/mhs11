@@ -1,0 +1,7 @@
+.writing--year {
+  font-size: var(--t--size-s);
+}
+
+.writing--section + .writing--section {
+  margin-top: var(--l--space-l);
+}

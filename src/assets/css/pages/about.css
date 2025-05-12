@@ -1,0 +1,44 @@
+.about--top {
+  display: flex;
+  gap: 2rem;
+}
+
+.about--intro {
+  flex: 1 1 66%;
+}
+
+.about--photo {
+  flex: 1 1 33%;
+}
+
+.about--photo img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.about--job-header {
+  display: flex;
+  gap: var(--l--space-s);
+  align-items: center;
+}
+
+.about--job-date {
+  font-family: var(--t--font-family-mono);
+  color: var(--c--theme-text-secondary);
+}
+
+@media (--l--breakpoint-s) {
+  .about--top {
+    flex-direction: column-reverse;
+  }
+
+  .about--intro,
+  .about--photo {
+    flex: 1 1 auto;
+  }
+
+  .about--photo {
+    max-width: 10rem;
+  }
+}
