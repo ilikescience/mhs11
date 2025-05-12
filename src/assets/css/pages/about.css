@@ -27,3 +27,14 @@
   font-family: var(--t--font-family-mono);
   color: var(--c--theme-text-secondary);
 }
+
+@media (--l--breakpoint-s) {
+  .about--top {
+    flex-direction: column;
+  }
+
+  .about--intro,
+  .about--photo {
+    flex: 1 1 auto;
+  }
+}
