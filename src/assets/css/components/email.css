@@ -22,9 +22,16 @@
 
 @media (--l--breakpoint-s) {
     .button {
-        margin-top: var(--l--space-xs);
+        padding: calc(var(--l--space-xs) * 2) 0;
+        font-size: var(--t--size-m);
+        margin-top: calc(var(--l--space-xs) * 2);
     }
     .email-form {
         flex-direction: column;
+
+        & input {
+                    font-size: var(--t--size-m);
+
+        }
     }
 }

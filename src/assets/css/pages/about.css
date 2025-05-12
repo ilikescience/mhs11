@@ -30,11 +30,15 @@
 
 @media (--l--breakpoint-s) {
   .about--top {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .about--intro,
   .about--photo {
     flex: 1 1 auto;
+  }
+
+  .about--photo {
+    max-width: 10rem;
   }
 }
