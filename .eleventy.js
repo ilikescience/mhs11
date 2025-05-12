@@ -272,24 +272,31 @@ module.exports = function (eleventyConfig) {
     }
   );
 
-  const fs = require('fs');
+const fs = require("fs");
 
-  eleventyConfig.addTransform(
-    'injectEmailBeforeFootnotes',
-    function (content, outputPath) {
-      if (outputPath && outputPath.endsWith('.html')) {
-        const emailPartial = fs.readFileSync(
-          './src/_includes/components/email.html',
-          'utf-8'
-        );
-        return content.replace(
-          '<section class="footnotes">',
-          `${emailPartial}\n<section class="footnotes">`
-        );
-      }
-      return content;
+eleventyConfig.addTransform("injectEmailBeforeFootnotes", function (content, outputPath) {
+  if (outputPath && outputPath.endsWith(".html")) {
+    const emailPartial = fs.readFileSync("./src/_includes/components/email.html", "utf-8");
+
+    // Try injecting before footnotes
+    const footnotesRegex = /<section[^>]*class=["']?footnotes["'][^>]*>/i;
+    if (footnotesRegex.test(content)) {
+      return content.replace(footnotesRegex, `${emailPartial}\n$&`);
     }
-  );
+
+    // Fallback: replace emailFallback div
+    const fallbackRegex = /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
+    if (fallbackRegex.test(content)) {
+      return content.replace(fallbackRegex, emailPartial);
+    }
+
+    // If neither exists, remove unused fallback container
+    const unusedFallbackRegex = /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
+    return content.replace(unusedFallbackRegex, '');
+  }
+
+  return content;
+});
 
   return {
     dir: dirs,
