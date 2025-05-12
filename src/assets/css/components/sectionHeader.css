@@ -28,5 +28,5 @@
 
 .sectionHeader--link a {
   text-decoration: none;
-  color: var(--c--gray-500);
+  color: var(--c--theme-text-secondary);
 }

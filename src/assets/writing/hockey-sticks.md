@@ -26,15 +26,15 @@ For example, here’s two hockey-stick graphs showing the revenues of Alphabet (
                 <path style="stroke:var(c--gray-100)" d="M90 770h760" />
                 </g>
                 <g transform="translate(25, 400)">
-                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--gray-500)">Revenue, billions</text>
+                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">Revenue, billions</text>
                 </g>
-                <g text-anchor="end" transform="translate(30 30)" style="font-size:1.5em; fill: var(--c--gray-500)">
+                <g text-anchor="end" transform="translate(30 30)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="40" y="150">3</text>
                     <text x="40" y="350">2</text>
                     <text x="40" y="550">1</text>
                     <text x="40" y="750">0</text>
                 </g>
-                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--gray-500)">
+                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="50" y="780">Year 1</text>
                     <text x="170" y="780">Year 2</text>
                     <text x="290" y="780">Year 3</text>
@@ -70,16 +70,16 @@ For example, here’s two hockey-stick graphs showing the revenues of Alphabet (
                     <path style="stroke:var(c--gray-100)" d="M90 770h760" />
                 </g>
                 <g transform="translate(25, 400)">
-                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--gray-500)">Revenue, billions</text>
+                    <text text-anchor="middle" transform="rotate(-90)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">Revenue, billions</text>
                 </g>
-                <g text-anchor="end" transform="translate(30 10)" style="font-size:1.5em; fill: var(--c--gray-500)">
+                <g text-anchor="end" transform="translate(30 10)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="40" y="70">2</text>
                     <text x="40" y="244">1.5</text>
                     <text x="40" y="418">1</text>
                     <text x="40" y="592">0.5</text>
                     <text x="40" y="770">0</text>
                 </g>
-                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--gray-500)">
+                <g transform="translate(20 35)" style="font-size:1.5em; fill: var(--c--theme-text-secondary)">
                     <text x="50" y="780">Year 1</text>
                     <text x="170" y="780">Year 2</text>
                     <text x="290" y="780">Year 3</text>
@@ -333,7 +333,7 @@ The “second half of the chessboard” effect shows up in our earlier thought e
         <path style="stroke:var(c--gray-100)" d="M90,370 h760" />
         <path style="stroke:var(c--gray-100)" d="M90,470 h760" />
         <path style="stroke:var(c--gray-100)" d="M90,570 h760" />
-        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--gray-500)">
+        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="40" y="50">$5M</text>
             <text x="40" y="150">$4M</text>
             <text x="40" y="250">$3M</text>
@@ -341,7 +341,7 @@ The “second half of the chessboard” effect shows up in our earlier thought e
             <text x="40" y="450">$1M</text>
             <text x="40" y="550">$0</text>
         </g>
-        <g style="font-size:1em; fill: var(--c--gray-500)">
+        <g style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="85" y="600">Month 1</text>
             <text x="415" y="600">Month 6</text>
             <text  x="765" y="600">Month 12</text>
@@ -362,13 +362,13 @@ But what if we look at the graph only halfway through the year? Not only was acc
         <path style="stroke:var(c--gray-100)" d="M90,170 h760" />
         <path style="stroke:var(c--gray-100)" d="M90,270 h760" />
         <path style="stroke:var(c--gray-100)" d="M90,370 h760" />
-        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--gray-500)">
+        <g text-anchor="end" transform="translate(30 25)" style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="40" y="50">$0.3M</text>
             <text x="40" y="150">$0.2M</text>
             <text x="40" y="250">$0.1M</text>
             <text x="40" y="350">$0.0M</text>
         </g>
-        <g style="font-size:1em; fill: var(--c--gray-500)">
+        <g style="font-size:1em; fill: var(--c--theme-text-secondary)">
             <text x="85" y="400">Month 1</text>
             <text  x="765" y="400">Month 6</text>
         </g>

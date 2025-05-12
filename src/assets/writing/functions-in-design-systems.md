@@ -373,16 +373,16 @@ You’re able to multiply large numbers because you learned a second way to do m
     <g transform="translate(200 40)">
         <text>
             <tspan x="30">187</tspan>
-            <tspan x="0" y="21" style="fill: var(--c--gray-500-700)">&times;</tspan>
+            <tspan x="0" y="21" style="fill: var(--c--theme-text-secondary)">&times;</tspan>
             <tspan x="42" y="22">54</tspan>
         </text>
-        <line x1="0" y1="28" x2="70" y2="28" style="stroke: var(--c--gray-500-700)"></line>
+        <line x1="0" y1="28" x2="70" y2="28" style="stroke: var(--c--theme-text-secondary)"></line>
         <text>
             <tspan x="30" y="50">748</tspan>
-            <tspan x="0" y="68" style="fill: var(--c--gray-500-700)">&plus;</tspan>
+            <tspan x="0" y="68" style="fill: var(--c--theme-text-secondary)">&plus;</tspan>
             <tspan x="18" y="69">9350</tspan>
         </text>
-        <line x1="0" y1="76" x2="70" y2="76" style="stroke: var(--c--gray-500-700)"></line>
+        <line x1="0" y1="76" x2="70" y2="76" style="stroke: var(--c--theme-text-secondary)"></line>
         <text>
             <tspan x="6" y="97">10098</tspan>
         </text>

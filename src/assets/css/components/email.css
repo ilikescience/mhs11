@@ -1,3 +1,7 @@
+.email p {
+    font-family: var(--t--family-sans);
+}
+
 .email-form {
     display: flex;
     gap: 0 1em;

@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 
 <header class="h-card l--mar-top-m l--grid-narrow l--mar-btm-l">
     <div>
-        <p>I'm a design leader focused on high-performing teams in emerging areas of design.</p>
+        <p>I'm a design leader focused on building and managing high-performing teams.</p>
         <p>Most recently, I led design at <a href="https://copilot.money">Copilot  Money</a>, helping the team move from start-up to scale-up. Before that I led teams at Stripe, The Wall Street Journal, and Soundcloud.</p>
     </div>
 </header>
@@ -18,28 +18,12 @@ eleventyExcludeFromCollections: true
             <a href="/writing">All writing {% linkArrow %}</a>
         </div>
     </div>
-    {%- for post in collections.writing reversed %}
-        {% if forloop.index0 < 4 %}
-            <a class="stub unstyled" href="{{ post.url }}">
-                <div class="stub--header">
-                    <div class="stub--date">
-                        {{ post.date | date: "%B %d, %Y" }}
-                    </div>
-                    <h2 class="stub--title">
-                        {{ post.data.title }}
-                        {% linkArrow %}
-                    </h2>
-                </div>
-                <div class="stub--content">
-                    {{ post.data.stub }}
-                </div>
-            </a>
-        {% else %}
-            {% break %}
-        {% endif %}
-    {%- endfor -%}
+    {% assign posts = collections.writing | reverse %}
+    {% for post in posts limit: 4 %}
+      {% stub post, true %}
+    {% endfor %}
     {%- include "components/email.html" -%}
-    <div class="l--mar-top-m l--grid-narrow l--space-loose">
+    <div class="l--mar-top-m l--grid-narrow">
         <div class="sectionHeader">
             <div class="sectionHeader--name">Selected work</div>
             <div class="sectionHeader--divider"></div>

@@ -86,13 +86,13 @@ _Simulated_ annealing is an optimization algorithm that operates on a set of dat
 If we have a formula for comparing how optimized two versions of our data are, why don’t we always choose the better-scoring one? This is the key to simulated annealing. Hill-climbing algorithms, ones that _always_ pick iterations with better scores, can quickly get stuck in what are called “local maxima” or “local minima” — states which are surrounded by less optimal neighbors but aren’t as optimal as farther-away options.
 
 <svg viewBox="0 0 1200 260">
-  <text x="5" y="50" font-size="24" style="fill: var(--c--gray-500)">More optimal</text>
-  <text x="5" y="230" font-size="24" style="fill: var(--c--gray-500)">Less optimal</text>
-  <text x="340" y="120" font-size="30" style="fill: var(--c--blue-5000)"> Local maximum</text>
+  <text x="5" y="50" font-size="24" style="fill: var(--c--theme-text-secondary)">More optimal</text>
+  <text x="5" y="230" font-size="24" style="fill: var(--c--theme-text-secondary)">Less optimal</text>
+  <text x="340" y="120" font-size="30" style="fill: var(--c--blue-500)"> Local maximum</text>
   <text x="770" y="60" font-size="30" style="fill: var(--c--green-500)"> Global maximum</text>
   <path d="M65,65 l-8,8 m8,-8 l8,8 m-8,-8 v140 l-8,-8 m8,8 l8,-8" style="stroke: var(--c--gray-100)" fill="transparent" stroke-width="5px"></path>
-  <path fill="transparent" style="stroke: var(--c--gray-500)"  stroke-width="7px" d="M150,220 c154 0 169 -80 271 -80 c79 0 107 71 189 71 c100 0 120 -130 250 -130 c136 0 171 139 293 139"></path>
-  <circle cx="420" cy="140" r="10" style="fill: var(--c--blue-5000)"></circle>
+  <path fill="transparent" style="stroke: var(--c--theme-text-secondary)"  stroke-width="7px" d="M150,220 c154 0 169 -80 271 -80 c79 0 107 71 189 71 c100 0 120 -130 250 -130 c136 0 171 139 293 139"></path>
+  <circle cx="420" cy="140" r="10" style="fill: var(--c--blue-500)"></circle>
   <circle cx="860" cy="80" r="10" style="fill: var(--c--green-500)"></circle>
 </svg>
 
@@ -239,12 +239,12 @@ Overall, the algorithm appears to be doing a great job of finding colors that fi
 <figure>
 <svg viewBox="0 0 600 300">
   <text x="5" y="30" font-size="24" font-weight="600" style="fill: var(--c--gray-600)">Loss function over time</text>
-  <text x="5" y="70" font-size="18" style="fill: var(--c--gray-500)">More optimal</text>
-  <text x="5" y="270" font-size="18" style="fill: var(--c--gray-500)">Less optimal</text>
-  <text x="130" y="70" font-size="14" style="fill: var(--c--gray-500)">100</text>
-  <text x="130" y="136" font-size="14" style="fill: var(--c--gray-500)">150</text>
-  <text x="130" y="203" font-size="14" style="fill: var(--c--gray-500)">200</text>
-  <text x="130" y="270" font-size="14" style="fill: var(--c--gray-500)">250</text>
+  <text x="5" y="70" font-size="18" style="fill: var(--c--theme-text-secondary)">More optimal</text>
+  <text x="5" y="270" font-size="18" style="fill: var(--c--theme-text-secondary)">Less optimal</text>
+  <text x="130" y="70" font-size="14" style="fill: var(--c--theme-text-secondary)">100</text>
+  <text x="130" y="136" font-size="14" style="fill: var(--c--theme-text-secondary)">150</text>
+  <text x="130" y="203" font-size="14" style="fill: var(--c--theme-text-secondary)">200</text>
+  <text x="130" y="270" font-size="14" style="fill: var(--c--theme-text-secondary)">250</text>
   <path d="M160 65 h800" style="stroke: var(--c--gray-100)"></path>
   <path d="M160 131 h800" style="stroke: var(--c--gray-100)"></path>
   <path d="M160 198 h800" style="stroke: var(--c--gray-100)"></path>

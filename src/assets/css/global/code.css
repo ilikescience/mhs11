@@ -29,7 +29,7 @@ li code {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .token.punctuation {
@@ -73,7 +73,7 @@ li code {
 }
 
 .token.function {
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .token.regex,

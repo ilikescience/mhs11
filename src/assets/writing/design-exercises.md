@@ -94,7 +94,7 @@ I Googled this thinking it was a ridiculous idea, but lo and behold, you can buy
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
 <iframe src="https://giphy.com/embed/6GFdlN4tynnWLAfLtW" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
-<figcaption class="c--gray-500 l--mar-btm-m">Lenticular Rubik's Cube, solved by YouTube user <a href="https://www.youtube.com/watch?v=Ixz5w_Pm5Js">RedKB</a></figcaption>
+<figcaption class="c--theme-text-secondary l--mar-btm-m">Lenticular Rubik's Cube, solved by YouTube user <a href="https://www.youtube.com/watch?v=Ixz5w_Pm5Js">RedKB</a></figcaption>
 </figure>
 
 This cube's stickers are [lenticular lenses](https://en.wikipedia.org/wiki/Lenticular_printing). Depending on what angle you view it from, the stickers appear one of two different colors.

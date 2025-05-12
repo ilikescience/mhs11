@@ -3,16 +3,16 @@ layout: layouts/default.html
 ---
 
 <header class="l--grid-narrow">
-    <div class="l--mar-top-none l--mar-btm-m l--space-compact">
+    <div class="l--mar-top-l l--mar-btm-m l--space-compact">
         <h1 class="t--family-sans t--weight-medium t--size-xl t--tracking-tight">
             {{ title }}
         </h1>
         {% if subtitle %}
-            <h2 class="t--size-m t--family-sans t--weight-normal l--mar-top-none">
+            <h2 class="t--size-l c--theme-text-secondary t--family-sans t--weight-medium l--mar-top-none">
                 {{ subtitle }}
             </h2>
         {% endif %}
-        <p class="c--gray-500 t--size-s">{{ page.date | date: '%B %d, %Y'}} · {{ content | readingTime}} min read</p>
+        <p class="c--theme-text-secondary t--size-s l--mar-top-none">{{ page.date | date: '%b %d, %Y'}} · {{ content | readingTime}} min read</p>
     </div>
 </header>
 {%if hero %}
@@ -24,10 +24,6 @@ layout: layouts/default.html
 <article class="post l--grid-narrow">
     {{ content }}
 </article>
-
 <aside class="l--grid-narrow">
     {%- include "components/latest.html" -%}
-</aside>
-<aside class="l--grid-narrow">
-    {%- include "components/email.html" -%}
 </aside>

@@ -1,30 +1,44 @@
-<nav class="l--space-flush {% if cover %}has-cover{% endif %} l--grid l--mar-top-l">
-    <div class="nav--container l--grid-narrow">
-        <a href="/" class="nav--logo t--tracking-tight">
-            Matt Ström-Awn
-        </a>
-        <a href="#" class="nav--theme-switcher" aria-label="Switch color themes">
-            <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                <g class="switcher--icon switcher--icon-light">
-                    <circle cx="25" cy="25" r="18"/ stroke-width="3px" fill="none"/>
-                </g>
-                <g class="switcher--icon switcher--icon-dark">
-                    <circle cx="25" cy="25" r="18"/ stroke-width="3px" fill="none"/>
-                    <circle cx="25" cy="25" r="7"/ stroke="none"/>
-                </g>
-            </svg>
-        </a>
-        <a href="#" class="nav--menu-toggle">
-            <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                <g class="menu--icon">
-                    <line x1="5" y1="8" x2="45" y2="8" stroke-width="3px"/>
-                    <line x1="5" y1="15" x2="45" y2="15" stroke-width="3px"/>
-                    <line x1="5" y1="22" x2="45" y2="22" stroke-width="3px"/>
-                    <line x1="5" y1="29" x2="45" y2="29" stroke-width="3px"/>
-                    <line x1="5" y1="36" x2="45" y2="36" stroke-width="3px"/>
-                    <line x1="5" y1="43" x2="45" y2="43" stroke-width="3px"/>
-                </g>
-            </svg>
-        </a>
+<nav
+  class="nav {% if cover %}has-cover{% endif %} l--grid l--space-flush"
+>
+  <div class="nav--container l--grid-narrow">
+    <a href="/" class="nav--logo t--tracking-tight"> Matt Ström-Awn </a>
+    <div class="nav--menu">
+      <a href="#" class="nav--theme-switcher" aria-label="Switch color themes">
+        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+          <g class="switcher--icon switcher--icon-light">
+            <circle cx="25" cy="25" r="18" stroke-width="3px" fill="none"/>
+          </g>
+          <g class="switcher--icon switcher--icon-dark">
+            <circle cx="25" cy="25" r="18" stroke-width="3px" fill="none"/>
+            <circle cx="25" cy="25" r="7" stroke="none"/>
+          </g>
+        </svg>
+      </a>
+      <a href="#" class="nav--textTheme-switcher" aria-label="Switch font themes">
+        <svg viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+          <g class="textTheme--icon textTheme--icon-default">
+            <line x1="5" y1="8" x2="45" y2="8" stroke-width="3px" />
+            <line x1="5" y1="15" x2="45" y2="15" stroke-width="3px" />
+            <line x1="5" y1="22" x2="45" y2="22" stroke-width="3px" />
+            <line x1="5" y1="29" x2="45" y2="29" stroke-width="3px" />
+            <line x1="5" y1="36" x2="45" y2="36" stroke-width="3px" />
+            <line x1="5" y1="43" x2="45" y2="43" stroke-width="3px" />
+          </g>
+          <g class="textTheme--icon textTheme--icon-serif">
+            <line x1="5" y1="8" x2="22.5" y2="8" stroke-width="3px" /><line x1="27.5" y1="8" x2="45" y2="8" stroke-width="3px" />
+            <line x1="5" y1="15" x2="22.5" y2="15" stroke-width="3px" /><line x1="27.5" y1="15" x2="45" y2="15" stroke-width="3px" />
+            <line x1="5" y1="22" x2="22.5" y2="22" stroke-width="3px" /><line x1="27.5" y1="22" x2="45" y2="22" stroke-width="3px" />
+            <line x1="5" y1="29" x2="22.5" y2="29" stroke-width="3px" /><line x1="27.5" y1="29" x2="45" y2="29" stroke-width="3px" />
+            <line x1="5" y1="36" x2="22.5" y2="36" stroke-width="3px" /><line x1="27.5" y1="36" x2="45" y2="36" stroke-width="3px" />
+            <line x1="5" y1="43" x2="22.5" y2="43" stroke-width="3px" /><line x1="27.5" y1="43" x2="45" y2="43" stroke-width="3px" />
+          </g>
+        </svg>
+      </a>
+      <div class="nav--menu-inner">
+        <a href="/writing" class="nav--link">Writing</a>
+        <a href="/about" class="nav--link">About</a>
+      </div>
     </div>
+  </div>
 </nav>

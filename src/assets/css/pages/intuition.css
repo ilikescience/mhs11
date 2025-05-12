@@ -15,7 +15,7 @@
 .intuition--label,
 .intuition--header {
     text-align: center;
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .intuition--labels {

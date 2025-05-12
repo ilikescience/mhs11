@@ -64,7 +64,7 @@
             background: var(--c--gray-25);
             border-bottom: 1px solid var(--c--gray-100);
             border-top: 1px solid var(--c--gray-100);
-            color: var(--c--gray-500);
+            color: var(--c--theme-text-secondary);
         }
 
         & td {
@@ -149,7 +149,7 @@ td {
         & td::before {
             content: attr(data-label);
             float: left;
-            color: var(--c--gray-500);
+            color: var(--c--theme-text-secondary);
         }
 
         &.table--bordered {

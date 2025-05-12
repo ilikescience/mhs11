@@ -1,15 +1,36 @@
-const themes = ['dark', 'light']
+const themes = ['dark', 'light'];
+const textThemes = ['default', 'serif'];
 
-const switchThemes = () => {
-    const body = document.querySelector('body')
-    const currentTheme = body.classList[0].replace('c--theme-', '')
-    const currentThemeIndex = themes.indexOf(currentTheme)
-    // move to next theme
-    const newTheme = `c--theme-${
-        themes[(currentThemeIndex + 1) % themes.length]
-    }`
-    body.classList = newTheme
-    localStorage.setItem('theme', newTheme)
+const switchColorThemes = () => {
+    const body = document.querySelector('body');
+    const currentClass = [...body.classList].find(cls => cls.startsWith('c--theme-'));
+    const currentTheme = currentClass ? currentClass.replace('c--theme-', '') : themes[0];
+    const currentThemeIndex = themes.indexOf(currentTheme);
+    const newTheme = `c--theme-${themes[(currentThemeIndex + 1) % themes.length]}`;
+    
+    if (currentClass) {
+        body.classList.replace(currentClass, newTheme);
+    } else {
+        body.classList.add(newTheme);
+    }
+
+    localStorage.setItem('theme', newTheme);
+};
+
+const switchTextThemes = () => {
+    const body = document.querySelector('body');
+    const currentClass = [...body.classList].find(cls => cls.startsWith('t--theme-'));
+    const currentTextTheme = currentClass ? currentClass.replace('t--theme-', '') : textThemes[0];
+    const currentTextThemeIndex = textThemes.indexOf(currentTextTheme);
+    const newTextTheme = `t--theme-${textThemes[(currentTextThemeIndex + 1) % textThemes.length]}`;
+
+    if (currentClass) {
+        body.classList.replace(currentClass, newTextTheme);
+    } else {
+        body.classList.add(newTextTheme);
+    }
+
+    localStorage.setItem('textTheme', newTextTheme);
 }
 
 const processForm = form => {
@@ -37,10 +58,16 @@ const updateTime = () => {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    const themeToggle = document.querySelector('.nav--theme-switcher')
-    themeToggle.addEventListener('click', e => {
+    const colorThemeToggle = document.querySelector('.nav--theme-switcher')
+    colorThemeToggle.addEventListener('click', e => {
         e.preventDefault()
-        switchThemes()
+        switchColorThemes()
+    })
+
+    const textThemeToggle = document.querySelector('.nav--textTheme-switcher')
+    textThemeToggle.addEventListener('click', e => {
+        e.preventDefault()
+        switchTextThemes()
     })
 
     const emailForm = document.querySelector('.email-form')

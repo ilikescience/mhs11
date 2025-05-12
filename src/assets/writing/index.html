@@ -1,0 +1,24 @@
+---
+layout: layouts/home.html
+eleventyExcludeFromCollections: true
+---
+<section class="l--grid-narrow writing l--mar-top-m">
+  {% assign posts = collections.writing | reverse %}
+  {% assign lastDate = "" %}
+  {% for post in posts %}
+    {% assign postYear = post.date | date: "%Y" %}
+    {% if postYear != lastDate %}
+      {% if lastDate != "" %}
+        </div>
+      {% endif %}
+      <div class="writing--section">
+        <div class="sectionHeader">
+          <div class="writing--year sectionHeader--name">{{ postYear }}</div>
+          <div class="sectionHeader--divider"></div>
+        </div>
+      {% assign lastDate = postYear %}
+    {% endif %}
+    {% stub post, true %}
+  {% endfor %}
+  </div>
+</section>

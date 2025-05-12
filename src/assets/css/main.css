@@ -12,7 +12,6 @@
 @import 'components/buttons.css';
 @import 'components/figure.css';
 @import 'components/email.css';
-@import 'components/latest.css';
 @import 'components/definition.css';
 @import 'components/swatch.css';
 @import 'components/youtube.css';
@@ -21,7 +20,9 @@
 @import 'components/linkArrow.css';
 @import 'components/stub.css';
 @import 'components/sectionHeader.css';
+@import 'components/footer.css';
 @import 'pages/intuition.css';
 @import 'pages/project.css';
-@import 'pages/index.css';
+@import 'pages/writing.css';
 @import 'pages/ethics.css';
+@import 'pages/about.css';

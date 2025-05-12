@@ -15,7 +15,7 @@
         'Arial',
         sans-serif;
     --t--family-serif:
-        'charter',
+        'charterVariable',
         'Palatino Linotype',
         'Palatino',
         'Book Antiqua',
@@ -45,12 +45,16 @@
     --t--weight-thin: 100;
 
     /* sizes */
-    --t--size-xxl: clamp(1.5rem, 4vw, 2rem);
-    --t--size-xl: clamp(1.3rem, 3vw, 1.6rem);
+    --t--size-xxl: clamp(1.6rem, 4vw, 2rem);
+    --t--size-xl: clamp(1.4rem, 3vw, 1.7rem);
     --t--size-l: clamp(1.2rem, 2vw, 1.4rem);
     --t--size-m: 1em;
     --t--size-s: clamp(0.85rem, 2vw, 0.9rem);
     --t--size-xs: clamp(0.7rem, 2vw, 0.8rem);
+}
+
+.t--theme-serif {
+    --t--family-sans: var(--t--family-serif);
 }
 
 .t--family-sans {
@@ -115,11 +119,11 @@
 }
 
 .t--tracking-tight {
-    letter-spacing: -0.5px;
+    letter-spacing: -0.02em;
 }
 
 .t--tracking-loose {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.02em;
 }
 
 .t--align-left {
@@ -206,9 +210,11 @@ a:not(.unstyled) {
     text-decoration-thickness: 0.05em;
     text-decoration-color: var(--c--gray-300);
     text-underline-offset: 0.1em;
-    transition: all 200ms ease-in-out;
+    transition: color 200ms ease-out,
+        text-decoration-color 200ms ease-out;
     &:hover {
-        transition: all 50ms ease-in-out;
+        transition: color 25ms ease-in-out, 
+        text-decoration-color 25ms ease-in-out;
         color: var(--c--theme-primary);
         text-decoration-color: var(--c--theme-primary);
     }
@@ -241,12 +247,12 @@ h2 {
 
 h3 {
     font-size: var(--t--size-l);
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 h4 {
     font-size: var(--t--size-l);
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 pre,

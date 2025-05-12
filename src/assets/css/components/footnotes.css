@@ -5,33 +5,32 @@ sup {
 }
 
 .footnote-ref a {
-    margin: 0 0.05rem;
+    margin: 0 0.05em;
     font-family: var(--t--family-sans);
     font-weight: 500;
     text-decoration: none;
 }
 
-.footnote-backref {
+a.footnote-backref {
     margin: 0 0.1rem;
     text-decoration: none;
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .footnote-ref a:hover {
-    color: var(--c--gray-500);
-    border-bottom: 1px solid var(--c--gray-500);
+    color: var(--c--theme-text-link);
 }
 
 .footnotes p,
 .footnotes ol {
     font-family: var(--t--family-sans);
     font-size: var(--t--size-s);
-    margin-top: 0.25rem;
     line-height: var(--t--leading-tight);
 }
 
 .footnotes {
-    color: var(--c--gray-700);
+    margin-top: var(--l--space-l);
+    color: var(--c--theme-text-secondary);
 
     & a {
         word-break: break-all;
@@ -40,6 +39,7 @@ sup {
 
     & ol {
         padding-left: 1rem;
+        margin-top: var(--l--space-m);
     }
 
     & li {
@@ -48,5 +48,9 @@ sup {
             background-color: var(--c--yellow-25);
             border-radius: var(--l--border-radius-s);
         }
+    }
+
+    & li + li {
+        margin-top: var(--l--space-s);
     }
 }

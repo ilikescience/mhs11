@@ -30,7 +30,7 @@ label {
     top: 0;
     left: 0;
     margin-top: 0;
-    color: var(--c--gray-500);
+    color: var(--c--gray-600);
     font-size: var(--t--size-s);
     transition: opacity 100ms ease-out;
 }

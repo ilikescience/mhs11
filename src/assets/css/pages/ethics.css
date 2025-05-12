@@ -15,7 +15,7 @@
 
 .ethics--link-upcoming .ethics--toc-title {
     border-bottom: none;
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .ethics--link-upcoming .ethics--toc-numeral {
@@ -30,12 +30,12 @@
     display: inline-block;
     width: 1.5rem;
     text-decoration: none;
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .ethics--byline {
     margin-top: 0.5rem;
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .ethics--container {
@@ -70,14 +70,14 @@
     padding: 0.25rem 0.5rem;
     font-size: var(--t--size-s);
     background-color: var(--c--gray-25);
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
     border-radius: 3px;
 }
 
 .ethics--part span {
     display: inline-block;
     text-transform: uppercase;
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .ethics--intro p {

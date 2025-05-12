@@ -148,15 +148,24 @@
         --c--yellow-700: #f1a202;
         --c--yellow-800: #fec486;
         --c--yellow-900: #feecdd;
+
+        /* theme vars */
+        --c--theme-bg: var(--c--gray-0);
+        --c--theme-fg: var(--c--gray-800);
+        --c--theme-primary: var(--c--blue-500);
+        --c--theme-text-primary: var(--c--gray-800);
+        --c--theme-text-secondary: var(--c--gray-600);
+        --c--theme-text-link: var(--c--blue-500);
 }
 
-.c--theme-light,
-.c--theme-dark {
+.c--theme-light {
     --c--theme-bg: var(--c--gray-0);
     --c--theme-fg: var(--c--gray-800);
     --c--theme-primary: var(--c--blue-500);
+    --c--theme-text-primary: var(--c--gray-800);
+    --c--theme-text-secondary: var(--c--gray-500);
+    --c--theme-text-link: var(--c--blue-500);
 }
-
 .c--gray-0 { color: var(--c--gray-0); }
 .c--gray-25 { color: var(--c--gray-25); }
 .c--gray-50 { color: var(--c--gray-50); }
@@ -222,6 +231,13 @@
 .c--yellow-700 { color: var(--c--yellow-700); }
 .c--yellow-800 { color: var(--c--yellow-800); }
 .c--yellow-900 { color: var(--c--yellow-900); }
+
+.c--theme-text-primary { color: var(--c--theme-text-primary); }
+.c--theme-text-secondary { color: var(--c--theme-text-secondary); }
+.c--theme-bg { background-color: var(--c--theme-bg); }
+.c--theme-fg { color: var(--c--theme-fg); }
+.c--theme-primary { color: var(--c--theme-primary); }
+.c--theme-text-link { color: var(--c--theme-text-link); }
 
 .c--bg-gray-25 { background-color: var(--c--gray-25); }
 .c--bg-gray-50 { background-color: var(--c--gray-50); }

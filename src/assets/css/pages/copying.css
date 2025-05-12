@@ -17,7 +17,7 @@
 
 .copying--contents {
     font-size: var(--t--size-s);
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
     margin-top: var(--l--space-s);
 }
 
@@ -30,7 +30,7 @@
 .copying--chapter {
     font-size: var(--t--size-xxl);
     font-family: var(--t--family-serif);
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
     margin-top: var(--l--space-m);
 }
 
@@ -40,13 +40,13 @@
 
 .copying figure figcaption {
     font-size: var(--t--size-s);
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
 }
 
 .copying--quote {
     font-size: var(--t--size-l);
     font-family: var(--t--family-serif);
     font-weight: var(--t--weight-bold);
-    color: var(--c--gray-500);
+    color: var(--c--theme-text-secondary);
     line-height: 1.2em;
 }
