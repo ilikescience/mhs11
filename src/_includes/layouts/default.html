@@ -16,7 +16,7 @@
     <script>
         window.addEventListener('DOMContentLoaded', () => {
             document.querySelector('body').classList = localStorage.getItem('theme') || 'c--theme-light';
-            document.querySelector('body').classList.add(localStorage.getItem('textTheme') || 't--theme-normal');
+            document.querySelector('body').classList.add(localStorage.getItem('textTheme') || 't--theme-default');
         });
     </script>
     <script defer src="/js/main.js"></script>
