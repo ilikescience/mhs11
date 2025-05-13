@@ -1,18 +1,5 @@
-.project--section {
-    padding-top: var(--l--space-s);
-    padding-bottom: var(--l--space-m);
-}
-
-.project--section > *:not(.l--grid-wide) {
-    grid-column: narrow;
-}
-
-.project figcaption {
-    padding-top: 0.5em;
-    font-size: var(--t--size-s);
-    color: var(--c--theme-text-secondary);
-}
-
-.project figure * + * {
-    margin-top: 0;
+.project--hero {
+    padding: var(--l--space-m);
+    background: var(--c--gray-25);
+    border-radius: var(--l--border-radius-m);
 }
