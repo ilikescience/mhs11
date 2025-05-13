@@ -10,7 +10,7 @@ footer {
 .footer--menu {
   display: flex;
   font-size: var(--t--size-s);
-  color: var(--c--gray-500);
+  color: var(--c--gray-600);
   flex-direction: column;
   flex: 1 0 auto;
 }
