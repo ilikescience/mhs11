@@ -10,6 +10,10 @@
   margin-top: 0;
 }
 
+.gallery:has(> :nth-child(1):last-child) {
+  grid-template-columns: repeat(1, 1fr);
+}
+
 .gallery:has(> :nth-child(2):last-child) {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -51,5 +55,12 @@
     flex: 0 0 75vw;
     scroll-snap-align: start;
   }
+
+
+.gallery:has(> :nth-child(1):last-child) {
+  & > figure {
+      flex: 1;
+  }
+}
 
 }
