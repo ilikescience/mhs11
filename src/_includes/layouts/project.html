@@ -2,4 +2,36 @@
 layout: layouts/default.html
 ---
 
-{{ content }}
+<div class="l--grid">
+  <div class="l--grid-narrow">
+    <header class="l--mar-top-l l--mar-btm-m l--space-compact">
+      <h1 class="t--family-sans t--weight-medium t--size-xl t--tracking-tight">
+        {{ title }}
+      </h1>
+      {% if subtitle %}
+      <h2
+        class="t--size-l c--theme-text-secondary t--weight-normal t--family-sans l--mar-top-none"
+      >
+        {{ subtitle }}
+      </h2>
+      {% endif %}
+      {% if awards %}
+        <div class="project--awards">
+          {% for award in awards %}
+            <img src="{{ award.src }}"/>
+            {% endfor  %}
+        </div>
+        {% endif %}
+    </header>
+  </div>
+  <div class="l--grid-wide project--hero">
+    {% if hero %}
+    <img src="{{hero}}" class="l--rounded-corners" />
+    {% else %}
+    <img src="/assets/images/hero.jpg" class="l--rounded-corners" />
+    {% endif %}
+  </div>
+  <div class="l--grid-narrow l--mar-top-m">
+  {{ content }}
+  </div>
+</div>
