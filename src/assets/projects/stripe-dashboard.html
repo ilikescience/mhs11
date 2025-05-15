@@ -1,0 +1,111 @@
+---
+title: 'Stripe Merchant Dashboard'
+subtitle: "Sweating the details of Stripe's most-used product"
+layout: layouts/project.html
+hero: /images/stripe-desktop-hero.png
+---
+
+<div class=""project--section">
+  <p>
+    In 2022, I took over leadership of the Stripe Merchant Dashboard team. The merchant dashboard is the center of Stripe's product experience; at that time, more than <strong>1.4 million users</strong> relied on the dashboard to run their business. It was a major source of revenue for Stripe, too — the company generated more than <strong>$4 billion</strong> in revenue from SaaS delivered via theh dashboard.
+  </p>
+  <p>
+    Despite this, the dashboard was starting to show signs of age. User satisfaction was declining, and the decentralized nature of the product meant that many teams were working on their own versions of the dashboard, leading to a fragmented experience. With my leadership, the team set out to unify the dashboard experience, simplify the information architecture, and set up the product for future growth.
+  </p>
+
+  <figure class="figure--themeable l--mar-block-m">
+    <img loading="lazy" class="figure--themeable-light" src="/images/stripe-dashboard-1-light.png" alt="A screenshot of the Stripe Merchant Dashboard" />
+    <img loading="lazy" class="figure--themeable-dark" src="/images/stripe-dashboard-1-dark.png" alt="A screenshot of the Stripe Merchant Dashboard" />
+  </figure>
+
+  <h2>Design system</h2>
+  <p>
+    The dashboard was built on a design system that had been in place for several years. Recently, the design systems team had released a new version of the system, but adoption was slow. This meant the dashboard was not responsive, and was missing major accessibility features, and couldn't be themed (ie, no dark mode).
+  </p>
+  <p>
+    I chartered a plan to migrate 100% of the dashboard's codebase to the latest version of the design system, and managed the effort by coordinating dozens of teams over the course of two years. Tactically, we provided dozens of templates and AI-powered migration pathways that allowed engineering teams to seamlessly migrate their product experiences.
+  </p>
+
+  <figure class="figure--themeable l--mar-block-m">
+    <img loading="lazy" class="figure--themeable-light" src="/images/stripe-dashboard-2-light.png" alt="A screenshot of the Stripe Merchant Dashboard" />
+    <img loading="lazy" class="figure--themeable-dark" src="/images/stripe-dashboard-2-dark.png" alt="A screenshot of the Stripe Merchant Dashboard" />
+  </figure>
+
+  <p>Because we built all of the components to be fully themable, this design system served as a backbone for an external-facing feature called <a href="#" rel="noopener" target="_blank">Stripe Embedded Components</a>. Embedded components enabled merchants to seamlessly embed Stripe's dashboard functionality into their own apps, matching it to the look and feel of their product.</p>
+
+</div>
+
+{% gallery 'project' %}
+{% image '/images/stripe-dashboard-3.png' "A collection of components from Stripe's design system" %}
+{% image '/images/stripe-dashboard-4.png' "A mockup of a page template" %}
+{% endgallery %}
+
+{% gallery 'project' %}
+{% image "/images/stripe-dashboard-21.png" "A mockup of a dashboard using Stripe's components" "An example of how the components could be themed to a customer's brand language" %}
+{% endgallery %}
+
+<div class="project--section">
+  
+  <h2>Responsiveness</h2>
+  <p>One of the most challenging aspects of the migration was making Stripe's dashboard responsive. Complex design patterns like tables, filter controls, and modal dialogs had to be adapted to small screens in a way that preserved information architecture and common pattern recognition.</p>
+
+  {% image "/images/stripe-dashboard-5.png" "A mockup of three screens showing the Stripe dashboard before responsive design" "The merchant dashboard before the responsive update" %}
+
+  {% image "/images/stripe-dashboard-6.png" "A mockup of three screens showing the Stripe dashboard after responsive design" "The merchant dashboard after the responsive update" %}
+
+  <p>The goal wasn't just to provide a great experience for users on phones; we improved the overall design language of the dashboard to adapt to <i>any</i> screen size, meeting our users where they were most comfortable.</p>
+</div>
+
+{% gallery 'project' %}
+{% image "/images/stripe-dashboard-22.png" %}
+{% endgallery %}
+
+<div class="project--section">
+  <h2>Theming</h2>
+  <p>Because Stripe's dashboard was originally designed before the popularization of "dark mode," it was highly optimized for its default light mode theme. But as dark mode became more popular — especially among developers, one of Stripe's most important user segments — the dashboard's lack of theming became more and more glaring.</p>
+
+  {% image "/images/stripe-dashboard-8.png" "A tweet with the text " %}
+
+  <p>With Stripe's reputation for quality to uphold, my team focused on the details of a truly excellent dark mode: one that would not only look aesthetically pleasing, but also be accessible and intuitive in all contexts.</p>
+
+  {% image "/images/stripe-dashboard-13.png" %}
+  {% image "/images/stripe-dashboard-10.png" %}
+
+  <p>Dark mode was just the beginning. Because we architected all our components to use design tokens and an extensible theming architecture, we could introduce additional themes, like a "darker mode" for developer applications that needed to overlay the dashboard.</p>
+
+  </div>
+
+  {% gallery 'project' %}
+    {% image "/images/stripe-dashboard-14.png" %}
+{% endgallery %}
+
+<div class="project--section l--mar-top-none">
+
+  <p>While the larger dashboard migration project was underway, we worked with the Stripe Mobile team to launch dark mode in the iOS app as a proof of concept. The release was received with great fanfare from Stripe's users.</p>
+
+  <video controls loading="lazy" muted autoplay loop>
+  <source src="/images/stripe-dashboard-15.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  {% image "/images/stripe-dashboard-16.png" %}
+
+  <h2>Accessibility</h2>
+
+  <p>The updated theming architecture and page templates were designed to ensure accessibility, regardless of what input or color mode the user preferred. To enable accessibility at Stripe's scale, I developed <a href="writing/generating-color-palettes/">a new approach to automatically generating color tokens based on the WCAG color contrast algorithm</a>. I also worked with Stripe's policy team to develop and implement a global accessibility policy across the organization.</p>
+
+</div>
+
+{% gallery 'project' %}
+{% image "/images/stripe-dashboard-17.png" %}
+{% image "/images/stripe-dashboard-18.png" %}
+{% image "/images/stripe-dashboard-19.png" %}
+{% image "/images/stripe-dashboard-20.png" %}
+{% endgallery %}
+
+<div class="project--section">
+  <h2>Conclusion</h2>
+  <p>We didn't simply modernize the dashboard; by going above and beyond the status quo we created entirely new business lines for Stripe, and opened up new business partnerships; in 3 months after we implemented our accessibility policies, I helped close over <strong>$10 million</strong> worth of new SaaS partnerships with customers with stringent accessibility standards.</p>
+  <p>Visits from mobile devices grew sharply once we implemented the new responsive views, and experience quality (measured by support volume, task success, and session length) improved substantially.</p>
+  <p>Investing in the foundation of Stripe's merchant dashboard was a hard sell. Team structures and organizational priorities often emphasized vertical product lines over horizontal infrastructure work.. But, as a small team, we worked with focus and urgency over the course of years to set our partners — and the company — up for success.</p>
+</div>

@@ -32,3 +32,11 @@ figure figcaption {
     margin-top: 0.5em;
     color: var(--c--theme-text-secondary);
 }
+
+.c--theme-light .figure--themeable-dark {
+    display: none;
+}
+
+.c--theme-dark .figure--themeable-light {
+    display: none;
+}

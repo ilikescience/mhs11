@@ -3,3 +3,11 @@
     background: var(--c--gray-25);
     border-radius: var(--l--border-radius-m);
 }
+
+.project figure:not(> .gallery) {
+    margin: var(--l--space-m) 0;
+}
+
+.project .gallery {
+    margin: calc(var(--l--space-m)) 0;;
+}

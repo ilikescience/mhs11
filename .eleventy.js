@@ -239,7 +239,7 @@ module.exports = function (eleventyConfig) {
       return `<figure>
         <img src="${src}" alt="${alt}" loading="lazy"/>
         <figcaption>
-          ${caption} ${
+          ${caption ? caption : ''} ${
         credit ? `<span class="figure--credit">${credit}</span>` : ''
       }
         </figcaption>
