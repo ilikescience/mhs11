@@ -9,5 +9,26 @@
 }
 
 .project .gallery {
-    margin: calc(var(--l--space-m)) 0;;
+    margin: var(--l--space-m) 0;;
+}
+
+
+.project--awards {
+    display: flex;
+    margin-block-start: var(--l--space-m);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.project figure:not(> .gallery) + figure {
+    margin-top: var(--l--space-m);
+}
+
+
+.project--awards img {
+    display: block;
+    height: auto;
+    flex: 0 1 auto;
+    max-width: 150px;
+    margin-top: 0;
 }

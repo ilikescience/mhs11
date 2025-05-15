@@ -15,6 +15,13 @@ layout: layouts/default.html
         {{ subtitle }}
       </h2>
       {% endif %}
+      {% if awards %}
+        <div class="project--awards">
+          {% for award in awards %}
+            <img src="{{ award.src }}"/>
+            {% endfor  %}
+        </div>
+        {% endif %}
     </header>
   </div>
   <div class="l--grid-wide project--hero">
