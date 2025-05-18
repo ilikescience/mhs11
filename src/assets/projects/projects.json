@@ -1,3 +1,5 @@
 {
-    "layout": "layouts/project.html"
+    "layout": "layouts/project.html",
+    "tags": ["projects"],
+    "activePage": "projects"
 }

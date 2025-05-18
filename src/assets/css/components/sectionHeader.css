@@ -23,7 +23,7 @@
 
 .sectionHeader--divider {
   flex: 1 1 auto;
-  border-bottom: 1px solid var(--c--gray-100);
+  border-bottom: 1px solid var(--c--gray-50);
 }
 
 .sectionHeader--link a {
