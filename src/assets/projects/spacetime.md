@@ -1,6 +1,6 @@
 ---
 title:  "Spacetime"
-tags: projects
+eleventyExcludeFromCollections: true
 ---
 
 [Spacetime](https://spacetime.am) is a tool for remote teams. It visualizes and translates time zones to make coordinating easier, and brings teams closer together.

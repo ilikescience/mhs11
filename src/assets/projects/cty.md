@@ -1,6 +1,6 @@
 ---
 title:  "CTY"
-tags: companies
+eleventyExcludeFromCollections: true
 ---
 
 CTY is a civic technology company.

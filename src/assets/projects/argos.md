@@ -1,6 +1,6 @@
 ---
 title:  "Argos"
-tags: projects
+eleventyExcludeFromCollections: true
 ---
 
 Argos is a content marketing analytics platform, concieved by The Daily Beast, and designed, developed, and maintained by the Planetary team.

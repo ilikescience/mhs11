@@ -1,6 +1,6 @@
 ---
 title:  "The Architect's Newspaper"
-tags: projects
+eleventyExcludeFromCollections: true
 ---
 
 The Architect's Newspaper is an architecture trade publication. Their website, [archpaper.com](http://archpaper.com), comprises over 16 years of content, including over 14,000 posts and over 20,000 images, scattered across a handfull of content management systems and formats.

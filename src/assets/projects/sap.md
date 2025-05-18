@@ -1,6 +1,6 @@
 ---
 title:  "SAP Fiori UI + UX"
-tags: projects
+eleventyExcludeFromCollections: true
 ---
 
 SAP is a multinational software corporation, focused on enterprise software to manage business operations and customer relations.

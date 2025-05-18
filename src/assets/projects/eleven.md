@@ -1,6 +1,6 @@
 ---
 title:  "Eleven"
-tags: projects
+eleventyExcludeFromCollections: true
 ---
 
 Eleven is a free music magazine. It was started in 2006 by a group of people, including myself, at Washington University in St. Louis.

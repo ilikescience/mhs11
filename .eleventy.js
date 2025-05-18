@@ -219,19 +219,22 @@ module.exports = function (eleventyConfig) {
     return `<span class="swatch" style="background: ${hex}"></span> <span class="t--family-mono">${hex}</span>`;
   });
 
-  eleventyConfig.addPairedShortcode('gallery', function (content, type="post", width="wide") {
-    let output = '';
-    if (type === "post") {
-      output = `</article>
+  eleventyConfig.addPairedShortcode(
+    'gallery',
+    function (content, type = 'post', width = 'wide') {
+      let output = '';
+      if (type === 'post') {
+        output = `</article>
             <div class="gallery gallery--${width}">${content}</div>
         <article class="l--grid-narrow post">`;
-    } else {
-      output = `</div>
+      } else {
+        output = `</div>
             <div class="gallery gallery--${width}">${content}</div>
         <div class="l--grid-narrow">`;
+      }
+      return output;
     }
-    return output
-  });
+  );
 
   eleventyConfig.addShortcode(
     'image',
@@ -259,6 +262,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode(
     'stub',
     function (post, showExcerpt = true, showYear = false) {
+      const isProject = post.data.tags.includes('projects');
       const { DateTime } = require('luxon');
       const date = showYear
         ? DateTime.fromJSDate(post.date).toFormat('LLL dd, yyyy')
@@ -267,7 +271,20 @@ module.exports = function (eleventyConfig) {
       const url = post.url;
       const stub = post.data.stub;
 
-      return `<a class="stub unstyled" href="${url}">
+      // If the post is a project, use the project template
+      if (isProject) {
+        return `<a class="stub stub--project unstyled" href="${url}">
+        <div class="stub--header">
+          <div class="stub--date">${DateTime.fromJSDate(post.date).toFormat('yyyy')}</div>
+          <h2 class="stub--title">
+            ${title}
+            ${eleventyConfig.getShortcodes().linkArrow()}
+          </h2>
+        </div>
+        <div class="stub--content">${post.data.subtitle}</div>
+          </a>`;
+      } else {
+        return `<a class="stub stub--post unstyled" href="${url}">
     <div class="stub--header">
       <div class="stub--date">${date}</div>
       <h2 class="stub--title">
@@ -277,34 +294,43 @@ module.exports = function (eleventyConfig) {
     </div>
     ${showExcerpt && stub ? `<div class="stub--content">${stub}</div>` : ''}
   </a>`;
+      }
     }
   );
 
-const fs = require("fs");
+  const fs = require('fs');
 
-eleventyConfig.addTransform("injectEmailBeforeFootnotes", function (content, outputPath) {
-  if (outputPath && outputPath.endsWith(".html")) {
-    const emailPartial = fs.readFileSync("./src/_includes/components/email.html", "utf-8");
+  eleventyConfig.addTransform(
+    'injectEmailBeforeFootnotes',
+    function (content, outputPath) {
+      if (outputPath && outputPath.endsWith('.html')) {
+        const emailPartial = fs.readFileSync(
+          './src/_includes/components/email.html',
+          'utf-8'
+        );
 
-    // Try injecting before footnotes
-    const footnotesRegex = /<section[^>]*class=["']?footnotes["'][^>]*>/i;
-    if (footnotesRegex.test(content)) {
-      return content.replace(footnotesRegex, `${emailPartial}\n$&`);
+        // Try injecting before footnotes
+        const footnotesRegex = /<section[^>]*class=["']?footnotes["'][^>]*>/i;
+        if (footnotesRegex.test(content)) {
+          return content.replace(footnotesRegex, `${emailPartial}\n$&`);
+        }
+
+        // Fallback: replace emailFallback div
+        const fallbackRegex =
+          /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
+        if (fallbackRegex.test(content)) {
+          return content.replace(fallbackRegex, emailPartial);
+        }
+
+        // If neither exists, remove unused fallback container
+        const unusedFallbackRegex =
+          /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
+        return content.replace(unusedFallbackRegex, '');
+      }
+
+      return content;
     }
-
-    // Fallback: replace emailFallback div
-    const fallbackRegex = /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
-    if (fallbackRegex.test(content)) {
-      return content.replace(fallbackRegex, emailPartial);
-    }
-
-    // If neither exists, remove unused fallback container
-    const unusedFallbackRegex = /<div[^>]*class=["']?emailFallback["'][^>]*>\s*<\/div>/i;
-    return content.replace(unusedFallbackRegex, '');
-  }
-
-  return content;
-});
+  );
 
   return {
     dir: dirs,
