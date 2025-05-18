@@ -3,11 +3,11 @@
   text-decoration: none;
 }
 
-.stub:has(.stub--content) + .stub {
+.stub:has(.stub--text) + .stub {
   margin-top: var(--l--space-m);
 }
 
-.stub:not(:has(.stub--content)) + .stub {
+.stub:not(:has(.stub--text)) + .stub {
   margin-top: var(--l--space-xs);
 }
   .stub--title,
@@ -38,7 +38,7 @@
     font-feature-settings: "ss09" 1, "ss03" 1;
   }
 
-  .stub--content {
+  .stub--text {
     color: var(--c--theme-text-secondary);
     margin-top: var(--l--space-xs);
     line-height: var(--t--leading-tight);
@@ -57,6 +57,39 @@
   }
 
 .stub--project {
-  position: relative;
+  display: flex;
+  background: var(--c--theme-bg);
+  flex-direction: column;
+  border: 1px solid var(--c--gray-25);
   border-radius: var(--l--border-radius-m);
+  margin-top: var(--l--space-m);
+
+  .stub--header {
+    gap: var(--l--space-xs);
+  }
+
+  .stub--text {
+    font-size: var(--t--size-s);
+  }
+
+  &:hover .stub--thumbnail img {
+    transform: translateY(0);
+    transition: transform 100ms ease-out;
+  }
+}
+
+.stub--projectHeader {
+  padding: calc(var(--l--space-s) * 0.75) var(--l--space-s) 0;
+}
+
+.stub--thumbnail {
+  height: 12em;
+  overflow: hidden;
+  margin-top: 0.5em;
+
+  img {
+    margin: 0;
+    transform: translateY(1em);
+    transition: transform 200ms ease-out;
+  }
 }

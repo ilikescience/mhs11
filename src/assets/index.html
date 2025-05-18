@@ -27,11 +27,8 @@ eleventyExcludeFromCollections: true
 
 <div class="l--mar-top-m l--grid-narrow">
   <div class="sectionHeader">
-    <div class="sectionHeader--name">Selected work</div>
+    <div class="sectionHeader--name">Selected projects</div>
     <div class="sectionHeader--divider"></div>
-    <div class="sectionHeader--link">
-      <a href="/work">All work {% linkArrow %}</a>
-    </div>
   </div>
       {% assign posts = collections.projects | reverse %}
     {% for post in posts limit: 4 %}

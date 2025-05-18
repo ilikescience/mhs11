@@ -270,18 +270,28 @@ module.exports = function (eleventyConfig) {
       const title = post.data.title;
       const url = post.url;
       const stub = post.data.stub;
+      let thumbnail = '';
+      if (post.data.thumbnail) {
+        thumbnail = `<div class="stub--thumbnail"><img class="figure--themeable-light" src="${post.data.thumbnail.light}" alt="${title}" loading="lazy"/>
+        <img class="figure--themeable-dark" src="${post.data.thumbnail.dark}" alt="${title}" loading="lazy"/></div>`;
+      };
 
       // If the post is a project, use the project template
       if (isProject) {
         return `<a class="stub stub--project unstyled" href="${url}">
-        <div class="stub--header">
-          <div class="stub--date">${DateTime.fromJSDate(post.date).toFormat('yyyy')}</div>
+        <div class="stub--projectHeader">
+          <div class="stub--header">
+          <div class="stub--date">${DateTime.fromJSDate(post.date).toFormat(
+            'yyyy'
+          )}</div>
           <h2 class="stub--title">
             ${title}
             ${eleventyConfig.getShortcodes().linkArrow()}
           </h2>
+          </div>
+          <div class="stub--text">${post.data.subtitle}</div>
         </div>
-        <div class="stub--content">${post.data.subtitle}</div>
+        ${thumbnail}
           </a>`;
       } else {
         return `<a class="stub stub--post unstyled" href="${url}">
@@ -292,7 +302,7 @@ module.exports = function (eleventyConfig) {
         ${eleventyConfig.getShortcodes().linkArrow()}
       </h2>
     </div>
-    ${showExcerpt && stub ? `<div class="stub--content">${stub}</div>` : ''}
+    ${showExcerpt && stub ? `<div class="stub--text">${stub}</div>` : ''}
   </a>`;
       }
     }
