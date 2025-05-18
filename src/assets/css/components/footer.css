@@ -12,5 +12,33 @@ footer {
   font-size: var(--t--size-s);
   color: var(--c--gray-600);
   flex-direction: column;
+  align-items: flex-start;
   flex: 1 0 auto;
+}
+
+.footer--menu a {
+  display: flex;
+  padding: calc(var(--l--space-xs) / 2) var(--l--space-xs);
+  border-radius: 0.35rem;
+  margin-left: calc(var(--l--space-xs) * -1);
+  flex: 0 1 auto;
+  align-items: center;
+  gap: var(--l--space-xs);
+  transition: background-color 200ms ease-out, color 200ms ease-out;
+
+  &:hover {
+    background-color: var(--c--blue-50);
+    color: var(--c--blue-500);
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+
+    & svg {
+      color: var(--c--blue-400);
+    }
+  }
+}
+
+.footer--menu svg {
+  width: auto;
+  height: 0.75em;
+  color: var(--c--gray-400);
 }
