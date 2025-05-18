@@ -6,6 +6,10 @@
   gap: var(--l--space-s);
 }
 
+.gallery--narrow {
+  grid-column: narrow;
+}
+
 .gallery + article {
   margin-top: 0;
 }

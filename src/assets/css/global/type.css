@@ -1,7 +1,7 @@
 :root {
     /* base values */
     --t--base-size: clamp(17px, 2vw, 19px);
-    --t--leading-base: clamp(1.3em, calc(30px - 1vw), 1.4em);
+    --t--leading-base: clamp(1.4em, calc(28px - 1vw), 1.5em);
     --t--leading-tight: clamp(1.2em, calc(26px - 1vw), 1.3em);
 
     /* families */

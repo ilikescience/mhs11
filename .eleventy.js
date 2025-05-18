@@ -219,15 +219,15 @@ module.exports = function (eleventyConfig) {
     return `<span class="swatch" style="background: ${hex}"></span> <span class="t--family-mono">${hex}</span>`;
   });
 
-  eleventyConfig.addPairedShortcode('gallery', function (content, type="post") {
+  eleventyConfig.addPairedShortcode('gallery', function (content, type="post", width="wide") {
     let output = '';
     if (type === "post") {
       output = `</article>
-            <div class="gallery">${content}</div>
+            <div class="gallery gallery--${width}">${content}</div>
         <article class="l--grid-narrow post">`;
     } else {
       output = `</div>
-            <div class="gallery">${content}</div>
+            <div class="gallery gallery--${width}">${content}</div>
         <div class="l--grid-narrow">`;
     }
     return output

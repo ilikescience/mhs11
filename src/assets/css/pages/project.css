@@ -32,3 +32,11 @@
     max-width: 150px;
     margin-top: 0;
 }
+
+@media (--l--breakpoint-s) {
+    .project--hero {
+        padding: 0;
+        background: transparent;
+        border-radius: none;
+    }
+}
