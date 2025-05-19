@@ -1,17 +1,18 @@
 footer {
-  background-color: var(--c--gray-25);
+  padding: var(--l--space-xl) 0 0;
 }
 
 .footer--inner {
-  padding: var(--l--space-l) 0;
+  display: flex;
+  padding: var(--l--space-m) 0;
   gap: var(--l--space-s);
+  align-items: baseline;
 }
 
 .footer--menu {
   display: flex;
   font-size: var(--t--size-s);
   color: var(--c--gray-600);
-  flex-direction: column;
   align-items: flex-start;
   flex: 1 0 auto;
 }
@@ -20,7 +21,6 @@ footer {
   display: flex;
   padding: calc(var(--l--space-xs) / 2) var(--l--space-xs);
   border-radius: 0.35rem;
-  margin-left: calc(var(--l--space-xs) * -1);
   flex: 0 1 auto;
   align-items: center;
   gap: var(--l--space-xs);
@@ -41,4 +41,8 @@ footer {
   width: auto;
   height: 0.75em;
   color: var(--c--gray-400);
+}
+
+.footer--back {
+  flex: 0 1 auto;
 }

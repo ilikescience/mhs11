@@ -30,7 +30,7 @@ eleventyExcludeFromCollections: true
     <div class="sectionHeader--name">Selected projects</div>
     <div class="sectionHeader--divider"></div>
   </div>
-      {% assign posts = collections.projects | reverse %}
+    {% assign posts = collections.projects | reverse %}
     {% for post in posts limit: 4 %}
       {% stub post, true, true %}
     {% endfor %}

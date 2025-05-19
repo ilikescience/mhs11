@@ -33,5 +33,22 @@ layout: layouts/default.html
   </div>
   <div class="l--grid-narrow l--mar-top-m">
   {{ content }}
+  {%- include "components/email.html" -%}
+  </div>
+  <div class="l--grid-narrow">
+    <div class="sectionHeader">
+    <div class="sectionHeader--name">More projects</div>
+    <div class="sectionHeader--divider"></div>
+  </div>
+    <div class="l--mar-top-m">
+      {% if nextProject.url %}
+        {% stub nextProject %}
+      {% endif %}
+    </div>
+  <div class="l--mar-top-m">
+      {% if prevProject.url %}
+        {% stub prevProject %}
+      {% endif %}
+  </div>
   </div>
 </div>

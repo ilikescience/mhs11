@@ -215,6 +215,21 @@ module.exports = function (eleventyConfig) {
     return coll;
   });
 
+  // collection for next/prev projects
+  eleventyConfig.addCollection('projects', function (collection) {
+    const coll = collection.getFilteredByTag('projects');
+
+    for (let i = 0; i < coll.length; i++) {
+      const prevProject = coll[i - 1];
+      const nextProject = coll[i + 1];
+
+      coll[i].data['prevProject'] = prevProject;
+      coll[i].data['nextProject'] = nextProject;
+    }
+    
+    return coll;
+  });
+
   eleventyConfig.addShortcode('swatch', function (hex) {
     return `<span class="swatch" style="background: ${hex}"></span> <span class="t--family-mono">${hex}</span>`;
   });
