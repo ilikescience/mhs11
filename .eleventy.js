@@ -44,47 +44,96 @@ module.exports = function (eleventyConfig) {
       return content;
     });
   };
-
-  const saveOgImage = async (url) => {
-    const options = {
-      widths: [1200],
-      outputDir: 'dist/images/og/',
+const saveOgImage = async (url) => {
+  const options = {
+    widths: [1200],
+    formats: ['jpeg'],
+    outputDir: 'dist/images/og/'
     };
-    let metadata = await Image(url, options);
-    return metadata.jpeg[0].outputPath;
-  };
 
-  const saveOgImages = async function setOgImages() {
-    eleventyConfig.addTransform(
-      'save-og-images',
-      async (content, outputPath) => {
-        if (outputPath.endsWith('.html')) {
-          const root = parse(content);
-          const ogImage = root.querySelector('meta[property="og:image"]');
-          const twitterImage = root.querySelector(
-            'meta[property="twitter:image"]'
-          );
-          const ogURL = ogImage
-            ? new URL(ogImage.getAttribute('content'))
-            : undefined;
-          if (ogURL && ogURL.pathname.includes('/og/')) {
-            let newURL = await saveOgImage(ogURL.href);
-            newURL = newURL.replace('dist/', '');
-            ogImage.setAttribute(
-              'content',
-              `https://matthewstrom.com/${newURL}`
-            );
-            twitterImage.setAttribute(
-              'content',
-              `https://matthewstrom.com/${newURL}`
-            );
-          }
-          return root.toString();
-        }
-        return content;
-      }
+  try {
+    const metadata = await Image(url, options);
+    if (metadata.jpeg && metadata.jpeg[0] && metadata.jpeg[0].outputPath) {
+      return metadata.jpeg[0].outputPath;
+    } else {
+      console.error(
+        `[saveOgImage] ERROR: Failed to get outputPath from eleventy-img for URL: ${url}.`
+      );
+      console.error(
+        '[saveOgImage] Received metadata (or error object if fetch failed):',
+        JSON.stringify(metadata, null, 2)
+      );
+      return undefined;
+    }
+  } catch (error) {
+    console.error(
+      `[saveOgImage] ERROR: Exception during eleventy-img processing for URL: ${url}.`
     );
-  };
+    console.error('[saveOgImage] Full error details:', error);
+    return undefined;
+  }
+};
+
+const saveOgImages = async function setOgImages(eleventyConfig) {
+  eleventyConfig.addTransform(
+    'save-og-images',
+    async (content, outputPath) => {
+      if (outputPath && outputPath.endsWith('.html')) {
+        const root = parse(content);
+        const ogImageMeta = root.querySelector('meta[property="og:image"]');
+        const twitterImageMeta = root.querySelector(
+          'meta[property="twitter:image"]'
+        );
+
+        if (ogImageMeta) { // Only proceed if an og:image tag exists
+          const ogImageContent = ogImageMeta.getAttribute('content');
+          if (!ogImageContent || ogImageContent.trim() === '') {
+            console.warn(
+              `[Transform] WARNING: Empty og:image content in ${outputPath}`
+            );
+          } else {
+            try {
+              const ogURL = new URL(ogImageContent);
+              // Check if it's one of your dynamic OG URLs
+              if (ogURL.pathname === '/og') {
+                const urlToFetch = new URL(ogURL.href);
+                const cacheBuster = `${Date.now()}_${Math.random()
+                  .toString(36)
+                  .substring(2, 7)}`;
+                urlToFetch.searchParams.append('build_cb', cacheBuster);
+
+                let newLocalImagePath = await saveOgImage(urlToFetch.href);
+
+                if (newLocalImagePath) {
+                  let publicImagePath = newLocalImagePath.startsWith('dist/')
+                    ? newLocalImagePath.substring('dist/'.length)
+                    : newLocalImagePath;
+                  const finalOgImageUrl = `https://matthewstrom.com/${publicImagePath}`;
+                  ogImageMeta.setAttribute('content', finalOgImageUrl);
+                  if (twitterImageMeta) {
+                    twitterImageMeta.setAttribute('content', finalOgImageUrl);
+                  }
+                } else {
+                  console.error(
+                    `[Transform] ERROR: Failed to update meta tags for dynamic OG image from ${ogURL.href} in ${outputPath} (image save failed).`
+                  );
+                }
+              }
+              // If not a dynamic URL (pathname !== '/og'), it's skipped silently, no counter incremented
+            } catch (urlError) {
+              console.warn(
+                `[Transform] WARNING: Invalid URL in og:image content "${ogImageContent}" in ${outputPath}. Error: ${urlError.message}`
+              );
+            }
+          }
+        }
+        // If no ogImageMeta, it's skipped silently
+        return root.toString();
+      }
+      return content;
+    }
+  );
+};
 
   let mdOptions = {
     html: true,
@@ -226,7 +275,7 @@ module.exports = function (eleventyConfig) {
       coll[i].data['prevProject'] = prevProject;
       coll[i].data['nextProject'] = nextProject;
     }
-    
+
     return coll;
   });
 
@@ -289,7 +338,7 @@ module.exports = function (eleventyConfig) {
       if (post.data.thumbnail) {
         thumbnail = `<div class="stub--thumbnail"><img class="figure--themeable-light" src="${post.data.thumbnail.light}" alt="${title}" loading="lazy"/>
         <img class="figure--themeable-dark" src="${post.data.thumbnail.dark}" alt="${title}" loading="lazy"/></div>`;
-      };
+      }
 
       // If the post is a project, use the project template
       if (isProject) {
