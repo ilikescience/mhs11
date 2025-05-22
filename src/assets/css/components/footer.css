@@ -9,6 +9,7 @@ footer {
   align-items: baseline;
 }
 
+
 .footer--menu {
   display: flex;
   font-size: var(--t--size-s);
@@ -45,4 +46,12 @@ footer {
 
 .footer--back {
   flex: 0 1 auto;
+}
+
+
+@media (--l--breakpoint-s) {
+  .footer--inner {
+    flex-direction: column;
+    gap: 0;
+  }
 }
